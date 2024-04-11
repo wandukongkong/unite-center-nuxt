@@ -1,6 +1,7 @@
 <template>
-  <div>
+  <div class="min-h-screen">
     <!-- <NuxtWelcome /> -->
     <NuxtPage></NuxtPage>
   </div>
 </template>
+<style></style>

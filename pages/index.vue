@@ -1,38 +1,37 @@
 <template>
-  <div class="cus-container d-flex flex-column">
-    <img src="@/public/img/pokemon/uniteCenterLogo.png" />
-    <div class="position-relative">
+  <div
+    class="min-h-screen flex flex-col justify-center align-center bg-red-100"
+  >
+    <div class="flex justify-center">
+      <img src="@/public/img/pokemon/uniteCenterLogo.png" width="auto" />
+    </div>
+    <div class="relative flex justify-center">
       <img
-        class="pokemon-center"
         src="@/public/img/pokemon/pokemoncenter.png"
+        style="width: 1200px; height: 800px"
       />
       <img class="object object-1" src="@/public/img/pokemon/object1.png" />
-      <img class="object object-2" src="@/public/img/pokemon/object2.png" />
-      <img class="object object-3" src="@/public/img/pokemon/object3.png" />
-      <img
+      <!-- <img class="object object-2" src="@/public/img/pokemon/object2.png" /> -->
+      <!-- <img class="object object-3" src="@/public/img/pokemon/object3.png" /> -->
+      <!-- <img
         class="object object-4"
         src="@/public/img/pokemon/object4.png"
         @click="router.push('/circle')"
-      />
-      <img
+      /> -->
+      <!-- <img
         class="object object-5"
         src="@/public/img/pokemon/object5.png"
         @click="router.push('/board')"
-      />
-      <img class="object object-6" src="@/public/img/pokemon/object6.png" />
-      <img
+      /> -->
+      <!-- <img class="object object-6" src="@/public/img/pokemon/object6.png" /> -->
+      <!-- <img
         class="object object-7"
-        src="@/public/img/pokemon/object7.png"
+        src="@/public/img/pokemon/object7.png"npm install -D eslint
         @click="router.push('randomPick')"
-      />
+      /> -->
     </div>
   </div>
 </template>
-<script setup>
-import { useRouter } from "vue-router";
-
-const router = useRouter();
-</script>
 <style lang="css">
 .cus-container {
   width: 100%;
