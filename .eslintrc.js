@@ -47,7 +47,7 @@ module.exports = {
         htmlWhitespaceSensitivity: "css",
         insertPragma: false,
         jsxSingleQuote: true,
-        printWidth: 120,
+        printWidth: 80,
         proseWrap: "always",
         quoteProps: "as-needed",
         requirePragma: false,

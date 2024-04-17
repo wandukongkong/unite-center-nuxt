@@ -1,0 +1,307 @@
+[
+  {
+    "name": "Absol",
+    "image": "https://unite.pokemon.com/images/pokemon/absol/roster/roster-absol-2x.png",
+    "color": "#29a5e3"
+  },
+  {
+    "name": "Aegislash",
+    "image": "https://unite.pokemon.com/images/pokemon/aegislash/roster/roster-aegislash-2x.png",
+    "color": "#ce5fd3"
+  },
+  {
+    "name": "Azumarill",
+    "image": "https://unite.pokemon.com/images/pokemon/azumarill/roster/roster-azumarill-2x.png",
+    "color": "#ce5fd3"
+  },
+  {
+    "name": "Blastoise",
+    "image": "https://unite.pokemon.com/images/pokemon/blastoise/roster/roster-blastoise-2x.png",
+    "color": "#aced5b"
+  },
+  {
+    "name": "Blissey",
+    "image": "https://unite.pokemon.com/images/pokemon/blissey/roster/roster-blissey-2x.png",
+    "color": "#fecc51"
+  },
+  {
+    "name": "Buzzwole",
+    "image": "https://unite.pokemon.com/images/pokemon/buzzwole/roster/roster-buzzwole-2x.png",
+    "color": "#ce5fd3"
+  },
+  {
+    "name": "Charizard",
+    "image": "https://unite.pokemon.com/images/pokemon/charizard/roster/roster-charizard-2x.png",
+    "color": "#ce5fd3"
+  },
+  {
+    "name": "Cinderace",
+    "image": "https://unite.pokemon.com/images/pokemon/cinderace/roster/roster-cinderace-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Clefable",
+    "image": "https://unite.pokemon.com/images/pokemon/clefable/roster/roster-clefable-2x.png",
+    "color": "#fecc51"
+  },
+  {
+    "name": "Comfey",
+    "image": "https://unite.pokemon.com/images/pokemon/comfey/roster/roster-comfey-2x.png",
+    "color": "#fecc51"
+  },
+  {
+    "name": "Cramorant",
+    "image": "https://unite.pokemon.com/images/pokemon/cramorant/roster/roster-cramorant-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Crustle",
+    "image": "https://unite.pokemon.com/images/pokemon/crustle/roster/roster-crustle-2x.png",
+    "color": "#aced5b"
+  },
+  {
+    "name": "Decidueye",
+    "image": "https://unite.pokemon.com/images/pokemon/decidueye/roster/roster-decidueye-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Delphox",
+    "image": "https://unite.pokemon.com/images/pokemon/delphox/roster/roster-delphox-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Dodrio",
+    "image": "https://unite.pokemon.com/images/pokemon/dodrio/roster/roster-dodrio-2x.png",
+    "color": "#29a5e3"
+  },
+  {
+    "name": "Dragapult",
+    "image": "https://unite.pokemon.com/images/pokemon/dragapult/roster/roster-dragapult-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Duraludon",
+    "image": "https://unite.pokemon.com/images/pokemon/duraludon/roster/roster-duraludon-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Eldegoss",
+    "image": "https://unite.pokemon.com/images/pokemon/eldegoss/roster/roster-eldegoss-2x.png",
+    "color": "#fecc51"
+  },
+  {
+    "name": "Espeon",
+    "image": "https://unite.pokemon.com/images/pokemon/espeon/roster/roster-espeon-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Garchomp",
+    "image": "https://unite.pokemon.com/images/pokemon/garchomp/roster/roster-garchomp-2x.png",
+    "color": "#ce5fd3"
+  },
+  {
+    "name": "Gardevoir",
+    "image": "https://unite.pokemon.com/images/pokemon/gardevoir/roster/roster-gardevoir-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Gengar",
+    "image": "https://unite.pokemon.com/images/pokemon/gengar/roster/roster-gengar-2x.png",
+    "color": "#29a5e3"
+  },
+  {
+    "name": "Glaceon",
+    "image": "https://unite.pokemon.com/images/pokemon/glaceon/roster/roster-glaceon-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Goodra",
+    "image": "https://unite.pokemon.com/images/pokemon/goodra/roster/roster-goodra-2x.png",
+    "color": "#aced5b"
+  },
+  {
+    "name": "Greedent",
+    "image": "https://unite.pokemon.com/images/pokemon/greedent/roster/roster-greedent-2x.png",
+    "color": "#aced5b"
+  },
+  {
+    "name": "Greninja",
+    "image": "https://unite.pokemon.com/images/pokemon/greninja/roster/roster-greninja-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Hoopa",
+    "image": "https://unite.pokemon.com/images/pokemon/hoopa/roster/roster-hoopa-2x.png",
+    "color": "#fecc51"
+  },
+  {
+    "name": "Lucario",
+    "image": "https://unite.pokemon.com/images/pokemon/lucario/roster/roster-lucario-2x.png",
+    "color": "#ce5fd3"
+  },
+  {
+    "name": "Machamp",
+    "image": "https://unite.pokemon.com/images/pokemon/machamp/roster/roster-machamp-2x.png",
+    "color": "#ce5fd3"
+  },
+  {
+    "name": "Mamoswine",
+    "image": "https://unite.pokemon.com/images/pokemon/mamoswine/roster/roster-mamoswine-2x.png",
+    "color": "#aced5b"
+  },
+  {
+    "name": "Mew",
+    "image": "https://unite.pokemon.com/images/pokemon/mew/roster/roster-mew-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Mr. Mime",
+    "image": "https://unite.pokemon.com/images/pokemon/mr-mime/roster/roster-mr-mime-2x.png",
+    "color": "#fecc51"
+  },
+  {
+    "name": "Alolan-ninetales",
+    "image": "https://unite.pokemon.com/images/pokemon/alolan-ninetales/roster/roster-alolan-ninetales-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Pikachu",
+    "image": "https://unite.pokemon.com/images/pokemon/pikachu/roster/roster-pikachu-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Sableye",
+    "image": "https://unite.pokemon.com/images/pokemon/sableye/roster/roster-sableye-2x.png",
+    "color": "#fecc51"
+  },
+  {
+    "name": "Scizor",
+    "image": "https://unite.pokemon.com/images/pokemon/scizor/roster/roster-scizor-2x.png",
+    "color": "#ce5fd3"
+  },
+  {
+    "name": "Slowbro",
+    "image": "https://unite.pokemon.com/images/pokemon/slowbro/roster/roster-slowbro-2x.png",
+    "color": "#aced5b"
+  },
+  {
+    "name": "Snorlax",
+    "image": "https://unite.pokemon.com/images/pokemon/snorlax/roster/roster-snorlax-2x.png",
+    "color": "#aced5b"
+  },
+  {
+    "name": "Sylveon",
+    "image": "https://unite.pokemon.com/images/pokemon/sylveon/roster/roster-sylveon-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Talonflame",
+    "image": "https://unite.pokemon.com/images/pokemon/talonflame/roster/roster-talonflame-2x.png",
+    "color": "#29a5e3"
+  },
+  {
+    "name": "Trevenant",
+    "image": "https://unite.pokemon.com/images/pokemon/trevenant/roster/roster-trevenant-2x.png",
+    "color": "#aced5b"
+  },
+  {
+    "name": "Tsareena",
+    "image": "https://unite.pokemon.com/images/pokemon/tsareena/roster/roster-tsareena-2x.png",
+    "color": "#ce5fd3"
+  },
+  {
+    "name": "Tyranitar",
+    "image": "https://unite.pokemon.com/images/pokemon/tyranitar/roster/roster-tyranitar-2x.png",
+    "color": "#ce5fd3"
+  },
+  {
+    "name": "Urshifu",
+    "image": "https://unite.pokemon.com/images/pokemon/urshifu/roster/roster-urshifu-2x.png",
+    "color": "#ce5fd3"
+  },
+  {
+    "name": "Venusaur",
+    "image": "https://unite.pokemon.com/images/pokemon/venusaur/roster/roster-venusaur-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Wigglytuff",
+    "image": "https://unite.pokemon.com/images/pokemon/wigglytuff/roster/roster-wigglytuff-2x.png",
+    "color": "#fecc51"
+  },
+  {
+    "name": "Zacian",
+    "image": "https://unite.pokemon.com/images/pokemon/zacian/roster/roster-zacian-2x.png",
+    "color": "#ce5fd3"
+  },
+  {
+    "name": "Zeraora",
+    "image": "https://unite.pokemon.com/images/pokemon/zeraora/roster/roster-zeraora-2x.png",
+    "color": "#29a5e3"
+  },
+  {
+    "name": "Zoroark",
+    "image": "https://unite.pokemon.com/images/pokemon/zoroark/roster/roster-zoroark-2x.png",
+    "color": "#29a5e3"
+  },
+  {
+    "name": "Lapras",
+    "image": "https://unite.pokemon.com/images/pokemon/lapras/roster/roster-lapras-2x.png",
+    "color": "#aced5b"
+  },
+  {
+    "name": "Chandelure",
+    "image": "https://unite.pokemon.com/images/pokemon/chandelure/roster/roster-chandelure-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Umbreon",
+    "image": "https://unite.pokemon.com/images/pokemon/umbreon/roster/roster-umbreon-2x.png",
+    "color": "#aced5b"
+  },
+  {
+    "name": "Leafeon",
+    "image": "https://unite.pokemon.com/images/pokemon/leafeon/roster/roster-leafeon-2x.png",
+    "color": "#29a5e3"
+  },
+  {
+    "name": "Inteleon",
+    "image": "https://unite.pokemon.com/images/pokemon/inteleon/roster/roster-inteleon-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Mewtwo",
+    "image": "https://unite.pokemon.com/images/pokemon/mewtwo/roster/roster-mewtwo-2x.png",
+    "color": "#f16c38"
+  },
+  {
+    "name": "Blaziken",
+    "image": "https://unite.pokemon.com/images/pokemon/blaziken/roster/roster-blaziken.png",
+    "color": "#ce5fd3"
+  },
+  {
+    "name": "Mimikyu",
+    "image": "https://unite.pokemon.com/images/pokemon/mimikyu/roster/roster-mimikyu.png",
+    "color": "#ce5fd3"
+  },
+  {
+    "name": "Meowscarada",
+    "image": "https://unite.pokemon.com/images/pokemon/meowscarada/roster/roster-meowscarada.png",
+    "color": "#29a5e3"
+  },
+  {
+    "name": "Metagross",
+    "image": "https://unite.pokemon.com/images/pokemon/metagross/roster/roster-metagross.png",
+    "color": "#ce5fd3"
+  },
+  {
+    "name": "Gyarados",
+    "image": "https://unite.pokemon.com/images/pokemon/gyarados/roster/roster-gyarados.png",
+    "color": "#ce5fd3"
+  },
+  {
+    "name": "Miraidon",
+    "image": "https://unite.pokemon.com/images/pokemon/miraidon/roster/roster-miraidon.png",
+    "color": "#f16c38"
+  }
+]

@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="min-h-screen flex flex-col justify-center items-center bg-red-100"
-  >
+  <div class="min-h-screen flex flex-col justify-center items-center">
     <div class="flex justify-center">
       <img src="@/public/img/pokemon/uniteCenterLogo.png" width="auto" />
     </div>
@@ -34,12 +32,23 @@
       </div>
       <!-- 에스컬레이터 오브젝트 -->
       <div class="absolute bottom-[29.1%] start-[13%]">
-        <img class="object" src="@/public/img/pokemon/object7.png" />
+        <img
+          class="object"
+          src="@/public/img/pokemon/object7.png"
+          @click="router.push('/pick')"
+        />
       </div>
     </div>
   </div>
 </template>
+<script setup>
+const router = useRouter();
+</script>
 <style lang="css">
+.object {
+  transition: transform 0.1s;
+}
+
 .object:hover {
   cursor: pointer;
   transform: scale(1.1);
