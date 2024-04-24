@@ -4,4 +4,6 @@
     <NuxtPage></NuxtPage>
   </div>
 </template>
-<style></style>
+<style>
+/* transition */
+</style>

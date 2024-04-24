@@ -1,9 +1,9 @@
 <template>
   <div class="min-h-screen flex flex-col justify-center items-center">
-    <div class="flex justify-center">
-      <img src="@/public/img/pokemon/uniteCenterLogo.png" width="auto" />
-    </div>
     <div class="relative flex justify-center w-[1200px] h-[800px]">
+      <div class="flex justify-center h-[30px] mt-5">
+        <img src="@/public/img/pokemon/uniteCenterLogo.png" width="auto" />
+      </div>
       <!-- 배경 이미지 -->
       <img class="absolute" src="@/public/img/pokemon/pokemoncenter.png" />
       <!-- 컴퓨터 오브젝트 -->

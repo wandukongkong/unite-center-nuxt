@@ -25,6 +25,7 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "nuxt-icon": "^0.6.10"
+    "nuxt-icon": "^0.6.10",
+    "nuxt-lodash": "^2.5.3"
   }
 }
