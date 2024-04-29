@@ -1,6 +1,9 @@
 <template>
-  <div class="relative min-h-screen border flex justify-center items-center">
-    <TransitionGroup name="fade">
+  <div class="relative">
+    <!-- 중앙 카드 영역 -->
+    <div
+      class="relative min-h-screen border flex justify-center items-center z-0"
+    >
       <div
         v-for="(number, index) in defaultArray"
         :key="index"
@@ -14,10 +17,59 @@
           {{ index }}
         </PokemonCard>
       </div>
-    </TransitionGroup>
-    <div class="flex flex-col items-center">
-      <PokemonCard class="mt-20 opacity-0 z-0"></PokemonCard>
-      <UButton @click="shuffle">Shuffle</UButton>
+    </div>
+    <!-- 선택 카드 영역 -->
+    <div
+      class="absolute start-0 top-0 w-[100%] min-h-screen border flex z-20 items-center justify-between"
+    >
+      <!-- 왼쪽 카드 영역 -->
+      <div class="flex h-[100%] items-center ms-10">
+        <div class="flex flex-col me-10">
+          <div>
+            <PokemonCard> hi </PokemonCard>
+          </div>
+          <div class="my-10">
+            <PokemonCard> hi </PokemonCard>
+          </div>
+          <div>
+            <PokemonCard> hi </PokemonCard>
+          </div>
+        </div>
+        <div>
+          <div class="flex flex-col">
+            <div class="mb-10">
+              <PokemonCard> hi </PokemonCard>
+            </div>
+            <div>
+              <PokemonCard> hi </PokemonCard>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 오른쪽 카드 영역 -->
+      <div class="flex h-[100%] items-center me-10">
+        <div>
+          <div class="flex flex-col">
+            <div class="mb-10">
+              <PokemonCard> hi </PokemonCard>
+            </div>
+            <div>
+              <PokemonCard> hi </PokemonCard>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col ms-10">
+          <div>
+            <PokemonCard> hi </PokemonCard>
+          </div>
+          <div class="my-10">
+            <PokemonCard> hi </PokemonCard>
+          </div>
+          <div>
+            <PokemonCard> hi </PokemonCard>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
