@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   modules: [
     "@nuxt/ui",
     "nuxt-icon",
+    "nuxt-lodash",
     "@vueuse/motion/nuxt",
     "nuxt-lodash",
     "@pinia/nuxt",
