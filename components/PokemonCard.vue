@@ -1,6 +1,6 @@
 <template>
   <!-- <div class="border border-black w-[200px] h-[300px] rounded"></div> -->
-  <UCard class="min-w-[150px] min-h-[230px]">
+  <UCard class="min-w-[190px] min-h-[218.5px] shadow-md">
     <slot></slot>
   </UCard>
 </template>

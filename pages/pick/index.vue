@@ -8,6 +8,10 @@ import { usePickStore } from "@/stores/pickStore";
 // json
 import unitePokemonListJson from "@/json/unitePokemonList.json";
 
+// store state
+const { isBanEx, isDuplicatedPokemon, selectedMode } =
+  storeToRefs(usePickStore());
+
 // state
 const isLoading = toRef(true);
 const selectedCardList = toRef([]);
@@ -16,69 +20,75 @@ const unitePokemonList = toRef([...unitePokemonListJson]);
 const defaultCardList = toRef([
   {
     cardNumber: 0,
-    position: [150, 200],
+    position: [310, 200],
     name: "",
     color: "",
+    image: "",
   },
   {
     cardNumber: 1,
-    position: [-50, 200],
+    position: [70, 200],
     name: "",
     color: "",
+    image: "",
   },
   {
     cardNumber: 2,
-    position: [-250, 200],
+    position: [-170, 200],
     name: "",
     color: "",
+    image: "",
   },
   {
     cardNumber: 3,
-    position: [-450, 200],
+    position: [-410, 200],
     name: "",
     color: "",
+    image: "",
   },
   {
     cardNumber: 4,
     position: [-650, 200],
     name: "",
     color: "",
+    image: "",
   },
   {
     cardNumber: 5,
-    position: [150, -200],
+    position: [310, -200],
     name: "",
     color: "",
+    image: "",
   },
   {
     cardNumber: 6,
-    position: [-50, -200],
+    position: [70, -200],
     name: "",
     color: "",
+    image: "",
   },
   {
     cardNumber: 7,
-    position: [-250, -200],
+    position: [-170, -200],
     name: "",
     color: "",
+    image: "",
   },
   {
     cardNumber: 8,
-    position: [-450, -200],
+    position: [-410, -200],
     name: "",
     color: "",
+    image: "",
   },
   {
     cardNumber: 9,
     position: [-650, -200],
     name: "",
     color: "",
+    image: "",
   },
 ]);
-
-// store state
-const { isBanEx, isDuplicatedPokemon, selectedMode } =
-  storeToRefs(usePickStore());
 
 // Suffle
 const resetCardDeck = () => {
@@ -86,27 +96,67 @@ const resetCardDeck = () => {
   defaultArray.value = [];
   selectedCardList.value = [];
 
-  // TODO: 포켓몬 덱 세팅 로직
-  // FIXME: 위 카드 아래카드 분리 작업 필요
-  const filteredUnitePokemonList = useChain(unitePokemonList.value)
+  let unitePokemonListClone = [...unitePokemonList.value];
+
+  // 포켓몬 포지션 체크
+  unitePokemonListClone = useChain(unitePokemonListClone)
     .filter(
-      (unitePokemonInfo) => unitePokemonInfo.position === selectedMode.value
+      (unitePokemonInfo) =>
+        unitePokemonInfo.position === selectedMode.value ||
+        selectedMode.value === "default"
     )
     .shuffle()
     .shuffle()
     .shuffle()
-    .map((unitePokemonInfo, index) => {
-      return {
-        cardNumber: index,
-        position: defaultCardList.value[index]?.position,
-        name: unitePokemonInfo.name,
-        color: unitePokemonInfo.color,
-      };
-    })
     .value();
 
+  // 카드의 수가 부족할 경우, 중복 강제 적용
+  if (unitePokemonListClone.length < 10) {
+    isDuplicatedPokemon.value = true;
+  }
+
+  // Ex 벤 체크
+  if (isBanEx.value) {
+    unitePokemonListClone = useChain(unitePokemonListClone)
+      .filter((unitePokemonInfo) => !unitePokemonInfo.isEx)
+      .shuffle()
+      .shuffle()
+      .shuffle()
+      .value();
+  }
+
+  // 중복 포켓몬 체크
+  if (isDuplicatedPokemon.value) {
+    const aTeamPokemonList = useChain(unitePokemonListClone)
+      .shuffle()
+      .shuffle()
+      .shuffle()
+      .slice(0, 5)
+      .value();
+
+    const bTeamPokemonList = useChain(unitePokemonListClone)
+      .shuffle()
+      .shuffle()
+      .shuffle()
+      .slice(0, 5)
+      .value();
+
+    unitePokemonListClone = [...aTeamPokemonList, ...bTeamPokemonList];
+  }
+
+  // 카드에 맞게 리스트 가공
+  unitePokemonListClone = unitePokemonListClone.map(
+    (unitePokemonInfo, index) => ({
+      cardNumber: index,
+      position: defaultCardList.value[index]?.position,
+      name: unitePokemonInfo.name,
+      color: unitePokemonInfo.color,
+      image: unitePokemonInfo.image,
+    })
+  );
+
   setTimeout(() => {
-    defaultArray.value = filteredUnitePokemonList.slice(0, 10);
+    defaultArray.value = unitePokemonListClone.slice(0, 10);
   }, 300);
 
   setTimeout(() => {
@@ -126,6 +176,10 @@ onMounted(() => {
 
   setTimeout(() => {
     isLoading.value = false;
+
+    // defaultArray.value.forEach((info) => {
+    //   clickCardDeck(info);
+    // });
   }, 1500);
 });
 </script>
@@ -136,19 +190,19 @@ onMounted(() => {
       <div
         v-for="(cardInfo, index) in defaultArray"
         :key="index"
-        class="absolute cursor-pointer z-10"
+        class="absolute cursor-pointer"
         v-motion
         :initial="{
           scale: 1.3,
           opacity: 0,
-          x: 600,
+          x: 650,
           y: -500,
           rotate: 0,
         }"
         :enter="{
           scale: 1,
           opacity: 1,
-          x: 600,
+          x: 650,
           y: -index * 1.2,
           rotate: (Math.random() - 0.5) * 5,
           transition: {
@@ -165,29 +219,7 @@ onMounted(() => {
           }
         "
       >
-        <PokemonCard>
-          <!-- <div :class="`bg-[${cardInfo.color}]`">
-            {{ cardInfo.name }}
-          </div> -->
-        </PokemonCard>
-      </div>
-      <div
-        class="absolute cursor-pointer z-0"
-        v-motion
-        :initial="{
-          scale: 1,
-          opacity: 0,
-          x: 600,
-          y: 0,
-        }"
-        :enter="{
-          scale: 1,
-          opacity: 0,
-          x: 600,
-          y: 0,
-        }"
-      >
-        <PokemonCard />
+        <PokemonCard> </PokemonCard>
       </div>
       <!-- TODO: 위쪽 카드 영역 -->
       <div
@@ -198,7 +230,7 @@ onMounted(() => {
         :initial="{
           opacity: 1,
           scale: 1,
-          x: 600,
+          x: 650,
           y: 0,
         }"
         :enter="{
@@ -206,6 +238,10 @@ onMounted(() => {
           scale: 1.2,
           x: cardInfo?.position[0] ?? 0,
           y: cardInfo?.position[1] ?? 0,
+          style: {
+            // transition: rotateY('150deg'),
+            paddingTop: 50,
+          },
           transition: {
             damping: 15,
             mass: 0.1,
@@ -213,8 +249,15 @@ onMounted(() => {
         }"
       >
         <PokemonCard>
-          <div :class="`bg-[${cardInfo.color}]`">
-            {{ cardInfo.name }}
+          <div class="absolute top-0 start-0">
+            <img
+              :src="cardInfo.image"
+              class="rounded-lg pattern border-2 border-gray-700 shadow-gray-500 shadow-md"
+              :style="{ backgroundColor: cardInfo.color }"
+            />
+          </div>
+          <div>
+            {{ cardInfo.color }}
           </div>
         </PokemonCard>
       </div>
@@ -227,7 +270,7 @@ onMounted(() => {
         :initial="{
           opacity: 1,
           scale: 1,
-          x: 600,
+          x: 650,
           y: 0,
         }"
         :enter="{
@@ -241,9 +284,16 @@ onMounted(() => {
           },
         }"
       >
-        <PokemonCard
-          ><div :class="`bg-[${cardInfo.color}]`">
-            {{ cardInfo.name }}
+        <PokemonCard>
+          <div class="absolute top-0 start-0">
+            <img
+              :src="cardInfo.image"
+              class="rounded-lg pattern border-2 border-gray-700 shadow-gray-500 shadow-md"
+              :style="{ backgroundColor: cardInfo.color }"
+            />
+          </div>
+          <div>
+            {{ cardInfo.color }}
           </div>
         </PokemonCard>
       </div>
@@ -252,13 +302,13 @@ onMounted(() => {
         class="absolute flex flex-col items-center opacity-0"
         v-motion
         :initial="{
-          opacity: 1,
-          x: 600,
+          opacity: 0,
+          x: 650,
           y: 150,
         }"
         :enter="{
           opacity: 1,
-          x: 600,
+          x: 650,
           y: 150,
           transition: {
             damping: 15,
@@ -413,6 +463,29 @@ onMounted(() => {
           <!-- material-symbols:settings -->
         </div>
       </div>
+      <!-- TODO: 중앙 vs 영역 -->
+      <div
+        v-if="selectedCardList.length > 9"
+        class="absolute"
+        v-motion
+        :initial="{
+          opacity: 0,
+          scale: 0.7,
+          x: -150,
+          y: 5,
+        }"
+        :enter="{
+          opacity: 1,
+          scale: 0.13,
+          x: -150,
+          y: 5,
+          transition: {
+            delay: 500,
+          },
+        }"
+      >
+        <img class="h-[90%] shadow-lg" src="../../public/img/versus2.png" />
+      </div>
     </div>
   </div>
 </template>
@@ -432,5 +505,14 @@ onMounted(() => {
 
 .fade-leave-active {
   position: absolute;
+}
+
+.pattern {
+  background-image: url("https://unite.pokemon.com/images/common/square-pattern-30.svg"),
+    linear-gradient(180deg, rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 38%);
+  background-size: 120px, auto;
+  background-position:
+    center,
+    left top;
 }
 </style>

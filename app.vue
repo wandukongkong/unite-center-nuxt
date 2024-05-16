@@ -1,9 +1,15 @@
 <template>
   <div class="min-h-screen">
     <!-- <NuxtWelcome /> -->
-    <NuxtPage></NuxtPage>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
 <style>
 /* transition */
+body,
+html {
+  background-color: rgb(247, 247, 247);
+}
 </style>
