@@ -184,7 +184,7 @@ onMounted(() => {
 });
 </script>
 <template>
-  <div class="relative">
+  <div class="relative select-none" style="-webkit-user-drag: none">
     <div class="relative min-h-screen border flex justify-center items-center">
       <!--  카드 덱 영역 -->
       <div
@@ -253,6 +253,7 @@ onMounted(() => {
             <img
               :src="cardInfo.image"
               class="rounded-lg pattern border-2 border-gray-700 shadow-gray-500 shadow-md"
+              style="-webkit-user-drag: none"
               :style="{ backgroundColor: cardInfo.color }"
             />
           </div>
@@ -289,6 +290,7 @@ onMounted(() => {
             <img
               :src="cardInfo.image"
               class="rounded-lg pattern border-2 border-gray-700 shadow-gray-500 shadow-md"
+              style="-webkit-user-drag: none"
               :style="{ backgroundColor: cardInfo.color }"
             />
           </div>
@@ -484,7 +486,11 @@ onMounted(() => {
           },
         }"
       >
-        <img class="h-[90%] shadow-lg" src="../../public/img/versus2.png" />
+        <img
+          class="h-[90%] shadow-lg"
+          src="../../public/img/versus2.png"
+          style="-webkit-user-drag: none"
+        />
       </div>
     </div>
   </div>
