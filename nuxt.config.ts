@@ -14,4 +14,10 @@ export default defineNuxtConfig({
   vite: {
     plugin: [eslintPlugin()],
   },
+  app: {
+    pageTransition: {
+      name: "page",
+      mode: "out-in",
+    },
+  },
 });

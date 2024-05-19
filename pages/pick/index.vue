@@ -219,7 +219,16 @@ onMounted(() => {
           }
         "
       >
-        <PokemonCard> </PokemonCard>
+        <PokemonCard class="border-8 ring-1 card-back">
+          <div class="flex flex-col justify-center items-center">
+            <img
+              src="@/public/img/pokemon/uniteLogo.png"
+              width="100"
+              class="mb-3"
+            />
+            <img src="@/public/img/pokemon/monsterball.png" width="60" />
+          </div>
+        </PokemonCard>
       </div>
       <!-- TODO: 위쪽 카드 영역 -->
       <div
@@ -252,7 +261,7 @@ onMounted(() => {
           <div class="absolute top-0 start-0">
             <img
               :src="cardInfo.image"
-              class="rounded-lg pattern border-2 border-gray-700 shadow-gray-500 shadow-md"
+              class="rounded-lg pattern border-[1.4px] border-gray-700 shadow-gray-500 shadow-md"
               style="-webkit-user-drag: none"
               :style="{ backgroundColor: cardInfo.color }"
             />
@@ -289,7 +298,7 @@ onMounted(() => {
           <div class="absolute top-0 start-0">
             <img
               :src="cardInfo.image"
-              class="rounded-lg pattern border-2 border-gray-700 shadow-gray-500 shadow-md"
+              class="rounded-lg pattern border-[1.4px] border-gray-700 shadow-gray-500 shadow-md"
               style="-webkit-user-drag: none"
               :style="{ backgroundColor: cardInfo.color }"
             />
@@ -318,151 +327,163 @@ onMounted(() => {
           },
         }"
       >
-        <div class="flex items-center">
-          <UButton
-            class="w-[40px] h-[40px] mx-1 py-0 flex justify-center"
-            :trailing-icon="isLoading ? '' : 'i-heroicons-arrow-path-16-solid'"
-            :loading="isLoading"
-            @click="() => resetCardDeck()"
-          >
-          </UButton>
-          <UPopover>
+        <div class="flex flex-col items-center">
+          <div class="flex mb-3">
             <UButton
               class="w-[40px] h-[40px] mx-1 py-0 flex justify-center"
-              color="white"
-              trailing-icon="i-heroicons-cog-6-tooth"
-            />
-            <template #panel>
-              <div class="relative">
-                <div class="px-4 py-2 flex flex-col">
-                  <small class="truncate me-14 mb-2 opacity-[0.4]"
-                    >Position Mode</small
+              :trailing-icon="
+                isLoading ? '' : 'i-heroicons-arrow-path-16-solid'
+              "
+              :loading="isLoading"
+              @click="() => resetCardDeck()"
+            >
+            </UButton>
+            <UPopover>
+              <UButton
+                class="w-[40px] h-[40px] mx-1 py-0 flex justify-center"
+                color="white"
+                trailing-icon="i-heroicons-cog-6-tooth"
+              />
+              <template #panel>
+                <div class="relative">
+                  <div class="px-4 py-2 flex flex-col">
+                    <small class="truncate me-14 mb-2 opacity-[0.4]"
+                      >Position Mode</small
+                    >
+                    <div class="flex flex-wrap justify-start">
+                      <UTooltip text="Default">
+                        <UButton
+                          class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          :class="
+                            selectedMode === 'default' ? 'bg-[#ececec]' : ''
+                          "
+                          @click="
+                            () => {
+                              selectedMode = 'default';
+                              resetCardDeck();
+                            }
+                          "
+                          ><div class="text-[#7e7e7e] mb-1">●</div></UButton
+                        >
+                      </UTooltip>
+                      <UTooltip text="Attack">
+                        <UButton
+                          class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          :class="
+                            selectedMode === 'attack' ? 'bg-[#ececec]' : ''
+                          "
+                          @click="
+                            () => {
+                              selectedMode = 'attack';
+                              resetCardDeck();
+                            }
+                          "
+                          ><div class="text-[#f15438] mb-1">●</div></UButton
+                        >
+                      </UTooltip>
+                      <UTooltip text="Support">
+                        <UButton
+                          class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          :class="
+                            selectedMode === 'support' ? 'bg-[#ececec]' : ''
+                          "
+                          @click="
+                            () => {
+                              selectedMode = 'support';
+                              resetCardDeck();
+                            }
+                          "
+                          ><div class="text-[#fecc51] mb-1">●</div></UButton
+                        >
+                      </UTooltip>
+                      <UTooltip text="Balance">
+                        <UButton
+                          class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          :class="
+                            selectedMode === 'balance' ? 'bg-[#ececec]' : ''
+                          "
+                          @click="
+                            () => {
+                              selectedMode = 'balance';
+                              resetCardDeck();
+                            }
+                          "
+                          ><div class="text-[#ce5fd3] mb-1">●</div></UButton
+                        >
+                      </UTooltip>
+                      <UTooltip text="Speed">
+                        <UButton
+                          class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          :class="
+                            selectedMode === 'speed' ? 'bg-[#ececec]' : ''
+                          "
+                          @click="
+                            () => {
+                              selectedMode = 'speed';
+                              resetCardDeck();
+                            }
+                          "
+                          ><div class="text-[#29a5e3] mb-1">●</div></UButton
+                        >
+                      </UTooltip>
+                      <UTooltip text="Defence">
+                        <UButton
+                          class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          :class="
+                            selectedMode === 'Defence' ? 'bg-[#ececec]' : ''
+                          "
+                          @click="
+                            () => {
+                              selectedMode = 'defence';
+                              resetCardDeck();
+                            }
+                          "
+                          ><div class="text-[#aced5b] mb-1">●</div></UButton
+                        >
+                      </UTooltip>
+                    </div>
+                  </div>
+                  <div class="px-4 py-2 flex flex-col">
+                    <small class="truncate me-14 mb-2 opacity-[0.4]"
+                      >Other</small
+                    >
+                    <!-- <Placeholder class="h-20 w-48" /> -->
+                    <div class="flex flex-wrap justify-start w-[170px]">
+                      <UCheckbox
+                        v-model="isBanEx"
+                        class="mb-1"
+                        :disabled="isLoading"
+                        name="isEx"
+                        label="Ban EX"
+                        @change="resetCardDeck"
+                      />
+                      <UCheckbox
+                        v-model="isDuplicatedPokemon"
+                        :disabled="isLoading"
+                        name="isDuplicated"
+                        label="Duplicate Pokemon"
+                        @change="resetCardDeck"
+                      />
+                    </div>
+                  </div>
+                  <!-- loading -->
+                  <div
+                    v-if="isLoading"
+                    class="absolute top-0 flex justify-center items-center w-[100%] h-[100%] bg-slate-100 opacity-[0.5]"
                   >
-                  <div class="flex flex-wrap justify-start">
-                    <UTooltip text="Default">
-                      <UButton
-                        class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
-                        :class="
-                          selectedMode === 'default' ? 'bg-[#ececec]' : ''
-                        "
-                        @click="
-                          () => {
-                            selectedMode = 'default';
-                            resetCardDeck();
-                          }
-                        "
-                        ><div class="text-[#7e7e7e] mb-1">●</div></UButton
-                      >
-                    </UTooltip>
-                    <UTooltip text="Attack">
-                      <UButton
-                        class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
-                        :class="selectedMode === 'attack' ? 'bg-[#ececec]' : ''"
-                        @click="
-                          () => {
-                            selectedMode = 'attack';
-                            resetCardDeck();
-                          }
-                        "
-                        ><div class="text-[#f15438] mb-1">●</div></UButton
-                      >
-                    </UTooltip>
-                    <UTooltip text="Support">
-                      <UButton
-                        class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
-                        :class="
-                          selectedMode === 'support' ? 'bg-[#ececec]' : ''
-                        "
-                        @click="
-                          () => {
-                            selectedMode = 'support';
-                            resetCardDeck();
-                          }
-                        "
-                        ><div class="text-[#fecc51] mb-1">●</div></UButton
-                      >
-                    </UTooltip>
-                    <UTooltip text="Balance">
-                      <UButton
-                        class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
-                        :class="
-                          selectedMode === 'balance' ? 'bg-[#ececec]' : ''
-                        "
-                        @click="
-                          () => {
-                            selectedMode = 'balance';
-                            resetCardDeck();
-                          }
-                        "
-                        ><div class="text-[#ce5fd3] mb-1">●</div></UButton
-                      >
-                    </UTooltip>
-                    <UTooltip text="Speed">
-                      <UButton
-                        class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
-                        :class="selectedMode === 'speed' ? 'bg-[#ececec]' : ''"
-                        @click="
-                          () => {
-                            selectedMode = 'speed';
-                            resetCardDeck();
-                          }
-                        "
-                        ><div class="text-[#29a5e3] mb-1">●</div></UButton
-                      >
-                    </UTooltip>
-                    <UTooltip text="Defence">
-                      <UButton
-                        class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
-                        :class="
-                          selectedMode === 'Defence' ? 'bg-[#ececec]' : ''
-                        "
-                        @click="
-                          () => {
-                            selectedMode = 'defence';
-                            resetCardDeck();
-                          }
-                        "
-                        ><div class="text-[#aced5b] mb-1">●</div></UButton
-                      >
-                    </UTooltip>
-                  </div>
-                </div>
-                <div class="px-4 py-2 flex flex-col">
-                  <small class="truncate me-14 mb-2 opacity-[0.4]">Other</small>
-                  <!-- <Placeholder class="h-20 w-48" /> -->
-                  <div class="flex flex-wrap justify-start w-[170px]">
-                    <UCheckbox
-                      v-model="isBanEx"
-                      class="mb-1"
-                      :disabled="isLoading"
-                      name="isEx"
-                      label="Ban EX"
-                      @change="resetCardDeck"
-                    />
-                    <UCheckbox
-                      v-model="isDuplicatedPokemon"
-                      :disabled="isLoading"
-                      name="isDuplicated"
-                      label="Duplicate Pokemon"
-                      @change="resetCardDeck"
+                    <UButton
+                      class="bg-transparent disabled:bg-transparent text-gray-600"
+                      :loading="true"
+                      style="cursor: default"
                     />
                   </div>
                 </div>
-                <!-- loading -->
-                <div
-                  v-if="isLoading"
-                  class="absolute top-0 flex justify-center items-center w-[100%] h-[100%] bg-slate-100 opacity-[0.5]"
-                >
-                  <UButton
-                    class="bg-transparent disabled:bg-transparent text-gray-600"
-                    :loading="true"
-                    style="cursor: default"
-                  />
-                </div>
-              </div>
-            </template>
-          </UPopover>
-          <!-- material-symbols:settings -->
+              </template>
+            </UPopover>
+          </div>
+          <!-- <div class="w-[50px] h-[50px]">
+            <UCard class=""> Ban </UCard>
+          </div> -->
         </div>
       </div>
       <!-- TODO: 중앙 vs 영역 -->
@@ -516,6 +537,15 @@ onMounted(() => {
 .pattern {
   background-image: url("https://unite.pokemon.com/images/common/square-pattern-30.svg"),
     linear-gradient(180deg, rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 38%);
+  background-size: 120px, auto;
+  background-position:
+    center,
+    left top;
+}
+
+.card-back {
+  /* background: linear-gradient(-45deg, #ca9ccb 50%, #e8ceb0 50%); */
+  background-image: url("https://unite.pokemon.com/images/common/square-pattern-30.svg");
   background-size: 120px, auto;
   background-position:
     center,
