@@ -1,6 +1,23 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import eslintPlugin from "vite-plugin-eslint";
+
 export default defineNuxtConfig({
-  modules: ["usebootstrap"],
+  modules: [
+    "@nuxt/ui",
+    "nuxt-icon",
+    "nuxt-lodash",
+    "@vueuse/motion/nuxt",
+    "nuxt-lodash",
+    "@pinia/nuxt",
+    "@pinia-plugin-persistedstate/nuxt",
+  ],
   devtools: { enabled: true },
-  css: ["bootstrap/scss/bootstrap.scss"],
+  vite: {
+    plugin: [eslintPlugin()],
+  },
+  app: {
+    pageTransition: {
+      name: "page",
+      mode: "out-in",
+    },
+  },
 });
