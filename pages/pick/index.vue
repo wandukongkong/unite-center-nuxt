@@ -99,16 +99,15 @@ const resetCardDeck = () => {
   let unitePokemonListClone = [...unitePokemonList.value];
 
   // 포켓몬 포지션 체크
-  unitePokemonListClone = useChain(unitePokemonListClone)
+  unitePokemonListClone = unitePokemonListClone
     .filter(
       (unitePokemonInfo) =>
         unitePokemonInfo.position === selectedMode.value ||
         selectedMode.value === "default"
     )
-    .shuffle()
-    .shuffle()
-    .shuffle()
-    .value();
+    .sort(() => Math.random() - 0.5)
+    .sort(() => Math.random() - 0.5)
+    .sort(() => Math.random() - 0.5);
 
   // 카드의 수가 부족할 경우, 중복 강제 적용
   if (unitePokemonListClone.length < 10) {
@@ -117,29 +116,26 @@ const resetCardDeck = () => {
 
   // Ex 벤 체크
   if (isBanEx.value) {
-    unitePokemonListClone = useChain(unitePokemonListClone)
+    unitePokemonListClone = unitePokemonListClone
       .filter((unitePokemonInfo) => !unitePokemonInfo.isEx)
-      .shuffle()
-      .shuffle()
-      .shuffle()
-      .value();
+      .sort(() => Math.random() - 0.5)
+      .sort(() => Math.random() - 0.5)
+      .sort(() => Math.random() - 0.5);
   }
 
   // 중복 포켓몬 체크
   if (isDuplicatedPokemon.value) {
-    const aTeamPokemonList = useChain(unitePokemonListClone)
-      .shuffle()
-      .shuffle()
-      .shuffle()
-      .slice(0, 5)
-      .value();
+    const aTeamPokemonList = unitePokemonListClone
+      .sort(() => Math.random() - 0.5)
+      .sort(() => Math.random() - 0.5)
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 5);
 
-    const bTeamPokemonList = useChain(unitePokemonListClone)
-      .shuffle()
-      .shuffle()
-      .shuffle()
-      .slice(0, 5)
-      .value();
+    const bTeamPokemonList = unitePokemonListClone
+      .sort(() => Math.random() - 0.5)
+      .sort(() => Math.random() - 0.5)
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 5);
 
     unitePokemonListClone = [...aTeamPokemonList, ...bTeamPokemonList];
   }
