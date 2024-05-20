@@ -161,7 +161,7 @@ const resetCardDeck = () => {
 
   setTimeout(() => {
     isLoading.value = false;
-  }, 1500);
+  }, 1700);
 };
 
 // 덱 카드 클릭 이벤트
@@ -481,12 +481,9 @@ onMounted(() => {
               </template>
             </UPopover>
           </div>
-          <!-- <div class="w-[50px] h-[50px]">
-            <UCard class=""> Ban </UCard>
-          </div> -->
         </div>
       </div>
-      <!-- TODO: 중앙 vs 영역 -->
+      <!-- TODO: 중앙 versus 영역 -->
       <div
         v-if="selectedCardList.length > 9"
         class="absolute"
@@ -494,13 +491,13 @@ onMounted(() => {
         :initial="{
           opacity: 0,
           scale: 0.7,
-          x: -150,
+          x: -170,
           y: 5,
         }"
         :enter="{
           opacity: 1,
           scale: 0.13,
-          x: -150,
+          x: -170,
           y: 5,
           transition: {
             delay: 500,
