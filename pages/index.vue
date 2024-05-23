@@ -16,7 +16,11 @@
       </div>
       <!-- 책장 오브젝트 -->
       <div class="absolute top-[18.4%] start-[23.7%]">
-        <img class="object" src="@/public/img/pokemon/object3.png" />
+        <img
+          class="object"
+          src="@/public/img/pokemon/object3.png"
+          @click="router.push('/pokemon')"
+        />
       </div>
       <!-- 테이블 오브젝트 -->
       <div class="absolute bottom-[26.5%] end-[18.2%]">

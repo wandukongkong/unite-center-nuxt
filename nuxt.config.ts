@@ -15,6 +15,14 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   vite: {
     plugin: [eslintPlugin()],
+    server: {
+      hmr: {
+        port: 3008,
+      },
+      watch: {
+        usePolling: true,
+      },
+    },
   },
   app: {
     pageTransition: {
@@ -22,4 +30,5 @@ export default defineNuxtConfig({
       mode: "out-in",
     },
   },
+  nitro: {},
 });

@@ -22,4 +22,13 @@ html {
   opacity: 0;
   filter: blur(1rem);
 }
+
+.pattern {
+  background-image: url("@/public/svg/square-pattern.svg"),
+    linear-gradient(180deg, rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 38%);
+  background-size: 120px, auto;
+  background-position:
+    center,
+    left top;
+}
 </style>
