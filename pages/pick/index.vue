@@ -166,6 +166,11 @@ const clickCardDeck = (cardInfo) => {
   defaultArray.value = defaultArray.value.slice(0, -1);
 };
 
+// 이미지 동적 import
+const getPokemonImage = (imageUrl) => {
+  return new URL(imageUrl);
+};
+
 onMounted(() => {
   // defaultArray.value = defaultCardList.value;
   resetCardDeck();
@@ -263,7 +268,7 @@ onMounted(() => {
             />
           </div>
           <div>
-            {{ cardInfo.color }}
+            {{ cardInfo.name }}
           </div>
         </PokemonCard>
       </div>
@@ -501,8 +506,8 @@ onMounted(() => {
         }"
       >
         <img
-          class="h-[90%] shadow-lg"
-          src="../../public/img/versus2.png"
+          class="h-[90%]"
+          src="@/public/img/versus2.png"
           style="-webkit-user-drag: none"
         />
       </div>
@@ -528,7 +533,7 @@ onMounted(() => {
 }
 
 .pattern {
-  background-image: url("https://unite.pokemon.com/images/common/square-pattern-30.svg"),
+  background-image: url("@/public/svg/square-pattern.svg"),
     linear-gradient(180deg, rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 38%);
   background-size: 120px, auto;
   background-position:
@@ -538,7 +543,7 @@ onMounted(() => {
 
 .card-back {
   /* background: linear-gradient(-45deg, #ca9ccb 50%, #e8ceb0 50%); */
-  background-image: url("https://unite.pokemon.com/images/common/square-pattern-30.svg");
+  background-image: url("@/public/svg/square-pattern.svg");
   background-size: 120px, auto;
   background-position:
     center,
