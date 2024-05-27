@@ -6,8 +6,17 @@
     "color": "#29a5e3",
     "position": "speed",
     "isEx": false,
-
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Aegislash",
@@ -16,8 +25,17 @@
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": false,
-
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2022-02-11",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Azumarill",
@@ -27,7 +45,17 @@
     "position": "balance",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2022-04-08",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Blastoise",
@@ -37,7 +65,17 @@
     "position": "defence",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-09-01",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Blissey",
@@ -47,7 +85,17 @@
     "position": "support",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-08-18",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Buzzwole",
@@ -57,7 +105,17 @@
     "position": "balance",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2022-08-04",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Charizard",
@@ -67,7 +125,17 @@
     "position": "balance",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Cinderace",
@@ -77,7 +145,17 @@
     "position": "attack",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Clefable",
@@ -87,7 +165,17 @@
     "position": "support",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": " 2022-10-13",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Comfey",
@@ -97,7 +185,17 @@
     "position": "support",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2023-02-02",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Cramorant",
@@ -107,7 +205,17 @@
     "position": "attack",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Crustle",
@@ -117,7 +225,17 @@
     "position": "defence",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Decidueye",
@@ -127,7 +245,17 @@
     "position": "attack",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-11-19",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Delphox",
@@ -137,7 +265,17 @@
     "position": "attack",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2022-06-09",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Dodrio",
@@ -147,7 +285,17 @@
     "position": "speed",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2022-09-15",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Dragapult",
@@ -157,7 +305,17 @@
     "position": "attack",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2022-12-29",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Duraludon",
@@ -167,7 +325,17 @@
     "position": "attack",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2022-03-14",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Eldegoss",
@@ -177,7 +345,17 @@
     "position": "support",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Espeon",
@@ -187,7 +365,17 @@
     "position": "attack",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2022-05-16",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Garchomp",
@@ -197,7 +385,17 @@
     "position": "balance",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Gardevoir",
@@ -207,7 +405,17 @@
     "position": "attack",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-29",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Gengar",
@@ -217,7 +425,17 @@
     "position": "speed",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Glaceon",
@@ -227,7 +445,17 @@
     "position": "attack",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2022-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Goodra",
@@ -237,7 +465,17 @@
     "position": "defence",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2023-03-16",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Greedent",
@@ -247,7 +485,17 @@
     "position": "defence",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-10-20",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Greninja",
@@ -257,7 +505,17 @@
     "position": "attack",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Hoopa",
@@ -267,7 +525,17 @@
     "position": "support",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2022-02-24",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Lucario",
@@ -277,7 +545,17 @@
     "position": "balance",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Machamp",
@@ -287,7 +565,17 @@
     "position": "balance",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Mamoswine",
@@ -297,7 +585,17 @@
     "position": "defence",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-09-29",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Mew",
@@ -307,7 +605,17 @@
     "position": "attack",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2022-09-02",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Mr.Mime",
@@ -317,7 +625,17 @@
     "position": "support",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Alolan-ninetales",
@@ -327,7 +645,17 @@
     "position": "attack",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Pikachu",
@@ -337,7 +665,17 @@
     "position": "attack",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Sableye",
@@ -347,7 +685,17 @@
     "position": "support",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2022-11-16",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Scizor",
@@ -357,7 +705,17 @@
     "position": "balance",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2022-09-29",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Slowbro",
@@ -367,7 +725,17 @@
     "position": "defence",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Snorlax",
@@ -377,7 +745,17 @@
     "position": "defence",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Sylveon",
@@ -387,7 +765,17 @@
     "position": "attack",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-10-06",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Talonflame",
@@ -397,7 +785,17 @@
     "position": "speed",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Trevenant",
@@ -407,7 +805,17 @@
     "position": "defence",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2022-01-20",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Tsareena",
@@ -417,7 +825,17 @@
     "position": "balance",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-12-09",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Tyranitar",
@@ -427,7 +845,17 @@
     "position": "balance",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2022-08-16",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Urshifu",
@@ -437,7 +865,17 @@
     "position": "balance",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2022-12-01",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Venusaur",
@@ -447,7 +885,17 @@
     "position": "attack",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Wigglytuff",
@@ -457,7 +905,17 @@
     "position": "support",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Zacian",
@@ -466,7 +924,17 @@
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": true,
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2023-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Zeraora",
@@ -476,7 +944,17 @@
     "position": "speed",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Zoroark",
@@ -486,7 +964,17 @@
     "position": "speed",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Lapras",
@@ -496,7 +984,17 @@
     "position": "defence",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2023-04-13",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Chandelure",
@@ -506,7 +1004,17 @@
     "position": "attack",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2023-04-27",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Umbreon",
@@ -516,7 +1024,17 @@
     "position": "defence",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2023-05-25",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Leafeon",
@@ -526,7 +1044,17 @@
     "position": "speed",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2023-06-08",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Inteleon",
@@ -536,7 +1064,17 @@
     "position": "attack",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2023-07-04",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Mewtwo",
@@ -545,7 +1083,26 @@
     "color": "#f16c38",
     "position": "attack",
     "isEx": true,
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2023-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "X 출시"
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-08-17",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "Y 출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Blaziken",
@@ -555,7 +1112,17 @@
     "position": "balance",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2023-09-15",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Mimikyu",
@@ -565,7 +1132,17 @@
     "position": "balance",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2023-10-19",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Meowscarada",
@@ -575,7 +1152,17 @@
     "position": "speed",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2023-12-07",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Metagross",
@@ -585,7 +1172,17 @@
     "position": "balance",
     "isEx": false,
 
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2023-12-26",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Gyarados",
@@ -594,7 +1191,17 @@
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": false,
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2024-01-25",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Miraidon",
@@ -603,7 +1210,17 @@
     "color": "#f16c38",
     "position": "attack",
     "isEx": true,
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2024-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Falinks",
@@ -612,6 +1229,16 @@
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": true,
-    "updatedList": [{}]
+    "updatedList": [
+      {
+        "updatedDate": "2024-04-25",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContent": "출시"
+          }
+        ]
+      }
+    ]
   }
 ]
