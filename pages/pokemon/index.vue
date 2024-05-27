@@ -14,7 +14,7 @@ const unitePokemonList = toRef([...unitePokemonListJson]);
       <div>정렬</div>
     </div>
     <!-- TODO: 리스트 영역 -->
-    <div class="flex flex-wrap justify-start">
+    <div class="flex flex-wrap justify-start py-3">
       <div
         v-for="(cardInfo, index) in unitePokemonList"
         :key="index"

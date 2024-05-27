@@ -1,429 +1,617 @@
 [
   {
     "name": "Absol",
+    "nameKo": "앱솔",
     "image": "/img/unitePokemon/roster-absol-2x.png",
     "color": "#29a5e3",
     "position": "speed",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Aegislash",
+    "nameKo": "킬가르도",
     "image": "/img/unitePokemon/roster-aegislash-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Azumarill",
+    "nameKo": "마릴리",
     "image": "/img/unitePokemon/roster-azumarill-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Blastoise",
+    "nameKo": "거북왕",
     "image": "/img/unitePokemon/roster-blastoise-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Blissey",
+    "nameKo": "해피너스",
     "image": "/img/unitePokemon/roster-blissey-2x.png",
     "color": "#fecc51",
     "position": "support",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Buzzwole",
+    "nameKo": "매시붕",
     "image": "/img/unitePokemon/roster-buzzwole-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Charizard",
+    "nameKo": "리자몽",
     "image": "/img/unitePokemon/roster-charizard-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Cinderace",
+    "nameKo": "에이스번",
     "image": "/img/unitePokemon/roster-cinderace-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Clefable",
+    "nameKo": "픽시",
     "image": "/img/unitePokemon/roster-clefable-2x.png",
     "color": "#fecc51",
     "position": "support",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Comfey",
+    "nameKo": "큐아링",
     "image": "/img/unitePokemon/roster-comfey-2x.png",
     "color": "#fecc51",
     "position": "support",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Cramorant",
+    "nameKo": "윽우지",
     "image": "/img/unitePokemon/roster-cramorant-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Crustle",
+    "nameKo": "암팰리스",
     "image": "/img/unitePokemon/roster-crustle-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Decidueye",
+    "nameKo": "모크나이퍼",
     "image": "/img/unitePokemon/roster-decidueye-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Delphox",
+    "nameKo": "마폭시",
     "image": "/img/unitePokemon/roster-delphox-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Dodrio",
+    "nameKo": "두트리오",
     "image": "/img/unitePokemon/roster-dodrio-2x.png",
     "color": "#29a5e3",
     "position": "speed",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Dragapult",
+    "nameKo": "드래펄트",
     "image": "/img/unitePokemon/roster-dragapult-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Duraludon",
+    "nameKo": "두랄루돈",
     "image": "/img/unitePokemon/roster-duraludon-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Eldegoss",
+    "nameKo": "백솜모카",
     "image": "/img/unitePokemon/roster-eldegoss-2x.png",
     "color": "#fecc51",
     "position": "support",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Espeon",
+    "nameKo": "에브이",
     "image": "/img/unitePokemon/roster-espeon-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Garchomp",
+    "nameKo": "한카리아스",
     "image": "/img/unitePokemon/roster-garchomp-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Gardevoir",
+    "nameKo": "가디안",
     "image": "/img/unitePokemon/roster-gardevoir-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Gengar",
+    "nameKo": "팬텀",
     "image": "/img/unitePokemon/roster-gengar-2x.png",
     "color": "#29a5e3",
     "position": "speed",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Glaceon",
+    "nameKo": "글레이시아",
     "image": "/img/unitePokemon/roster-glaceon-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Goodra",
+    "nameKo": "미끄래곤",
     "image": "/img/unitePokemon/roster-goodra-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Greedent",
+    "nameKo": "요씽리스",
     "image": "/img/unitePokemon/roster-greedent-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Greninja",
+    "nameKo": "개굴닌자",
     "image": "/img/unitePokemon/roster-greninja-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Hoopa",
+    "nameKo": "후파",
     "image": "/img/unitePokemon/roster-hoopa-2x.png",
     "color": "#fecc51",
     "position": "support",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Lucario",
+    "nameKo": "루카리오",
     "image": "/img/unitePokemon/roster-lucario-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Machamp",
+    "nameKo": "괴력몬",
     "image": "/img/unitePokemon/roster-machamp-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Mamoswine",
+    "nameKo": "맘모꾸리",
     "image": "/img/unitePokemon/roster-mamoswine-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Mew",
+    "nameKo": "뮤",
     "image": "/img/unitePokemon/roster-mew-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
-    "name": "Mr. Mime",
+    "name": "Mr.Mime",
+    "nameKo": "마임맨",
     "image": "/img/unitePokemon/roster-mr-mime-2x.png",
     "color": "#fecc51",
     "position": "support",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Alolan-ninetales",
+    "nameKo": "알로라 나인테일",
     "image": "/img/unitePokemon/roster-alolan-ninetales-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Pikachu",
+    "nameKo": "피카츄",
     "image": "/img/unitePokemon/roster-pikachu-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Sableye",
+    "nameKo": "깜까미",
     "image": "/img/unitePokemon/roster-sableye-2x.png",
     "color": "#fecc51",
     "position": "support",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Scizor",
+    "nameKo": "핫삼",
     "image": "/img/unitePokemon/roster-scizor-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Slowbro",
+    "nameKo": "야도란",
     "image": "/img/unitePokemon/roster-slowbro-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Snorlax",
+    "nameKo": "잠만보",
     "image": "/img/unitePokemon/roster-snorlax-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Sylveon",
+    "nameKo": "님피아",
     "image": "/img/unitePokemon/roster-sylveon-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Talonflame",
+    "nameKo": "파이어로",
     "image": "/img/unitePokemon/roster-talonflame-2x.png",
     "color": "#29a5e3",
     "position": "speed",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Trevenant",
+    "nameKo": "대로트",
     "image": "/img/unitePokemon/roster-trevenant-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Tsareena",
+    "nameKo": "달코퀸",
     "image": "/img/unitePokemon/roster-tsareena-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Tyranitar",
+    "nameKo": "마기라스",
     "image": "/img/unitePokemon/roster-tyranitar-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Urshifu",
+    "nameKo": "우라오스",
     "image": "/img/unitePokemon/roster-urshifu-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Venusaur",
+    "nameKo": "이상해꽃",
     "image": "/img/unitePokemon/roster-venusaur-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Wigglytuff",
+    "nameKo": "푸크린",
     "image": "/img/unitePokemon/roster-wigglytuff-2x.png",
     "color": "#fecc51",
     "position": "support",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Zacian",
+    "nameKo": "자시안",
     "image": "/img/unitePokemon/roster-zacian-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": true
+    "isEx": true,
+    "updatedList": [{}]
   },
   {
     "name": "Zeraora",
+    "nameKo": "제라오라",
     "image": "/img/unitePokemon/roster-zeraora-2x.png",
     "color": "#29a5e3",
     "position": "speed",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Zoroark",
+    "nameKo": "조로아크",
     "image": "/img/unitePokemon/roster-zoroark-2x.png",
     "color": "#29a5e3",
     "position": "speed",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Lapras",
+    "nameKo": "라프라스",
     "image": "/img/unitePokemon/roster-lapras-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Chandelure",
+    "nameKo": "샹델라",
     "image": "/img/unitePokemon/roster-chandelure-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Umbreon",
+    "nameKo": "블래키",
     "image": "/img/unitePokemon/roster-umbreon-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Leafeon",
+    "nameKo": "리피아",
     "image": "/img/unitePokemon/roster-leafeon-2x.png",
     "color": "#29a5e3",
     "position": "speed",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Inteleon",
+    "nameKo": "인텔리레온",
     "image": "/img/unitePokemon/roster-inteleon-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Mewtwo",
+    "nameKo": "뮤츠",
     "image": "/img/unitePokemon/roster-mewtwo-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": true
+    "isEx": true,
+    "updatedList": [{}]
   },
   {
     "name": "Blaziken",
+    "nameKo": "번치코",
     "image": "/img/unitePokemon/roster-blaziken-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Mimikyu",
+    "nameKo": "따라큐",
     "image": "/img/unitePokemon/roster-mimikyu-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Meowscarada",
+    "nameKo": "마스카나",
     "image": "/img/unitePokemon/roster-meowscarada-2x.png",
     "color": "#29a5e3",
     "position": "speed",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Metagross",
+    "nameKo": "메타그로스",
     "image": "/img/unitePokemon/roster-metagross-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [{}]
   },
   {
     "name": "Gyarados",
+    "nameKo": "갸라도스",
     "image": "/img/unitePokemon/roster-gyarados-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+    "updatedList": [{}]
   },
   {
     "name": "Miraidon",
+    "nameKo": "미라이돈",
     "image": "/img/unitePokemon/roster-miraidon-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": true
+    "isEx": true,
+    "updatedList": [{}]
+  },
+  {
+    "name": "Falinks",
+    "nameKo": "대여르",
+    "image": "/img/unitePokemon/roster-falinks-2x.png",
+    "color": "#ce5fd3",
+    "position": "balance",
+    "isEx": true,
+    "updatedList": [{}]
   }
 ]
