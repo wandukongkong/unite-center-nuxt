@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     "@vueuse/motion/nuxt",
     "@pinia/nuxt",
     "@pinia-plugin-persistedstate/nuxt",
+    "dayjs-nuxt",
   ],
   devtools: { enabled: true },
   vite: {
