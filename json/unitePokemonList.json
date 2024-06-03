@@ -34,6 +34,19 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "아이언헤드",
+            "updatedContents": ["대기 시간: 7초 → 6초"]
+          },
+          {
+            "updatedName": "성스러운칼",
+            "updatedContents": ["대기 시간: 7.5초 → 6.5초"]
+          }
+        ]
       }
     ]
   },
@@ -52,6 +65,23 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "바다회오리",
+            "updatedContents": ["대기 시간: 11초 → 10초"]
+          },
+          {
+            "updatedName": "바다회오리+",
+            "updatedContents": ["대기 시간: 9초 → 8초"]
+          },
+          {
+            "updatedName": "유나이트 기술: 거품북대시",
+            "updatedContents": ["상대 팀의 포켓몬만 지정되도록 변경했습니다."]
           }
         ]
       }
@@ -152,6 +182,39 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "엄청난힘",
+            "updatedContents": ["대기 시간: 7.5초 → 8.5초"]
+          },
+          {
+            "updatedName": "엄청난힘+",
+            "updatedContents": [
+              "변경 전: 머슬 게이지가 가득 차면 해당 기술의 대기 시간이 0초가 된다",
+              "변경 후: 머슬 게이지가 가득 차면 해당 기술의 대기 시간이 3초 감소한다"
+            ]
+          },
+          {
+            "updatedName": "떨어뜨리기",
+            "updatedContents": [
+              "1단계에서 증가하는 머슬 게이지: 2 → 1",
+              "2단계에서 증가하는 머슬 게이지: 2 → 1"
+            ]
+          },
+          {
+            "updatedName": "떨어뜨리기+",
+            "updatedContents": ["2단계에서 증가하는 머슬 게이지: 3 → 2"]
+          },
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              " '떨어뜨리기'로 날려버린 상대를 '엄청난힘'으로 붙잡았을 때, '떨어뜨리기'의 낙하 시 데미지도 발생하는 오류를 수정했습니다."
+            ]
           }
         ]
       }
@@ -440,6 +503,30 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": [
+              "이동 속도를 떨어뜨리는 효과: 30% → 20%",
+              "이동 속도를 떨어뜨리는 시간: 1.5초 → 1초"
+            ]
+          },
+          {
+            "updatedName": "꽃가루경단",
+            "updatedContents": ["데미지: 15% 감소"]
+          },
+          {
+            "updatedName": "꽃가루경단+",
+            "updatedContents": ["감소하는 데미지: 20% → 15%"]
+          },
+          {
+            "updatedName": "유나이트 기술: 솜털의춤",
+            "updatedContents": ["데미지: 13%~17% 감소 (레벨 9~15)"]
+          }
+        ]
       }
     ]
   },
@@ -458,6 +545,15 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "어시스트파워",
+            "updatedContents": ["데미지: 10% 감소"]
           }
         ]
       }
@@ -593,6 +689,17 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "'씨기관총'이 야도란의 유나이트 기술로 중단되지 않는 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -633,6 +740,18 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "트릭",
+            "updatedContents": [
+              "실드 양：28%~9% 증가 (레벨 5~15)",
+              "이동 속도를 올리는 시간: 2초 → 3초"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -671,6 +790,22 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "능력치",
+            "updatedContents": [
+              "방어: 98~490 → 100~510 (레벨 1~15)",
+              "특수방어: 64~320 → 70~350 (레벨 1~15)"
+            ]
+          },
+          {
+            "updatedName": "지옥의바퀴",
+            "updatedContents": ["데미지: 23% 증가"]
           }
         ]
       }
@@ -870,6 +1005,18 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "블록",
+            "updatedContents": [
+              "자신의 이동 속도 감소 효과: 45% → 30%",
+              "실드 양: 50% 증가"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -928,6 +1075,17 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "'우드혼'으로 날려버리는 거리가 의도하지 않은 거리로 설정되어 있던 오류를 수정했습니다."
+            ]
           }
         ]
       }
@@ -1094,6 +1252,17 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "'와일드볼트+'의 데미지 판정이 발동한 장소에 계속 남아있는 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1112,6 +1281,19 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "깜짝베기",
+            "updatedContents": [
+              "데미지: 15% 감소",
+              "대기 시간: 8초 → 9초",
+              "날아오른 뒤의 공격에 의한 회복량: 20% 감소"
+            ]
           }
         ]
       }
@@ -1172,6 +1354,30 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "능력치",
+            "updatedContents": [
+              "방어: 95~500 → 85~500 (레벨 1~15)",
+              "특수방어: 70~400 → 60~400 (레벨 1~15)"
+            ]
+          },
+          {
+            "updatedName": "희망사항",
+            "updatedContents": ["HP 회복량: 20% 증가"]
+          },
+          {
+            "updatedName": "속임수",
+            "updatedContents": [
+              "이동 속도를 떨어뜨리는 효과: 25% → 30%",
+              "이동 속도를 떨어뜨리는 시간: 2초 → 2.5초",
+              "2단계 데미지: 20% 증가"
+            ]
           }
         ]
       }
@@ -1302,6 +1508,15 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "능력치",
+            "updatedContents": ["공격: 160~660 → 160~630 (레벨 1~15)"]
+          }
+        ]
       }
     ]
   },
@@ -1360,11 +1575,36 @@
         ]
       },
       {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "폭포오르기",
+            "updatedContents": ["돌격 간 간격: 0.3초 → 0.07초"]
+          },
+          {
+            "updatedName": "아쿠아테일",
+            "updatedContents": ["꼬리를 휘둘렀을 때 전진하는 거리: 1m → 0.5m"]
+          },
+          {
+            "updatedName": "뛰어오르기",
+            "updatedContents": [
+              "명중했을 때 상대 포켓몬을 날려버리는 효과를 추가했습니다."
+            ]
+          }
+        ]
+      },
+      {
         "updatedDate": "2024-05-13",
         "updatedContentList": [
           {
             "updatedName": "유나이트 기술: 비룡승운",
             "updatedContents": ["필요한 에너지양: 25% 감소"]
+          },
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "일반 공격을 헛친 상태로 노력 게이지가 최대가 되어 갸라도스로 진화하면 경기 종료까지 일반 공격이 잉어킹인 상태였던 오류를 수정했습니다."
+            ]
           }
         ]
       }
@@ -1384,6 +1624,17 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "강화된 '라이트닝드라이브'를 충전하는 동안에 대상이 KO 당했을 때 뒤로 워프하는 오류를 수정했습니다."
+            ]
           }
         ]
       }
