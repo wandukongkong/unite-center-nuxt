@@ -12,7 +12,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -31,7 +31,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -51,7 +51,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -71,7 +71,31 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "물대포",
+            "updatedContents": ["데미지: 15% 감소"]
+          },
+          {
+            "updatedName": "하이드로펌프",
+            "updatedContents": [
+              "데미지: 10% 감소",
+              "행동 불가 시간: 1초 → 0.6초"
+            ]
+          },
+          {
+            "updatedName": "하이드로펌프+",
+            "updatedContents": ["데미지: 10% 감소"]
+          },
+          {
+            "updatedName": "해수스파우팅",
+            "updatedContents": ["데미지: 10% 감소"]
           }
         ]
       }
@@ -91,7 +115,23 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "도우미",
+            "updatedContents": [
+              "공격 속도 상승량: 30% → 35%",
+              "이동 속도 상승량: 30% → 35%"
+            ]
+          },
+          {
+            "updatedName": "신비의부적",
+            "updatedContents": ["실드 지속 시간: 3초 → 4초"]
           }
         ]
       }
@@ -111,7 +151,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -131,7 +171,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -151,7 +191,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -171,7 +211,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -191,7 +231,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -211,7 +251,20 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "다이빙",
+            "updatedContents": ["보유 횟수가 회복되는 시간: 6초 → 5초"]
+          },
+          {
+            "updatedName": "폭풍",
+            "updatedContents": ["데미지: 15% 증가"]
           }
         ]
       }
@@ -231,7 +284,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -251,7 +304,24 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "잎날가르기",
+            "updatedContents": ["대기 시간: 10초 → 8초"]
+          },
+          {
+            "updatedName": "리프스톰",
+            "updatedContents": [
+              "대기 시간: 6초 → 8초",
+              "데미지: 30% 증가",
+              "감속 효과: 45초% → 60%, 0.5초마다 10% 감소, 최대 4번 감소, 2.5초"
+            ]
           }
         ]
       }
@@ -271,7 +341,23 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "회오리불꽃",
+            "updatedContents": [
+              "회오리 지속 시간: 5초 → 4초",
+              "대기 시간: 7초 → 7.5초"
+            ]
+          },
+          {
+            "updatedName": "불대문자",
+            "updatedContents": ["데미지: 10% 감소", "대기 시간: 6초 → 7초"]
           }
         ]
       }
@@ -291,7 +377,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -311,7 +397,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -331,7 +417,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -351,7 +437,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -371,7 +457,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -391,7 +477,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -411,7 +497,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -431,7 +517,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -451,7 +537,20 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "얼음뭉치",
+            "updatedContents": ["이동 속도 상승량: 50% → 40%"]
+          },
+          {
+            "updatedName": "고드름침",
+            "updatedContents": ["데미지: 10% 감소"]
           }
         ]
       }
@@ -471,7 +570,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -491,7 +590,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -511,7 +610,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -531,7 +630,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -551,7 +650,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -571,7 +670,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -591,7 +690,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -611,7 +710,24 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["특수공격: 90~950 → 90~900(레벨 1~15)"]
+          },
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": ["데미지: 4%~12% 감소(레벨 1~15)"]
+          },
+          {
+            "updatedName": "유나이트 기술: 미스틱미라지",
+            "updatedContents": ["데미지: 11%~12% 감소(레벨 9~15)"]
           }
         ]
       }
@@ -631,7 +747,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -651,7 +767,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -671,7 +787,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -691,7 +807,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -711,7 +827,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -731,7 +847,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -751,7 +867,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -771,7 +887,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -791,7 +907,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -811,7 +927,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -831,7 +947,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -851,7 +967,32 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "HP: 3150~8800 → 3300~8800(레벨 1~15)",
+              "방어: 90~500 → 110~500(레벨 1~15)",
+              "특수방어: 75~375 → 90~375(레벨 1~15)"
+            ]
+          },
+          {
+            "updatedName": "스톤에지",
+            "updatedContents": ["첫번째, 두번째 기술 모션이 빨라졌습니다."]
+          },
+          {
+            "updatedName": "모래지옥",
+            "updatedContents": [
+              "두번째 사용할 수 있게 되기까지의 시간이 짧아졌습니다.",
+              "행동 불가 효과: 1초 → 1.5초",
+              "모래 먼지로 주는 감속 효과: 25% → 35%"
+            ]
           }
         ]
       }
@@ -871,7 +1012,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -891,7 +1032,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -911,7 +1052,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -930,7 +1071,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -950,7 +1091,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -970,7 +1111,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -990,7 +1131,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -1010,7 +1151,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -1030,7 +1171,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -1050,7 +1191,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -1070,7 +1211,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -1089,7 +1230,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "X 출시"
+            "updatedContents": ["X 출시"]
           }
         ]
       },
@@ -1098,7 +1239,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "Y 출시"
+            "updatedContents": ["Y 출시"]
           }
         ]
       }
@@ -1118,7 +1259,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -1138,7 +1279,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -1158,7 +1299,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -1178,7 +1319,24 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "자이로볼",
+            "updatedContents": ["데미지: 10% 증가"]
+          },
+          {
+            "updatedName": "사념의박치기",
+            "updatedContents": ["데미지: 13% 증가"]
+          },
+          {
+            "updatedName": "유나이트 기술: 서치X크래시",
+            "updatedContents": ["데미지: 15% 증가"]
           }
         ]
       }
@@ -1197,7 +1355,16 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "유나이트 기술: 비룡승운",
+            "updatedContents": ["필요한 에너지양: 25% 감소"]
           }
         ]
       }
@@ -1216,7 +1383,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }
@@ -1235,7 +1402,7 @@
         "updatedContentList": [
           {
             "updatedName": "",
-            "updatedContent": "출시"
+            "updatedContents": ["출시"]
           }
         ]
       }

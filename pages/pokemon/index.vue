@@ -71,11 +71,11 @@ const groupedPokemonList = computed(() => {
 });
 </script>
 <template>
-  <div class="ps-5 select-none" style="-webkit-user-drag: none">
+  <div class="ps-5">
     <!-- TODO: 검색 영역 -->
     <div class="flex flex-col items-end w-[100%] px-8 mt-[10px] mb-2">
-      <UInput class="w-[100%] mb-2"></UInput>
-      <div>정렬</div>
+      <UInput class="w-[100%] mb-2 opacity-0"></UInput>
+      <!-- <div>정렬</div> -->
     </div>
     <!-- TODO: 리스트 영역 -->
     <div class="flex flex-col justify-start py-3">
@@ -84,7 +84,7 @@ const groupedPokemonList = computed(() => {
         :key="index"
         class="mb-3"
       >
-        <div>{{ groupedPokemonInfo.updatedDate }}</div>
+        <strong>{{ groupedPokemonInfo.updatedDate }}</strong>
         <div class="flex flex-wrap">
           <div
             v-for="(
