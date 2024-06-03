@@ -237,6 +237,15 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": ["데미지: 12% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -275,6 +284,19 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": " 2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "달의불빛",
+            "updatedContents": ["HP 회복량: 10%~17% 감소(레벨 4~15)"]
+          },
+          {
+            "updatedName": "중력",
+            "updatedContents": ["대기 시간: 8초 → 9초"]
           }
         ]
       }
@@ -616,6 +638,17 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "'병상첨병'을 '도깨비불'에 맞힌 직후에 사용하면 기술의 대기 시간이 단축되지 않는 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -634,6 +667,19 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "얼음뭉치",
+            "updatedContents": ["공격 속도 상승량: 75% → 60%"]
+          },
+          {
+            "updatedName": "고드름침+",
+            "updatedContents": ["HP 양에 따른 데미지: 1% → 0.5%"]
           }
         ]
       },
@@ -687,6 +733,15 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "씨기관총",
+            "updatedContents": ["데미지: 15% 증가"]
           }
         ]
       },
@@ -965,6 +1020,26 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "칼춤",
+            "updatedContents": ["공격 상승량: 12% → 20%"]
+          },
+          {
+            "updatedName": "더블어택",
+            "updatedContents": ["데미지: 10% 증가"]
+          },
+          {
+            "updatedName": "강화 공격(스라크)",
+            "updatedContents": [
+              "이동 속도 상승량: 35% → 40%",
+              "이동 속도 상승의 지속 시간: 2초 → 3초"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1075,6 +1150,17 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "'우드혼'이 상대 포켓몬의 위치에 따라서 마지막 날려버리기가 맞지 않는 오류를 수정했습니다."
+            ]
           }
         ]
       },
@@ -1358,6 +1444,22 @@
         ]
       },
       {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "바크아웃",
+            "updatedContents": ["공격과 특수공격 감소량: 25% 감소"]
+          },
+          {
+            "updatedName": "검은눈빛",
+            "updatedContents": [
+              "기술이 닿는 범위: 5m → 4m",
+              "대기 시간: 8초 → 9초"
+            ]
+          }
+        ]
+      },
+      {
         "updatedDate": "2024-04-16",
         "updatedContentList": [
           {
@@ -1400,6 +1502,17 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "'제비반환'을 사용한 뒤, 다음 일반 공격을 한 직후에 대기 시간 없이 일반 공격을 사용할 수 있었던 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1418,6 +1531,15 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "노려맞히기",
+            "updatedContents": ["데미지: 10%~7% 감소(레벨 5~15)"]
           }
         ]
       }
@@ -1466,6 +1588,17 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "'오버히트'로 힘을 모으는 동안 공격 방향을 변경할 수 있는 오류를 수정했습니다."
+            ]
           }
         ]
       }
@@ -1624,6 +1757,26 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "차지빔",
+            "updatedContents": ["데미지: 13%~16% 감소(레벨 5~15)"]
+          },
+          {
+            "updatedName": "번개",
+            "updatedContents": [
+              "대기 시간: 8초 → 10초",
+              "이동 속도를 떨어뜨리는 효과: 30% → 10%"
+            ]
+          },
+          {
+            "updatedName": "번개+",
+            "updatedContents": ["이동 속도를 떨어뜨리는 효과: 50%→ 20%"]
           }
         ]
       },
