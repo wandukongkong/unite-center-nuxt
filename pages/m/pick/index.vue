@@ -20,70 +20,70 @@ const unitePokemonList = toRef([...unitePokemonListJson]);
 const defaultCardList = toRef([
   {
     cardNumber: 0,
-    position: [110, 130],
+    position: [110, 70],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 1,
-    position: [0, 130],
+    position: [0, 70],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 2,
-    position: [-110, 130],
+    position: [-110, 70],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 3,
-    position: [60, 230],
+    position: [60, 170],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 4,
-    position: [-60, 230],
+    position: [-60, 170],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 5,
-    position: [110, -130],
+    position: [110, -190],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 6,
-    position: [0, -130],
+    position: [0, -190],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 7,
-    position: [-110, -130],
+    position: [-110, -190],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 8,
-    position: [60, -230],
+    position: [60, -290],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 9,
-    position: [-60, -230],
+    position: [-60, -290],
     name: "",
     color: "",
     image: "",
@@ -207,7 +207,7 @@ onMounted(() => {
           scale: 0.3,
           opacity: 1,
           x: 0,
-          y: -index * 1.2,
+          y: -index * 1.2 - 60,
           rotate: (Math.random() - 0.5) * 5,
           transition: {
             damping: 15,
@@ -320,13 +320,13 @@ onMounted(() => {
           scale: 0.5,
           opacity: 0,
           x: 0,
-          y: 60,
+          y: 0,
         }"
         :enter="{
           scale: 0.5,
           opacity: 1,
           x: 0,
-          y: 60,
+          y: 0,
           transition: {
             damping: 15,
             mass: 0.1,
@@ -498,23 +498,19 @@ onMounted(() => {
           opacity: 0,
           scale: 0.7,
           x: 0,
-          y: -5,
+          y: -65,
         }"
         :enter="{
           opacity: 1,
           scale: 0.25,
           x: 0,
-          y: -5,
+          y: -65,
           transition: {
             delay: 500,
           },
         }"
       >
-        <img
-          class="h-[90%]"
-          src="@/public/img/versus2.png"
-          style="-webkit-user-drag: none"
-        />
+        <img src="@/public/img/versus2.png" style="-webkit-user-drag: none" />
       </div>
     </div>
   </div>

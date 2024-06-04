@@ -9,7 +9,8 @@ const isOpenMenu = toRef(false);
 <template>
   <div class="w-[100%] flex p-2">
     <UButton
-      class="bg-white hover:bg-slate-200 border text-slate-800"
+      class="hover:bg-slate-200 border text-slate-800"
+      color="transpaernt"
       trailing-icon="i-heroicons-bars-3-16-solid"
       @click="
         () => {
@@ -18,9 +19,10 @@ const isOpenMenu = toRef(false);
       "
     />
     <USlideover v-model="isOpenMenu" side="left">
-      <div class="flex justify-end p-2">
+      <div class="flex justify-end p-2 bg-white">
         <UButton
-          class="bg-transparent hover:bg-slate-200 border text-slate-800"
+          class="hover:bg-slate-200 border text-slate-800"
+          color="transparent"
           trailing-icon="i-heroicons-x-mark-16-solid"
           @click="
             () => {
@@ -31,7 +33,8 @@ const isOpenMenu = toRef(false);
       </div>
       <div class="p-5">
         <UButton
-          class="w-[100%] bg-transparent text-black hover:bg-slate-100 mb-3"
+          class="w-[100%] text-black hover:bg-slate-100 mb-3"
+          color="transparent"
           @click="
             () => {
               router.push(isMobile ? '/m' : '/');
@@ -53,7 +56,8 @@ const isOpenMenu = toRef(false);
           Pokemon
         </UButton> -->
         <UButton
-          class="w-[100%] bg-transparent text-black hover:bg-slate-100 mb-3"
+          class="w-[100%] text-black hover:bg-slate-100 mb-3"
+          color="transparent"
           @click="
             () => {
               router.push(isMobile ? '/m/pick' : '/pick');

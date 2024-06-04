@@ -5,7 +5,7 @@ const { isMobile } = useDevice();
 <template>
   <div class="min-h-screen flex flex-col justify-center items-center">
     <div
-      class="relative flex justify-center items-center w-[400px] bg-slate-500"
+      class="relative flex justify-center items-center w-[400px] mb-20 bg-slate-500"
     >
       <!-- 배경 이미지 -->
       <div class="absolute">
@@ -42,7 +42,7 @@ const { isMobile } = useDevice();
       </div> -->
       <!-- 에스컬레이터 오브젝트 -->
       <div class="absolute bottom-[-80px] start-[11%] w-[45px]">
-        <img
+        <NuxtImg
           class="object"
           src="@/public/img/pokemon/object7.png"
           @click="router.push(isMobile ? '/m/pick' : '/pick')"

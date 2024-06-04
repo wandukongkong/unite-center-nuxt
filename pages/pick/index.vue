@@ -1,5 +1,5 @@
 <script setup>
-import { toRef, onMounted } from "vue";
+import { toRef, onMounted, onBeforeMount } from "vue";
 import { storeToRefs } from "pinia";
 
 // store
@@ -13,6 +13,8 @@ const { isBanEx, isDuplicatedPokemon, selectedMode } =
   storeToRefs(usePickStore());
 
 // state
+const { isMobile } = useDevice();
+const router = useRouter();
 const isLoading = toRef(true);
 const selectedCardList = toRef([]);
 const defaultArray = toRef([]);
@@ -183,6 +185,12 @@ onMounted(() => {
     // });
   }, 1500);
 });
+
+onBeforeMount(() => {
+  if (isMobile) {
+    router.push("/m/pick");
+  }
+});
 </script>
 <template>
   <div class="relative select-none" style="-webkit-user-drag: none">
@@ -222,12 +230,12 @@ onMounted(() => {
       >
         <PokemonCard class="border-8 ring-1 card-back">
           <div class="flex flex-col justify-center items-center">
-            <img
-              src="@/public/img/pokemon/uniteLogo.png"
+            <NuxtImg
+              src="/img/pokemon/uniteLogo.png"
               width="100"
               class="mb-3"
             />
-            <img src="@/public/img/pokemon/monsterball.png" width="60" />
+            <NuxtImg src="/img/pokemon/monsterball.png" width="60" />
           </div>
         </PokemonCard>
       </div>
@@ -260,16 +268,14 @@ onMounted(() => {
       >
         <PokemonCard>
           <div class="absolute top-0 start-0">
-            <img
+            <NuxtImg
               :src="cardInfo.image"
               class="rounded-lg pattern border-[1.4px] border-gray-700 shadow-gray-500 shadow-md"
               style="-webkit-user-drag: none"
               :style="{ backgroundColor: cardInfo.color }"
             />
           </div>
-          <div>
-            {{ cardInfo.name }}
-          </div>
+          <div></div>
         </PokemonCard>
       </div>
       <!-- 아래쪽 카드 영역 -->
@@ -297,16 +303,14 @@ onMounted(() => {
       >
         <PokemonCard>
           <div class="absolute top-0 start-0">
-            <img
+            <NuxtImg
               :src="cardInfo.image"
               class="rounded-lg pattern border-[1.4px] border-gray-700 shadow-gray-500 shadow-md"
               style="-webkit-user-drag: none"
               :style="{ backgroundColor: cardInfo.color }"
             />
           </div>
-          <div>
-            {{ cardInfo.color }}
-          </div>
+          <div></div>
         </PokemonCard>
       </div>
       <!-- 버튼 영역 -->
@@ -505,7 +509,7 @@ onMounted(() => {
           },
         }"
       >
-        <img
+        <NuxtImg
           class="h-[90%]"
           src="@/public/img/versus2.png"
           style="-webkit-user-drag: none"
