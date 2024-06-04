@@ -11,10 +11,20 @@ export default defineNuxtConfig({
     "@vueuse/motion/nuxt",
     "@pinia/nuxt",
     "@pinia-plugin-persistedstate/nuxt",
+    "dayjs-nuxt",
+    "@nuxtjs/device",
   ],
   devtools: { enabled: true },
   vite: {
     plugin: [eslintPlugin()],
+    server: {
+      hmr: {
+        port: 3008,
+      },
+      watch: {
+        usePolling: true,
+      },
+    },
   },
   app: {
     pageTransition: {
@@ -22,4 +32,5 @@ export default defineNuxtConfig({
       mode: "out-in",
     },
   },
+  nitro: {},
 });

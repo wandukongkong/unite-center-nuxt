@@ -1,429 +1,1815 @@
 [
   {
     "name": "Absol",
-    "image": "https://unite.pokemon.com/images/pokemon/absol/roster/roster-absol-2x.png",
+    "nameKo": "앱솔",
+    "image": "/img/unitePokemon/roster-absol-2x.png",
     "color": "#29a5e3",
     "position": "speed",
-    "isEx": false
+    "isEx": false,
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Aegislash",
-    "image": "https://unite.pokemon.com/images/pokemon/aegislash/roster/roster-aegislash-2x.png",
+    "nameKo": "킬가르도",
+    "image": "/img/unitePokemon/roster-aegislash-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+    "updatedList": [
+      {
+        "updatedDate": "2022-02-11",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "아이언헤드",
+            "updatedContents": ["대기 시간: 7초 → 6초"]
+          },
+          {
+            "updatedName": "성스러운칼",
+            "updatedContents": ["대기 시간: 7.5초 → 6.5초"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Azumarill",
-    "image": "https://unite.pokemon.com/images/pokemon/azumarill/roster/roster-azumarill-2x.png",
+    "nameKo": "마릴리",
+    "image": "/img/unitePokemon/roster-azumarill-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2022-04-08",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "바다회오리",
+            "updatedContents": ["대기 시간: 11초 → 10초"]
+          },
+          {
+            "updatedName": "바다회오리+",
+            "updatedContents": ["대기 시간: 9초 → 8초"]
+          },
+          {
+            "updatedName": "유나이트 기술: 거품북대시",
+            "updatedContents": ["상대 팀의 포켓몬만 지정되도록 변경했습니다."]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Blastoise",
-    "image": "https://unite.pokemon.com/images/pokemon/blastoise/roster/roster-blastoise-2x.png",
+    "nameKo": "거북왕",
+    "image": "/img/unitePokemon/roster-blastoise-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-09-01",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "물대포",
+            "updatedContents": ["데미지: 15% 감소"]
+          },
+          {
+            "updatedName": "하이드로펌프",
+            "updatedContents": [
+              "데미지: 10% 감소",
+              "행동 불가 시간: 1초 → 0.6초"
+            ]
+          },
+          {
+            "updatedName": "하이드로펌프+",
+            "updatedContents": ["데미지: 10% 감소"]
+          },
+          {
+            "updatedName": "해수스파우팅",
+            "updatedContents": ["데미지: 10% 감소"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Blissey",
-    "image": "https://unite.pokemon.com/images/pokemon/blissey/roster/roster-blissey-2x.png",
+    "nameKo": "해피너스",
+    "image": "/img/unitePokemon/roster-blissey-2x.png",
     "color": "#fecc51",
     "position": "support",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-08-18",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "도우미",
+            "updatedContents": [
+              "공격 속도 상승량: 30% → 35%",
+              "이동 속도 상승량: 30% → 35%"
+            ]
+          },
+          {
+            "updatedName": "신비의부적",
+            "updatedContents": ["실드 지속 시간: 3초 → 4초"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Buzzwole",
-    "image": "https://unite.pokemon.com/images/pokemon/buzzwole/roster/roster-buzzwole-2x.png",
+    "nameKo": "매시붕",
+    "image": "/img/unitePokemon/roster-buzzwole-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2022-08-04",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "엄청난힘",
+            "updatedContents": ["대기 시간: 7.5초 → 8.5초"]
+          },
+          {
+            "updatedName": "엄청난힘+",
+            "updatedContents": [
+              "변경 전: 머슬 게이지가 가득 차면 해당 기술의 대기 시간이 0초가 된다",
+              "변경 후: 머슬 게이지가 가득 차면 해당 기술의 대기 시간이 3초 감소한다"
+            ]
+          },
+          {
+            "updatedName": "떨어뜨리기",
+            "updatedContents": [
+              "1단계에서 증가하는 머슬 게이지: 2 → 1",
+              "2단계에서 증가하는 머슬 게이지: 2 → 1"
+            ]
+          },
+          {
+            "updatedName": "떨어뜨리기+",
+            "updatedContents": ["2단계에서 증가하는 머슬 게이지: 3 → 2"]
+          },
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              " '떨어뜨리기'로 날려버린 상대를 '엄청난힘'으로 붙잡았을 때, '떨어뜨리기'의 낙하 시 데미지도 발생하는 오류를 수정했습니다."
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Charizard",
-    "image": "https://unite.pokemon.com/images/pokemon/charizard/roster/roster-charizard-2x.png",
+    "nameKo": "리자몽",
+    "image": "/img/unitePokemon/roster-charizard-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": ["데미지: 12% 증가"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Cinderace",
-    "image": "https://unite.pokemon.com/images/pokemon/cinderace/roster/roster-cinderace-2x.png",
+    "nameKo": "에이스번",
+    "image": "/img/unitePokemon/roster-cinderace-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Clefable",
-    "image": "https://unite.pokemon.com/images/pokemon/clefable/roster/roster-clefable-2x.png",
+    "nameKo": "픽시",
+    "image": "/img/unitePokemon/roster-clefable-2x.png",
     "color": "#fecc51",
     "position": "support",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": " 2022-10-13",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": " 2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "달의불빛",
+            "updatedContents": ["HP 회복량: 10%~17% 감소(레벨 4~15)"]
+          },
+          {
+            "updatedName": "중력",
+            "updatedContents": ["대기 시간: 8초 → 9초"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Comfey",
-    "image": "https://unite.pokemon.com/images/pokemon/comfey/roster/roster-comfey-2x.png",
+    "nameKo": "큐아링",
+    "image": "/img/unitePokemon/roster-comfey-2x.png",
     "color": "#fecc51",
     "position": "support",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2023-02-02",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Cramorant",
-    "image": "https://unite.pokemon.com/images/pokemon/cramorant/roster/roster-cramorant-2x.png",
+    "nameKo": "윽우지",
+    "image": "/img/unitePokemon/roster-cramorant-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "다이빙",
+            "updatedContents": ["보유 횟수가 회복되는 시간: 6초 → 5초"]
+          },
+          {
+            "updatedName": "폭풍",
+            "updatedContents": ["데미지: 15% 증가"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Crustle",
-    "image": "https://unite.pokemon.com/images/pokemon/crustle/roster/roster-crustle-2x.png",
+    "nameKo": "암팰리스",
+    "image": "/img/unitePokemon/roster-crustle-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Decidueye",
-    "image": "https://unite.pokemon.com/images/pokemon/decidueye/roster/roster-decidueye-2x.png",
+    "nameKo": "모크나이퍼",
+    "image": "/img/unitePokemon/roster-decidueye-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-11-19",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "잎날가르기",
+            "updatedContents": ["대기 시간: 10초 → 8초"]
+          },
+          {
+            "updatedName": "리프스톰",
+            "updatedContents": [
+              "대기 시간: 6초 → 8초",
+              "데미지: 30% 증가",
+              "감속 효과: 45초% → 60%, 0.5초마다 10% 감소, 최대 4번 감소, 2.5초"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Delphox",
-    "image": "https://unite.pokemon.com/images/pokemon/delphox/roster/roster-delphox-2x.png",
+    "nameKo": "마폭시",
+    "image": "/img/unitePokemon/roster-delphox-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2022-06-09",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "회오리불꽃",
+            "updatedContents": [
+              "회오리 지속 시간: 5초 → 4초",
+              "대기 시간: 7초 → 7.5초"
+            ]
+          },
+          {
+            "updatedName": "불대문자",
+            "updatedContents": ["데미지: 10% 감소", "대기 시간: 6초 → 7초"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Dodrio",
-    "image": "https://unite.pokemon.com/images/pokemon/dodrio/roster/roster-dodrio-2x.png",
+    "nameKo": "두트리오",
+    "image": "/img/unitePokemon/roster-dodrio-2x.png",
     "color": "#29a5e3",
     "position": "speed",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2022-09-15",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Dragapult",
-    "image": "https://unite.pokemon.com/images/pokemon/dragapult/roster/roster-dragapult-2x.png",
+    "nameKo": "드래펄트",
+    "image": "/img/unitePokemon/roster-dragapult-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2022-12-29",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Duraludon",
-    "image": "https://unite.pokemon.com/images/pokemon/duraludon/roster/roster-duraludon-2x.png",
+    "nameKo": "두랄루돈",
+    "image": "/img/unitePokemon/roster-duraludon-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2022-03-14",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Eldegoss",
-    "image": "https://unite.pokemon.com/images/pokemon/eldegoss/roster/roster-eldegoss-2x.png",
+    "nameKo": "백솜모카",
+    "image": "/img/unitePokemon/roster-eldegoss-2x.png",
     "color": "#fecc51",
     "position": "support",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": [
+              "이동 속도를 떨어뜨리는 효과: 30% → 20%",
+              "이동 속도를 떨어뜨리는 시간: 1.5초 → 1초"
+            ]
+          },
+          {
+            "updatedName": "꽃가루경단",
+            "updatedContents": ["데미지: 15% 감소"]
+          },
+          {
+            "updatedName": "꽃가루경단+",
+            "updatedContents": ["감소하는 데미지: 20% → 15%"]
+          },
+          {
+            "updatedName": "유나이트 기술: 솜털의춤",
+            "updatedContents": ["데미지: 13%~17% 감소 (레벨 9~15)"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Espeon",
-    "image": "https://unite.pokemon.com/images/pokemon/espeon/roster/roster-espeon-2x.png",
+    "nameKo": "에브이",
+    "image": "/img/unitePokemon/roster-espeon-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2022-05-16",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "어시스트파워",
+            "updatedContents": ["데미지: 10% 감소"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Garchomp",
-    "image": "https://unite.pokemon.com/images/pokemon/garchomp/roster/roster-garchomp-2x.png",
+    "nameKo": "한카리아스",
+    "image": "/img/unitePokemon/roster-garchomp-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Gardevoir",
-    "image": "https://unite.pokemon.com/images/pokemon/gardevoir/roster/roster-gardevoir-2x.png",
+    "nameKo": "가디안",
+    "image": "/img/unitePokemon/roster-gardevoir-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-29",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Gengar",
-    "image": "https://unite.pokemon.com/images/pokemon/gengar/roster/roster-gengar-2x.png",
+    "nameKo": "팬텀",
+    "image": "/img/unitePokemon/roster-gengar-2x.png",
     "color": "#29a5e3",
     "position": "speed",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "'병상첨병'을 '도깨비불'에 맞힌 직후에 사용하면 기술의 대기 시간이 단축되지 않는 오류를 수정했습니다."
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Glaceon",
-    "image": "https://unite.pokemon.com/images/pokemon/glaceon/roster/roster-glaceon-2x.png",
+    "nameKo": "글레이시아",
+    "image": "/img/unitePokemon/roster-glaceon-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2022-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "얼음뭉치",
+            "updatedContents": ["공격 속도 상승량: 75% → 60%"]
+          },
+          {
+            "updatedName": "고드름침+",
+            "updatedContents": ["HP 양에 따른 데미지: 1% → 0.5%"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "얼음뭉치",
+            "updatedContents": ["이동 속도 상승량: 50% → 40%"]
+          },
+          {
+            "updatedName": "고드름침",
+            "updatedContents": ["데미지: 10% 감소"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Goodra",
-    "image": "https://unite.pokemon.com/images/pokemon/goodra/roster/roster-goodra-2x.png",
+    "nameKo": "미끄래곤",
+    "image": "/img/unitePokemon/roster-goodra-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2023-03-16",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Greedent",
-    "image": "https://unite.pokemon.com/images/pokemon/greedent/roster/roster-greedent-2x.png",
+    "nameKo": "요씽리스",
+    "image": "/img/unitePokemon/roster-greedent-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-10-20",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "씨기관총",
+            "updatedContents": ["데미지: 15% 증가"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "'씨기관총'이 야도란의 유나이트 기술로 중단되지 않는 오류를 수정했습니다."
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Greninja",
-    "image": "https://unite.pokemon.com/images/pokemon/greninja/roster/roster-greninja-2x.png",
+    "nameKo": "개굴닌자",
+    "image": "/img/unitePokemon/roster-greninja-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Hoopa",
-    "image": "https://unite.pokemon.com/images/pokemon/hoopa/roster/roster-hoopa-2x.png",
+    "nameKo": "후파",
+    "image": "/img/unitePokemon/roster-hoopa-2x.png",
     "color": "#fecc51",
     "position": "support",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2022-02-24",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "트릭",
+            "updatedContents": [
+              "실드 양：28%~9% 증가 (레벨 5~15)",
+              "이동 속도를 올리는 시간: 2초 → 3초"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Lucario",
-    "image": "https://unite.pokemon.com/images/pokemon/lucario/roster/roster-lucario-2x.png",
+    "nameKo": "루카리오",
+    "image": "/img/unitePokemon/roster-lucario-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Machamp",
-    "image": "https://unite.pokemon.com/images/pokemon/machamp/roster/roster-machamp-2x.png",
+    "nameKo": "괴력몬",
+    "image": "/img/unitePokemon/roster-machamp-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "능력치",
+            "updatedContents": [
+              "방어: 98~490 → 100~510 (레벨 1~15)",
+              "특수방어: 64~320 → 70~350 (레벨 1~15)"
+            ]
+          },
+          {
+            "updatedName": "지옥의바퀴",
+            "updatedContents": ["데미지: 23% 증가"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Mamoswine",
-    "image": "https://unite.pokemon.com/images/pokemon/mamoswine/roster/roster-mamoswine-2x.png",
+    "nameKo": "맘모꾸리",
+    "image": "/img/unitePokemon/roster-mamoswine-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-09-29",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Mew",
-    "image": "https://unite.pokemon.com/images/pokemon/mew/roster/roster-mew-2x.png",
+    "nameKo": "뮤",
+    "image": "/img/unitePokemon/roster-mew-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2022-09-02",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["특수공격: 90~950 → 90~900(레벨 1~15)"]
+          },
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": ["데미지: 4%~12% 감소(레벨 1~15)"]
+          },
+          {
+            "updatedName": "유나이트 기술: 미스틱미라지",
+            "updatedContents": ["데미지: 11%~12% 감소(레벨 9~15)"]
+          }
+        ]
+      }
+    ]
   },
   {
-    "name": "Mr. Mime",
-    "image": "https://unite.pokemon.com/images/pokemon/mr-mime/roster/roster-mr-mime-2x.png",
+    "name": "Mr.Mime",
+    "nameKo": "마임맨",
+    "image": "/img/unitePokemon/roster-mr-mime-2x.png",
     "color": "#fecc51",
     "position": "support",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Alolan-ninetales",
-    "image": "https://unite.pokemon.com/images/pokemon/alolan-ninetales/roster/roster-alolan-ninetales-2x.png",
+    "nameKo": "알로라 나인테일",
+    "image": "/img/unitePokemon/roster-alolan-ninetales-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Pikachu",
-    "image": "https://unite.pokemon.com/images/pokemon/pikachu/roster/roster-pikachu-2x.png",
+    "nameKo": "피카츄",
+    "image": "/img/unitePokemon/roster-pikachu-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Sableye",
-    "image": "https://unite.pokemon.com/images/pokemon/sableye/roster/roster-sableye-2x.png",
+    "nameKo": "깜까미",
+    "image": "/img/unitePokemon/roster-sableye-2x.png",
     "color": "#fecc51",
     "position": "support",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2022-11-16",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Scizor",
-    "image": "https://unite.pokemon.com/images/pokemon/scizor/roster/roster-scizor-2x.png",
+    "nameKo": "핫삼",
+    "image": "/img/unitePokemon/roster-scizor-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2022-09-29",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "칼춤",
+            "updatedContents": ["공격 상승량: 12% → 20%"]
+          },
+          {
+            "updatedName": "더블어택",
+            "updatedContents": ["데미지: 10% 증가"]
+          },
+          {
+            "updatedName": "강화 공격(스라크)",
+            "updatedContents": [
+              "이동 속도 상승량: 35% → 40%",
+              "이동 속도 상승의 지속 시간: 2초 → 3초"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Slowbro",
-    "image": "https://unite.pokemon.com/images/pokemon/slowbro/roster/roster-slowbro-2x.png",
+    "nameKo": "야도란",
+    "image": "/img/unitePokemon/roster-slowbro-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Snorlax",
-    "image": "https://unite.pokemon.com/images/pokemon/snorlax/roster/roster-snorlax-2x.png",
+    "nameKo": "잠만보",
+    "image": "/img/unitePokemon/roster-snorlax-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "블록",
+            "updatedContents": [
+              "자신의 이동 속도 감소 효과: 45% → 30%",
+              "실드 양: 50% 증가"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Sylveon",
-    "image": "https://unite.pokemon.com/images/pokemon/sylveon/roster/roster-sylveon-2x.png",
+    "nameKo": "님피아",
+    "image": "/img/unitePokemon/roster-sylveon-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-10-06",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Talonflame",
-    "image": "https://unite.pokemon.com/images/pokemon/talonflame/roster/roster-talonflame-2x.png",
+    "nameKo": "파이어로",
+    "image": "/img/unitePokemon/roster-talonflame-2x.png",
     "color": "#29a5e3",
     "position": "speed",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Trevenant",
-    "image": "https://unite.pokemon.com/images/pokemon/trevenant/roster/roster-trevenant-2x.png",
+    "nameKo": "대로트",
+    "image": "/img/unitePokemon/roster-trevenant-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2022-01-20",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "'우드혼'이 상대 포켓몬의 위치에 따라서 마지막 날려버리기가 맞지 않는 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "'우드혼'으로 날려버리는 거리가 의도하지 않은 거리로 설정되어 있던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Tsareena",
-    "image": "https://unite.pokemon.com/images/pokemon/tsareena/roster/roster-tsareena-2x.png",
+    "nameKo": "달코퀸",
+    "image": "/img/unitePokemon/roster-tsareena-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-12-09",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Tyranitar",
-    "image": "https://unite.pokemon.com/images/pokemon/tyranitar/roster/roster-tyranitar-2x.png",
+    "nameKo": "마기라스",
+    "image": "/img/unitePokemon/roster-tyranitar-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2022-08-16",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "HP: 3150~8800 → 3300~8800(레벨 1~15)",
+              "방어: 90~500 → 110~500(레벨 1~15)",
+              "특수방어: 75~375 → 90~375(레벨 1~15)"
+            ]
+          },
+          {
+            "updatedName": "스톤에지",
+            "updatedContents": ["첫번째, 두번째 기술 모션이 빨라졌습니다."]
+          },
+          {
+            "updatedName": "모래지옥",
+            "updatedContents": [
+              "두번째 사용할 수 있게 되기까지의 시간이 짧아졌습니다.",
+              "행동 불가 효과: 1초 → 1.5초",
+              "모래 먼지로 주는 감속 효과: 25% → 35%"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Urshifu",
-    "image": "https://unite.pokemon.com/images/pokemon/urshifu/roster/roster-urshifu-2x.png",
+    "nameKo": "우라오스",
+    "image": "/img/unitePokemon/roster-urshifu-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2022-12-01",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Venusaur",
-    "image": "https://unite.pokemon.com/images/pokemon/venusaur/roster/roster-venusaur-2x.png",
+    "nameKo": "이상해꽃",
+    "image": "/img/unitePokemon/roster-venusaur-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Wigglytuff",
-    "image": "https://unite.pokemon.com/images/pokemon/wigglytuff/roster/roster-wigglytuff-2x.png",
+    "nameKo": "푸크린",
+    "image": "/img/unitePokemon/roster-wigglytuff-2x.png",
     "color": "#fecc51",
     "position": "support",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Zacian",
-    "image": "https://unite.pokemon.com/images/pokemon/zacian/roster/roster-zacian-2x.png",
+    "nameKo": "자시안",
+    "image": "/img/unitePokemon/roster-zacian-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": true
+    "isEx": true,
+    "updatedList": [
+      {
+        "updatedDate": "2023-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Zeraora",
-    "image": "https://unite.pokemon.com/images/pokemon/zeraora/roster/roster-zeraora-2x.png",
+    "nameKo": "제라오라",
+    "image": "/img/unitePokemon/roster-zeraora-2x.png",
     "color": "#29a5e3",
     "position": "speed",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "'와일드볼트+'의 데미지 판정이 발동한 장소에 계속 남아있는 오류를 수정했습니다."
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Zoroark",
-    "image": "https://unite.pokemon.com/images/pokemon/zoroark/roster/roster-zoroark-2x.png",
+    "nameKo": "조로아크",
+    "image": "/img/unitePokemon/roster-zoroark-2x.png",
     "color": "#29a5e3",
     "position": "speed",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "깜짝베기",
+            "updatedContents": [
+              "데미지: 15% 감소",
+              "대기 시간: 8초 → 9초",
+              "날아오른 뒤의 공격에 의한 회복량: 20% 감소"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Lapras",
-    "image": "https://unite.pokemon.com/images/pokemon/lapras/roster/roster-lapras-2x.png",
+    "nameKo": "라프라스",
+    "image": "/img/unitePokemon/roster-lapras-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2023-04-13",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Chandelure",
-    "image": "https://unite.pokemon.com/images/pokemon/chandelure/roster/roster-chandelure-2x.png",
+    "nameKo": "샹델라",
+    "image": "/img/unitePokemon/roster-chandelure-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2023-04-27",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Umbreon",
-    "image": "https://unite.pokemon.com/images/pokemon/umbreon/roster/roster-umbreon-2x.png",
+    "nameKo": "블래키",
+    "image": "/img/unitePokemon/roster-umbreon-2x.png",
     "color": "#aced5b",
     "position": "defence",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2023-05-25",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "바크아웃",
+            "updatedContents": ["공격과 특수공격 감소량: 25% 감소"]
+          },
+          {
+            "updatedName": "검은눈빛",
+            "updatedContents": [
+              "기술이 닿는 범위: 5m → 4m",
+              "대기 시간: 8초 → 9초"
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "능력치",
+            "updatedContents": [
+              "방어: 95~500 → 85~500 (레벨 1~15)",
+              "특수방어: 70~400 → 60~400 (레벨 1~15)"
+            ]
+          },
+          {
+            "updatedName": "희망사항",
+            "updatedContents": ["HP 회복량: 20% 증가"]
+          },
+          {
+            "updatedName": "속임수",
+            "updatedContents": [
+              "이동 속도를 떨어뜨리는 효과: 25% → 30%",
+              "이동 속도를 떨어뜨리는 시간: 2초 → 2.5초",
+              "2단계 데미지: 20% 증가"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Leafeon",
-    "image": "https://unite.pokemon.com/images/pokemon/leafeon/roster/roster-leafeon-2x.png",
+    "nameKo": "리피아",
+    "image": "/img/unitePokemon/roster-leafeon-2x.png",
     "color": "#29a5e3",
     "position": "speed",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2023-06-08",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "'제비반환'을 사용한 뒤, 다음 일반 공격을 한 직후에 대기 시간 없이 일반 공격을 사용할 수 있었던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Inteleon",
-    "image": "https://unite.pokemon.com/images/pokemon/inteleon/roster/roster-inteleon-2x.png",
+    "nameKo": "인텔리레온",
+    "image": "/img/unitePokemon/roster-inteleon-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2023-07-04",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "노려맞히기",
+            "updatedContents": ["데미지: 10%~7% 감소(레벨 5~15)"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Mewtwo",
-    "image": "https://unite.pokemon.com/images/pokemon/mewtwo/roster/roster-mewtwo-2x.png",
+    "nameKo": "뮤츠",
+    "image": "/img/unitePokemon/roster-mewtwo-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": true
+    "isEx": true,
+    "updatedList": [
+      {
+        "updatedDate": "2023-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["X 출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-08-17",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["Y 출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Blaziken",
-    "image": "https://unite.pokemon.com/images/pokemon/blaziken/roster/roster-blaziken.png",
+    "nameKo": "번치코",
+    "image": "/img/unitePokemon/roster-blaziken-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2023-09-15",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "'오버히트'로 힘을 모으는 동안 공격 방향을 변경할 수 있는 오류를 수정했습니다."
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Mimikyu",
-    "image": "https://unite.pokemon.com/images/pokemon/mimikyu/roster/roster-mimikyu.png",
+    "nameKo": "따라큐",
+    "image": "/img/unitePokemon/roster-mimikyu-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2023-10-19",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Meowscarada",
-    "image": "https://unite.pokemon.com/images/pokemon/meowscarada/roster/roster-meowscarada.png",
+    "nameKo": "마스카나",
+    "image": "/img/unitePokemon/roster-meowscarada-2x.png",
     "color": "#29a5e3",
     "position": "speed",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2023-12-07",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "능력치",
+            "updatedContents": ["공격: 160~660 → 160~630 (레벨 1~15)"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Metagross",
-    "image": "https://unite.pokemon.com/images/pokemon/metagross/roster/roster-metagross.png",
+    "nameKo": "메타그로스",
+    "image": "/img/unitePokemon/roster-metagross-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2023-12-26",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "자이로볼",
+            "updatedContents": ["데미지: 10% 증가"]
+          },
+          {
+            "updatedName": "사념의박치기",
+            "updatedContents": ["데미지: 13% 증가"]
+          },
+          {
+            "updatedName": "유나이트 기술: 서치X크래시",
+            "updatedContents": ["데미지: 15% 증가"]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Gyarados",
-    "image": "https://unite.pokemon.com/images/pokemon/gyarados/roster/roster-gyarados.png",
+    "nameKo": "갸라도스",
+    "image": "/img/unitePokemon/roster-gyarados-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": false
+    "isEx": false,
+    "updatedList": [
+      {
+        "updatedDate": "2024-01-25",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "폭포오르기",
+            "updatedContents": ["돌격 간 간격: 0.3초 → 0.07초"]
+          },
+          {
+            "updatedName": "아쿠아테일",
+            "updatedContents": ["꼬리를 휘둘렀을 때 전진하는 거리: 1m → 0.5m"]
+          },
+          {
+            "updatedName": "뛰어오르기",
+            "updatedContents": [
+              "명중했을 때 상대 포켓몬을 날려버리는 효과를 추가했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-05-13",
+        "updatedContentList": [
+          {
+            "updatedName": "유나이트 기술: 비룡승운",
+            "updatedContents": ["필요한 에너지양: 25% 감소"]
+          },
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "일반 공격을 헛친 상태로 노력 게이지가 최대가 되어 갸라도스로 진화하면 경기 종료까지 일반 공격이 잉어킹인 상태였던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Miraidon",
-    "image": "https://unite.pokemon.com/images/pokemon/miraidon/roster/roster-miraidon.png",
+    "nameKo": "미라이돈",
+    "image": "/img/unitePokemon/roster-miraidon-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": true
+    "isEx": true,
+    "updatedList": [
+      {
+        "updatedDate": "2024-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-03-12",
+        "updatedContentList": [
+          {
+            "updatedName": "차지빔",
+            "updatedContents": ["데미지: 13%~16% 감소(레벨 5~15)"]
+          },
+          {
+            "updatedName": "번개",
+            "updatedContents": [
+              "대기 시간: 8초 → 10초",
+              "이동 속도를 떨어뜨리는 효과: 30% → 10%"
+            ]
+          },
+          {
+            "updatedName": "번개+",
+            "updatedContents": ["이동 속도를 떨어뜨리는 효과: 50%→ 20%"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "강화된 '라이트닝드라이브'를 충전하는 동안에 대상이 KO 당했을 때 뒤로 워프하는 오류를 수정했습니다."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Falinks",
+    "nameKo": "대여르",
+    "image": "/img/unitePokemon/roster-falinks-2x.png",
+    "color": "#ce5fd3",
+    "position": "balance",
+    "isEx": true,
+    "updatedList": [
+      {
+        "updatedDate": "2024-04-25",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -166,6 +166,11 @@ const clickCardDeck = (cardInfo) => {
   defaultArray.value = defaultArray.value.slice(0, -1);
 };
 
+// 이미지 동적 import
+const getPokemonImage = (imageUrl) => {
+  return new URL(imageUrl);
+};
+
 onMounted(() => {
   // defaultArray.value = defaultCardList.value;
   resetCardDeck();
@@ -226,7 +231,7 @@ onMounted(() => {
           </div>
         </PokemonCard>
       </div>
-      <!-- TODO: 위쪽 카드 영역 -->
+      <!-- 위쪽 카드 영역 -->
       <div
         v-for="(cardInfo, index) in selectedCardList.slice(0, 5)"
         :key="index"
@@ -263,11 +268,11 @@ onMounted(() => {
             />
           </div>
           <div>
-            {{ cardInfo.color }}
+            {{ cardInfo.name }}
           </div>
         </PokemonCard>
       </div>
-      <!-- TODO: 아래쪽 카드 영역 -->
+      <!-- 아래쪽 카드 영역 -->
       <div
         v-for="(cardInfo, index) in selectedCardList.slice(5, 10)"
         :key="index"
@@ -304,7 +309,7 @@ onMounted(() => {
           </div>
         </PokemonCard>
       </div>
-      <!-- TODO: 버튼 영역 -->
+      <!-- 버튼 영역 -->
       <div
         class="absolute flex flex-col items-center opacity-0"
         v-motion
@@ -479,7 +484,7 @@ onMounted(() => {
           </div>
         </div>
       </div>
-      <!-- TODO: 중앙 versus 영역 -->
+      <!-- 중앙 versus 영역 -->
       <div
         v-if="selectedCardList.length > 9"
         class="absolute"
@@ -501,8 +506,8 @@ onMounted(() => {
         }"
       >
         <img
-          class="h-[90%] shadow-lg"
-          src="../../public/img/versus2.png"
+          class="h-[90%]"
+          src="@/public/img/versus2.png"
           style="-webkit-user-drag: none"
         />
       </div>
@@ -527,18 +532,9 @@ onMounted(() => {
   position: absolute;
 }
 
-.pattern {
-  background-image: url("https://unite.pokemon.com/images/common/square-pattern-30.svg"),
-    linear-gradient(180deg, rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 38%);
-  background-size: 120px, auto;
-  background-position:
-    center,
-    left top;
-}
-
 .card-back {
   /* background: linear-gradient(-45deg, #ca9ccb 50%, #e8ceb0 50%); */
-  background-image: url("https://unite.pokemon.com/images/common/square-pattern-30.svg");
+  background-image: url("@/public/svg/square-pattern.svg");
   background-size: 120px, auto;
   background-position:
     center,

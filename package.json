@@ -11,9 +11,12 @@
   },
   "dependencies": {
     "@nuxt/ui": "^2.15.1",
+    "@nuxtjs/device": "^3.1.1",
     "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
     "@pinia/nuxt": "^0.5.1",
     "@vueuse/motion": "^2.1.0",
+    "dayjs": "^1.11.11",
+    "dayjs-nuxt": "^2.1.9",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
