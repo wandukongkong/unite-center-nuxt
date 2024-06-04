@@ -10,9 +10,9 @@ const { isMobile } = useDevice();
       <!-- 배경 이미지 -->
       <div class="absolute">
         <div class="flex justify-center">
-          <img src="@/public/img/pokemon/uniteCenterLogo.png" width="60%" />
+          <NuxtImg src="/img/pokemon/uniteCenterLogo.png" width="60%" />
         </div>
-        <img src="@/public/img/pokemon/pokemoncenter.png" />
+        <NuxtImg src="/img/pokemon/pokemoncenter.png" />
       </div>
       <!-- 컴퓨터 오브젝트 -->
       <!-- <div class="absolute top-[14.4%] end-[28.2%]">
@@ -44,7 +44,7 @@ const { isMobile } = useDevice();
       <div class="absolute bottom-[-80px] start-[11%] w-[45px]">
         <NuxtImg
           class="object"
-          src="@/public/img/pokemon/object7.png"
+          src="/img/pokemon/object7.png"
           @click="router.push(isMobile ? '/m/pick' : '/pick')"
         />
       </div>
