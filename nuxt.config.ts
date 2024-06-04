@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     "@pinia-plugin-persistedstate/nuxt",
     "dayjs-nuxt",
     "@nuxtjs/device",
+    "@nuxt/image"
   ],
   devtools: { enabled: true },
   vite: {

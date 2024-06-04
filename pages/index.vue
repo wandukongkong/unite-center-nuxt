@@ -1,3 +1,15 @@
+<script setup>
+import { onBeforeMount } from "vue";
+
+const router = useRouter();
+const { isMobile } = useDevice();
+
+onBeforeMount(() => {
+  if (isMobile) {
+    router.push("/m");
+  }
+});
+</script>
 <template>
   <div class="min-h-screen flex flex-col justify-center items-center">
     <div class="relative flex justify-center w-[1200px] h-[800px]">
@@ -45,9 +57,7 @@
     </div>
   </div>
 </template>
-<script setup>
-const router = useRouter();
-</script>
+
 <style lang="css">
 .object {
   transition: transform 0.1s;
