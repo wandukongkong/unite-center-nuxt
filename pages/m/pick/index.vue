@@ -223,7 +223,7 @@ onMounted(() => {
           }
         "
       >
-        <PokemonCard class="border-8 ring-1 card-back">
+        <PokemonCard class="border-8 ring-1 card-back bg-white">
           <div class="flex flex-col justify-center items-center">
             <img
               src="@/public/img/pokemon/uniteLogo.png"
@@ -261,7 +261,7 @@ onMounted(() => {
           },
         }"
       >
-        <PokemonCard>
+        <PokemonCard class="bg-white">
           <div class="absolute top-0 start-0">
             <img
               :src="cardInfo.image"
@@ -298,7 +298,7 @@ onMounted(() => {
           },
         }"
       >
-        <PokemonCard>
+        <PokemonCard class="bg-white">
           <div class="absolute top-0 start-0">
             <img
               :src="cardInfo.image"
@@ -351,7 +351,7 @@ onMounted(() => {
                 trailing-icon="i-heroicons-cog-6-tooth"
               />
               <template #panel>
-                <div class="relative">
+                <div class="relative bg-white">
                   <div class="px-4 py-2 flex flex-col">
                     <small class="truncate me-14 mb-2 opacity-[0.4]"
                       >Position Mode</small
@@ -359,7 +359,8 @@ onMounted(() => {
                     <div class="flex flex-wrap justify-start">
                       <UTooltip text="Default">
                         <UButton
-                          class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          class="hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          color="transparent"
                           :class="
                             selectedMode === 'default' ? 'bg-[#ececec]' : ''
                           "
@@ -374,7 +375,8 @@ onMounted(() => {
                       </UTooltip>
                       <UTooltip text="Attack">
                         <UButton
-                          class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          class="hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          color="transparent"
                           :class="
                             selectedMode === 'attack' ? 'bg-[#ececec]' : ''
                           "
@@ -389,7 +391,8 @@ onMounted(() => {
                       </UTooltip>
                       <UTooltip text="Support">
                         <UButton
-                          class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          class="hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          color="transparent"
                           :class="
                             selectedMode === 'support' ? 'bg-[#ececec]' : ''
                           "
@@ -404,7 +407,8 @@ onMounted(() => {
                       </UTooltip>
                       <UTooltip text="Balance">
                         <UButton
-                          class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          class="hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          color="transparent"
                           :class="
                             selectedMode === 'balance' ? 'bg-[#ececec]' : ''
                           "
@@ -419,7 +423,8 @@ onMounted(() => {
                       </UTooltip>
                       <UTooltip text="Speed">
                         <UButton
-                          class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          class="hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          color="transparent"
                           :class="
                             selectedMode === 'speed' ? 'bg-[#ececec]' : ''
                           "
@@ -434,7 +439,8 @@ onMounted(() => {
                       </UTooltip>
                       <UTooltip text="Defence">
                         <UButton
-                          class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          class="hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          color="transparent"
                           :class="
                             selectedMode === 'Defence' ? 'bg-[#ececec]' : ''
                           "

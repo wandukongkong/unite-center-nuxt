@@ -19,32 +19,33 @@ const isOpenMenu = toRef(false);
       "
     />
     <USlideover v-model="isOpenMenu" side="left">
-      <div class="flex justify-end p-2 bg-white">
-        <UButton
-          class="hover:bg-slate-200 border text-slate-800"
-          color="transparent"
-          trailing-icon="i-heroicons-x-mark-16-solid"
-          @click="
-            () => {
-              isOpenMenu = false;
-            }
-          "
-        />
-      </div>
-      <div class="p-5">
-        <UButton
-          class="w-[100%] text-black hover:bg-slate-100 mb-3"
-          color="transparent"
-          @click="
-            () => {
-              router.push(isMobile ? '/m' : '/');
-              isOpenMenu = false;
-            }
-          "
-        >
-          Home
-        </UButton>
-        <!-- <UButton
+      <div class="h-[100%] bg-white">
+        <div class="flex justify-end p-2">
+          <UButton
+            class="hover:bg-slate-200 border text-slate-800"
+            color="transparent"
+            trailing-icon="i-heroicons-x-mark-16-solid"
+            @click="
+              () => {
+                isOpenMenu = false;
+              }
+            "
+          />
+        </div>
+        <div class="p-5">
+          <UButton
+            class="w-[100%] text-black hover:bg-slate-100 mb-3"
+            color="transparent"
+            @click="
+              () => {
+                router.push(isMobile ? '/m' : '/');
+                isOpenMenu = false;
+              }
+            "
+          >
+            Home
+          </UButton>
+          <!-- <UButton
           class="w-[100%] bg-transparent text-black hover:bg-slate-100 mb-3"
           @click="
             () => {
@@ -55,27 +56,26 @@ const isOpenMenu = toRef(false);
         >
           Pokemon
         </UButton> -->
-        <UButton
-          class="w-[100%] text-black hover:bg-slate-100 mb-3"
-          color="transparent"
-          @click="
-            () => {
-              router.push(isMobile ? '/m/pick' : '/pick');
-              // if (isMobile) {
-              //   router.push('/m/pick');
-              // } else {
-              //   router.push('/pick');
-              // }
+          <UButton
+            class="w-[100%] text-black hover:bg-slate-100 mb-3"
+            color="transparent"
+            @click="
+              () => {
+                router.push(isMobile ? '/m/pick' : '/pick');
+                // if (isMobile) {
+                //   router.push('/m/pick');
+                // } else {
+                //   router.push('/pick');
+                // }
 
-              isOpenMenu = false;
-            }
-          "
-        >
-          Random Pick
-        </UButton>
+                isOpenMenu = false;
+              }
+            "
+          >
+            Random Pick
+          </UButton>
+        </div>
       </div>
-
-      <Placeholder class="h-full" />
     </USlideover>
   </div>
 </template>
