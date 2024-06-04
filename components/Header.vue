@@ -2,6 +2,7 @@
 import { toRef } from "vue";
 
 const router = useRouter();
+const { isMobile } = useDevice();
 
 const isOpenMenu = toRef(false);
 </script>
@@ -33,14 +34,14 @@ const isOpenMenu = toRef(false);
           class="w-[100%] bg-transparent text-black hover:bg-slate-100 mb-3"
           @click="
             () => {
-              router.push('/');
+              router.push(isMobile ? '/m' : '/');
               isOpenMenu = false;
             }
           "
         >
           Home
         </UButton>
-        <UButton
+        <!-- <UButton
           class="w-[100%] bg-transparent text-black hover:bg-slate-100 mb-3"
           @click="
             () => {
@@ -50,12 +51,18 @@ const isOpenMenu = toRef(false);
           "
         >
           Pokemon
-        </UButton>
+        </UButton> -->
         <UButton
           class="w-[100%] bg-transparent text-black hover:bg-slate-100 mb-3"
           @click="
             () => {
-              router.push('/pick');
+              router.push(isMobile ? '/m/pick' : '/pick');
+              // if (isMobile) {
+              //   router.push('/m/pick');
+              // } else {
+              //   router.push('/pick');
+              // }
+
               isOpenMenu = false;
             }
           "
