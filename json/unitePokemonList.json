@@ -412,6 +412,26 @@
             "updatedContents": ["이동 속도 상승량: 25% → 40%"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-05-11",
+        "updatedContentList": [
+          {
+            "updatedName": "화염볼",
+            "updatedContents": ["데미지: 23% 증가"]
+          },
+          {
+            "updatedName": "페인트",
+            "updatedContents": ["대기 시간: 11초 → 9초"]
+          },
+          {
+            "updatedName": "유나이트 기술: 블레이즈스트라이크",
+            "updatedContents": [
+              "필요한 유나이트 기술 게이지: 약 25% 감소",
+              "기술 사용 후에 방해 무효 효과를 얻게 됩니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -497,6 +517,25 @@
             "updatedName": "특성: 힐링시프트",
             "updatedContents": [
               "조로아크가 '특성: 일루전'을 사용했을 때 감싼 상태가 해제되어 버리는 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-05-11",
+        "updatedContentList": [
+          {
+            "updatedName": "플라워힐",
+            "updatedContents": [
+              "꽃을 소모하지 않는 기초 회복량: 15% 감소",
+              "'유나이트 기술: 힐링기프트'로 강화되는 회복 효과: 50% → 30%"
+            ]
+          },
+          {
+            "updatedName": "매지컬리프",
+            "updatedContents": [
+              "데미지: 25% 감소",
+              "행동할 수 없게 만드는 시간: 0.75초 → 0.5초"
             ]
           }
         ]
@@ -1001,6 +1040,15 @@
             "updatedContents": ["데미지: 10% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-05-11",
+        "updatedContentList": [
+          {
+            "updatedName": "사이코쇼크",
+            "updatedContents": ["데미지: 17% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -1197,6 +1245,29 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-05-11",
+        "updatedContentList": [
+          {
+            "updatedName": "고드름침",
+            "updatedContents": ["대기 시간: 5.5초 → 5초", "데미지: 8% 증가"]
+          },
+          {
+            "updatedName": "얼음뭉치",
+            "updatedContents": [
+              "공격 속도 상승량: 25% → 50%",
+              "효과 시간: 2초 → 2.5초"
+            ]
+          },
+          {
+            "updatedName": "얼음뭉치+",
+            "updatedContents": [
+              "공격 속도 상승량: 50% → 65%",
+              "효과 시간: 2초 → 2.5초"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1242,6 +1313,19 @@
             "updatedContents": [
               "이동 속도 감소량: 40% → 80%(0.5초 마다 15% 감소)"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-05-11",
+        "updatedContentList": [
+          {
+            "updatedName": "용의파동",
+            "updatedContents": ["회복량: 기초 회복량을 추가하였습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 비야비야내려라",
+            "updatedContents": ["필요한 유나이트 기술 게이지: 약 20% 감소"]
           }
         ]
       }
@@ -1694,6 +1778,19 @@
             "updatedContents": ["대기 시간: 7초 → 8초"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-05-11",
+        "updatedContentList": [
+          {
+            "updatedName": "눈보라",
+            "updatedContents": ["대기 시간: 9초 → 7초", "감속 효과: 20% → 35%"]
+          },
+          {
+            "updatedName": "유나이트 기술: 서클네주",
+            "updatedContents": ["필요한 유나이트 기술 게이지: 약 20% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -1818,6 +1915,21 @@
               "이동 속도 상승량: 35% → 40%",
               "이동 속도 상승의 지속 시간: 2초 → 3초"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-05-11",
+        "updatedContentList": [
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": [
+              "방어가 오르는 효과: 25% → 40%(최대 75% → 120%)"
+            ]
+          },
+          {
+            "updatedName": "불릿펀치",
+            "updatedContents": ["대기 시간: 6초 → 5초"]
           }
         ]
       }
@@ -2741,6 +2853,15 @@
             "updatedContents": [
               "골로 돌아가는 같은 편 포켓몬을 태운 다음, 그 같은 편 포켓몬의 이동 속도가 오른 채로 유지되던 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-05-11",
+        "updatedContentList": [
+          {
+            "updatedName": "물의파동",
+            "updatedContents": ["데미지: 15% 감소"]
           }
         ]
       }
