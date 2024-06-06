@@ -282,6 +282,22 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-01-09",
+        "updatedContentList": [
+          {
+            "updatedName": "불꽃세례",
+            "updatedContents": [
+              "데미지: 30% 증가",
+              "화상 효과 데미지: 100% 증가"
+            ]
+          },
+          {
+            "updatedName": "페인트",
+            "updatedContents": ["이동 속도 상승량: 25% → 40%"]
+          }
+        ]
       }
     ]
   },
@@ -499,6 +515,19 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-01-09",
+        "updatedContentList": [
+          {
+            "updatedName": "회전부리",
+            "updatedContents": ["데미지: 10% 감소"]
+          },
+          {
+            "updatedName": "유나이트 기술: 조맹돌진",
+            "updatedContents": ["공격 상승량: 30% → 25%"]
+          }
+        ]
       }
     ]
   },
@@ -663,6 +692,19 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-01-09",
+        "updatedContentList": [
+          {
+            "updatedName": "순간이동",
+            "updatedContents": ["대기 시간: 11초 → 9초"]
+          },
+          {
+            "updatedName": "유나이트 기술: 페어리보이드",
+            "updatedContents": ["필요한 에너지양: 20% 감소"]
           }
         ]
       }
@@ -1176,6 +1218,19 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-01-09",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["특수공격: 50~680 → 70~720(레벨 1~15)"]
+          },
+          {
+            "updatedName": "유나이트 기술: 페어리하모니",
+            "updatedContents": ["필요한 에너지양: 20% 증가", "데미지: 20% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -1413,6 +1468,29 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-01-09",
+        "updatedContentList": [
+          {
+            "updatedName": "노래하기",
+            "updatedContents": [
+              "방어/특수방어를 떨어뜨리는 효과: 25%(1.25초) → 35%(1.5초)",
+              "이동 속도를 떨어뜨리는 효과: 10% → 15%"
+            ]
+          },
+          {
+            "updatedName": "노래하기+",
+            "updatedContents": [
+              "방어/특수방어를 떨어뜨리는 효과: 25%(1.5초) → 35%(1.75초)",
+              "이동 속도를 떨어뜨리는 효과: 10% → 15%"
+            ]
+          },
+          {
+            "updatedName": "매지컬샤인",
+            "updatedContents": ["데미지: 6~18% 증가(레벨 6~15)"]
+          }
+        ]
       }
     ]
   },
@@ -1456,6 +1534,31 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-01-09",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "공격: 190~560 → 160~530(레벨 1~15)",
+              "급소율(레벨 2~4): 5% → 0%",
+              "급소율(레벨 5~8): 15% → 5%",
+              "급소율(레벨 9~15): 25% → 10%"
+            ]
+          },
+          {
+            "updatedName": "일반 공격(3단계)",
+            "updatedContents": [
+              "이동 속도를 떨어뜨리는 효과: 20% → 15%",
+              "이동 속도를 떨어뜨리는 효과의 지속 시간: 2초 → 1초"
+            ]
+          },
+          {
+            "updatedName": "메탈클로",
+            "updatedContents": ["데미지: 20% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -1485,6 +1588,19 @@
             "updatedContents": [
               "'와일드볼트+'의 데미지 판정이 발동한 장소에 계속 남아있는 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-01-09",
+        "updatedContentList": [
+          {
+            "updatedName": "볼트체인지",
+            "updatedContents": ["데미지: 20% 증가"]
+          },
+          {
+            "updatedName": "와일드볼트",
+            "updatedContents": ["데미지: 13% 증가"]
           }
         ]
       }
@@ -1538,6 +1654,23 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-01-09",
+        "updatedContentList": [
+          {
+            "updatedName": "냉동빔",
+            "updatedContents": ["얼어붙은 지면이 주는 데미지: 20% 감소"]
+          },
+          {
+            "updatedName": "물의파동",
+            "updatedContents": ["1번째 파동의 데미지: 12% 감소"]
+          },
+          {
+            "updatedName": "유나이트 기술: 라이드온!라프라스",
+            "updatedContents": ["필요한 에너지양: 25% 증가"]
           }
         ]
       }
@@ -1906,6 +2039,88 @@
           {
             "updatedName": "유나이트 기술: 서치X크래시",
             "updatedContents": ["데미지: 15% 증가"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-01-15",
+        "updatedContentList": [
+          {
+            "updatedName": "자이로볼",
+            "updatedContents": [
+              "데미지: 비정상적인 데미지를 주고 있어 수정했습니다"
+            ]
+          },
+          {
+            "updatedName": "전자부유",
+            "updatedContents": [
+              "대기 시간: 8초 → 9초",
+              "이동 속도 상승: 80% → 60%",
+              "지속 시간: 5초 →4초",
+              "기술을 사용한 후 강화 공격 데미지: 30% 감소"
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 서치X크래시",
+            "updatedContents": [
+              "기술을 발동했음에도 불구하고 유나이트 기술 게이지를 90% 회복하는 오류를 수정했습니다.",
+              "발생한 벽을 없앴음에도 불구하고, 보이지 않는 벽이 계속 남는 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-01-09",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "방어: 90~505 → 90~550",
+              "특수방어: 70~370~70~410"
+            ]
+          },
+          {
+            "updatedName": "철벽",
+            "updatedContents": [
+              "실드: 100% 증가",
+              "기술을 사용한 후 강화 공격 데미지: 30% 증가"
+            ]
+          },
+          {
+            "updatedName": "코멧펀치",
+            "updatedContents": [
+              "대기 시간: 11초 → 8초",
+              "실드: 20% 증가",
+              "실드 지속 시간: 3초 → 5초"
+            ]
+          },
+          {
+            "updatedName": "사념의박치기",
+            "updatedContents": ["대기 시간: 6초 → 5초"]
+          },
+          {
+            "updatedName": "자이로볼",
+            "updatedContents": [
+              "대기 시간: 5초 → 4초",
+              "데미지: 30% 증가",
+              "실드: 30% 증가",
+              "실드 지속 시간: 3초 → 4초"
+            ]
+          },
+          {
+            "updatedName": "전자부유",
+            "updatedContents": [
+              "대기 시간: 10초 → 8초",
+              "이동 속도 상승: 60% → 80%"
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 서치X크래시",
+            "updatedContents": [
+              "필요한 에너지양: 약 16% 감소",
+              "상대 1마리를 노렸을 때 데미지: 30% 증가",
+              "벽을 만들 때 데미지: 20% 증가"
+            ]
           }
         ]
       }
