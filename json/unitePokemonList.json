@@ -15,6 +15,23 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-10-18",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격: 140~610 → 140~670"]
+          },
+          {
+            "updatedName": "기습",
+            "updatedContents": ["대기 시간: 6초 → 5초"]
+          },
+          {
+            "updatedName": "유나이트 기술: 다크슬래셔",
+            "updatedContents": ["필요한 유나이트 기술 게이지: 25% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -187,6 +204,26 @@
           {
             "updatedName": "신비의부적",
             "updatedContents": ["실드: 14% 증가"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-10-18",
+        "updatedContentList": [
+          {
+            "updatedName": "도우미",
+            "updatedContents": [
+              "공격 속도 증가량: 35% → 25%",
+              "이동 속도 증가량: 35% → 25%"
+            ]
+          },
+          {
+            "updatedName": "신비의부적",
+            "updatedContents": ["실드: 15%~10% 감소(레벨 5~15)"]
+          },
+          {
+            "updatedName": "유나이트 기술: 해피해피어시스트",
+            "updatedContents": ["실드: 20% 감소"]
           }
         ]
       }
@@ -428,6 +465,22 @@
             "updatedContents": ["대기 시간: 9초 → 8초"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-10-18",
+        "updatedContentList": [
+          {
+            "updatedName": "다이빙",
+            "updatedContents": [
+              "기술을 사용한 뒤에 강화 공격으로 추가 데미지가 발생하지 않던 오류를 수정했습니다.",
+              "발사된 찌로꼬치가 예상보다 많이 계속해서 튕기는 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "폭풍",
+            "updatedContents": ["대기 시간: 9초 → 8초"]
+          }
+        ]
       }
     ]
   },
@@ -492,6 +545,19 @@
               "데미지: 30% 증가",
               "감속 효과: 45초% → 60%, 0.5초마다 10% 감소, 최대 4번 감소, 2.5초"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-10-18",
+        "updatedContentList": [
+          {
+            "updatedName": "잎날가르기",
+            "updatedContents": ["공격 속도 증가량: 21% → 40%"]
+          },
+          {
+            "updatedName": "유나이트 기술: 화살깃연속속사",
+            "updatedContents": ["필요한 유나이트 기술 게이지: 약 26% 감소"]
           }
         ]
       }
@@ -1204,6 +1270,39 @@
             "updatedContents": ["데미지: 20% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-10-18",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "레벨 9 이후, 특수공격으로 주는 데미지의 12.5%를 회복하도록 조정했습니다."
+            ]
+          },
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": [
+              "강화 공격의 기초 데미지: 10% 증가",
+              "일정 거리마다 증가하는 데미지: 5% → 4%"
+            ]
+          },
+          {
+            "updatedName": "솔라빔",
+            "updatedContents": ["대기 시간: 10.5초 → 9초"]
+          },
+          {
+            "updatedName": "솔라빔+",
+            "updatedContents": [
+              "대기 시간: 10.5초 → 9초",
+              "기술이 명중했을 때 대기 시간이 줄어드는 효과: 1마리마다 0.7초 → 1마리마다 0.5초"
+            ]
+          },
+          {
+            "updatedName": "빛의장막",
+            "updatedContents": ["대기 시간: 10초 → 9초"]
+          }
+        ]
       }
     ]
   },
@@ -1425,6 +1524,24 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-10-18",
+        "updatedContentList": [
+          {
+            "updatedName": "바둥바둥",
+            "updatedContents": [
+              "이동 속도 증가량: 70%(0.4초마다 14% 감소) → 70%(0.5초마다 10% 감소)"
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 폭풍수면임팩트",
+            "updatedContents": [
+              "회복량: 약 20% 증가",
+              "필요한 유나이트 기술 게이지: 20% 감소"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1503,6 +1620,15 @@
           {
             "updatedName": "제비반환+",
             "updatedContents": ["데미지: 15% 증가"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-10-18",
+        "updatedContentList": [
+          {
+            "updatedName": "니트로차지+",
+            "updatedContents": ["얇은 벽을 넘을 수 없던 오류를 수정했습니다."]
           }
         ]
       }
@@ -1707,6 +1833,22 @@
             "updatedContents": [
               "기술을 사용한 뒤의 강화 공격 데미지: 20% 감소",
               "대기 시간: 11초 → 12.5초"
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-10-18",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["방어:80~480 → 80~430(레벨 1~15)"]
+          },
+          {
+            "updatedName": "수류연타",
+            "updatedContents": [
+              "데미지: 약 17%~10% 감소(레벨 5~15)",
+              "강화 공격의 HP 회복량: 최대 HP의 3% → 최대 HP의 2%"
             ]
           }
         ]
@@ -1987,6 +2129,25 @@
             "updatedContents": ["필요한 에너지양: 25% 증가"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-10-18",
+        "updatedContentList": [
+          {
+            "updatedName": "특성: 조가비갑옷",
+            "updatedContents": ["데미지 감소량: 25% → 20%"]
+          },
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": [
+              "강화 공격의 회복량: 최대 HP의 3% → 최대 HP의 2%"
+            ]
+          },
+          {
+            "updatedName": "멸망의노래",
+            "updatedContents": ["데미지: 20% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -2144,6 +2305,18 @@
             "updatedContents": ["충전하고 있는 동안의 데미지 감소량: 30% → 50%"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-10-18",
+        "updatedContentList": [
+          {
+            "updatedName": "유나이트 기술: 에메랄드더블비트",
+            "updatedContents": [
+              "데미지: 10% 감소",
+              "필요한 유나이트 기술 게이지: 약 13% 감소"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2244,7 +2417,7 @@
   },
   {
     "name": "MewtwoY",
-    "nameKo": "뮤츠",
+    "nameKo": "뮤츠Y",
     "image": "/img/unitePokemon/roster-mewtwo-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
@@ -2269,6 +2442,38 @@
               "보유하고 있는 에오스 에너지가 부족한 경우(0을 포함)에도 보유하고 있는 에너지를 모두 소모합니다.",
               "소모한 에오스 에너지에 따라 메가진화한 모습의 시간이 길어집니다.",
               "이번 업데이트 이후 25 에너지를 소모하면 기존과 동일한 메가진화한 모습의 시간이 됩니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-10-18",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "급소율: 5%(레벨 5~8), 10%(레벨 9~15) → 0%(레벨5~15)",
+              "특수공격: 150~900 → 150~810(레벨 1~15)"
+            ]
+          },
+          {
+            "updatedName": "미래예지",
+            "updatedContents": [
+              "효과의 지속 시간 중에 주는 데미지의 증가량: 20% → 10%"
+            ]
+          },
+          {
+            "updatedName": "미래예지+",
+            "updatedContents": [
+              "효과의 지속 시간 중에 주는 데미지의 증가량: 30% → 15%"
+            ]
+          },
+          {
+            "updatedName": "HP회복",
+            "updatedContents": [
+              "실드: 25% 감소",
+              "이동 속도 증가량: 20%  → 10%",
+              "획득할 수 있는 메가 게이지: 50% 감소"
             ]
           }
         ]
@@ -2300,6 +2505,36 @@
             "updatedName": "오류 수정",
             "updatedContents": [
               "'오버히트'로 힘을 모으는 동안 공격 방향을 변경할 수 있는 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-10-18",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "방어:60~460 → 80~460(레벨 1~15)",
+              "특수방어: 50~350 → 60~350(레벨 1~15)"
+            ]
+          },
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": ["펀치 스타일일 때 공격 속도 증가량: 30% → 40%"]
+          },
+          {
+            "updatedName": "유나이트 기술: 폭염선풍권",
+            "updatedContents": [
+              "대기 시간: 6초 → 5초",
+              "이동 속도 증가량: 10% → 20%"
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 폭염선풍각",
+            "updatedContents": [
+              "대기 시간: 6초 → 5초",
+              "공격 증가량: 20% → 30%"
             ]
           }
         ]
