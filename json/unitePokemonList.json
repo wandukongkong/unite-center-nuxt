@@ -64,6 +64,15 @@
             "updatedContents": ["대기 시간: 7.5초 → 6.5초"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-04-16",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격: 223~357 → 258~432 (레벨7~15)"]
+          }
+        ]
       }
     ]
   },
@@ -479,6 +488,17 @@
           {
             "updatedName": "폭풍",
             "updatedContents": ["대기 시간: 9초 → 8초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-09-07",
+        "updatedContentList": [
+          {
+            "updatedName": "유나이트 기술: 거센파도미사일",
+            "updatedContents": [
+              "2마리의 포켓몬에게 동시에 공격되는 경우가 발생하던 오류를 수정했습니다."
+            ]
           }
         ]
       }
@@ -903,6 +923,19 @@
             "updatedName": "오류 수정",
             "updatedContents": [
               "'병상첨병'을 '도깨비불'에 맞힌 직후에 사용하면 기술의 대기 시간이 단축되지 않는 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-09-07",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "특수공격: 80~660 → 80~690(레벨 1~15)",
+              "방어: 52~260 → 52~290(레벨 1~15)",
+              "특수방어: 38~190→38~210(레벨 1~15)"
             ]
           }
         ]
@@ -1375,6 +1408,19 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-09-07",
+        "updatedContentList": [
+          {
+            "updatedName": "눈사태",
+            "updatedContents": ["대기 시간: 7초 → 8초"]
+          },
+          {
+            "updatedName": "눈보라",
+            "updatedContents": ["대기 시간: 7초 → 8초"]
+          }
+        ]
       }
     ]
   },
@@ -1410,6 +1456,19 @@
           {
             "updatedName": "볼트태클",
             "updatedContents": ["데미지: 20% 증가"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-09-07",
+        "updatedContentList": [
+          {
+            "updatedName": "10만볼트",
+            "updatedContents": ["대기 시간: 8초 → 7.5"]
+          },
+          {
+            "updatedName": "번개",
+            "updatedContents": ["데미지: 10% 증가", "대기 시간: 8초 → 7.5초"]
           }
         ]
       }
@@ -1768,6 +1827,30 @@
           {
             "updatedName": "트로피컬킥",
             "updatedContents": ["대기 시간: 8.5초 → 7초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-09-07",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "방어: 70~350 → 70~380 (레벨 1~15)",
+              "특수방어: 50~285 → 50~310 (레벨 1~15)"
+            ]
+          },
+          {
+            "updatedName": "트리플악셀+",
+            "updatedContents": ["HP 회복량: 25% 증가"]
+          },
+          {
+            "updatedName": "달코퀸: 짓밟기+",
+            "updatedContents": ["HP 회복량: 25% 증가"]
+          },
+          {
+            "updatedName": "달코퀸: 그래스슬라이더+",
+            "updatedContents": ["실드: 20% 증가"]
           }
         ]
       }
@@ -2289,6 +2372,18 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-09-07",
+        "updatedContentList": [
+          {
+            "updatedName": "바크아웃",
+            "updatedContents": [
+              "대기 시간: 9초 → 10초",
+              "공격/특수공격을 감소시키는 양: (데미지 1번마다) 6% → 4%"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2462,6 +2557,33 @@
             "updatedContents": ["데미지: 12% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-09-07",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "급소율: 10%(레벨 5 ~), 20%(레벨 9 ~) → 5%(레벨 5 ~), 10%(레벨 10 ~)"
+            ]
+          },
+          {
+            "updatedName": "미래예지",
+            "updatedContents": [
+              "대기 시간: 7.5초 → 9초",
+              "행동 불가로 만드는 시간: 0.75초 → 0.5초",
+              "일부 포켓몬의 기술을 사용할 수 없게 만드는 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 인피니티사이코번",
+            "updatedContents": [
+              "데미지: 15% 감소",
+              "필요한 에너지양: 20% 증가",
+              "만병통치제를 사용한 포켓몬에게 중복해서 명중하는 경우가 발생하던 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2524,6 +2646,32 @@
               "실드: 25% 감소",
               "이동 속도 증가량: 20%  → 10%",
               "획득할 수 있는 메가 게이지: 50% 감소"
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-09-07",
+        "updatedContentList": [
+          {
+            "updatedName": "미래예지",
+            "updatedContents": [
+              "추가 데미지의 상한: 2000 → 1500",
+              "대기 시간: 8초 → 10초",
+              "행동 불가로 만드는 시간: 0.75초 → 0.5초",
+              "일부 포켓몬의 기술을 사용할 수 없게 만드는 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "HP회복",
+            "updatedContents": ["대기 시간: 10초 → 12초"]
+          },
+          {
+            "updatedName": "유나이트 기술: 인피니티사이코번",
+            "updatedContents": [
+              "데미지: 15% 감소",
+              "필요한 에너지양: 20% 증가",
+              "만병통치제를 사용한 포켓몬에게 중복해서 명중하는 경우가 발생하던 오류를 수정했습니다."
             ]
           }
         ]
