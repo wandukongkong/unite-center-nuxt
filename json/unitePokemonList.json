@@ -164,6 +164,22 @@
             "updatedContents": ["실드 지속 시간: 3초 → 4초"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "도우미",
+            "updatedContents": [
+              "공격 속도 상승량: 25% → 30%",
+              "이동 속도 상승량: 25% → 30%"
+            ]
+          },
+          {
+            "updatedName": "신비의부적",
+            "updatedContents": ["실드: 14% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -372,6 +388,15 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "시저크로스",
+            "updatedContents": ["데미지: 약 10% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -445,6 +470,15 @@
             "updatedContents": ["데미지: 10% 감소", "대기 시간: 6초 → 7초"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "회오리불꽃",
+            "updatedContents": ["데미지: 27% 증가", "대기 시간: 8초 → 7초"]
+          }
+        ]
       }
     ]
   },
@@ -483,6 +517,19 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["급소율: 0~15~30% → 0~10~25%(레벨1~5~9)"]
+          },
+          {
+            "updatedName": "고스트다이브",
+            "updatedContents": ["상승하는 공격 속도: 100% → 85%"]
           }
         ]
       }
@@ -980,6 +1027,23 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "일렉트릭볼",
+            "updatedContents": ["추가 데미지: 감소 HP의 4% → 감소 HP의 6%"]
+          },
+          {
+            "updatedName": "일렉트릭볼+",
+            "updatedContents": ["추가 데미지: 감소 HP의 5% → 감소 HP의 8%"]
+          },
+          {
+            "updatedName": "볼트태클",
+            "updatedContents": ["데미지: 20% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -1174,6 +1238,56 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "우드해머",
+            "updatedContents": ["대기 시간: 7초 → 8.5초"]
+          },
+          {
+            "updatedName": "저주",
+            "updatedContents": [
+              "데미지: 약 18% 증가",
+              "이동 속도를 떨어뜨리는 효과: 약 30% 증가",
+              "대가로 소모하는 HP: 최대 HP의 3%/초 → 최대 HP의 2%/초"
+            ]
+          },
+          {
+            "updatedName": "아픔나누기",
+            "updatedContents": ["데미지: 약 30% 증가"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dragonite",
+    "nameKo": "망나뇽",
+    "image": "/img/unitePokemon/roster-dragonite-2x.png",
+    "color": "#ce5fd3",
+    "position": "balance",
+    "isEx": false,
+
+    "updatedList": [
+      {
+        "updatedDate": "2021-12-20",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "파괴광선",
+            "updatedContents": ["대기 시간: 10초 → 11.5초"]
+          }
+        ]
       }
     ]
   },
@@ -1316,6 +1430,30 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격: 160~530 → 160~580(레벨1~15)"]
+          },
+          {
+            "updatedName": "메탈클로",
+            "updatedContents": ["대기 시간: 8.5초 → 7.5초"]
+          },
+          {
+            "updatedName": "메탈클로+",
+            "updatedContents": ["대기 시간: 7.5초 → 6.5초"]
+          },
+          {
+            "updatedName": "성스러운칼",
+            "updatedContents": [
+              "공격 상승량: 20% → 30%",
+              "돌파하는 방어: 15% → 20%"
+            ]
           }
         ]
       }
@@ -1513,6 +1651,30 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": ["데미지: 약 15% 증가"]
+          },
+          {
+            "updatedName": "제비반환",
+            "updatedContents": [
+              "데미지: 약 50% 증가",
+              "보유 횟수가 회복되는 시간: 5초 → 4초"
+            ]
+          },
+          {
+            "updatedName": "제비반환+",
+            "updatedContents": ["보유 횟수가 회복되는 시간: 4초 → 3.5초"]
+          },
+          {
+            "updatedName": "솔라블레이드+",
+            "updatedContents": ["충전하고 있는 동안의 데미지 감소량: 30% → 50%"]
+          }
+        ]
       }
     ]
   },
@@ -1546,11 +1708,44 @@
     ]
   },
   {
-    "name": "Mewtwo",
+    "name": "MewtwoX",
     "nameKo": "뮤츠",
     "image": "/img/unitePokemon/roster-mewtwo-2x.png",
     "color": "#f16c38",
     "position": "attack",
+    "isEx": true,
+    "updatedList": [
+      {
+        "updatedDate": "2023-08-17",
+        "updatedContentList": [
+          {
+            "updatedName": "",
+            "updatedContents": ["Y 출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "특성: 프레셔",
+            "updatedContents": [
+              "메가진화 타이밍에 보유하고 있는 에오스 에너지를 일정량 소모하도록 변경되었습니다.",
+              "보유하고 있는 에오스 에너지가 부족한 경우(0을 포함)에도 보유하고 있는 에너지를 모두 소모합니다.",
+              "소모한 에오스 에너지에 따라 메가진화한 모습의 시간이 길어집니다.",
+              "이번 업데이트 이후 25 에너지를 소모하면 기존과 동일한 메가진화한 모습의 시간이 됩니다."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "MewtwoY",
+    "nameKo": "뮤츠",
+    "image": "/img/unitePokemon/roster-mewtwo-2x.png",
+    "color": "#ce5fd3",
+    "position": "balance",
     "isEx": true,
     "updatedList": [
       {
@@ -1563,11 +1758,16 @@
         ]
       },
       {
-        "updatedDate": "2023-08-17",
+        "updatedDate": "2024-02-27",
         "updatedContentList": [
           {
-            "updatedName": "",
-            "updatedContents": ["Y 출시"]
+            "updatedName": "특성: 프레셔",
+            "updatedContents": [
+              "메가진화 타이밍에 보유하고 있는 에오스 에너지를 일정량 소모하도록 변경되었습니다.",
+              "보유하고 있는 에오스 에너지가 부족한 경우(0을 포함)에도 보유하고 있는 에너지를 모두 소모합니다.",
+              "소모한 에오스 에너지에 따라 메가진화한 모습의 시간이 길어집니다.",
+              "이번 업데이트 이후 25 에너지를 소모하면 기존과 동일한 메가진화한 모습의 시간이 됩니다."
+            ]
           }
         ]
       }
@@ -1648,6 +1848,27 @@
           {
             "updatedName": "능력치",
             "updatedContents": ["공격: 160~660 → 160~630 (레벨 1~15)"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "그림자분신",
+            "updatedContents": ["대기 시간: 9초 → 8초"]
+          },
+          {
+            "updatedName": "깜짝베기",
+            "updatedContents": ["대기 시간: 7.5초 → 6.5초"]
+          },
+          {
+            "updatedName": "개척하기",
+            "updatedContents": ["대기 시간: 7초 → 6.5초"]
+          },
+          {
+            "updatedName": "유나이트 기술: 블루밍쇼타임!!",
+            "updatedContents": ["데미지: 20% 증가", "필요한 에너지양: 10% 감소"]
           }
         ]
       }
@@ -1738,6 +1959,35 @@
             "updatedContents": [
               "일반 공격을 헛친 상태로 노력 게이지가 최대가 되어 갸라도스로 진화하면 경기 종료까지 일반 공격이 잉어킹인 상태였던 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "특성: 주눅",
+            "updatedContents": ["노력 게이지 상승량: 전체적으로 50% 증가"]
+          },
+          {
+            "updatedName": "바둥바둥",
+            "updatedContents": ["HP가 1/3 이하일 때 데미지: 100% 증가"]
+          },
+          {
+            "updatedName": "폭포오르기",
+            "updatedContents": ["데미지: 40% 증가", "대기 시간: 8초 → 6초"]
+          },
+          {
+            "updatedName": "폭포오르기+",
+            "updatedContents": ["대기 시간: 7초 → 5초"]
+          },
+          {
+            "updatedName": "아쿠아테일",
+            "updatedContents": ["대기 시간: 8초 → 5초"]
+          },
+          {
+            "updatedName": "유나이트 기술: 비룡승운",
+            "updatedContents": ["필요한 에너지양: 약 11% 감소"]
           }
         ]
       }

@@ -1,3 +1,4 @@
+import { ColorScheme } from "#build/components";
 import eslintPlugin from "vite-plugin-eslint";
 
 export default defineNuxtConfig({
@@ -13,9 +14,10 @@ export default defineNuxtConfig({
     "@pinia-plugin-persistedstate/nuxt",
     "dayjs-nuxt",
     "@nuxtjs/device",
-    "@nuxt/image"
+    "@nuxt/image",
+    "@nuxtjs/color-mode",
   ],
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   vite: {
     plugin: [eslintPlugin()],
     server: {
@@ -31,6 +33,14 @@ export default defineNuxtConfig({
     pageTransition: {
       name: "page",
       mode: "out-in",
+    },
+    head: {
+      charset: "utf-8",
+      viewport: "width=device-width, initial-scale=1",
+      // meta: {
+      //   // colorScheme: "light only",
+      //   // supportedColorSchemes: "light",
+      // },
     },
   },
   nitro: {},

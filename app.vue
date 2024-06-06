@@ -31,4 +31,8 @@ html {
     center,
     left top;
 }
+
+:root {
+  color-scheme: light only;
+}
 </style>

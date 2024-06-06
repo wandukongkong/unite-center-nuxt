@@ -501,17 +501,17 @@ onBeforeMount(() => {
         }"
         :enter="{
           opacity: 1,
-          scale: 0.13,
+          scale: 0.2,
           x: -170,
           y: 5,
           transition: {
-            delay: 500,
+            delay: 600,
           },
         }"
       >
         <NuxtImg
           class="h-[90%]"
-          src="@/public/img/versus2.png"
+          src="/img/versus2.png"
           style="-webkit-user-drag: none"
         />
       </div>
