@@ -2684,6 +2684,32 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-07-22",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "메가게이지가 증가할 때 상승하는 방어/특수방어 : 4% → 2%",
+              "메가진화 시에 상승하는 방어/특수방어 : 30% → 10%",
+              "메가진화 시에 상승하는 공격 : 20% → 10%",
+              "메가진화 시에 획득하는 HP : 최대 HP의 20% → 최대 HP의 10%"
+            ]
+          },
+          {
+            "updatedName": "사이코브레이크",
+            "updatedContents": ["대기 시간 : 6초 → 8초"]
+          },
+          {
+            "updatedName": "HP회복",
+            "updatedContents": ["대기 시간 : 8초 → 10초"]
+          },
+          {
+            "updatedName": "순간이동",
+            "updatedContents": ["대기 시간 : 8초 → 10초"]
+          }
+        ]
       }
     ]
   },
@@ -2798,6 +2824,32 @@
             "updatedContents": [
               "추가 데미지에 상한이 설정되어있지 않은 오류를 수정하였습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-07-22",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "메가게이지가 증가할 때 상승하는 방어/특수방어 : 4% → 2%",
+              "메가진화 시에 상승하는 방어/특수방어 : 30% → 10%",
+              "메가진화 시에 상승하는 공격 : 20% → 10%",
+              "메가진화 시에 획득하는 HP : 최대 HP의 20% → 최대 HP의 10%"
+            ]
+          },
+          {
+            "updatedName": "사이코브레이크",
+            "updatedContents": ["대기 시간 : 6초 → 8초"]
+          },
+          {
+            "updatedName": "HP회복",
+            "updatedContents": ["대기 시간 : 8초 → 10초"]
+          },
+          {
+            "updatedName": "순간이동",
+            "updatedContents": ["대기 시간 : 8초 → 10초"]
           }
         ]
       }
