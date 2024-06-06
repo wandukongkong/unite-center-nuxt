@@ -73,6 +73,22 @@
             "updatedContents": ["공격: 223~357 → 258~432 (레벨7~15)"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-06-15",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스(실드폼)",
+            "updatedContents": [
+              "방어：308~650 → 338~680 (레벨 7~15)",
+              "특수방어: 215~474 → 235~494 (레벨 7~15)"
+            ]
+          },
+          {
+            "updatedName": "섀도클로",
+            "updatedContents": ["데미지: 5% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -108,6 +124,15 @@
           {
             "updatedName": "유나이트 기술: 거품북대시",
             "updatedContents": ["상대 팀의 포켓몬만 지정되도록 변경했습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-06-15",
+        "updatedContentList": [
+          {
+            "updatedName": "특성: 천하장사",
+            "updatedContents": ["급소 데미지의 배율: 150% → 170%"]
           }
         ]
       }
@@ -285,6 +310,31 @@
             "updatedName": "오류 수정",
             "updatedContents": [
               " '떨어뜨리기'로 날려버린 상대를 '엄청난힘'으로 붙잡았을 때, '떨어뜨리기'의 낙하 시 데미지도 발생하는 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-06-15",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "방어: 100~468 → 120~500 (레벨 1~15)",
+              "특수방어: 70~329 → 80~380 (레벨 1~15)"
+            ]
+          },
+          {
+            "updatedName": "흡혈",
+            "updatedContents": [
+              "기초 HP 회복량: 준 데미지의 50% → 준 데미지의 75%"
+            ]
+          },
+          {
+            "updatedName": "흡혈엄청난힘",
+            "updatedContents": [
+              "기초 실드: 최대 HP의 8% → 최대 HP의 12%",
+              "추가 실드: 최대 HP의 1.5%×머슬 게이지 → 최대 HP의 2%×머슬 게이지"
             ]
           }
         ]
@@ -706,6 +756,15 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-06-15",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": ["데미지: 10% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -1079,6 +1138,19 @@
           {
             "updatedName": "얼음뭉치+",
             "updatedContents": ["공격 속도 상승량: 65% → 100%"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-06-15",
+        "updatedContentList": [
+          {
+            "updatedName": "고드름침+",
+            "updatedContents": ["추가 데미지: 남은 HP의 2% → 남은 HP의 1%"]
+          },
+          {
+            "updatedName": "얼음뭉치",
+            "updatedContents": ["대기 시간: 7초 → 8.5초"]
           }
         ]
       }
@@ -1648,6 +1720,22 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-06-15",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "HP: 3300~7900 → 3000~6900 (레벨 1~15)",
+              "공격: 140~365 → 110~300 (레벨 1~15)"
+            ]
+          },
+          {
+            "updatedName": "탁쳐서떨구기",
+            "updatedContents": ["데미지: 15% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -1968,6 +2056,30 @@
             "updatedContents": ["대기 시간: 8초 → 10초"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-06-15",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "공격: 150~520→165~550 (레벨 1~15)",
+              "공격 속도: 110%~130% → 110%~150% (레벨 1~15)",
+              "※공격 속도가 100%인 포켓몬은 1초 동안 1번 공격할 수 있습니다. 공격 속도 수치에 따라 단계적으로 다음 일반 공격까지 걸리는 시간이 짧아집니다."
+            ]
+          },
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "공격: 150~520→165~550 (레벨 1~15)",
+              "공격 속도: 110%~130% → 110%~150% (레벨 1~15)"
+            ]
+          },
+          {
+            "updatedName": "특성: 멀티스케일",
+            "updatedContents": ["데미지 감소량: 25% → 30%"]
+          }
+        ]
       }
     ]
   },
@@ -2132,6 +2244,15 @@
               "데미지: 약 17%~10% 감소(레벨 5~15)",
               "강화 공격의 HP 회복량: 최대 HP의 3% → 최대 HP의 2%"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-06-15",
+        "updatedContentList": [
+          {
+            "updatedName": "수류연타",
+            "updatedContents": ["데미지: 10% 감소"]
           }
         ]
       }
@@ -2321,6 +2442,23 @@
             "updatedContents": [
               "기술을 취소해도 유나이트 기술 게이지의 충전량이 100%가 유지되는 경우가 있던 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-06-15",
+        "updatedContentList": [
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": ["4단계 사정거리: 약 40% 감소(5.5m → 3.5m)"]
+          },
+          {
+            "updatedName": "특성: 불요의검",
+            "updatedContents": ["강화에 필요한 에너지양: 5-8-10 → 8-12-15"]
+          },
+          {
+            "updatedName": "성스러운칼",
+            "updatedContents": ["상대를 행동 불가로 만드는 시간: 0.6초 → 0.2초"]
           }
         ]
       }
@@ -2514,6 +2652,23 @@
           {
             "updatedName": "멸망의노래",
             "updatedContents": ["데미지: 20% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-06-15",
+        "updatedContentList": [
+          {
+            "updatedName": "물의파동",
+            "updatedContents": ["데미지: 10% 감소"]
+          },
+          {
+            "updatedName": "거품광선",
+            "updatedContents": ["대기 시간: 7초 → 9초"]
+          },
+          {
+            "updatedName": "유나이트 기술: 라이드온!라프라스",
+            "updatedContents": ["데미지: 15% 감소"]
           }
         ]
       }
