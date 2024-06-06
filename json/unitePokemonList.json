@@ -530,6 +530,32 @@
             "updatedContents": ["데미지: 약 10% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-08-15",
+        "updatedContentList": [
+          {
+            "updatedName": "특성: 옹골참",
+            "updatedContents": [
+              "1단계마다 증가하는 방어/특수방어: 5+1×레벨 → 6+2×레벨(최대 10단계)"
+            ]
+          },
+          {
+            "updatedName": "시저크로스",
+            "updatedContents": ["대기 시간: 7초 → 6초"]
+          },
+          {
+            "updatedName": "시저크로스+",
+            "updatedContents": ["대기 시간: 6초 → 5초"]
+          },
+          {
+            "updatedName": "유나이트 기술: 쇄석선풍루",
+            "updatedContents": [
+              "데미지를 받았을 때 주는 반격 데미지: 33% 증가",
+              "반격 데미지의 대기 시간: 2초 → 1초"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -860,6 +886,22 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-08-15",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": [
+              "데미지: 약 10% 증가",
+              "회복량: 준 데미지의 15% → 준 데미지의 20%"
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 노발대발러시",
+            "updatedContents": ["필요한 에너지양: 약 17% 감소"]
           }
         ]
       }
@@ -1701,6 +1743,15 @@
             "updatedContents": ["얇은 벽을 넘을 수 없던 오류를 수정했습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-08-15",
+        "updatedContentList": [
+          {
+            "updatedName": "브레이브버드",
+            "updatedContents": ["데미지: 약 10% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -1896,6 +1947,19 @@
               "행동 불가 효과: 1초 → 1.5초",
               "모래 먼지로 주는 감속 효과: 25% → 35%"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-08-15",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["HP: 3150~8350 → 3150~8800(레벨 1~15)"]
+          },
+          {
+            "updatedName": "유나이트 기술: 리슬램페이지",
+            "updatedContents": ["필요한 에너지양: 약 17% 감소"]
           }
         ]
       }
