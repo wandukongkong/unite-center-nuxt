@@ -384,6 +384,19 @@
             "updatedContents": ["데미지: 15% 증가"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-12-05",
+        "updatedContentList": [
+          {
+            "updatedName": "능력",
+            "updatedContents": ["레벨 9 때 특수공격의 드레인 효과 증가: 12.5%"]
+          },
+          {
+            "updatedName": "폭풍",
+            "updatedContents": ["대기 시간: 9초 → 8초"]
+          }
+        ]
       }
     ]
   },
@@ -570,6 +583,44 @@
           {
             "updatedName": "고스트다이브",
             "updatedContents": ["상승하는 공격 속도: 100% → 85%"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-12-05",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격: 140~470 → 140~500(레벨 1~15)"]
+          },
+          {
+            "updatedName": "고스트다이브",
+            "updatedContents": [
+              "대기 시간: 14초 → 12초",
+              "KO했을 때 오르는 공격력: 6 (8번까지)→10 (10번까지)",
+              "공격 속도 상승량: 85% → 100%",
+              "이동 속도 상승량: 15% → 30%"
+            ]
+          },
+          {
+            "updatedName": "섀도볼",
+            "updatedContents": [
+              "데미지: 30% 증가",
+              "마크가 부여된 상대에 대하여 증가하는 데미지: 30% 증가",
+              "마크가 전부 사라졌을 때 HP 회복량: 최대 HP의 10% → 최대 HP의 15%"
+            ]
+          },
+          {
+            "updatedName": "섀도볼+",
+            "updatedContents": [
+              "데미지: 30% 증가",
+              "추가로 오르는 데미지: 30% 증가",
+              "마크가 전부 사라졌을 때 폭발 데미지: 30% 증가"
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 드라군샷",
+            "updatedContents": ["대기 시간: 12초 → 10초"]
           }
         ]
       }
@@ -875,6 +926,29 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-12-05",
+        "updatedContentList": [
+          {
+            "updatedName": "물수리검",
+            "updatedContents": [
+              "이동 속도를 늦추는 효과: 25% → 35%",
+              "이동 속도 상승량: 15% → 25%"
+            ]
+          },
+          {
+            "updatedName": "그림자분신",
+            "updatedContents": [
+              "대기 시간: 9초 → 8초",
+              "이동 속도 상승량: 15% → 25%"
+            ]
+          },
+          {
+            "updatedName": "그림자분신+",
+            "updatedContents": ["대기 시간: 8초 → 7초"]
+          }
+        ]
       }
     ]
   },
@@ -915,6 +989,23 @@
             "updatedName": "이차원홀",
             "updatedContents": [
               "기술을 사용해서 스타트 지점에 돌아갔을 때, 일반 속도의 2배로 회복되던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-12-05",
+        "updatedContentList": [
+          {
+            "updatedName": "고스트다이브",
+            "updatedContents": ["대기 시간: 4.5초 → 6.5초"]
+          },
+          {
+            "updatedName": "후파: 이차원홀",
+            "updatedContents": [
+              "대기 시간: 10초 → 12초",
+              "골로 돌아온 후 이동 속도 상승량: 약 35% 감소",
+              "골 간을 워프한 후 이동 속도 상승량: 약 35% 감소"
             ]
           }
         ]
@@ -1031,6 +1122,19 @@
             "updatedContents": ["데미지: 11%~12% 감소(레벨 9~15)"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-12-05",
+        "updatedContentList": [
+          {
+            "updatedName": "솔라빔",
+            "updatedContents": ["데미지: 13~20% 감소"]
+          },
+          {
+            "updatedName": "유나이트 기술: 미스틱미라지",
+            "updatedContents": ["데미지: 20% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -1051,6 +1155,19 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-12-05",
+        "updatedContentList": [
+          {
+            "updatedName": "염동력",
+            "updatedContents": ["대기 시간: 6초 → 5초"]
+          },
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["레벨 15 때 특수공격: 414 → 450"]
+          }
+        ]
       }
     ]
   },
@@ -1069,6 +1186,25 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-12-05",
+        "updatedContentList": [
+          {
+            "updatedName": "오로라베일",
+            "updatedContents": [
+              "기술 범위 내에서 사용한 강화 공격에 의한 HP 회복량: 100% 증가",
+              "받는 데미지 경감량: 30% → 35%"
+            ]
+          },
+          {
+            "updatedName": "오로라베일+",
+            "updatedContents": [
+              "기술 범위 내에서 사용한 강화 공격에 의한 HP 회복량: 100% 증가",
+              "받는 데미지 경감량: 35% → 40%"
+            ]
           }
         ]
       }
@@ -1396,6 +1532,22 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-12-05",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "방어:70~380 → 70~410(레벨 1~15)",
+              "특수방어: 50~310 → 50~340(레벨 1~15)"
+            ]
+          },
+          {
+            "updatedName": "트로피컬킥",
+            "updatedContents": ["대기 시간: 8.5초 → 7초"]
+          }
+        ]
       }
     ]
   },
@@ -1459,6 +1611,18 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-12-05",
+        "updatedContentList": [
+          {
+            "updatedName": "수류연타",
+            "updatedContents": [
+              "기술을 사용한 뒤의 강화 공격 데미지: 20% 감소",
+              "대기 시간: 11초 → 12.5초"
+            ]
           }
         ]
       }
@@ -1881,6 +2045,23 @@
             "updatedContents": ["데미지: 10%~7% 감소(레벨 5~15)"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-12-05",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["특수공격: 100~950 → 100~900(레벨 1~15)"]
+          },
+          {
+            "updatedName": "아쿠아브레이크",
+            "updatedContents": ["급소에 맞았을 때 데미지: 약 20% 감소"]
+          },
+          {
+            "updatedName": "물대포",
+            "updatedContents": ["데미지: 15% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -1996,6 +2177,19 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-12-05",
+        "updatedContentList": [
+          {
+            "updatedName": "치근거리기",
+            "updatedContents": ["대기 시간: 5초 → 7.5초"]
+          },
+          {
+            "updatedName": "야습",
+            "updatedContents": ["공포 상태로 만드는 시간: 0.5초 → 0.25초"]
           }
         ]
       }
