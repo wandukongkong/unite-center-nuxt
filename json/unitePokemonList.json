@@ -128,6 +128,15 @@
             "updatedContents": ["데미지: 10% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-11-13",
+        "updatedContentList": [
+          {
+            "updatedName": "진화하는 레벨",
+            "updatedContents": ["Lv.9 → Lv.7"]
+          }
+        ]
       }
     ]
   },
@@ -262,6 +271,15 @@
             "updatedContents": ["데미지: 12% 증가"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-11-13",
+        "updatedContentList": [
+          {
+            "updatedName": "진화하는 레벨",
+            "updatedContents": ["Lv.9 → Lv.7"]
+          }
+        ]
       }
     ]
   },
@@ -329,6 +347,19 @@
           {
             "updatedName": "중력",
             "updatedContents": ["대기 시간: 8초 → 9초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": " 2023-11-13",
+        "updatedContentList": [
+          {
+            "updatedName": "드레인키스",
+            "updatedContents": ["HP 회복량: 80% → 100%"]
+          },
+          {
+            "updatedName": "드레인키스+",
+            "updatedContents": ["HP 회복량: 100% → 120%"]
           }
         ]
       }
@@ -687,6 +718,15 @@
             "updatedContents": ["데미지: 13%~17% 감소 (레벨 9~15)"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-11-13",
+        "updatedContentList": [
+          {
+            "updatedName": "꽃가루경단",
+            "updatedContents": ["회복량: 15% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -846,6 +886,19 @@
             "updatedContents": ["데미지: 10% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-11-13",
+        "updatedContentList": [
+          {
+            "updatedName": "얼음뭉치",
+            "updatedContents": ["공격 속도 상승량: 50% → 75%"]
+          },
+          {
+            "updatedName": "얼음뭉치+",
+            "updatedContents": ["공격 속도 상승량: 65% → 100%"]
+          }
+        ]
       }
     ]
   },
@@ -904,6 +957,22 @@
             "updatedContents": [
               "'씨기관총'이 야도란의 유나이트 기술로 중단되지 않는 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-11-13",
+        "updatedContentList": [
+          {
+            "updatedName": "망각술",
+            "updatedContents": [
+              "모아둔  HP를 회복하는 회복량: 22% 감소",
+              "방어 상승: 300 → 250"
+            ]
+          },
+          {
+            "updatedName": "망각술+",
+            "updatedContents": ["특수방어 상승: 150 → 125"]
           }
         ]
       }
@@ -1399,7 +1468,6 @@
     "color": "#29a5e3",
     "position": "speed",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
@@ -1418,6 +1486,23 @@
             "updatedContents": [
               "충전참을 최대까지 모았을 때 기술을 사용하면 충전참의 추가 데미지를 자신이 받던 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-11-13",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격: 200~680 → 200~710(레벨 1~15)"]
+          },
+          {
+            "updatedName": "제비반환",
+            "updatedContents": ["데미지: 15% 증가"]
+          },
+          {
+            "updatedName": "제비반환+",
+            "updatedContents": ["데미지: 15% 증가"]
           }
         ]
       }
@@ -1645,6 +1730,15 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-11-13",
+        "updatedContentList": [
+          {
+            "updatedName": "진화하는 레벨",
+            "updatedContents": ["Lv.9 → Lv.7"]
+          }
+        ]
       }
     ]
   },
@@ -1764,6 +1858,18 @@
             "updatedName": "성스러운칼+",
             "updatedContents": [
               "주는 데미지가 예상보다도 크던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-11-13",
+        "updatedContentList": [
+          {
+            "updatedName": "성스러운칼",
+            "updatedContents": [
+              "데미지: 약 10% 감소",
+              "기술을 사용하는 동안의 데미지 감소량: 50% → 30%"
             ]
           }
         ]
@@ -1899,6 +2005,28 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-11-13",
+        "updatedContentList": [
+          {
+            "updatedName": "화염방사",
+            "updatedContents": ["데미지: 10% 증가"]
+          },
+          {
+            "updatedName": "폴터가이스트",
+            "updatedContents": [
+              "대기 시간: 10초 → 7.5초",
+              "이동 속도를 떨어뜨리는 효과: 1초 동안 65% → 1초 동안 65% + 1초 동안 40%"
+            ]
+          },
+          {
+            "updatedName": "폴터가이스트+",
+            "updatedContents": [
+              "이동 속도를 떨어뜨리는 효과: 1초 동안 85% → 1초 동안 65% + 1초 동안 50%"
+            ]
           }
         ]
       }
@@ -2067,7 +2195,7 @@
   },
   {
     "name": "MewtwoX",
-    "nameKo": "뮤츠",
+    "nameKo": "뮤츠X",
     "image": "/img/unitePokemon/roster-mewtwo-2x.png",
     "color": "#f16c38",
     "position": "attack",
@@ -2093,6 +2221,22 @@
               "소모한 에오스 에너지에 따라 메가진화한 모습의 시간이 길어집니다.",
               "이번 업데이트 이후 25 에너지를 소모하면 기존과 동일한 메가진화한 모습의 시간이 됩니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-11-13",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "공격: 190~530 → 170~500(레벨 1~15)",
+              "일반 공격으로 입힌 데미지에 따른 회복량: 10-15-20％ → 5-5-10%(레벨 5-9-13)"
+            ]
+          },
+          {
+            "updatedName": "사이코브레이크",
+            "updatedContents": ["데미지: 12% 감소"]
           }
         ]
       }
@@ -2190,6 +2334,35 @@
           {
             "updatedName": "야습",
             "updatedContents": ["공포 상태로 만드는 시간: 0.5초 → 0.25초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-11-13",
+        "updatedContentList": [
+          {
+            "updatedName": "섀도클로",
+            "updatedContents": [
+              "일반 공격을 명중시킬 때마다 감소하는 대기 시간: 0.5초 → 1초"
+            ]
+          },
+          {
+            "updatedName": "치근거리기",
+            "updatedContents": [
+              "데미지: 11% 증가",
+              "공격하는 동안 보호 상태가 되도록 변경하였습니다."
+            ]
+          },
+          {
+            "updatedName": "트릭룸",
+            "updatedContents": [
+              "트릭룸 밖에서 주는 데미지를 감소하는 감소량: 30% → 50%",
+              "대기 시간: 11초 → 8.5초"
+            ]
+          },
+          {
+            "updatedName": "트릭룸+",
+            "updatedContents": ["대기 시간: 9초 → 7.5초"]
           }
         ]
       }
