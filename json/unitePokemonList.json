@@ -539,6 +539,17 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-04-13",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "에나비꼬리를 사용했을 때 대기 시간 없이 여러 번 효과가 발동되던 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1326,6 +1337,23 @@
           {
             "updatedName": "유나이트 기술: 비야비야내려라",
             "updatedContents": ["필요한 유나이트 기술 게이지: 약 20% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-04-13",
+        "updatedContentList": [
+          {
+            "updatedName": "애시드봄",
+            "updatedContents": [
+              "산성 액체를 맞은 상대편에게 돌진을 명중시켜도 산성 액체가 퍼트려지지 않던 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "파워휩",
+            "updatedContents": [
+              "기술을 명중시키지 않은 포켓몬도 끌어오던 오류를 수정했습니다."
+            ]
           }
         ]
       }
@@ -2296,6 +2324,17 @@
             "updatedContents": ["실드: 20% 증가"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-04-13",
+        "updatedContentList": [
+          {
+            "updatedName": "특성 '여왕의위엄'",
+            "updatedContents": [
+              "얼음 상태일 때 특성의 효과가 발동하지 않던 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2625,6 +2664,23 @@
             "updatedName": "특성: 불요의검",
             "updatedContents": [
               "강화한 기술을 사용한 직후에 '유나이트 기술: 왕의검'을 사용하면 소모한 에오스 에너지가 복구되는 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-04-13",
+        "updatedContentList": [
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": [
+              "특성 '불요의검'을 사용했을 때 지정된 시간이 상정된 것보다 연장되던 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 왕의검",
+            "updatedContents": [
+              "기술을 발동하지 않았을 때에도 에너지증폭기와 도움배리어의 효과가 발동되던 오류를 수정했습니다."
             ]
           }
         ]
