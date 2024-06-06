@@ -797,6 +797,36 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-07-18",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": ["야생 포켓몬에게 주는 데미지양의 상한: 45%"]
+          },
+          {
+            "updatedName": "러스터캐논",
+            "updatedContents": [
+              "야생 포켓몬에게 주는 데미지양의 상한: 40%",
+              "대기 시간: 6초 → 5초"
+            ]
+          },
+          {
+            "updatedName": "용의파동",
+            "updatedContents": [
+              "야생 포켓몬에게 주는 데미지양의 상한: 35%",
+              "대기 시간: 9초 → 7.5초"
+            ]
+          },
+          {
+            "updatedName": "스텔스록",
+            "updatedContents": [
+              "보유 횟수가 회복하는 시간: 12초 → 8초",
+              "감속시키는 효과: 15% → 25%"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1071,6 +1101,33 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-07-18",
+        "updatedContentList": [
+          {
+            "updatedName": "특성: 미끈미끈",
+            "updatedContents": [
+              "공격 속도를 떨어뜨리는 효과: 30% 감소 → 50% 감소"
+            ]
+          },
+          {
+            "updatedName": "용의파동",
+            "updatedContents": ["대기 시간: 7.5초 → 6초"]
+          },
+          {
+            "updatedName": "파워휩",
+            "updatedContents": [
+              "이동 속도 감소량: 50% → 80%(0.5초 마다 15% 감소)"
+            ]
+          },
+          {
+            "updatedName": "애시드봄",
+            "updatedContents": [
+              "이동 속도 감소량: 40% → 80%(0.5초 마다 15% 감소)"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1250,6 +1307,26 @@
             "updatedContents": ["출시"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-07-18",
+        "updatedContentList": [
+          {
+            "updatedName": "신속",
+            "updatedContents": ["데미지: 5% 증가"]
+          },
+          {
+            "updatedName": "인파이트",
+            "updatedContents": ["대기 시간: 9초 → 7.5초"]
+          },
+          {
+            "updatedName": "유나이트 기술: 풀포스블라스트",
+            "updatedContents": [
+              "기술 발동까지의 시간이 짧아졌습니다.",
+              "필요한 에너지양: 약 15% 감소"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1304,6 +1381,33 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-07-18",
+        "updatedContentList": [
+          {
+            "updatedName": "특성: 두꺼운지방",
+            "updatedContents": [
+              "상승하는 방어와 특수방어: 20+6×레벨 → 20+10×레벨",
+              "지속 시간: 3초 → 5초"
+            ]
+          },
+          {
+            "updatedName": "얼음엄니",
+            "updatedContents": ["데미지: 25% 증가"]
+          },
+          {
+            "updatedName": "지진",
+            "updatedContents": ["데미지: 25% 증가"]
+          },
+          {
+            "updatedName": "유나이트 기술: 쾅쾅프레스",
+            "updatedContents": [
+              "마지막에 상대를 날려버리는 시간: 1초 → 1.5초",
+              "필요한 에너지양: 약 15% 감소"
+            ]
           }
         ]
       }
@@ -1855,6 +1959,15 @@
             "updatedContents": ["대기 시간: 10초 → 11.5초"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-07-18",
+        "updatedContentList": [
+          {
+            "updatedName": "파괴광선",
+            "updatedContents": ["대기 시간: 8초 → 10초"]
+          }
+        ]
       }
     ]
   },
@@ -2093,6 +2206,15 @@
             "updatedContents": ["데미지: 6~18% 증가(레벨 6~15)"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-07-18",
+        "updatedContentList": [
+          {
+            "updatedName": "노래하기",
+            "updatedContents": ["대기 시간: 10초 → 8초"]
+          }
+        ]
       }
     ]
   },
@@ -2245,6 +2367,57 @@
             "updatedContents": ["데미지: 13% 증가"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-07-18",
+        "updatedContentList": [
+          {
+            "updatedName": "볼트체인지",
+            "updatedContents": ["배우는 레벨: 레벨 6 → 레벨 5"]
+          },
+          {
+            "updatedName": "볼트체인지+",
+            "updatedContents": ["배우는 레벨: 레벨 12 → 레벨 11"]
+          },
+          {
+            "updatedName": "스파크",
+            "updatedContents": ["배우는 레벨: 레벨 6 → 레벨 5"]
+          },
+          {
+            "updatedName": "스파크+",
+            "updatedContents": ["배우는 레벨: 레벨 12 → 레벨 11"]
+          },
+          {
+            "updatedName": "방전",
+            "updatedContents": [
+              "배우는 레벨: 레벨 8 → 레벨 7",
+              "대기 시간: 10초 → 8초"
+            ]
+          },
+          {
+            "updatedName": "방전+",
+            "updatedContents": [
+              "배우는 레벨: 레벨 14 → 레벨 13",
+              "대기 시간: 10초 → 8초"
+            ]
+          },
+          {
+            "updatedName": "와일드볼트",
+            "updatedContents": [
+              "배우는 레벨: 레벨 8 → 레벨 7",
+              "데미지: 5% 감소",
+              "대기 시간: 9초 → 10초"
+            ]
+          },
+          {
+            "updatedName": "와일드볼트+",
+            "updatedContents": [
+              "배우는 레벨: 레벨 14 → 레벨 13",
+              "데미지: 5% 감소",
+              "대기 시간: 9초 → 10초"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2276,6 +2449,15 @@
               "대기 시간: 8초 → 9초",
               "날아오른 뒤의 공격에 의한 회복량: 20% 감소"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-07-18",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격: 150~700 → 135~660 (레벨 1~18)"]
           }
         ]
       }
@@ -2376,6 +2558,23 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-07-18",
+        "updatedContentList": [
+          {
+            "updatedName": "오버히트",
+            "updatedContents": ["대기 시간: 6초 → 7.5초"]
+          },
+          {
+            "updatedName": "오버히트+",
+            "updatedContents": ["대기 시간: 5초 → 6.5초"]
+          },
+          {
+            "updatedName": "봉인",
+            "updatedContents": ["대기 시간: 10초 → 11초"]
+          }
+        ]
       }
     ]
   },
@@ -2459,6 +2658,37 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-07-18",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": ["회복량: 약 20% 감소"]
+          },
+          {
+            "updatedName": "속임수",
+            "updatedContents": ["대기 시간: 5초 → 7초"]
+          },
+          {
+            "updatedName": "바크아웃",
+            "updatedContents": [
+              "행동 불가로 만드는 시간: 1초 → 0.7초",
+              "공격/특수공격을 감소시키는 양: (데미지 1번마다) 8% → 6%"
+            ]
+          },
+          {
+            "updatedName": "바크아웃+",
+            "updatedContents": [
+              "행동 불가로 만드는 시간: 1.5초 → 1초",
+              "공격/특수공격을 감소시키는 양: (데미지 1번마다) 8% → 6%"
+            ]
+          },
+          {
+            "updatedName": "희망사항",
+            "updatedContents": ["대기 시간: 6.5초 → 5.5초"]
+          }
+        ]
       }
     ]
   },
@@ -2526,6 +2756,33 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-07-18",
+        "updatedContentList": [
+          {
+            "updatedName": "리프블레이드",
+            "updatedContents": ["대기 시간: 8초 → 9초", "데미지: 20% 감소"]
+          },
+          {
+            "updatedName": "솔라블레이드",
+            "updatedContents": ["데미지: 10% 증가"]
+          },
+          {
+            "updatedName": "제비반환",
+            "updatedContents": [
+              "대기 시간: 1.5초 → 0.5초",
+              "보유 횟수가 회복하는 시간: 6초 → 5초"
+            ]
+          },
+          {
+            "updatedName": "제비반환+",
+            "updatedContents": [
+              "대기 시간: 1.5초 → 0.5초",
+              "보유 횟수가 회복하는 시간: 5초 → 4초"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2580,6 +2837,18 @@
             "updatedName": "아쿠아브레이크",
             "updatedContents": [
               "기술 사용 중에 방해 효과를 받아도 기술이 중단되지 않던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-07-18",
+        "updatedContentList": [
+          {
+            "updatedName": "마지막일침",
+            "updatedContents": [
+              "기술이 닿는 범위: 7m → 10m",
+              "급소 카운터 획득량: 1개 → 2개"
             ]
           }
         ]
