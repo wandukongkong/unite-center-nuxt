@@ -458,6 +458,17 @@
             "updatedContents": ["HP 회복량: 100% → 120%"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-06-08",
+        "updatedContentList": [
+          {
+            "updatedName": "날따름",
+            "updatedContents": [
+              "도발 상태인 포켓몬의 기술이 같은 편에게 데미지를 주던 경우가 발생하는 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -476,6 +487,17 @@
           {
             "updatedName": "",
             "updatedContents": ["출시"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-06-08",
+        "updatedContentList": [
+          {
+            "updatedName": "특성: 힐링시프트",
+            "updatedContents": [
+              "조로아크가 '특성: 일루전'을 사용했을 때 감싼 상태가 해제되어 버리는 오류를 수정했습니다."
+            ]
           }
         ]
       }
@@ -548,6 +570,17 @@
             "updatedName": "유나이트 기술: 거센파도미사일",
             "updatedContents": [
               "2마리의 포켓몬에게 동시에 공격되는 경우가 발생하던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-06-08",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": [
+              "찌로꼬치 1마리가 여러 마리의 상대편 포켓몬 사이를 왕복하며 너무 높은 데미지를 주는 경우가 발생하는 오류를 수정했습니다."
             ]
           }
         ]
@@ -1151,6 +1184,17 @@
           {
             "updatedName": "얼음뭉치",
             "updatedContents": ["대기 시간: 7초 → 8.5초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-06-08",
+        "updatedContentList": [
+          {
+            "updatedName": "고드름침",
+            "updatedContents": [
+              "고드름이 명중한 야생 포켓몬에게 고드름의 데미지 뿐만 아니라 파편의 데미지까지 추가로 부여하던 오류를 수정했습니다."
+            ]
           }
         ]
       }
@@ -2461,6 +2505,17 @@
             "updatedContents": ["상대를 행동 불가로 만드는 시간: 0.6초 → 0.2초"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-06-08",
+        "updatedContentList": [
+          {
+            "updatedName": "특성: 불요의검",
+            "updatedContents": [
+              "강화한 기술을 사용한 직후에 '유나이트 기술: 왕의검'을 사용하면 소모한 에오스 에너지가 복구되는 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2669,6 +2724,23 @@
           {
             "updatedName": "유나이트 기술: 라이드온!라프라스",
             "updatedContents": ["데미지: 15% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-06-08",
+        "updatedContentList": [
+          {
+            "updatedName": "바다회오리",
+            "updatedContents": [
+              "KO 당한 뒤에도 판정이 계속 남아있던 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 라이드온!라프라스",
+            "updatedContents": [
+              "골로 돌아가는 같은 편 포켓몬을 태운 다음, 그 같은 편 포켓몬의 이동 속도가 오른 채로 유지되던 오류를 수정했습니다."
+            ]
           }
         ]
       }
