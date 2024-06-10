@@ -376,6 +376,19 @@
             "updatedContents": ["Lv.9 → Lv.7"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-04-04",
+        "updatedContentList": [
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": ["데미지: 10% 증가"]
+          },
+          {
+            "updatedName": "유나이트 기술: 어스크러셔",
+            "updatedContents": ["필요한 유나이트 기술 게이지: 약 10% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -1279,6 +1292,15 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-04-04",
+        "updatedContentList": [
+          {
+            "updatedName": "얼다바람",
+            "updatedContents": ["데미지: 12% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -1721,6 +1743,23 @@
             "updatedContents": ["대기 시간: 10초 → 9초"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-04-04",
+        "updatedContentList": [
+          {
+            "updatedName": "특성 '싱크로'",
+            "updatedContents": ["기술 초기화 대기 시간: 20초 → 25초"]
+          },
+          {
+            "updatedName": "일렉트릭볼",
+            "updatedContents": ["데미지: 10% 감소"]
+          },
+          {
+            "updatedName": "솔라빔",
+            "updatedContents": ["대기 시간: 9초 → 10.5초"]
+          }
+        ]
       }
     ]
   },
@@ -1903,6 +1942,22 @@
           {
             "updatedName": "탁쳐서떨구기",
             "updatedContents": ["데미지: 15% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-04-04",
+        "updatedContentList": [
+          {
+            "updatedName": "탁쳐서떨구기",
+            "updatedContents": [
+              "대기 시간: 7.5초 → 8.5초",
+              "상대를 방해하는 효과: 전체적으로 약 20% 감소"
+            ]
+          },
+          {
+            "updatedName": "이상한빛",
+            "updatedContents": ["혼란 상태로 만드는 시간: 2.5초 → 2초"]
           }
         ]
       }
@@ -2200,6 +2255,19 @@
           {
             "updatedName": "아픔나누기",
             "updatedContents": ["데미지: 약 30% 증가"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-04-04",
+        "updatedContentList": [
+          {
+            "updatedName": "우드해머",
+            "updatedContents": ["대기 시간: 5초 → 7초"]
+          },
+          {
+            "updatedName": "아픔나누기",
+            "updatedContents": ["이동 속도 증가량: 45% → 35%"]
           }
         ]
       }
@@ -2684,6 +2752,23 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-04-04",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격: 220~560 → 190~560 (레벨 1~15)"]
+          },
+          {
+            "updatedName": "고속이동",
+            "updatedContents": [
+              "자신이 받고 있는 방해 효과를 해제하는 효과를 삭제하였습니다.",
+              "대기 시간: 9초 → 10초",
+              "가속 효과: 50% → 30%"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2819,6 +2904,31 @@
           {
             "updatedName": "스테이터스",
             "updatedContents": ["공격: 150~700 → 135~660 (레벨 1~18)"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-04-04",
+        "updatedContentList": [
+          {
+            "updatedName": "깜짝베기",
+            "updatedContents": ["대기 시간: 10초 → 8초"]
+          },
+          {
+            "updatedName": "깜짝베기+",
+            "updatedContents": ["대기 시간: 9초 → 7초"]
+          },
+          {
+            "updatedName": "속여때리기",
+            "updatedContents": ["대기 시간: 7초 → 6초"]
+          },
+          {
+            "updatedName": "속여때리기+",
+            "updatedContents": ["대기 시간: 6초 → 5초"]
+          },
+          {
+            "updatedName": "풀베기",
+            "updatedContents": ["대기 시간: 5.5초 → 4.5초"]
           }
         ]
       }
