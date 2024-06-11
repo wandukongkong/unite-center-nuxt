@@ -455,7 +455,6 @@
     "color": "#fecc51",
     "position": "support",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": " 2022-10-13",
@@ -499,6 +498,21 @@
             "updatedName": "날따름",
             "updatedContents": [
               "도발 상태인 포켓몬의 기술이 같은 편에게 데미지를 주던 경우가 발생하는 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-01-31",
+        "updatedContentList": [
+          {
+            "updatedName": "달의불빛",
+            "updatedContents": ["회복량: 15% 증가"]
+          },
+          {
+            "updatedName": "중력",
+            "updatedContents": [
+              "상대편 포켓몬을 행동 불가로 만드는 시간: 0.5초 → 1초"
             ]
           }
         ]
@@ -1013,6 +1027,19 @@
             "updatedContents": [
               "기술 대기 시간을 단축하는 효과가 발동하지 않던 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-01-31",
+        "updatedContentList": [
+          {
+            "updatedName": "섀도볼",
+            "updatedContents": ["데미지: 12% 증가"]
+          },
+          {
+            "updatedName": "섀도볼+",
+            "updatedContents": ["데미지: 12% 증가"]
           }
         ]
       }
@@ -1623,7 +1650,6 @@
     "color": "#fecc51",
     "position": "support",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2022-02-24",
@@ -1671,6 +1697,28 @@
               "골로 돌아온 후 이동 속도 상승량: 약 35% 감소",
               "골 간을 워프한 후 이동 속도 상승량: 약 35% 감소"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-01-31",
+        "updatedContentList": [
+          {
+            "updatedName": "고스트다이브",
+            "updatedContents": [
+              "기술 사용 방법을 지정한 위치로 발동할 수 있도록 변경하였습니다."
+            ]
+          },
+          {
+            "updatedName": "다른차원홀",
+            "updatedContents": [
+              "워프한 지점으로 돌아갈 수 있게 되기까지 필요한 대기 시간: 15초 → 10초",
+              "스타트 지점에 돌아갔을 때 회복 효과가 시작되기까지의 시간: 0.5초 → 0초"
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 굴레를벗어난링",
+            "updatedContents": ["필요한 유나이트 기술 게이지: 약 15% 감소"]
           }
         ]
       }
@@ -1906,7 +1954,6 @@
     "color": "#fecc51",
     "position": "support",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
@@ -1927,6 +1974,28 @@
           {
             "updatedName": "스테이터스",
             "updatedContents": ["레벨 15 때 특수공격: 414 → 450"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-01-31",
+        "updatedContentList": [
+          {
+            "updatedName": "염동력",
+            "updatedContents": [
+              "데미지: 15% 감소(상대편 포켓몬을 장애물에 밀쳐냈을 때 주는 추가 데미지는 조정 없음)"
+            ]
+          },
+          {
+            "updatedName": "파워스웹",
+            "updatedContents": [
+              "같은 편과 연결되었을 때 이동 속도 증가량: 15% → 8%",
+              "같은 편과 연결되었을 때 회복량: 15% 감소"
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: It's 쇼타임",
+            "updatedContents": ["데미지: 10% 감소"]
           }
         ]
       }
@@ -2106,6 +2175,18 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-01-31",
+        "updatedContentList": [
+          {
+            "updatedName": "야습",
+            "updatedContents": [
+              "기술을 사용한 뒤 은신 상태가 되기까지 필요한 시간: 0.75초 → 1.5초",
+              "은신 상태가 되기 전에 행동 불가 상태가 되면 은신 상태가 되지 않도록 조정하였습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2116,7 +2197,6 @@
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2022-09-29",
@@ -2159,6 +2239,36 @@
           {
             "updatedName": "불릿펀치",
             "updatedContents": ["대기 시간: 6초 → 5초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-01-31",
+        "updatedContentList": [
+          {
+            "updatedName": "더블윙",
+            "updatedContents": ["대기 시간: 5초 → 6초"]
+          },
+          {
+            "updatedName": "칼춤(스라크)",
+            "updatedContents": [
+              "대기 시간: 6초 → 7초",
+              "공격 증가량: 15% → 12%"
+            ]
+          },
+          {
+            "updatedName": "칼춤(칼춤)",
+            "updatedContents": [
+              "대기 시간: 6초 → 7초",
+              "공격 증가량: 15% → 12%"
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 그린스타다이브",
+            "updatedContents": [
+              "1단계 기술 범위: 약 30% 감소",
+              "2단계 대시 거리: 약 20% 감소"
+            ]
           }
         ]
       }
@@ -2744,6 +2854,40 @@
             "updatedName": "수류연타+",
             "updatedContents": [
               "기술을 사용한 뒤 일반 공격의 대기 시간을 단축하는 효과가 약해지던 오류를 수정하였습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-01-31",
+        "updatedContentList": [
+          {
+            "updatedName": "암흑강타",
+            "updatedContents": ["충전하고 있는 동안의 데미지 감소량: 30% → 20%"]
+          },
+          {
+            "updatedName": "암흑강타+",
+            "updatedContents": ["충전하고 있는 동안의 데미지 감소량: 60% → 40%"]
+          },
+          {
+            "updatedName": "유나이트 기술: 칠흑의마지막강타",
+            "updatedContents": [
+              "데미지: 25% 감소",
+              "방향을 지정하지 않았을 때, 데미지를 주고 날려버리는 대상이 지정한 상대편 포켓몬으로만 조정하였습니다."
+            ]
+          },
+          {
+            "updatedName": "강화 공격(연격)",
+            "updatedContents": ["기술 대기 시간을 짧게 하는 효과: 1.5초 → 2초"]
+          },
+          {
+            "updatedName": "수류연타",
+            "updatedContents": ["대기 시간: 13초 → 11초"]
+          },
+          {
+            "updatedName": "유나이트 기술: 푸른물의무도",
+            "updatedContents": [
+              "2단계 연속 공격의 횟수를 1번 증가시킬 때 필요한 데미지 횟수: 3번 → 2번"
             ]
           }
         ]
