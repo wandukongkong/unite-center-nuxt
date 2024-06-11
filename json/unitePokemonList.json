@@ -2401,7 +2401,6 @@
     "color": "#aced5b",
     "position": "defence",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
@@ -2438,6 +2437,17 @@
             "updatedContents": [
               "회복량: 약 20% 증가",
               "필요한 유나이트 기술 게이지: 20% 감소"
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-12-08",
+        "updatedContentList": [
+          {
+            "updatedName": "블록",
+            "updatedContents": [
+              "블록+의 효과가 활성화되어있던 오류를 수정하였으며 블록+의 기술 설명을 수정할 예정입니다."
             ]
           }
         ]
@@ -2983,6 +2993,17 @@
             "updatedContents": [
               "대기 시간: 10초 → 9초 ",
               "획득하는 실드: 20% 증가"
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-12-08",
+        "updatedContentList": [
+          {
+            "updatedName": "암흑강타",
+            "updatedContents": [
+              "일정 시간 모으지 않고 최대로 모은 상태로 기술이 사용되던 오류를 수정했습니다."
             ]
           }
         ]
