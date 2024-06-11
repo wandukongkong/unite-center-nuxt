@@ -99,7 +99,6 @@
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2022-04-08",
@@ -133,6 +132,15 @@
           {
             "updatedName": "특성: 천하장사",
             "updatedContents": ["급소 데미지의 배율: 150% → 170%"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-12-22",
+        "updatedContentList": [
+          {
+            "updatedName": "물의파동",
+            "updatedContents": ["대기 시간: 4초 → 5초", "데미지: 약 10% 감소"]
           }
         ]
       }
@@ -270,7 +278,6 @@
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2022-08-04",
@@ -338,6 +345,21 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-12-22",
+        "updatedContentList": [
+          {
+            "updatedName": "비스트부스트",
+            "updatedContents": [
+              "야생 포켓몬에게 데미지를 주는 경우에도 머슬 게이지가 모이도록 변경되었습니다."
+            ]
+          },
+          {
+            "updatedName": "덤벼들기",
+            "updatedContents": ["기술의 사용 횟수가 충전되는 시간: 6초 → 7.5초"]
+          }
+        ]
       }
     ]
   },
@@ -399,7 +421,6 @@
     "color": "#f16c38",
     "position": "attack",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
@@ -443,6 +464,15 @@
               "필요한 유나이트 기술 게이지: 약 25% 감소",
               "기술 사용 후에 방해 무효 효과를 얻게 됩니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-12-22",
+        "updatedContentList": [
+          {
+            "updatedName": "화염볼",
+            "updatedContents": ["상대편 포켓몬에게 주는 데미지: 8% 증가"]
           }
         ]
       }
@@ -905,7 +935,6 @@
     "color": "#29a5e3",
     "position": "speed",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2022-09-15",
@@ -946,6 +975,19 @@
           {
             "updatedName": "강화 공격",
             "updatedContents": ["데미지: 10% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-12-22",
+        "updatedContentList": [
+          {
+            "updatedName": "고속이동",
+            "updatedContents": ["대기 시간: 10초 → 11초", "가속 효과: 20% 감소"]
+          },
+          {
+            "updatedName": "점프킥",
+            "updatedContents": ["대기 시간: 7.5초 → 6.5초"]
           }
         ]
       }
@@ -1052,7 +1094,6 @@
     "color": "#f16c38",
     "position": "attack",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2022-03-14",
@@ -1089,6 +1130,32 @@
             "updatedContents": [
               "보유 횟수가 회복하는 시간: 12초 → 8초",
               "감속시키는 효과: 15% → 25%"
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-12-22",
+        "updatedContentList": [
+          {
+            "updatedName": "드래곤테일",
+            "updatedContents": [
+              "기술의 사용 횟수가 충전되는 시간: 12초 → 14초",
+              "기술 재사용 대기 시간: 2초 → 2.5초"
+            ]
+          },
+          {
+            "updatedName": "용의파동",
+            "updatedContents": [
+              "대기 시간: 8초 → 9초",
+              "데미지 마커에 의한 추가 데미지: 25% 감소"
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 두랄디재스터",
+            "updatedContents": [
+              "획득하는 실드: 15% 감소",
+              "불타는 부분이 상대편 포켓몬에게 주는 감속 효과: 약 20% 감소"
             ]
           }
         ]
@@ -2187,6 +2254,15 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-12-22",
+        "updatedContentList": [
+          {
+            "updatedName": "이상한빛",
+            "updatedContents": ["대기 시간: 8초 → 10초"]
+          }
+        ]
       }
     ]
   },
@@ -2888,6 +2964,25 @@
             "updatedName": "유나이트 기술: 푸른물의무도",
             "updatedContents": [
               "2단계 연속 공격의 횟수를 1번 증가시킬 때 필요한 데미지 횟수: 3번 → 2번"
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-12-22",
+        "updatedContentList": [
+          {
+            "updatedName": "아쿠아브레이크",
+            "updatedContents": [
+              "대기 시간: 12초 → 10초",
+              "획득하는 실드: 20% 증가"
+            ]
+          },
+          {
+            "updatedName": "아쿠아브레이크+",
+            "updatedContents": [
+              "대기 시간: 10초 → 9초 ",
+              "획득하는 실드: 20% 증가"
             ]
           }
         ]
