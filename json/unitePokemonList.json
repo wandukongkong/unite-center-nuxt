@@ -370,7 +370,6 @@
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
@@ -409,6 +408,23 @@
           {
             "updatedName": "유나이트 기술: 어스크러셔",
             "updatedContents": ["필요한 유나이트 기술 게이지: 약 10% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-12-01",
+        "updatedContentList": [
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": [
+              "화상 상태인 상대편 포켓몬에게 추가로 주는 데미지가 공격으로 계산되는 데미지가 되었습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 어스크러셔",
+            "updatedContents": [
+              "예상하지 않은 타이밍에 기술 발동이 취소되던 오류를 수정했습니다."
+            ]
           }
         ]
       }
@@ -543,6 +559,17 @@
             "updatedName": "중력",
             "updatedContents": [
               "상대편 포켓몬을 행동 불가로 만드는 시간: 0.5초 → 1초"
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-12-01",
+        "updatedContentList": [
+          {
+            "updatedName": "중력",
+            "updatedContents": [
+              "의도하지 않은 포켓몬의 일반 공격을 사용할 수 없게 되는 오류를 수정했습니다."
             ]
           }
         ]
@@ -1277,6 +1304,23 @@
             "updatedContents": ["기술이 닿는 거리: 20% 증가"]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-12-01",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "어시스트파워",
+            "updatedContents": [
+              "자신에게 주는 이동 속도 증가 효과가 강해졌습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1874,7 +1918,6 @@
     "color": "#aced5b",
     "position": "defence",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-09-29",
@@ -1911,6 +1954,15 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-12-01",
+        "updatedContentList": [
+          {
+            "updatedName": "얼음엄니",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          }
+        ]
       }
     ]
   },
@@ -1921,7 +1973,6 @@
     "color": "#f16c38",
     "position": "attack",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2022-09-02",
@@ -2011,6 +2062,17 @@
             "updatedContents": ["대기 시간: 9초 → 10.5초"]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-12-01",
+        "updatedContentList": [
+          {
+            "updatedName": "오류 수정",
+            "updatedContents": [
+              "특정 기술을 선택할 수 없는 경우가 있던 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2063,6 +2125,15 @@
           {
             "updatedName": "유나이트 기술: It's 쇼타임",
             "updatedContents": ["데미지: 10% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-12-01",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["HP가 감소되었습니다."]
           }
         ]
       }
@@ -2263,6 +2334,33 @@
             "updatedContents": ["대기 시간: 8초 → 10초"]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-12-01",
+        "updatedContentList": [
+          {
+            "updatedName": "짓궂은마음",
+            "updatedContents": [
+              "은신 상태일 때 자신에게 주는 이동 속도 증가 효과가 약해졌으며 은신 상태가 해제될 때까지의 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "야습",
+            "updatedContents": [
+              "은신 상태일 때 사용한 강화 공격으로 발생하는 추가 데미지가 약해졌으며 기술 대기 시간이 길어지고 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "이상한빛",
+            "updatedContents": ["기술 대기 시간이 길어졌습니다."]
+          },
+          {
+            "updatedName": "속여때리기",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2344,6 +2442,23 @@
             "updatedContents": [
               "1단계 기술 범위: 약 30% 감소",
               "2단계 대시 거리: 약 20% 감소"
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-12-01",
+        "updatedContentList": [
+          {
+            "updatedName": "더블윙",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "더블윙",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
           }
         ]
@@ -2735,7 +2850,6 @@
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-12-09",
@@ -2794,6 +2908,27 @@
             "updatedContents": [
               "얼음 상태일 때 특성의 효과가 발동하지 않던 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-12-01",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["방어와 특수방어가 감소되었습니다."]
+          },
+          {
+            "updatedName": "짓밟기",
+            "updatedContents": ["기술 대기 시간이 길어졌습니다."]
+          },
+          {
+            "updatedName": "그래스슬라이더",
+            "updatedContents": ["기술에 의한 실드 효과가 약해졌습니다."]
+          },
+          {
+            "updatedName": "그래스슬라이더+",
+            "updatedContents": ["기술에 의한 실드 효과가 약해졌습니다."]
           }
         ]
       }
@@ -3456,6 +3591,17 @@
           {
             "updatedName": "유나이트 기술: 나이트폴버스트",
             "updatedContents": ["필요한 유나이트 기술 게이지: 약 10% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-12-01",
+        "updatedContentList": [
+          {
+            "updatedName": "깜짝베기",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
           }
         ]
       }
