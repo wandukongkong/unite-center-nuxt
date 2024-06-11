@@ -512,7 +512,6 @@
     "color": "#fecc51",
     "position": "support",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2023-02-02",
@@ -560,6 +559,54 @@
             "updatedName": "오류 수정",
             "updatedContents": [
               "에나비꼬리를 사용했을 때 대기 시간 없이 여러 번 효과가 발동되던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-02-14",
+        "updatedContentList": [
+          {
+            "updatedName": "힐링시프트",
+            "updatedContents": ["꽃을 1개 획득하는 대기 시간: 2초 → 1.5초"]
+          },
+          {
+            "updatedName": "광합성",
+            "updatedContents": [
+              "꽃이 0개일 때 기초 회복량: 40% 증가",
+              "기술 발동으로부터 HP가 회복할 때까지의 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "플라워힐",
+            "updatedContents": [
+              "꽃이 0개일 때 기초 회복량: 40% 증가",
+              "기술 발동으로부터 HP가 회복할 때까지의 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "천사의키스",
+            "updatedContents": [
+              "같은 편을 감싸고 있을 때 실드: 50% ~ 70% 증가",
+              "대기 시간: 7초 → 6초"
+            ]
+          },
+          {
+            "updatedName": "매지컬리프",
+            "updatedContents": [
+              "상대편 포켓몬을 행동 불가로 만드는 시간: 0.5초 → 0.75초",
+              "상대 팀의 포켓몬을 우선적으로 공격하도록 변경되었습니다."
+            ]
+          },
+          {
+            "updatedName": "풀묶기",
+            "updatedContents": ["대기 시간: 8초 → 6초"]
+          },
+          {
+            "updatedName": "유나이트 기술: 힐링기프트",
+            "updatedContents": [
+              "회복량: 50% 증가",
+              "필요한 유나이트 기술 게이지: 약 20% 감소"
             ]
           }
         ]
@@ -2007,7 +2054,6 @@
     "color": "#fecc51",
     "position": "support",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2022-11-16",
@@ -2047,6 +2093,17 @@
           {
             "updatedName": "이상한빛",
             "updatedContents": ["혼란 상태로 만드는 시간: 2.5초 → 2초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-02-14",
+        "updatedContentList": [
+          {
+            "updatedName": "야습",
+            "updatedContents": [
+              "기술을 사용한 뒤 추가 데미지가 2번 발생하던 오류를 수정했습니다."
+            ]
           }
         ]
       }
