@@ -32,6 +32,19 @@
             "updatedContents": ["필요한 유나이트 기술 게이지: 25% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격이 감소되었습니다."]
+          },
+          {
+            "updatedName": "기습",
+            "updatedContents": ["기술의 범위가 좁아졌습니다."]
+          }
+        ]
       }
     ]
   },
@@ -103,6 +116,30 @@
             "updatedName": "유나이트 기술: 마지막일격",
             "updatedContents": [
               "야생 포켓몬에게 주는 최대 데미지가 감소되었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "야습",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되고 기술 대기 시간이 길어졌습니다.",
+              "기술 습득 레벨을 1 또는 3으로 변경했습니다."
+            ]
+          },
+          {
+            "updatedName": "철벽",
+            "updatedContents": [
+              "기술 대기 시간이 길어졌으며 기술 습득 레벨을 1 또는 3으로 변경했습니다."
+            ]
+          },
+          {
+            "updatedName": "성스러운칼",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 방어를 떨어뜨리는 효과가 약해졌습니다."
             ]
           }
         ]
@@ -464,6 +501,17 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "유나이트 기술: 어스크러셔",
+            "updatedContents": [
+              "방해 내성 상태인 상대편 포켓몬에게 사용했을 때 발생하는 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -644,6 +692,41 @@
             "updatedName": "유나이트:손가락에소원을(블록)",
             "updatedContents": [
               "기술을 사용했을 때 데미지를 감소시키도록 변경되었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "드레인키스",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "날따름",
+            "updatedContents": [
+              "기술 대기 시간이 짧아지고 기술에 의한 실드 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "중력",
+            "updatedContents": [
+              "기술을 사용할 때 효과의 일부 혹은 전부가 발휘되지 않던 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "중력",
+            "updatedContents": [
+              "기술을 사용할 때 효과의 일부 혹은 전부가 발휘되지 않던 오류를 수정했습니다.",
+              "기술의 효과로 일부 포켓몬의 기술이 사용할 수 없던 오류를 수정했습니다.",
+              "기술의 효과로 일부 포켓몬의 강화 공격을 사용할 수 없던 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 손가락에소원을",
+            "updatedContents": [
+              "파괴광선이 야생 포켓몬에게  비정상적인 데미지를 주던 오류를 수정했습니다."
             ]
           }
         ]
@@ -849,7 +932,6 @@
     "color": "#aced5b",
     "position": "defence",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
@@ -892,6 +974,31 @@
               "데미지를 받았을 때 주는 반격 데미지: 33% 증가",
               "반격 데미지의 대기 시간: 2초 → 1초"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "암석봉인",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 감속 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "암석봉인+",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 감속 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "스텔스록",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 쇄석선풍루",
+            "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
           }
         ]
       }
@@ -1106,6 +1213,39 @@
             "updatedName": "트라이어택+",
             "updatedContents": [
               "기술을 사용한 뒤에 일반 공격으로 회복하는 HP 회복량이 감소되었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "트라이어택",
+            "updatedContents": ["HP 회복량이 감소되었습니다."]
+          },
+          {
+            "updatedName": "트라이어택+",
+            "updatedContents": ["HP 회복량이 감소되었습니다."]
+          },
+          {
+            "updatedName": "회전부리",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "회전부리+",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "점프킥",
+            "updatedContents": [
+              "기술 대기 시간이 짧아지고 기술을 명중시켰을 때 획득하는 대시 게이지의 양이 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "전광석화",
+            "updatedContents": [
+              "자신에 대한 대기 시간 단축 효과에 관한 오류를 수정했습니다."
             ]
           }
         ]
@@ -1350,6 +1490,31 @@
             "updatedContents": ["대기 시간: 9초 → 10.5초"]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 감속 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "꽃가루경단",
+            "updatedContents": [
+              "HP 회복량이 증가되고 기술 대기 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "코튼가드",
+            "updatedContents": ["기술에 의한 실드 효과가 강해졌습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 솜털의춤",
+            "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
+          }
+        ]
       }
     ]
   },
@@ -1434,7 +1599,6 @@
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
@@ -1458,6 +1622,27 @@
           {
             "updatedName": "유나이트 기술: 노발대발러시",
             "updatedContents": ["필요한 에너지양: 약 17% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격이 상승되었습니다."]
+          },
+          {
+            "updatedName": "드래곤크루",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되고 상대편 포켓몬에게 주는 감속 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "드래곤크루+",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되고 상대편 포켓몬에게 주는 감속 효과가 강해졌습니다."
+            ]
           }
         ]
       }
@@ -1544,7 +1729,6 @@
     "color": "#29a5e3",
     "position": "speed",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
@@ -1576,6 +1760,27 @@
               "방어: 52~260 → 52~290(레벨 1~15)",
               "특수방어: 38~190→38~210(레벨 1~15)"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["특수공격이 감소되었습니다."]
+          },
+          {
+            "updatedName": "섀도볼",
+            "updatedContents": ["기술이 닿는 거리가 짧아졌습니다."]
+          },
+          {
+            "updatedName": "꿈먹기",
+            "updatedContents": ["기술이 닿는 거리가 짧아졌습니다."]
+          },
+          {
+            "updatedName": "병상첨병",
+            "updatedContents": ["기술이 닿는 거리가 짧아졌습니다."]
           }
         ]
       }
@@ -1846,7 +2051,6 @@
     "color": "#f16c38",
     "position": "attack",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
@@ -1877,6 +2081,29 @@
           {
             "updatedName": "그림자분신+",
             "updatedContents": ["대기 시간: 8초 → 7초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "물수리검",
+            "updatedContents": [
+              "던지는 수리검의 개수를 4개로 고정하였으며 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "물수리검+",
+            "updatedContents": [
+              "던지는 수리검의 개수를 5개로 고정하였으며 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "그림자분신",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
           }
         ]
       }
@@ -1958,6 +2185,21 @@
           {
             "updatedName": "유나이트 기술: 굴레를벗어난링",
             "updatedContents": ["필요한 유나이트 기술 게이지: 약 15% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "다른차원홀",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "트릭",
+            "updatedContents": [
+              "기술 대기 시간이 짧아지고 기술에 의해 자신에게 주는 가속 효과가 강해졌습니다."
+            ]
           }
         ]
       }
@@ -2226,6 +2468,41 @@
             "updatedContents": ["기술 대기 시간이 길어졌습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "솔라빔",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었으며 의도하지 않은 방향으로 기술이 사용되던 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "솔라빔+",
+            "updatedContents": [
+              "상대에게 기술이 명중했을 때, 기술의 대기 시간이 짧아지는 효과가 약해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "파도타기",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "고속이동",
+            "updatedContents": [
+              "기술에 의해 자신에게 주는 효과가 약해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 미스틱미라지",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2304,6 +2581,29 @@
             "updatedName": "염동력+",
             "updatedContents": [
               "파워스웹을 연결한 상대편 포켓몬에게 주는 추가 데미지가 감소되었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "염동력",
+            "updatedContents": [
+              "파워스웹으로 연결된 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "염동력+",
+            "updatedContents": [
+              "파워스웹으로 연결된 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: It's 쇼타임",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
           }
         ]
@@ -2689,6 +2989,17 @@
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "유나이트 기술: 야앙?키네시스",
+            "updatedContents": [
+              "방해 내성 상태인 상대편 포켓몬에게 사용했을 때 발생하는 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2969,6 +3280,17 @@
             "updatedContents": ["상대와 분배하는 데미지: 9% ~ 17% → 20% ~ 30%"]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "우드해머",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 효과의 지속 시간이 길어지고 기술 대기 시간이 짧아졌습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -3132,6 +3454,23 @@
           {
             "updatedName": "그래스슬라이더+",
             "updatedContents": ["기술에 의한 실드 효과가 약해졌습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "트로피컬킥",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 감속 효과가 약해지고 기술에 의한 실드 효과가 약해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 퀸에어리얼",
+            "updatedContents": [
+              "방해 내성 상태인 상대편 포켓몬에게 사용했을 때 발생하는 오류를 수정했습니다."
+            ]
           }
         ]
       }
@@ -3355,7 +3694,6 @@
     "color": "#f16c38",
     "position": "attack",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
@@ -3372,6 +3710,31 @@
           {
             "updatedName": "진화하는 레벨",
             "updatedContents": ["Lv.9 → Lv.7"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-10-27",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["방어와 특수방어와 HP가 상승되었습니다."]
+          },
+          {
+            "updatedName": "오물폭탄",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 감속 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "꽃잎댄스",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되고 기술 대기 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 그린레이지",
+            "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
           }
         ]
       }
