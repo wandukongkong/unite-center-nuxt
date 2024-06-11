@@ -817,6 +817,23 @@
             "updatedContents": ["효과가 중첩되어 발동되는 오류를 수정했습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "불대문자",
+            "updatedContents": ["2단계의 데미지: 약 35% 증가"]
+          },
+          {
+            "updatedName": "매지컬플레임",
+            "updatedContents": ["데미지: 약 10% 감소"]
+          },
+          {
+            "updatedName": "니트로차지+",
+            "updatedContents": ["이동 속도가 오르는 효과: 75% → 30%"]
+          }
+        ]
       }
     ]
   },
@@ -1011,7 +1028,6 @@
     "color": "#fecc51",
     "position": "support",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
@@ -1054,6 +1070,15 @@
             "updatedContents": ["회복량: 15% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "코튼가드",
+            "updatedContents": ["대기 시간: 9초 → 10.5초"]
+          }
+        ]
       }
     ]
   },
@@ -1064,7 +1089,6 @@
     "color": "#f16c38",
     "position": "attack",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2022-05-16",
@@ -1090,6 +1114,26 @@
           {
             "updatedName": "사이코쇼크",
             "updatedContents": ["데미지: 17% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "특성 '매직미러'",
+            "updatedContents": [
+              "대기 시간: 45초 → 35초",
+              "강화 공격의 데미지: 40% 증가"
+            ]
+          },
+          {
+            "updatedName": "사이코쇼크",
+            "updatedContents": ["기술이 닿는 거리: 20% 증가"]
+          },
+          {
+            "updatedName": "스피드스타",
+            "updatedContents": ["기술이 닿는 거리: 20% 증가"]
           }
         ]
       }
@@ -1138,7 +1182,6 @@
     "color": "#f16c38",
     "position": "attack",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-29",
@@ -1159,6 +1202,23 @@
           {
             "updatedName": "유나이트 기술: 페어리보이드",
             "updatedContents": ["필요한 에너지양: 20% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "사이코키네시스",
+            "updatedContents": ["대기 시간: 6초 → 7.5초"]
+          },
+          {
+            "updatedName": "사이코키네시스+",
+            "updatedContents": ["대기 시간: 5초 → 6.5초"]
+          },
+          {
+            "updatedName": "사이코쇼크",
+            "updatedContents": ["대기 시간: 10초 → 11초"]
           }
         ]
       }
@@ -2236,6 +2296,15 @@
             "updatedContents": ["데미지: 약 10% 증가"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "브레이브버드",
+            "updatedContents": ["대기 시간: 10초 → 8.5초"]
+          }
+        ]
       }
     ]
   },
@@ -2246,7 +2315,6 @@
     "color": "#aced5b",
     "position": "defence",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2022-01-20",
@@ -2312,6 +2380,24 @@
             "updatedContents": ["이동 속도 증가량: 45% → 35%"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "우드해머",
+            "updatedContents": [
+              "대기 시간: 6초 → 5초",
+              "데미지: 15% ~ 25% 증가",
+              "소모하는 HP: 남은 HP의 7% → 남은 HP의 5%",
+              "2번째 해머를 휘두르기까지의 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "아픔나누기",
+            "updatedContents": ["상대와 분배하는 데미지: 9% ~ 17% → 20% ~ 30%"]
+          }
+        ]
       }
     ]
   },
@@ -2322,7 +2408,6 @@
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-12-20",
@@ -2372,6 +2457,19 @@
           {
             "updatedName": "특성: 멀티스케일",
             "updatedContents": ["데미지 감소량: 25% → 30%"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "역린",
+            "updatedContents": ["강화 공격 데미지: 10% 증가"]
+          },
+          {
+            "updatedName": "유나이트 기술: 용성러시",
+            "updatedContents": ["필요한 유나이트 기술 게이지: 약 20% 감소"]
           }
         ]
       }
@@ -2455,7 +2553,6 @@
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2022-08-16",
@@ -2503,6 +2600,23 @@
             "updatedContents": ["필요한 에너지양: 약 17% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "악의파동",
+            "updatedContents": ["데미지: 10% 감소"]
+          },
+          {
+            "updatedName": "원시의힘",
+            "updatedContents": ["대기 시간: 10초 → 11초"]
+          },
+          {
+            "updatedName": "스톤에지",
+            "updatedContents": ["데미지: 10% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -2513,7 +2627,6 @@
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2022-12-01",
@@ -2560,6 +2673,23 @@
             "updatedContents": ["데미지: 10% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "수류연타",
+            "updatedContents": [
+              "기술을 사용한 뒤 회복 효과: 25% ~ 15% 감소(레벨 5~15)"
+            ]
+          },
+          {
+            "updatedName": "수류연타+",
+            "updatedContents": [
+              "기술을 사용한 뒤 일반 공격의 대기 시간을 단축하는 효과가 약해지던 오류를 수정하였습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2599,7 +2729,6 @@
     "color": "#fecc51",
     "position": "support",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
@@ -2639,6 +2768,19 @@
           {
             "updatedName": "노래하기",
             "updatedContents": ["대기 시간: 10초 → 8초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "구르기",
+            "updatedContents": ["실드가 유지되는 시간: 1초 → 2.5초"]
+          },
+          {
+            "updatedName": "나이트 기술: 스타☆리사이틀",
+            "updatedContents": ["필요한 유나이트 기술 게이지: 20% 감소"]
           }
         ]
       }
@@ -2821,7 +2963,6 @@
     "color": "#29a5e3",
     "position": "speed",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
@@ -2906,6 +3047,17 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2023-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "스파크",
+            "updatedContents": [
+              "공격을 사용한 뒤에 일반 공격의 돌격이 발동하지 않던 오류를 수정하였습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2916,7 +3068,6 @@
     "color": "#29a5e3",
     "position": "speed",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2022-10-27",
@@ -2971,6 +3122,23 @@
           {
             "updatedName": "풀베기",
             "updatedContents": ["대기 시간: 5.5초 → 4.5초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-02-27",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격: 160 ~ 670 → 150 ~ 700(레벨 1~15)"]
+          },
+          {
+            "updatedName": "풀베기",
+            "updatedContents": ["데미지: 10% 증가"]
+          },
+          {
+            "updatedName": "유나이트 기술: 나이트폴버스트",
+            "updatedContents": ["필요한 유나이트 기술 게이지: 약 10% 감소"]
           }
         ]
       }
