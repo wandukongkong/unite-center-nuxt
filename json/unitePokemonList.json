@@ -430,6 +430,19 @@
             "updatedContents": ["실드: 20% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-09-02",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": ["직후에 기술을 사용했을 때 연속으로 강화 공격이 사용 가능하던 오류를 수정했습니다."]
+          },
+          {
+            "updatedName": "알낳기",
+            "updatedContents": ["HP 회복량이 감소되었습니다."]
+          }
+        ]
       }
     ]
   },
@@ -545,6 +558,19 @@
           {
             "updatedName": "마지막일침",
             "updatedContents": ["상대편 포켓몬에게 주는 데미지가 증가되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-09-02",
+        "updatedContentList": [
+          {
+            "updatedName": "흡혈",
+            "updatedContents": ["술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 데미지가 증가되었습니다."]
+          },
+          {
+            "updatedName": "떨어뜨리기",
+            "updatedContents": ["상대편 포켓몬에게 주는 데미지가 증가되고 기술이 닿는 거리가 멀어졌으며 명중했을 때 획득할 수 있는 머슬 게이지의 양이 증가되었습니다."]
           }
         ]
       }
@@ -1071,6 +1097,19 @@
             "updatedContents": ["HP 회복량이 감소되었습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-09-02",
+        "updatedContentList": [
+          {
+            "updatedName": "다이빙",
+            "updatedContents": ["기술 대기 시간이 길어졌습니다."]
+          },
+          {
+            "updatedName": "에어슬래시",
+            "updatedContents": ["기술 대기 시간이 길어졌습니다."]
+          }
+        ]
       }
     ]
   },
@@ -1150,6 +1189,15 @@
             "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-09-02",
+        "updatedContentList": [
+          {
+            "updatedName": "스텔스록",
+            "updatedContents": ["처음부터 데미지가 증가된 상태가 적용되는 오류를 수정했습니다."]
+          }
+        ]
       }
     ]
   },
@@ -1221,7 +1269,6 @@
     "color": "#f16c38",
     "position": "attack",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2022-06-09",
@@ -1280,6 +1327,17 @@
           {
             "updatedName": "니트로차지+",
             "updatedContents": ["이동 속도가 오르는 효과: 75% → 30%"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-09-02",
+        "updatedContentList": [
+          {
+            "updatedName": "니트로차지",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다.
+
+"]
           }
         ]
       }
@@ -1578,6 +1636,15 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-09-02",
+        "updatedContentList": [
+          {
+            "updatedName": "드래곤테일",
+            "updatedContents": ["기술 대기 시간이 길어졌습니다."]
+          }
+        ]
       }
     ]
   },
@@ -1736,6 +1803,27 @@
             "updatedContents": [
               "자신에게 주는 이동 속도 증가 효과가 강해졌습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-09-02",
+        "updatedContentList": [
+          {
+            "updatedName": "환상빔",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "미래예지",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "어시스트파워",
+            "updatedContents": ["사이코 파워를 모으는 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 사이코솔라레",
+            "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
           }
         ]
       }
@@ -2075,6 +2163,19 @@
             "updatedContents": ["기술 대기 시간이 길어졌습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-09-02",
+        "updatedContentList": [
+          {
+            "updatedName": "얼다바람",
+            "updatedContents": ["상대편 포켓몬에게 주는 데미지가 증가되었습니다."]
+          },
+          {
+            "updatedName": "고드름침",
+            "updatedContents": ["1번의 기술을 통해 날릴 수 있는 결정의 최대 개수가 감소되었습니다.", "야생 포켓몬에게 맞아 부서진 고드름의 데미지 판정이 계속해서 맵에 남아있던 오류를 수정했습니다."]
+          }
+        ]
       }
     ]
   },
@@ -2387,7 +2488,6 @@
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
@@ -2417,6 +2517,15 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-09-02",
+        "updatedContentList": [
+          {
+            "updatedName": "그로우펀치",
+            "updatedContents": ["최대까지 충전했을 때 이동 거리가 짧아지던 오류를 수정했습니다."]
+          }
+        ]
       }
     ]
   },
@@ -2427,7 +2536,6 @@
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
@@ -2451,6 +2559,19 @@
           {
             "updatedName": "지옥의바퀴",
             "updatedContents": ["데미지: 23% 증가"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-09-02",
+        "updatedContentList": [
+          {
+            "updatedName": "지옥의바퀴",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "폭발펀치",
+            "updatedContents": ["상대편 포켓몬에게 주는 데미지가 감소되었습니다."]
           }
         ]
       }
@@ -2827,6 +2948,36 @@
           {
             "updatedName": "파워스웹+",
             "updatedContents": ["염동력으로 행동 불가 효과가 발동하지 않던 오류를 수정했습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-09-02",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": ["다음과 같이 변경되었습니다."]
+          },
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": ["다음과 같이 변경되었습니다.","일정 시간이 지날 때마다 일반 공격은 강화 공격이 되며 명중했을 때의 데미지가 증가하고 상대편 포켓몬을 날려버린다."
+          ]
+          },
+          {
+            "updatedName": "빛의장막",
+            "updatedContents": ["다음과 같이 변경되었습니다." , "지정한 장소에 빛의장막을 만들어 상대편 포켓몬이 못 지나가게 한다.", "빛의장막이 나타난 장소 가까이에 상대편 포켓몬이 있으면 상대편 포켓몬을 밀쳐내고 잠시 동안 행동할 수 없게 만든다."]
+          },
+          {
+            "updatedName": "배리어",
+            "updatedContents": ["다음과 같이 변경되었습니다." , "지정한 장소에 배리어를 만들어 상대편 포켓몬을 못 지나가게 한다." , "배리어가 나타난 장소 가까이에 상대편 포켓몬이 있으면 상대편 포켓몬을 밀쳐내고 잠시 동안 행동할 수 없게 만든다."]
+          },
+          {
+            "updatedName": "사이코키네시스",
+            "updatedContents": ["다음과 같이 변경되었습니다." , "잠시 동안 주변에 있는 상대편 포켓몬에게 지속 데미지를 주고 특수방어를 떨어뜨린다." , "그 뒤 주변의 상대편 포켓몬에게 데미지를 주고 행동할 수 없게 만든다." , "사이코키네시스는 파워스웹의 효과를 받은 포켓몬이나 빛의장막, 배리어에서도 동시에 발생한다."]
+          },
+          {
+            "updatedName": "파워스웹",
+            "updatedContents": ["다음과 같이 변경되었습니다." , "기술이 명중했을 때 명중한 포켓몬과 자신 사이를 연결하고 연결되어 있는 동안 자신의 이동 속도가 올라가며 HP를 지속해서 회복한다." , "같은 편 포켓몬과 연결된 경우에는 그 포켓몬의 이동 속도를 올리며 주는 데미지를 증가시키고 HP를 지속해서 회복시킨다." , "상대편 포켓몬과 연결된 경우에는 그 포켓몬의 이동 속도를 떨어뜨리며 주는 데미지를 감소시키고 지속 데미지를 준다." , "파워스웹이 연결되어 있는 포켓몬과 너무 멀어지면 연결이 끊어진다."]
           }
         ]
       }
@@ -3662,6 +3813,19 @@
             "updatedContents": ["필요한 유나이트 기술 게이지: 약 20% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-09-02",
+        "updatedContentList": [
+          {
+            "updatedName": "용의춤",
+            "updatedContents": ["기술 대기 시간이 길어졌습니다."]
+          },
+          {
+            "updatedName": "파괴광선",
+            "updatedContents": ["상대편 포켓몬에게 주는 데미지가 감소되었습니다."]
+          }
+        ]
       }
     ]
   },
@@ -3779,6 +3943,15 @@
             "updatedContents": ["변속 에리어(감속) 안에서 기술을 사용했을 때 감속 효과가 지속되는 오류를 수정했습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-09-02",
+        "updatedContentList": [
+          {
+            "updatedName": "짓밟기",
+            "updatedContents": ["상대편 포켓몬에게 주는 데미지가 감소되고 기술 대기 시간이 길어졌습니다."]
+          }
+        ]
       }
     ]
   },
@@ -3860,6 +4033,23 @@
           {
             "updatedName": "일반 공격",
             "updatedContents": ["기술을 사용할 때 효과의 일부 혹은 전부가 발휘되지 않던 오류를 수정했습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-09-02",
+        "updatedContentList": [
+          {
+            "updatedName": "악의파동",
+            "updatedContents": ["상대편 포켓몬에게 주는 데미지가 감소되었습니다."]
+          },
+          {
+            "updatedName": "원시의힘",
+            "updatedContents": ["기술에 의한 실드 효과가 약해지고 기술에 의한 이동 속도의 상승률이 감소되었습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 리슬램페이지",
+            "updatedContents": ["효과 시간 중에 일반 공격으로는 급소가 발생하지 않게 변경되었습니다."]
           }
         ]
       }
@@ -4131,6 +4321,15 @@
           {
             "updatedName": "유나이트 기술: 스타☆리사이틀",
             "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-09-02",
+        "updatedContentList": [
+          {
+            "updatedName": "연속뺨치기",
+            "updatedContents": ["기술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 데미지가 증가되었습니다."]
           }
         ]
       }
