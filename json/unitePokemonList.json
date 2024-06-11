@@ -512,6 +512,17 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-10-13",
+        "updatedContentList": [
+          {
+            "updatedName": "유나이트 기술: 어스크러셔",
+            "updatedContents": [
+              "해피너스의 특성으로 유나이트 기술이 무효가 되는 경우가 있던 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2503,6 +2514,23 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-10-13",
+        "updatedContentList": [
+          {
+            "updatedName": "고속이동",
+            "updatedContents": [
+              "지정한 방향과 다른 방향으로 발동되는 경우가 있던 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "솔라빔",
+            "updatedContents": [
+              "지정한 방향과 다른 방향으로 발동되는 경우가 있던 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2928,6 +2956,51 @@
           },
           {
             "updatedName": "더블윙",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-10-13",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격(스라크)",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "더블어택(스라크)",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "더블윙",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "스테이터스(핫삼)",
+            "updatedContents": ["방어, 특수방어, HP를 조정하였습니다."]
+          },
+          {
+            "updatedName": "불릿펀치",
+            "updatedContents": [
+              "기술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "칼춤(핫삼)",
+            "updatedContents": [
+              "기술 대기 시간이 짧아지고 기술에 의해 자신에게 주는 효과의 지속 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 레드스타다이브",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
