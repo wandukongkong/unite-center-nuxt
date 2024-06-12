@@ -142,6 +142,23 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-08-04",
+        "updatedContentList": [
+          {
+            "updatedName": "깜짝베기",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "기습",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1127,6 +1144,27 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-08-04",
+        "updatedContentList": [
+          {
+            "updatedName": "화염방사",
+            "updatedContents": [
+              "기술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "불꽃펀치",
+            "updatedContents": ["상대편 포켓몬에게 주는 효과가 강해졌습니다."]
+          },
+          {
+            "updatedName": "불대문자",
+            "updatedContents": [
+              "기술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 효과가 강해졌습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1268,6 +1306,33 @@
             "updatedName": "일반 공격",
             "updatedContents": [
               "강화 공격이 준비되어 있는 동안 이동 속도가 오르던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-08-04",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격이 감소되었습니다."]
+          },
+          {
+            "updatedName": "브레이즈킥",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "페인트",
+            "updatedContents": [
+              "효과 발동 시간과 이동 속도 상승 효과가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "화염볼",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
           }
         ]
@@ -1740,6 +1805,23 @@
             "updatedName": "폭풍",
             "updatedContents": [
               "일부 야생 포켓몬에게 데미지를 주지 못하던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-08-04",
+        "updatedContentList": [
+          {
+            "updatedName": "바다회오리",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "다이빙",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
           }
         ]
@@ -2657,6 +2739,27 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-08-04",
+        "updatedContentList": [
+          {
+            "updatedName": "코튼가드",
+            "updatedContents": [
+              "기술 대기 시간이 길어지고 HP 회복량이 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "목화포자",
+            "updatedContents": [
+              "기술 대기 시간이 짧아지고 자신과 상대편 포켓몬에게 주는 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 솜털의춤",
+            "updatedContents": ["HP 회복량이 감소되었습니다."]
+          }
+        ]
       }
     ]
   },
@@ -3356,6 +3459,27 @@
             "updatedContents": [
               "상대편 포켓몬을 끌어올 때의 오류가 수정되고 기술을 사용할 때의 타이밍과 관한 오류가 수정되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-08-04",
+        "updatedContentList": [
+          {
+            "updatedName": "섀도볼",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "병상첨병",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소하고 발동 시에 무적 시간이 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "꿈먹기",
+            "updatedContents": ["기술의 속도가 빨라졌습니다."]
           }
         ]
       }
@@ -4264,6 +4388,23 @@
             "updatedContents": ["데미지 오류가 수정되었습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-08-04",
+        "updatedContentList": [
+          {
+            "updatedName": "그로우펀치",
+            "updatedContents": [
+              "그로우펀치의 효과로 상승한 공격이 발동 후에 일반 공격에도 반영되던 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "본러쉬",
+            "updatedContents": [
+              "다시 기술을 사용했을 때 주변의 상대에게 데미지를 주지 않던 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -4349,6 +4490,23 @@
             "updatedName": "유나이트 기술: 호걸러시",
             "updatedContents": [
               "밀쳐내기의 오류가 수정되고 점프 패널에서 발생하던 오류가 수정되었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-08-04",
+        "updatedContentList": [
+          {
+            "updatedName": "크로스촙",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "인파이트",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
           }
         ]
@@ -6065,6 +6223,29 @@
             "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-08-04",
+        "updatedContentList": [
+          {
+            "updatedName": "애크러뱃",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "제비반환",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "공중날기",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -6921,6 +7102,31 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-08-04",
+        "updatedContentList": [
+          {
+            "updatedName": "오물폭탄",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되고 상대편 포켓몬에게 주는 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "꽃잎댄스",
+            "updatedContents": ["기술의 효과가 강해졌습니다."]
+          },
+          {
+            "updatedName": "솔라빔",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 그린레이지",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -7074,6 +7280,31 @@
             "updatedName": "유나이트 기술: 스타☆리사이틀",
             "updatedContents": [
               "사용 후 유나이트 기술 게이지를 능동적으로 모을 수 없었던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-08-04",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["HP, 특수방어, 방어가 증가했습니다."]
+          },
+          {
+            "updatedName": "연속뺨치기",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지와 효과가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "노래하기",
+            "updatedContents": ["상대편 포켓몬에게 주는 효과가 강해졌습니다."]
+          },
+          {
+            "updatedName": "매지컬샤인",
+            "updatedContents": [
+              "일부 야생 포켓몬에게 데미지를 주지 못하던 오류를 수정했습니다."
             ]
           }
         ]
@@ -7479,6 +7710,23 @@
             "updatedName": "와일드볼트",
             "updatedContents": [
               "기술 대기 시간이 짧아지고 기술을 사용할 때 자신이 받는 데미지가 줄었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-08-04",
+        "updatedContentList": [
+          {
+            "updatedName": "와일드볼트",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되고 기술 대기 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 질풍신뢰격",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
           }
         ]
