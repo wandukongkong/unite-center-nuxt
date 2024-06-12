@@ -88,6 +88,34 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-06-20",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격에 의한 HP 회복량이 증가되었습니다."]
+          },
+          {
+            "updatedName": "사이코커터",
+            "updatedContents": [
+              "다음과 같이 변경되었습니다.",
+              "실체화시킨 마음의 칼날로 공격한다.",
+              "기술이 명중했을 때 상대편 포켓몬의 이동 속도를 잠시 동안 떨어뜨린다.",
+              "또한 그 상대편 포켓몬에게 일반 공격으로 주는 데미지가 그 뒤 3번까지 증가한다."
+            ]
+          },
+          {
+            "updatedName": "따라가때리기",
+            "updatedContents": ["기술이 닿는 거리가 멀어졌습니다."]
+          },
+          {
+            "updatedName": "따라가때리기",
+            "updatedContents": [
+              "기술에 의한 이동 속도의 상승률이 상승되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -786,6 +814,23 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-06-20",
+        "updatedContentList": [
+          {
+            "updatedName": "화염방사",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "불대문자",
+            "updatedContents": [
+              "기술에 의한 이동 속도의 하락률이 감소되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1322,6 +1367,31 @@
             "updatedContents": [
               "처음부터 데미지가 증가된 상태가 적용되는 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-06-20",
+        "updatedContentList": [
+          {
+            "updatedName": "암석봉인",
+            "updatedContents": [
+              "다음과 같이 변경되었습니다.",
+              "지정한 장소를 향해 지면을 가르고 범위 안에 있는 상대편 포켓몬에게 데미지를 주면서 바위 장애물을 만든다.",
+              "기술이 명중한 상대편 포켓몬의 이동 속도를 잠시 동안 떨어뜨린다. 다시 기술을 사용하면 장애물이 사라진다."
+            ]
+          },
+          {
+            "updatedName": "암석봉인+",
+            "updatedContents": [
+              "다음과 같이 변경되었습니다.",
+              "기술이 나가는 속도가 증가했습니다.",
+              "업그레이드 후에는 기술이 명중했을 때 상대편 포켓몬의 이동 속도를 잠시 동안 떨어뜨리는 효과가 강해진다."
+            ]
+          },
+          {
+            "updatedName": "스텔스록",
+            "updatedContents": ["기술이 나가는 속도가 증가했습니다."]
           }
         ]
       }
@@ -1987,6 +2057,29 @@
           {
             "updatedName": "유나이트 기술: 사이코솔라레",
             "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-06-20",
+        "updatedContentList": [
+          {
+            "updatedName": "사이코쇼크",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 효과의 지속 시간이 길어지고 기술에 의한 이동 속도의 하락률이 상승되었으며 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "환상빔",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "어시스트파워",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되고 HP 회복량이 증가되었습니다."
+            ]
           }
         ]
       }
@@ -2814,6 +2907,23 @@
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-06-20",
+        "updatedContentList": [
+          {
+            "updatedName": "고드름떨구기",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "얼음엄니",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 쾅쾅프레스",
+            "updatedContents": ["유나이트 기술 게이지 수집률이 상승되었습니다."]
+          }
+        ]
       }
     ]
   },
@@ -3271,7 +3381,6 @@
     "color": "#f16c38",
     "position": "attack",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
@@ -3309,6 +3418,15 @@
           {
             "updatedName": "번개",
             "updatedContents": ["데미지: 10% 증가", "대기 시간: 8초 → 7.5초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-06-20",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["기술에 의한 HP 회복량이 증가되었습니다."]
           }
         ]
       }
@@ -3714,6 +3832,29 @@
             "updatedName": "블록",
             "updatedContents": [
               "블록+의 효과가 활성화되어있던 오류를 수정하였으며 블록+의 기술 설명을 수정할 예정입니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-06-20",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["특수방어가 상승되었습니다."]
+          },
+          {
+            "updatedName": "헤비봄버",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "블록",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 폭풍수면임팩트",
+            "updatedContents": [
+              "유나이트 기술 게이지 수집률이 상승되고 상대편 포켓몬에게 주는 효과의 지속 시간이 길어졌습니다."
             ]
           }
         ]
@@ -4183,6 +4324,17 @@
           {
             "updatedName": "오류 수정",
             "updatedContents": [""]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-06-20",
+        "updatedContentList": [
+          {
+            "updatedName": "짓밟기",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
           }
         ]
       }
