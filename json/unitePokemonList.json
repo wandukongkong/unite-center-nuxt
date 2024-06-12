@@ -71,6 +71,23 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "깜짝베기",
+            "updatedContents": [
+              "범위와 관련된 오류를 수정했으며 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "사이코커터",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -291,6 +308,31 @@
             "updatedContents": ["기술 습득 레벨을 8로 변경했습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["HP가 상승되었습니다."]
+          },
+          {
+            "updatedName": "거품",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "치근거리기",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "아쿠아테일",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되고 HP 회복량이 증가되었으며 기술 대기 시간이 짧아졌습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -399,7 +441,6 @@
     "color": "#fecc51",
     "position": "support",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-08-18",
@@ -474,6 +515,23 @@
           {
             "updatedName": "알낳기",
             "updatedContents": ["HP 회복량이 감소되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "신비의부적",
+            "updatedContents": [
+              "기술 대기 시간이 길어지고 기술에 의한 실드 효과가 약해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "알폭탄",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되고 상대편 포켓몬에게 주는 효과의 지속 시간이 짧아졌습니다."
+            ]
           }
         ]
       }
@@ -1414,6 +1472,35 @@
           {
             "updatedName": "니트로차지",
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "매지컬플레임",
+            "updatedContents": [
+              "특정 지닌물건을 지니고 있을 때 크리티컬이 발생하는 발생하는 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "불대문자",
+            "updatedContents": [
+              "특정 지닌물건을 지니고 있을 때 크리티컬이 발생하는 발생하는 오류를 수정했으며 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "회오리불꽃",
+            "updatedContents": [
+              "지속 시간이 조정되었으며 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "니트로차지",
+            "updatedContents": [
+              "지속 시간이 조정되었으며 기술이 닿는 거리가 멀어졌습니다."
+            ]
           }
         ]
       }
@@ -4763,6 +4850,21 @@
             "updatedContents": [
               "공격을 사용한 뒤에 일반 공격의 돌격이 발동하지 않던 오류를 수정하였습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-07-21",
+        "updatedContentList": [
+          {
+            "updatedName": "방전",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되고 기술 대기 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 질풍신뢰격",
+            "updatedContents": ["기술 습득 레벨을 9로 변경했습니다."]
           }
         ]
       }
