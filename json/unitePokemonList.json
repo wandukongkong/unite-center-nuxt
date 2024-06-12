@@ -983,6 +983,29 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-01-20",
+        "updatedContentList": [
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": [
+              "일반 공격에 의한 이동 속도의 하락률이 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "화염방사",
+            "updatedContents": ["이동하면서 기술을 사용할 수 있게 되었습니다."]
+          },
+          {
+            "updatedName": "불대문자",
+            "updatedContents": ["이동하면서 기술을 사용할 수 있게 되었습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 어스크러셔",
+            "updatedContents": ["기술이 닿는 거리가 멀어졌습니다."]
+          }
+        ]
       }
     ]
   },
@@ -1694,6 +1717,22 @@
             "updatedContents": [
               "화살깃연속속사: 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-01-20",
+        "updatedContentList": [
+          {
+            "updatedName": "리프스톰",
+            "updatedContents": [
+              "편 포켓몬에게 주는 효과가 강해졌습니다.",
+              "또한 조작이 조정되었습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 화살깃연속속사",
+            "updatedContents": ["조작이 조정되었습니다."]
           }
         ]
       }
@@ -2436,6 +2475,44 @@
             ]
           }
         ]
+      },
+      {
+        "updatedName": "지진",
+        "updatedContents": [
+          "효과가 아래와 같이 변경되었습니다:",
+          "높이 뛰어오른 뒤 지면에 기세 좋게 착지하여 범위 안에 있는 상대편 포켓몬에게 잠시 동안 지속 데미지를 주고 이동 속도를 떨어뜨린다."
+        ]
+      },
+      {
+        "updatedName": "지진+",
+        "updatedContents": [
+          "효과가 아래와 같이 변경되었습니다:",
+          "업그레이드 후에는 기술의 범위 안에서도 특히 가까이에 있는 상대편 포켓몬의 이동 속도를 더욱 떨어뜨린다."
+        ]
+      },
+      {
+        "updatedName": "드래곤다이브",
+        "updatedContents": [
+          "효과가 아래와 같이 변경되었습니다:",
+          "뒤쪽으로 거리를 벌린 뒤 지정한 방향으로 다이브해서 공격하고 상대편 포켓몬을 밀쳐낸다.",
+          "처음에 거리를 벌리는 동안 '드래곤크루'를 연계할 수 있으며 연계하면 '드래곤크루'로 상대편 포켓몬의 이동 속도를 떨어뜨리는 효과가 강해진다.",
+          "기술을 사용하는 동안 받는 데미지가 감소한다."
+        ]
+      },
+      {
+        "updatedName": "드래곤다이브+",
+        "updatedContents": [
+          "효과가 아래와 같이 변경되었습니다:",
+          "업그레이드 후에는 기술을 사용하는 동안 방해받지 않게 된다."
+        ]
+      },
+      {
+        "updatedName": "드래곤크루",
+        "updatedContents": [
+          "효과가 아래와 같이 변경되었습니다:",
+          "전방을 손톱으로 2번 공격하고 상대편 포켓몬에게 데미지를 준다. 1번째 공격은 데미지를 준 뒤 날려버린다.",
+          "2번째 공격은 주는 데미지가 증가하고 상대편 포켓몬의 이동 속도를 잠시 동안 떨어뜨린다."
+        ]
       }
     ]
   },
@@ -2613,6 +2690,47 @@
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-01-20",
+        "updatedContentList": [
+          {
+            "updatedName": "병상첨병",
+            "updatedContents": [
+              "기술 습득 레벨을 5로 변경했으며 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "꿈먹기",
+            "updatedContents": [
+              "기술 습득 레벨을 5로 변경했으며 상대 팀의 포켓몬을 KO 시키면 이 기술의 기술 대기 시간이 짧아지도록 변경했습니다."
+            ]
+          },
+          {
+            "updatedName": "병상첨병+",
+            "updatedContents": ["기술 습득 레벨을 11로 변경했습니다."]
+          },
+          {
+            "updatedName": "꿈먹기+",
+            "updatedContents": ["기술 습득 레벨을 11로 변경했습니다."]
+          },
+          {
+            "updatedName": "오물폭탄",
+            "updatedContents": ["기술 습득 레벨을 7로 변경했습니다."]
+          },
+          {
+            "updatedName": "섀도볼",
+            "updatedContents": ["기술 습득 레벨을 7로 변경했습니다."]
+          },
+          {
+            "updatedName": "오물폭탄+",
+            "updatedContents": ["기술 습득 레벨을 13으로 변경했습니다."]
+          },
+          {
+            "updatedName": "섀도볼+",
+            "updatedContents": ["기술 습득 레벨을 13으로 변경했습니다."]
           }
         ]
       }
@@ -3306,6 +3424,31 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-01-20",
+        "updatedContentList": [
+          {
+            "updatedName": "코멧펀치",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되고 상대편 포켓몬에게 주는 효과가 약해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "신속",
+            "updatedContents": ["HP 회복량이 감소되었습니다."]
+          },
+          {
+            "updatedName": "인파이트",
+            "updatedContents": ["포켓몬 기술 상향"]
+          },
+          {
+            "updatedName": "그로우펀치",
+            "updatedContents": [
+              "코멧펀치를 사용한 직후에 그로우펀치를 사용하면 그로우펀치가 명중하지 않던 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -3353,6 +3496,33 @@
             "updatedName": "폭발펀치",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-01-20",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "레벨 7 이후에 일반 공격의 HP 회복 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "태권당수",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "폭발펀치",
+            "updatedContents": ["기술이 닿는 거리가 멀어졌습니다."]
+          },
+          {
+            "updatedName": "지옥의바퀴",
+            "updatedContents": [
+              "상대편 포켓몬에게 방해 효과를 주지 못한 경우에도 데미지와 기술의 효과가 발동하도록 변경되었습니다."
             ]
           }
         ]
@@ -4628,6 +4798,24 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-01-20",
+        "updatedContentList": [
+          {
+            "updatedName": "공중날기",
+            "updatedContents": [
+              "상대 팀의 포켓몬에게 명중한 경우에는 이 기술의 대기 시간이 짧아지도록 변경되었습니다.",
+              "또한 상대편 포켓몬에게 주는 데미지가 감소되고 기술 대기 시간이 길어졌습니다."
+            ]
+          },
+          {
+            "updatedName": "제비반환",
+            "updatedContents": [
+              "기술이 명중하면 자신의 HP를 일정량 회복하는 효과가 추가되었으며 조작이 조정되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -4876,6 +5064,33 @@
             "updatedContents": ["공격이 상승되었습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-01-20",
+        "updatedContentList": [
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": ["기술이 닿는 거리가 짧아졌습니다."]
+          },
+          {
+            "updatedName": "파괴광선",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "신속",
+            "updatedContents": [
+              "기술이 닿는 거리가 멀어지고 기술 대기 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 용성러시",
+            "updatedContents": [
+              "소비하는 유나이트 기술 게이지의 양이 늘어났습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -5049,6 +5264,31 @@
             "updatedName": "짓밟기",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-01-20",
+        "updatedContentList": [
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": ["일반 공격이 빨라졌습니다."]
+          },
+          {
+            "updatedName": "트리플악셀",
+            "updatedContents": [
+              "기술에 의해 자신에게 주는 효과가 약해지고 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "짓밟기",
+            "updatedContents": ["HP 회복량이 증가되었습니다."]
+          },
+          {
+            "updatedName": "그래스슬라이더",
+            "updatedContents": [
+              "맞은 상대편 포켓몬의 이동 속도를 떨어뜨리는 효과가 삭제되고 기술 대기 시간이 길어졌습니다."
             ]
           }
         ]
@@ -5762,6 +6002,23 @@
             "updatedName": "볼트체인지",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-01-20",
+        "updatedContentList": [
+          {
+            "updatedName": "축전",
+            "updatedContents": [
+              "KO 당하여 재시작한 뒤에 축전의 효과가 발동하던 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "와일드볼트",
+            "updatedContents": [
+              "스파크에 의한 공격 횟수 추가가 만병통치약으로 무효로 되던 오류를 수정했습니다."
             ]
           }
         ]
