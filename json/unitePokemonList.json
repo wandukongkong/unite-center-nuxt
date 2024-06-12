@@ -116,6 +116,15 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-10-20",
+        "updatedContentList": [
+          {
+            "updatedName": "기습",
+            "updatedContents": ["오류가 수정되었습니다."]
+          }
+        ]
       }
     ]
   },
@@ -567,6 +576,27 @@
             "updatedName": "강화 공격",
             "updatedContents": [
               "강화 공격에 급소 데미지가 발생하지 않았던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-10-20",
+        "updatedContentList": [
+          {
+            "updatedName": "하이드로펌프",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "해수스파우팅",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 하이드로타이푼",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
           }
         ]
@@ -1548,6 +1578,15 @@
             "updatedContents": [
               "강화 공격에 급소 데미지가 발생하지 않았던 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-10-20",
+        "updatedContentList": [
+          {
+            "updatedName": "다이빙",
+            "updatedContents": ["오류가 수정되었습니다."]
           }
         ]
       }
@@ -2712,6 +2751,21 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-10-20",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["일반 공격이 빨라졌습니다."]
+          },
+          {
+            "updatedName": "드래곤다이브",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -3023,6 +3077,15 @@
             "updatedContents": [
               "자신에 대한 은신 효과에 관한 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-10-20",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["능력이 향상되었습니다."]
           }
         ]
       }
@@ -3833,6 +3896,23 @@
           {
             "updatedName": "불굴의마음",
             "updatedContents": ["실드량이 감소되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-10-20",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격이 감소되었습니다."]
+          },
+          {
+            "updatedName": "불굴의마음",
+            "updatedContents": ["능력이 하향되었습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 풀포스블라스트",
+            "updatedContents": ["오류가 수정되었습니다."]
           }
         ]
       }
@@ -4677,6 +4757,23 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-10-20",
+        "updatedContentList": [
+          {
+            "updatedName": "번개",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "볼트태클",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -5067,6 +5164,17 @@
             "updatedContents": ["업그레이드 후에는 특수방어가 오른다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-10-20",
+        "updatedContentList": [
+          {
+            "updatedName": "망각술",
+            "updatedContents": [
+              "기술 대기 시간이 짧아지고 HP 회복량이 증가되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -5430,6 +5538,15 @@
           {
             "updatedName": "공중날기",
             "updatedContents": ["술에 의해 자신에게 주는 효과가 약해졌습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-10-20",
+        "updatedContentList": [
+          {
+            "updatedName": "질풍날개",
+            "updatedContents": ["오류가 수정되었습니다."]
           }
         ]
       }
@@ -6255,6 +6372,23 @@
             "updatedContents": ["분열한 씨앗의 공격 범위가 조정되었습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-10-20",
+        "updatedContentList": [
+          {
+            "updatedName": "기가드레인",
+            "updatedContents": [
+              "기술에 의해 자신에게 주는 효과가 약해지고 HP 회복량이 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "솔라빔",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -6739,6 +6873,15 @@
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-10-20",
+        "updatedContentList": [
+          {
+            "updatedName": "와일드볼트+",
+            "updatedContents": ["오류가 수정되었습니다."]
           }
         ]
       }
