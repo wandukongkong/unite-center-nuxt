@@ -257,6 +257,15 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-03-14",
+        "updatedContentList": [
+          {
+            "updatedName": "성스러운칼",
+            "updatedContents": ["범위와 관련된 오류를 수정했습니다."]
+          }
+        ]
       }
     ]
   },
@@ -1460,6 +1469,21 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-03-14",
+        "updatedContentList": [
+          {
+            "updatedName": "다이빙",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되고 액션이 조정되었습니다."
+            ]
+          },
+          {
+            "updatedName": "에어슬래시",
+            "updatedContents": ["기술 대기 시간이 길어졌습니다."]
+          }
+        ]
       }
     ]
   },
@@ -1652,6 +1676,23 @@
             "updatedName": "그림자꿰매기",
             "updatedContents": [
               "대기 시간 및 최대 보유 횟수와 관련된 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-03-14",
+        "updatedContentList": [
+          {
+            "updatedName": "그림자꿰매기",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술",
+            "updatedContents": [
+              "화살깃연속속사: 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
           }
         ]
@@ -2204,6 +2245,23 @@
             "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-03-14",
+        "updatedContentList": [
+          {
+            "updatedName": "코튼가드",
+            "updatedContents": [
+              "기술에 의해 자신에게 주는 효과가 약해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술",
+            "updatedContents": [
+              "솜털의춤: 유나이트 기술을 모으기 쉬워졌습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2546,6 +2604,17 @@
             "updatedContents": ["기술이 닿는 거리가 짧아졌습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-03-14",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2865,6 +2934,25 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-03-14",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["이동 속도가 감소되었습니다."]
+          },
+          {
+            "updatedName": "몸통박치기",
+            "updatedContents": ["기술 대기 시간이 길어졌습니다."]
+          },
+          {
+            "updatedName": "웅크리기",
+            "updatedContents": [
+              "기술에 의해 자신에게 주는 효과가 약해졌습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -3102,6 +3190,33 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-03-14",
+        "updatedContentList": [
+          {
+            "updatedName": "섀도볼",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "다른차원홀",
+            "updatedContents": ["기술 대기 시간이 길어졌습니다."]
+          },
+          {
+            "updatedName": "굴레에 빠진 후파의 일반 공격",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "굴레에 빠진 후파의 다른차원러시",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -3177,6 +3292,17 @@
             "updatedName": "신속",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-03-14",
+        "updatedContentList": [
+          {
+            "updatedName": "인파이트",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되고 기술에 의해 자신에게 주는 효과가 약해졌습니다."
             ]
           }
         ]
@@ -3706,6 +3832,29 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-03-14",
+        "updatedContentList": [
+          {
+            "updatedName": "가드스웹",
+            "updatedContents": [
+              "기술이 명중했을 때 명중한 포켓몬과 자신 사이를 연결하고 서로의 방어와 특수방어를 교체한다. 상대편 포켓몬과 연결된 경우에는 지속 데미지를 주며 잠시 동안 이동 속도를 떨어뜨린다.",
+              "같은 편 포켓몬과 연결된 경우에는 그 포켓몬과 자신의 이동 속도를 올린다.",
+              "이 기술의 효과는 연결된 포켓몬과 너무 멀어져 연결이 끊어지거나 다른 포켓몬에게 타깃을 옮기려 하지 않는 한 계속 이어진다."
+            ]
+          },
+          {
+            "updatedName": "염동력",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "사이코키네시스",
+            "updatedContents": ["조작이 조정되었습니다."]
+          }
+        ]
       }
     ]
   },
@@ -3794,6 +3943,22 @@
             "updatedContents": [
               "기술에 의해 자신에게 주는 공격 속도 상승 효과가 약해졌습니다.",
               "오류 수정"
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-03-14",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": ["조작이 조정되었습니다."]
+          },
+          {
+            "updatedName": "오로라베일",
+            "updatedContents": [
+              "지정한 장소로 뛰어들어 주변에 오로라를 만든다. 자신과 범위 안에 있는 같은 편 포켓몬이 받는 데미지가 감소한다.",
+              "기술의 범위 안에 있는 동안 자신의 이동 속도가 오르며 일반 공격이 모두 강화 공격이 된다. 강화 공격으로 데미지를 주면 자신의 HP를 회복한다."
             ]
           }
         ]
@@ -4592,6 +4757,27 @@
             "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-03-14",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["이동 속도가 상승되었습니다."]
+          },
+          {
+            "updatedName": "우드해머",
+            "updatedContents": [
+              "기술에 의한 HP의 하락률이 감소되고 상대편 포켓몬에게 주는 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "아픔나누기",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 효과가 강해지고 기술에 의한 이동 속도의 상승률이 상승되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -4847,6 +5033,23 @@
           {
             "updatedName": "스테이터스",
             "updatedContents": ["공격이 상승되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-03-14",
+        "updatedContentList": [
+          {
+            "updatedName": "트로피컬킥",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되고 기술 대기 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "짓밟기",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
           }
         ]
       }
@@ -5549,6 +5752,17 @@
           {
             "updatedName": "방전",
             "updatedContents": ["기술에 의한 실드 효과가 강해졌습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-03-14",
+        "updatedContentList": [
+          {
+            "updatedName": "볼트체인지",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
           }
         ]
       }
