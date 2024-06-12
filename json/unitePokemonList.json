@@ -559,6 +559,17 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-12-09",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": [
+              "강화 공격에 급소 데미지가 발생하지 않았던 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1528,6 +1539,17 @@
             "updatedContents": ["기술 대기 시간이 길어졌습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-12-09",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": [
+              "강화 공격에 급소 데미지가 발생하지 않았던 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2388,6 +2410,17 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-12-09",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": [
+              "상대편 포켓몬에 대한 이동 속도 다운 효과에 관한 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2620,6 +2653,54 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-12-09",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "한바이트로 진화하는 레벨이 5로 변경되었습니다.",
+              "한카리아스로 진화하는 레벨이 9로 변경되었습니다."
+            ]
+          },
+          {
+            "updatedName": "구멍파기",
+            "updatedContents": ["기술 습득 레벨이 5로 변경되었습니다."]
+          },
+          {
+            "updatedName": "구멍파기+",
+            "updatedContents": ["기술 습득 레벨이 11로 변경되었습니다."]
+          },
+          {
+            "updatedName": "드래곤다이브",
+            "updatedContents": ["기술 습득 레벨이 5로 변경되었습니다."]
+          },
+          {
+            "updatedName": "드래곤다이브+",
+            "updatedContents": ["기술 습득 레벨이 11로 변경되었습니다."]
+          },
+          {
+            "updatedName": "지진",
+            "updatedContents": ["기술 습득 레벨이 7로 변경되었습니다."]
+          },
+          {
+            "updatedName": "지진+",
+            "updatedContents": ["기술 습득 레벨이 13로 변경되었습니다."]
+          },
+          {
+            "updatedName": "드래곤크루",
+            "updatedContents": ["기술 습득 레벨이 7로 변경되었습니다."]
+          },
+          {
+            "updatedName": "드래곤크루+",
+            "updatedContents": ["기술 습득 레벨이 13로 변경되었습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 노발대발러시",
+            "updatedContents": ["기술 습득 레벨이 9로 변경되었습니다."]
+          }
+        ]
       }
     ]
   },
@@ -2734,6 +2815,56 @@
           {
             "updatedName": "미래예지",
             "updatedContents": ["사용할 때 카메라 이동이 조정되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-12-09",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "킬리아로 진화하는 레벨이 5로 변경되었습니다.",
+              "가디안으로 진화하는 레벨이 9로 변경되었습니다."
+            ]
+          },
+          {
+            "updatedName": "사이코쇼크",
+            "updatedContents": ["기술 습득 레벨이 5로 변경되었습니다."]
+          },
+          {
+            "updatedName": "사이코쇼크+",
+            "updatedContents": ["기술 습득 레벨이 11로 변경되었습니다."]
+          },
+          {
+            "updatedName": "미래예지",
+            "updatedContents": ["기술 습득 레벨이 5로 변경되었습니다."]
+          },
+          {
+            "updatedName": "미래예지+",
+            "updatedContents": ["기술 습득 레벨이 11로 변경되었습니다."]
+          },
+          {
+            "updatedName": "사이코키네시스",
+            "updatedContents": ["기술 습득 레벨이 7로 변경되었습니다."]
+          },
+          {
+            "updatedName": "사이코키네시스+",
+            "updatedContents": ["기술 습득 레벨이 13로 변경되었습니다."]
+          },
+          {
+            "updatedName": "문포스",
+            "updatedContents": [
+              "술 습득 레벨이 7로 변경되었으며 발생하는 실드가 특수공격에 의한 데미지릴 막지 못하던 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "문포스+",
+            "updatedContents": ["기술 습득 레벨이 13로 변경되었습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 페어리보이드",
+            "updatedContents": ["기술 습득 레벨이 9로 변경되었습니다."]
           }
         ]
       }
@@ -2859,6 +2990,17 @@
           {
             "updatedName": "섀도볼+",
             "updatedContents": ["기술 습득 레벨을 13으로 변경했습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-12-09",
+        "updatedContentList": [
+          {
+            "updatedName": "유나이트 기술: 인비저블쇼크",
+            "updatedContents": [
+              "자신에 대한 은신 효과에 관한 오류를 수정했습니다."
+            ]
           }
         ]
       }
@@ -3199,6 +3341,17 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-12-09",
+        "updatedContentList": [
+          {
+            "updatedName": "탐내다",
+            "updatedContents": [
+              "기술 대기 시간이 길어졌으며 기술에 의해 자신에게 주는 효과의 지속 시간이 짧아지고 자신에게 주는 효과가 약해졌습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -3288,6 +3441,35 @@
           {
             "updatedName": "유나이트 기술: 거대물수리검",
             "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-12-09",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": [
+              "상대편 포켓몬에 대한 이동 속도 다운 효과에 관한 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "그림자분신",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "물수리검",
+            "updatedContents": [
+              "기술 대기 시간이 길어지고 상대편 포켓몬에 대한 이동 속도 다운 효과에 관한 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 거대물수리검",
+            "updatedContents": [
+              "상대편 포켓몬에 대한 이동 속도 다운 효과에 관한 오류를 수정했습니다."
+            ]
           }
         ]
       }
@@ -3577,6 +3759,21 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-12-09",
+        "updatedContentList": [
+          {
+            "updatedName": "그로우펀치",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되고 기술을 모으는 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "불굴의마음",
+            "updatedContents": ["실드량이 감소되었습니다."]
+          }
+        ]
       }
     ]
   },
@@ -3724,6 +3921,60 @@
           {
             "updatedName": "유나이트 기술: 쾅쾅프레스",
             "updatedContents": ["유나이트 기술 게이지 수집률이 상승되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-12-09",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "꾸꾸리로 진화하는 레벨이 5로 변경되었습니다.",
+              "메꾸리로 진화하는 레벨이 9로 변경되었습니다."
+            ]
+          },
+          {
+            "updatedName": "두꺼운지방",
+            "updatedContents": [
+              "지닌물건 '힘의머리띠'를 가지고 있는 상태 또는 배틀 아이템 '에나비꼬리'로 마크된 야생 포켓몬에게 일반 공격을 사용했을 때 한번의 공격으로 '두꺼운지방'의 효과가 2단계까지 얻어지던 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "고드름떨구기",
+            "updatedContents": ["기술 습득 레벨이 5로 변경되었습니다."]
+          },
+          {
+            "updatedName": "고드름떨구기+",
+            "updatedContents": ["기술 습득 레벨이 11로 변경되었습니다."]
+          },
+          {
+            "updatedName": "얼음엄니",
+            "updatedContents": ["기술 습득 레벨이 5로 변경되었습니다."]
+          },
+          {
+            "updatedName": "얼음엄니+",
+            "updatedContents": ["기술 습득 레벨이 11로 변경되었습니다."]
+          },
+          {
+            "updatedName": "10만마력",
+            "updatedContents": ["기술 습득 레벨이 7로 변경되었습니다."]
+          },
+          {
+            "updatedName": "10만마력+",
+            "updatedContents": ["기술 습득 레벨이 13로 변경되었습니다."]
+          },
+          {
+            "updatedName": "지진",
+            "updatedContents": ["기술 습득 레벨이 7로 변경되었습니다."]
+          },
+          {
+            "updatedName": "지진+",
+            "updatedContents": ["기술 습득 레벨이 13로 변경되었습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 쾅쾅프레스",
+            "updatedContents": ["기술 습득 레벨이 9로 변경되었습니다."]
           }
         ]
       }
@@ -4812,6 +5063,54 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-12-09",
+        "updatedContentList": [
+          {
+            "updatedName": "바둥바둥",
+            "updatedContents": [
+              "기술 습득 레벨이 5로 변경되고 기술에 의해 자신에게 주는 효과의 지속 시간이 길어졌습니다."
+            ]
+          },
+          {
+            "updatedName": "바둥바둥+",
+            "updatedContents": ["기술 습득 레벨이 11로 변경되었습니다."]
+          },
+          {
+            "updatedName": "헤비봄버",
+            "updatedContents": ["기술 습득 레벨이 5로 변경되었습니다."]
+          },
+          {
+            "updatedName": "헤비봄버+",
+            "updatedContents": ["기술 습득 레벨이 11로 변경되었습니다."]
+          },
+          {
+            "updatedName": "블록",
+            "updatedContents": [
+              "기술 습득 레벨이 7로 변경되었습니다.",
+              "괴력몬의 '지옥의바퀴'와 같은 방해 무효 상태일 때에도 '철벽'을 사용하고 있는 잠만보를 통과하지 못하도록 변경되었습니다."
+            ]
+          },
+          {
+            "updatedName": "블록+",
+            "updatedContents": [
+              "기술 습득 레벨이 13으로 변경되었으며 자신에 대한 데미지 경감 효과에 관한 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "하품",
+            "updatedContents": ["기술 습득 레벨이 7로 변경되었습니다."]
+          },
+          {
+            "updatedName": "하품+",
+            "updatedContents": ["기술 습득 레벨이 13으로 변경되었습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 폭풍수면임팩트",
+            "updatedContents": ["기술 습득 레벨이 9로 변경되었습니다."]
+          }
+        ]
       }
     ]
   },
@@ -4893,6 +5192,23 @@
             "updatedName": "하이퍼보이스",
             "updatedContents": [
               "기술을 사용하면 님피아의 특수방어가 내려가던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-12-09",
+        "updatedContentList": [
+          {
+            "updatedName": "페어리스킨",
+            "updatedContents": [
+              "지닌물건에 의한 데미지가 발생했을 때, '페어리스킨'의 효과가 발동하던 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 페어리하모니",
+            "updatedContents": [
+              "사용 후 공격 데미지(특수공격에 의한 데미지를 제외함)에 의한 HP 회복이 발생하지 않던 오류를 수정했습니다."
             ]
           }
         ]
@@ -5003,6 +5319,19 @@
             "updatedContents": [
               "기술이 명중하면 자신의 HP를 일정량 회복하는 효과가 추가되었으며 조작이 조정되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-12-09",
+        "updatedContentList": [
+          {
+            "updatedName": "제비반환",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "공중날기",
+            "updatedContents": ["술에 의해 자신에게 주는 효과가 약해졌습니다."]
           }
         ]
       }
@@ -5933,6 +6262,15 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-12-09",
+        "updatedContentList": [
+          {
+            "updatedName": "막치기",
+            "updatedContents": ["이펙트에 관한 오류를 수정했습니다."]
+          }
+        ]
       }
     ]
   },
@@ -6275,6 +6613,33 @@
             "updatedContents": [
               "이 기술에 의해 상대편 포켓몬을 KO 시킨 경우에 기술이 중단되도록 수정되었습니다.",
               "카메라 액션이 조정되었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-12-09",
+        "updatedContentList": [
+          {
+            "updatedName": "방전",
+            "updatedContents": [
+              "대편 포켓몬에게 주는 데미지가 감소되었으며 기술에 의한 실드 효과가 약해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "스파크",
+            "updatedContents": ["조작을 조정했습니다."]
+          },
+          {
+            "updatedName": "와일드볼트",
+            "updatedContents": [
+              "조작 후 자신의 HP를 잃지 않던 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 질풍신뢰격",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
           }
         ]
