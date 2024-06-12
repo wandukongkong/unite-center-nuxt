@@ -1260,6 +1260,17 @@
             "updatedContents": ["효과 발동 타이밍이 수정되었습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-08-18",
+        "updatedContentList": [
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": [
+              "강화 공격이 준비되어 있는 동안 이동 속도가 오르던 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1721,6 +1732,17 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-08-18",
+        "updatedContentList": [
+          {
+            "updatedName": "폭풍",
+            "updatedContents": [
+              "일부 야생 포켓몬에게 데미지를 주지 못하던 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1863,6 +1885,23 @@
           {
             "updatedName": "일반 공격",
             "updatedContents": ["접촉 범위가 수정되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-08-18",
+        "updatedContentList": [
+          {
+            "updatedName": "스텔스록",
+            "updatedContents": [
+              "기술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "암석봉인",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
           }
         ]
       }
@@ -2937,6 +2976,25 @@
             "updatedContents": ["특성 효과의 발동 간격을 조정했습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-08-18",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["이동 속도가 증가되었습니다."]
+          },
+          {
+            "updatedName": "땅고르기",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "드래곤다이브",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          }
+        ]
       }
     ]
   },
@@ -3125,6 +3183,23 @@
           {
             "updatedName": "사이코쇼크+",
             "updatedContents": ["오류가 수정되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-08-18",
+        "updatedContentList": [
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": [
+              "강화 공격이 명중한 상대편 포켓몬의 특수방어가 떨어지지 않던 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "사이코키네시스",
+            "updatedContents": [
+              "명중한 상대편 포켓몬의 특수방어가 떨어지는 효과를 추가했습니다."
+            ]
           }
         ]
       }
@@ -3826,6 +3901,27 @@
             "updatedContents": [
               "특성이 발동했을 때 공격의 상승폭이 줄었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-08-18",
+        "updatedContentList": [
+          {
+            "updatedName": "연막",
+            "updatedContents": [
+              "기술 효과가 하향되었으며 기술 대기 시간이 길어졌습니다."
+            ]
+          },
+          {
+            "updatedName": "물수리검",
+            "updatedContents": [
+              "기술 대기 시간이 짧아졌으며 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "그림자분신",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           }
         ]
       }
@@ -4965,6 +5061,23 @@
             "updatedContents": ["오류를 수정했습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-08-18",
+        "updatedContentList": [
+          {
+            "updatedName": "특성 눈퍼뜨리기",
+            "updatedContents": [
+              "풀숲에 있는 보이지 않는 상대편 포켓몬에게도 효과가 발동되던 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "오로라베일",
+            "updatedContents": [
+              "범위 안에 있는 동안 「특성 눈퍼뜨리기」의 발동 빈도가 증가하던 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -5488,6 +5601,24 @@
             "updatedContents": ["기술의 범위가 수정되었습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-08-18",
+        "updatedContentList": [
+          {
+            "updatedName": "파도타기",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 효과의 지속 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "열탕",
+            "updatedContents": [
+              "대편 포켓몬에게 주는 데미지가 증가되었습니다.",
+              "증기에 의한 데미지에 따라 「특성 둔감」의 효과가 발동하지 않던 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -5628,6 +5759,31 @@
             "updatedContents": [
               "잠듦 상태가 된 상대편 포켓몬의 오류가 수정되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-08-18",
+        "updatedContentList": [
+          {
+            "updatedName": "헤비봄버",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "블록",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 효과의 지속 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "바둥바둥",
+            "updatedContents": ["기술 효과가 상향되었습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 폭풍수면임팩트",
+            "updatedContents": ["HP 회복량이 감소되었습니다."]
           }
         ]
       }
@@ -6908,6 +7064,17 @@
           {
             "updatedName": "특성 헤롱헤롱바디",
             "updatedContents": ["특성 효과의 발동 간격을 조정했습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-08-18",
+        "updatedContentList": [
+          {
+            "updatedName": "유나이트 기술: 스타☆리사이틀",
+            "updatedContents": [
+              "사용 후 유나이트 기술 게이지를 능동적으로 모을 수 없었던 오류를 수정했습니다."
+            ]
           }
         ]
       }
