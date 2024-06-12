@@ -2083,6 +2083,41 @@
             "updatedContents": ["이펙트가 조정되었습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-03-28",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격이 감소되었습니다."]
+          },
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": ["기술이 닿는 거리가 짧아졌습니다."]
+          },
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": ["오류 수정"]
+          },
+          {
+            "updatedName": "특성 헤비메탈",
+            "updatedContents": ["기술 대기 시간이 길어졌습니다."]
+          },
+          {
+            "updatedName": "용의파동",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되고 상대편 포켓몬에게 주는 효과의 지속 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "러스터캐논",
+            "updatedContents": ["오류 수정"]
+          },
+          {
+            "updatedName": "유나이트 기술: 두랄디재스터",
+            "updatedContents": ["오류 수정"]
+          }
+        ]
       }
     ]
   },
@@ -3660,6 +3695,17 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-03-28",
+        "updatedContentList": [
+          {
+            "updatedName": "가드스웹+",
+            "updatedContents": [
+              "야생 포켓몬을 쓰러뜨렸을 때 마임맨에게 주는 효과가 사라지지 않는 오류가 수정되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -3737,6 +3783,18 @@
           {
             "updatedName": "오로라베일",
             "updatedContents": ["포켓몬 기술 하향"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-03-28",
+        "updatedContentList": [
+          {
+            "updatedName": "오로라베일",
+            "updatedContents": [
+              "기술에 의해 자신에게 주는 공격 속도 상승 효과가 약해졌습니다.",
+              "오류 수정"
+            ]
           }
         ]
       }
