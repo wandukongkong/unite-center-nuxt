@@ -5418,6 +5418,23 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-10-08",
+        "updatedContentList": [
+          {
+            "updatedName": "하이퍼보이스",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "매지컬플레임",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
