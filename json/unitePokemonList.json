@@ -125,6 +125,23 @@
             "updatedContents": ["오류가 수정되었습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "깜짝베기",
+            "updatedContents": [
+              "기술 대기 시간이 짧아지고 기술의 범위가 수정되었습니다."
+            ]
+          },
+          {
+            "updatedName": "기습",
+            "updatedContents": [
+              "기술 대기 시간이 짧아지고 기술 사용 중에 「방해 무효」의 지속 시간이 길어졌습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -600,6 +617,18 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "고속스핀",
+            "updatedContents": [
+              "고속스핀 중에 공격한 상대편 포켓몬의 이동 속도가 떨어지던 오류가 수정되었습니다.",
+              "고속스핀 중에 「하이드로펌프」와 일반 공격 또는 「해수스파우팅」과 일반 공격을 동시에 사용할 수 있던 오류가 수정되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1047,6 +1076,34 @@
             "updatedContents": ["기술이 닿는 거리가 멀어졌습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "불꽃펀치",
+            "updatedContents": ["화상 효과를 주는 대상이 수정되었습니다."]
+          },
+          {
+            "updatedName": "화염방사",
+            "updatedContents": ["이동 속도의 상승폭이 늘었습니다."]
+          },
+          {
+            "updatedName": "불대문자",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 어스크러셔",
+            "updatedContents": [
+              "기술의 효과가 다음과 같이 변경되었습니다.",
+              "「상대 팀의 포켓몬을 붙잡아 공중에서 지면으로 내던진다. 그 뒤 일정 시간 동안 장애물을 무시하고 이동할 수 있다.",
+              "유나이트 기술을 사용하는 동안은 일반 공격으로 주는 데미지가 증가하고 상대편 포켓몬을 화상 상태로 만든다.",
+              "상대편 포켓몬에게 데미지를 주면 자신의 HP를 회복한다.」",
+              "유나이트 기술을 모으기 어려워졌습니다.",
+              "기술을 취소할 수 있는 타이밍 오류가 수정되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1153,6 +1210,31 @@
           {
             "updatedName": "페인트",
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "화염볼",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되고 기술 대기 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "니트로차지",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 블레이즈스트라이크",
+            "updatedContents": [
+              "기술 발동에 실패했을 때 발생하던 오류가 수정되었습니다."
+            ]
+          },
+          {
+            "updatedName": "특성 맹화",
+            "updatedContents": ["효과 발동 타이밍이 수정되었습니다."]
           }
         ]
       }
@@ -1589,6 +1671,33 @@
             "updatedContents": ["오류가 수정되었습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "파도타기",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "다이빙",
+            "updatedContents": ["기술 사이의 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 거센파도미사일",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1722,6 +1831,15 @@
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": ["접촉 범위가 수정되었습니다."]
           }
         ]
       }
@@ -2460,6 +2578,23 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "코튼가드",
+            "updatedContents": [
+              "기술 종료 시에 HP 회복과 관련된 오류가 수정되었습니다."
+            ]
+          },
+          {
+            "updatedName": "그래스믹서",
+            "updatedContents": [
+              "기술 이펙트를 개선하고 조작감이 일치하도록 수정되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2766,6 +2901,19 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["방어와 특수방어가 상승되었습니다."]
+          },
+          {
+            "updatedName": "특성 까칠한피부",
+            "updatedContents": ["특성 효과의 발동 간격을 조정했습니다."]
+          }
+        ]
       }
     ]
   },
@@ -2943,6 +3091,19 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": ["데미지 오류가 수정되었습니다."]
+          },
+          {
+            "updatedName": "사이코쇼크+",
+            "updatedContents": ["오류가 수정되었습니다."]
+          }
+        ]
       }
     ]
   },
@@ -3086,6 +3247,17 @@
           {
             "updatedName": "스테이터스",
             "updatedContents": ["능력이 향상되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "핥기",
+            "updatedContents": [
+              "상대편 포켓몬을 끌어올 때의 오류가 수정되고 기술을 사용할 때의 타이밍과 관한 오류가 수정되었습니다."
+            ]
           }
         ]
       }
@@ -3596,6 +3768,43 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격과 최대 HP가 감소되었습니다."]
+          },
+          {
+            "updatedName": "연막",
+            "updatedContents": [
+              "업그레이드 전에도 「연막+」의 효과가 발생하던 오류가 수정되었습니다."
+            ]
+          },
+          {
+            "updatedName": "그림자분신",
+            "updatedContents": ["분신의 동작이 개선되었습니다."]
+          },
+          {
+            "updatedName": "물수리검",
+            "updatedContents": [
+              "상대편 포켓몬의 이동 속도를 떨어뜨리는 효과에 관한 오류가 수정되었습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술",
+            "updatedContents": [
+              "거대물수리검: 빠르게 발동되도록 조정되었습니다."
+            ]
+          },
+          {
+            "updatedName": "특성 급류",
+            "updatedContents": [
+              "특성이 발동했을 때 공격의 상승폭이 줄었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -3915,6 +4124,27 @@
             "updatedContents": ["오류가 수정되었습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "그로우펀치",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "인파이트",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되고 기술의 공격 횟수가 늘었습니다."
+            ]
+          },
+          {
+            "updatedName": "인파이트+",
+            "updatedContents": ["데미지 오류가 수정되었습니다."]
+          }
+        ]
       }
     ]
   },
@@ -3989,6 +4219,17 @@
             "updatedName": "지옥의바퀴",
             "updatedContents": [
               "상대편 포켓몬에게 방해 효과를 주지 못한 경우에도 데미지와 기술의 효과가 발동하도록 변경되었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "유나이트 기술: 호걸러시",
+            "updatedContents": [
+              "밀쳐내기의 오류가 수정되고 점프 패널에서 발생하던 오류가 수정되었습니다."
             ]
           }
         ]
@@ -4545,6 +4786,21 @@
             "updatedContents": ["조작이 조정되었습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "배리어",
+            "updatedContents": [
+              "업그레이드했을 때 기술의 충전할 수 있는 횟수가 최대까지 회복하도록 수정되었습니다."
+            ]
+          },
+          {
+            "updatedName": "가드스웹",
+            "updatedContents": ["방어 교체에 관한 오류가 수정되었습니다."]
+          }
+        ]
       }
     ]
   },
@@ -4665,6 +4921,25 @@
             "updatedContents": [
               "기술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "눈보라",
+            "updatedContents": [
+              "눈보라가 장애물에 닿은 뒤에 데미지를 주는 방식이 변경되었습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 서클네주",
+            "updatedContents": ["오류를 수정했습니다."]
+          },
+          {
+            "updatedName": "눈퍼뜨리기",
+            "updatedContents": ["오류를 수정했습니다."]
           }
         ]
       }
@@ -5175,6 +5450,21 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": [
+              "강화 공격을 포함한 일반 공격으로 상대편 포켓몬의 특수 방어가 떨어지던 오류가 수정되었습니다."
+            ]
+          },
+          {
+            "updatedName": "파도타기",
+            "updatedContents": ["기술의 범위가 수정되었습니다."]
+          }
+        ]
       }
     ]
   },
@@ -5304,6 +5594,17 @@
           {
             "updatedName": "유나이트 기술: 폭풍수면임팩트",
             "updatedContents": ["기술 습득 레벨이 9로 변경되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "하품",
+            "updatedContents": [
+              "잠듦 상태가 된 상대편 포켓몬의 오류가 수정되었습니다."
+            ]
           }
         ]
       }
@@ -5564,6 +5865,25 @@
           {
             "updatedName": "질풍날개",
             "updatedContents": ["오류가 수정되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격이 상승되었습니다."]
+          },
+          {
+            "updatedName": "공중날기",
+            "updatedContents": [
+              "기술 대기 시간이 짧아지고 공중에서 이동 속도의 상승폭이 늘었습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 플레어스위퍼",
+            "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
           }
         ]
       }
@@ -6406,6 +6726,22 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "기가드레인",
+            "updatedContents": ["데미지 감소량이 늘었습니다."]
+          },
+          {
+            "updatedName": "꽃잎댄스",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다.",
+              "기술 대기 시간이 짧아지고 이동 속도의 상승폭이 늘었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -6518,6 +6854,37 @@
           {
             "updatedName": "막치기",
             "updatedContents": ["이펙트에 관한 오류를 수정했습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["특수공격이 감소되었습니다."]
+          },
+          {
+            "updatedName": "막치기",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "매지컬샤인",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "노래하기",
+            "updatedContents": [
+              "잠듦 상태가 된 상대편 포켓몬의 오류가 수정되었습니다."
+            ]
+          },
+          {
+            "updatedName": "특성 헤롱헤롱바디",
+            "updatedContents": ["특성 효과의 발동 간격을 조정했습니다."]
           }
         ]
       }
@@ -6899,6 +7266,30 @@
           {
             "updatedName": "와일드볼트+",
             "updatedContents": ["오류가 수정되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-09-22",
+        "updatedContentList": [
+          {
+            "updatedName": "베어가르기",
+            "updatedContents": [
+              "기술의 공격 횟수가 줄고 1번의 공격으로 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "스파크",
+            "updatedContents": [
+              "기술을 연속 사용하기 쉽도록 기술 사이의 여유 판정 시간이 길어졌습니다.",
+              "「스파크」 사용 중에 일반 공격을 사용했을 때도 「와일드볼트」의 연속 공격 횟수가 늘어나게 되었습니다."
+            ]
+          },
+          {
+            "updatedName": "와일드볼트",
+            "updatedContents": [
+              "기술 대기 시간이 짧아지고 기술을 사용할 때 자신이 받는 데미지가 줄었습니다."
+            ]
           }
         ]
       }
