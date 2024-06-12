@@ -2701,6 +2701,17 @@
             "updatedContents": ["기술 습득 레벨이 9로 변경되었습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-11-10",
+        "updatedContentList": [
+          {
+            "updatedName": "까칠한피부",
+            "updatedContents": [
+              "제라오라의 '와일드볼트'를 맞았을 때 의도하지 않은 데미지를 되받아치던 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2865,6 +2876,17 @@
           {
             "updatedName": "유나이트 기술: 페어리보이드",
             "updatedContents": ["기술 습득 레벨이 9로 변경되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-11-10",
+        "updatedContentList": [
+          {
+            "updatedName": "사이코키네시스",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 효과가 강해지고 상대편 포켓몬에게 주는 데미지가 증가되었으며 기술 대기 시간이 짧아졌습니다."
+            ]
           }
         ]
       }
@@ -3349,6 +3371,45 @@
             "updatedName": "탐내다",
             "updatedContents": [
               "기술 대기 시간이 길어졌으며 기술에 의해 자신에게 주는 효과의 지속 시간이 짧아지고 자신에게 주는 효과가 약해졌습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-11-10",
+        "updatedContentList": [
+          {
+            "updatedName": "볼주머니",
+            "updatedContents": [
+              "기술의 HP 회복량이 감소되었으며 요씽리스가 떨어뜨린 나무열매의 회복량도 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "탐내다",
+            "updatedContents": [
+              "특정 조건에서 '탐내다'를 사용한 뒤 '트림'을 상정된 것보다 잦게 사용할 수 있던 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "트림",
+            "updatedContents": [
+              "기술 대기 시간이 길어지고 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "볼가득넣기",
+            "updatedContents": ["기술에 의한 실드 효과가 약해졌습니다."]
+          },
+          {
+            "updatedName": "기관총",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 나무열매욕심다이브",
+            "updatedContents": [
+              "점프 패널을 사용한 뒤에 유나이트 기술을 사용하면 의도하지 않은 동작이 일어나는 오류를 수정했습니다."
             ]
           }
         ]
@@ -4511,6 +4572,21 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2021-11-10",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["특수공격이 상승되었습니다."]
+          },
+          {
+            "updatedName": "눈보라",
+            "updatedContents": [
+              "기술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -4588,6 +4664,17 @@
           {
             "updatedName": "유나이트 기술: 풀볼트스톰",
             "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-11-10",
+        "updatedContentList": [
+          {
+            "updatedName": "번개",
+            "updatedContents": [
+              "'10만볼트', '번개', 일반 공격을 순서대로 빠르게 입력하면 '번개'가 간헐적으로 발동하지 않는 오류를 수정했습니다."
+            ]
           }
         ]
       }
@@ -5209,6 +5296,17 @@
             "updatedName": "유나이트 기술: 페어리하모니",
             "updatedContents": [
               "사용 후 공격 데미지(특수공격에 의한 데미지를 제외함)에 의한 HP 회복이 발생하지 않던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2021-11-10",
+        "updatedContentList": [
+          {
+            "updatedName": "유나이트 기술: 페어리하모니",
+            "updatedContents": [
+              "유나이트 기술을 사용한 뒤에 기술1을 사용하더라도 HP 회복 효과가 발동하지 않던 오류를 수정했습니다."
             ]
           }
         ]
