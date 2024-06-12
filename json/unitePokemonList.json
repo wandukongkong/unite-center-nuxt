@@ -242,6 +242,21 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-04-28",
+        "updatedContentList": [
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": ["포켓몬 기술 상향"]
+          },
+          {
+            "updatedName": "성스러운칼",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되고 상대편 포켓몬에게 주는 효과의 지속 시간이 길어졌습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -391,6 +406,29 @@
           {
             "updatedName": "치근거리기",
             "updatedContents": ["대편 포켓몬에게 주는 데미지가 증가되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-04-28",
+        "updatedContentList": [
+          {
+            "updatedName": "거품",
+            "updatedContents": [
+              "상대편 포켓몬에 대한 이동 속도 다운 효과에 관한 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "바다회오리",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지와 관련된 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedName": "아쿠아테일",
+            "updatedContents": [
+              "기술을 발동하면 그 뒤 3번의 일반 공격이 빨라지고 범위가 넓어진다. 그 일반 공격을 멀리서 명중시키면 주는 데미지가 증가하고 자신의 HP를 회복한다."
+            ]
           }
         ]
       }
@@ -630,6 +668,41 @@
             "updatedContents": [
               "알폭탄과 동시에 배웠을 때의 기술 대기 시간이 짧아졌습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-04-28",
+        "updatedContentList": [
+          {
+            "updatedName": "알낳기",
+            "updatedContents": [
+              "알을 같은 편 포켓몬에게 던져 자신과 그 포켓몬의 HP를 회복한다. 기술은 최대 2번까지 충전할 수 있다.",
+              "'알폭탄'을 배우면 합쳐서 최대 4번으로 바뀌며 그 이후 기술을 충전할 수 있는 횟수는 이 2가지 기술에서 공유된다."
+            ]
+          },
+          {
+            "updatedName": "알폭탄",
+            "updatedContents": [
+              "지정한 장소로 알을 세게 던진다. 던진 알은 폭발하여 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 날려버린다.",
+              "기술은 최대 2번까지 충전할 수 있다. '알낳기'를 배우면 합쳐서 최대 4번으로 바뀌며 그 이후 기술을 충전할 수 있는 횟수는 이 2가지 기술에서 공유된다."
+            ]
+          },
+          {
+            "updatedName": "알낳기+",
+            "updatedContents": ["기술 습득 레벨을 10으로 변경했습니다."]
+          },
+          {
+            "updatedName": "신비의부적+",
+            "updatedContents": ["기술 습득 레벨을 10으로 변경했습니다."]
+          },
+          {
+            "updatedName": "도우미+",
+            "updatedContents": ["기술 습득 레벨을 12으로 변경했습니다."]
+          },
+          {
+            "updatedName": "알폭탄+",
+            "updatedContents": ["기술 습득 레벨을 12으로 변경했습니다."]
           }
         ]
       }
@@ -1372,6 +1445,21 @@
             "updatedContents": ["발동 타이밍과 관련된 오류를 수정했습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-04-28",
+        "updatedContentList": [
+          {
+            "updatedName": "에어슬래시",
+            "updatedContents": ["포켓몬 기술 상향"]
+          },
+          {
+            "updatedName": "유나이트 기술: 거센파도미사일",
+            "updatedContents": [
+              "유나이트 기술을 모으기 쉬워졌으며 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1978,6 +2066,21 @@
           {
             "updatedName": "드래곤테일",
             "updatedContents": ["기술 대기 시간이 길어졌습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-04-28",
+        "updatedContentList": [
+          {
+            "updatedName": "용의파동",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "스텔스록",
+            "updatedContents": ["이펙트가 조정되었습니다."]
           }
         ]
       }
@@ -2714,6 +2817,19 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-04-28",
+        "updatedContentList": [
+          {
+            "updatedName": "탐내다",
+            "updatedContents": [
+              "최선을 다해 달려 부딪친 상대편 포켓몬에게 데미지를 주고 날려버린다. 이때 잠시 동안 방해 내성을 얻는다.",
+              "달리는 동안 몸에서 나무열매가 떨어진다. 그 나무열매를 먹으면 이동 속도가 잠시 동안 오르고 먹으면 먹을수록 이동 속도가 오른다.",
+              "또한 달리면서 '몸통박치기', '트림'이나 '기관총'을 사용할 수 있다. 기술을 사용하면 '몸통박치기', '트림'의 대기 시간이 0초가 된다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2794,6 +2910,15 @@
             "updatedContents": [
               "배틀 아이템을 사용하면 효과가 해제되는 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-04-28",
+        "updatedContentList": [
+          {
+            "updatedName": "유나이트 기술: 거대물수리검",
+            "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
           }
         ]
       }
@@ -2915,6 +3040,33 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-04-28",
+        "updatedContentList": [
+          {
+            "updatedName": "트릭",
+            "updatedContents": [
+              "기술의 범위가 좁아지고 기술 대기 시간이 길어졌으며 기술이 닿는 거리가 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "트릭+",
+            "updatedContents": ["HP 회복량이 감소되었습니다."]
+          },
+          {
+            "updatedName": "섀도볼",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 효과의 지속 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "고스트다이브",
+            "updatedContents": [
+              "기술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 효과가 강해졌습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2979,6 +3131,17 @@
             "updatedName": "그로우펀치",
             "updatedContents": [
               "유나이트기술 직후에 그로우펀치의 데미지가 높아지던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-04-28",
+        "updatedContentList": [
+          {
+            "updatedName": "신속",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
           }
         ]
@@ -3507,7 +3670,6 @@
     "color": "#f16c38",
     "position": "attack",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
@@ -3560,6 +3722,21 @@
           {
             "updatedName": "유나이트 기술: 서클네주",
             "updatedContents": ["필요한 유나이트 기술 게이지: 약 20% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-04-28",
+        "updatedContentList": [
+          {
+            "updatedName": "눈보라",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 효과의 지속 시간이 길어지고 기술의 범위가 넓어졌습니다."
+            ]
+          },
+          {
+            "updatedName": "오로라베일",
+            "updatedContents": ["포켓몬 기술 하향"]
           }
         ]
       }
@@ -4211,6 +4388,23 @@
             "updatedContents": ["대기 시간: 10초 → 8.5초"]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-04-28",
+        "updatedContentList": [
+          {
+            "updatedName": "브레이브버드",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되고 기술의 범위가 좁아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 플레어스위퍼",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되고 유나이트 기술을 모으기 어려워졌습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -4313,6 +4507,31 @@
             "updatedContents": [
               "상대편 포켓몬에게 주는 효과의 지속 시간이 길어지고 기술 대기 시간이 짧아졌습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-04-28",
+        "updatedContentList": [
+          {
+            "updatedName": "가지찌르기",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되고 상대편 포켓몬에게 주는 효과가 강해졌습니다. 또한 기술이 다음과 같이 변경되었습니다. 지정한 방향으로 꿰찌르듯이 공격한다. 기술이 명중했을 때 상대편 포켓몬에게 데미지를 주고 이동 속도를 잠시 동안 떨어뜨린다. 동시에 잠시 동안 자신의 HP를 서서히 회복한다."
+            ]
+          },
+          {
+            "updatedName": "저주",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었으며 기술에 의해 자신에게 주는 효과가 약해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "아픔나누기",
+            "updatedContents": ["HP 회복량이 증가되었습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 어둠숲다크가이스트",
+            "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
           }
         ]
       }
@@ -5263,6 +5482,15 @@
           {
             "updatedName": "유나이트 기술: 질풍신뢰격",
             "updatedContents": ["기술 습득 레벨을 9로 변경했습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-04-28",
+        "updatedContentList": [
+          {
+            "updatedName": "방전",
+            "updatedContents": ["기술에 의한 실드 효과가 강해졌습니다."]
           }
         ]
       }
