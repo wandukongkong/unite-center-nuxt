@@ -231,6 +231,17 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-05-30",
+        "updatedContentList": [
+          {
+            "updatedName": "성스러운칼",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 효과의 지속 시간이 짧아졌습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -361,6 +372,27 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-05-30",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "HP가 증가되고 공격에 의한 HP 회복량이 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "아쿠아테일",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "치근거리기",
+            "updatedContents": ["대편 포켓몬에게 주는 데미지가 증가되었습니다."]
+          }
+        ]
       }
     ]
   },
@@ -457,6 +489,27 @@
           {
             "updatedName": "유나이트 기술: 하이드로타이푼",
             "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-05-30",
+        "updatedContentList": [
+          {
+            "updatedName": "고속스핀",
+            "updatedContents": [
+              "기술에 의해 자신에게 주는 효과를 '방해 내성'으로 변경했습니다."
+            ]
+          },
+          {
+            "updatedName": "하이드로펌프",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedName": "유나이트 기술: 하이드로타이푼",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
           }
         ]
       }
@@ -559,6 +612,23 @@
             "updatedName": "알폭탄",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되고 상대편 포켓몬에게 주는 효과의 지속 시간이 짧아졌습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-05-30",
+        "updatedContentList": [
+          {
+            "updatedName": "알폭탄",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되고 알낳기와 동시에 배웠을 때의 기술 대기 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedName": "알낳기",
+            "updatedContents": [
+              "알폭탄과 동시에 배웠을 때의 기술 대기 시간이 짧아졌습니다."
             ]
           }
         ]
@@ -893,6 +963,29 @@
           {
             "updatedName": "화염볼",
             "updatedContents": ["상대편 포켓몬에게 주는 데미지: 8% 증가"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-05-30",
+        "updatedContentList": [
+          {
+            "updatedName": "브레이즈킥",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "화염볼+",
+            "updatedContents": [
+              "기술에 의해 자신에게 주는 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedName": "페인트",
+            "updatedContents": [
+              "기술에 의한 이동 속도의 상승률이 상승되었습니다."
+            ]
           }
         ]
       }
@@ -1392,6 +1485,15 @@
           {
             "updatedName": "스텔스록",
             "updatedContents": ["기술이 나가는 속도가 증가했습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-05-30",
+        "updatedContentList": [
+          {
+            "updatedName": "시저크로스",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           }
         ]
       }
@@ -2212,6 +2314,27 @@
             "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다"]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-05-30",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["진화하는 레벨을 8로 변경했습니다."]
+          },
+          {
+            "updatedName": "염동력",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedName": "사이코쇼크",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2656,6 +2779,23 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-05-30",
+        "updatedContentList": [
+          {
+            "updatedName": "파도타기",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "연막",
+            "updatedContents": [
+              "배틀 아이템을 사용하면 효과가 해제되는 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2752,6 +2892,29 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-05-30",
+        "updatedContentList": [
+          {
+            "updatedName": "다른차원러시",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "환상빔",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 굴레를벗어난링",
+            "updatedContents": [
+              "일반 공격이 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -2799,6 +2962,23 @@
             "updatedName": "그로우펀치",
             "updatedContents": [
               "최대까지 충전했을 때 이동 거리가 짧아지던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-05-30",
+        "updatedContentList": [
+          {
+            "updatedName": "신속+",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 추가 데미지량이 감소되었습니다."
+            ]
+          },
+          {
+            "updatedName": "그로우펀치",
+            "updatedContents": [
+              "유나이트기술 직후에 그로우펀치의 데미지가 높아지던 오류를 수정했습니다."
             ]
           }
         ]
@@ -3306,6 +3486,17 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-05-30",
+        "updatedContentList": [
+          {
+            "updatedName": "유나이트 기술: It's 쇼타임",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 효과의 지속 시간이 길어졌습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -3775,6 +3966,21 @@
             "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-05-30",
+        "updatedContentList": [
+          {
+            "updatedName": "열탕",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되고 기술에 의한 이동 속도의 하락률이 상승되었으며 기술에 의한 공격의 하락률이 상승되었습니다."
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 야앙?키네시스",
+            "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
+          }
+        ]
       }
     ]
   },
@@ -3918,6 +4124,17 @@
           {
             "updatedName": "오류 수정",
             "updatedContents": ["일반 공격"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-05-30",
+        "updatedContentList": [
+          {
+            "updatedName": "매지컬플레임",
+            "updatedContents": [
+              "야생 포켓몬에게 주는 효과가 발휘되지 않던 오류를 수정했습니다."
+            ]
           }
         ]
       }
@@ -4187,6 +4404,15 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2022-05-30",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격이 상승되었습니다."]
+          }
+        ]
       }
     ]
   },
@@ -4335,6 +4561,15 @@
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-05-30",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격이 상승되었습니다."]
           }
         ]
       }
@@ -4633,6 +4868,17 @@
           {
             "updatedName": "유나이트 기술: 그린레이지",
             "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2022-05-30",
+        "updatedContentList": [
+          {
+            "updatedName": "솔라빔",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
           }
         ]
       }
