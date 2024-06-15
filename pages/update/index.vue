@@ -17,7 +17,6 @@ const isOpenDtail = toRef(false);
 const selectedPokemonInfo = toRef({});
 
 // motion
-
 const { motionProperties: detailAreaMotionProperties } = useMotionProperties(
   detailArea,
   {

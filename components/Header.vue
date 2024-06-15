@@ -20,19 +20,25 @@ const isOpenMenu = toRef(true);
     <div class="opacity-1" v-motion-slide-bottom>
       <UCard class="hover:scale-[1.01] hover:shadow-xl ease-in duration-100">
         <div class="w-[200px] h-[60vh]">
-          <UButton class="flex w-[100%] mb-3">
+          <UButton
+            class="flex w-[100%] mb-3 bg-white text-gray-950 shadow-none hover:bg-slate-100"
+          >
             <div class="flex justify-center me-2 w-[50px]">
               <img class="h-[20px]" src="@/public/img/pokemon/ball.png" />
             </div>
             <strong>Home</strong>
           </UButton>
-          <UButton class="flex w-[100%] mb-3">
+          <UButton
+            class="flex w-[100%] mb-3 bg-white text-gray-950 shadow-none hover:bg-slate-100"
+          >
             <div class="flex justify-center me-2 w-[50px]">
               <img class="h-[20px]" src="@/public/img/pokemon/object3.png" />
             </div>
             <strong>Update</strong>
           </UButton>
-          <UButton class="flex w-[100%] mb-3">
+          <UButton
+            class="flex w-[100%] mb-3 bg-white text-gray-950 shadow-none hover:bg-slate-100"
+          >
             <div class="flex justify-center me-2 w-[50px]">
               <img class="h-[20px]" src="@/public/img/pokemon/object7.png" />
             </div>
