@@ -97,7 +97,9 @@ const clickPokemonCard = (pokemonInfo) => {
           :key="index"
           class="mb-3 ms-20"
         >
-          <strong>{{ groupedPokemonInfo.updatedDate }}</strong>
+          <div>
+            <strong>{{ groupedPokemonInfo.updatedDate }}</strong>
+          </div>
           <div class="flex flex-wrap">
             <div
               v-for="(
@@ -122,53 +124,6 @@ const clickPokemonCard = (pokemonInfo) => {
         </div>
       </div>
     </Transition>
-
-    <!-- TODO: Detail 영역 -->
-    <div class="flex opacity-0" ref="detailArea">
-      <div>
-        <PokemonCard class="relative transition-transform">
-          <img
-            :src="selectedPokemonInfo.image"
-            class="absolute top-0 start-0 rounded-lg"
-            style="-webkit-user-drag: none; object-fit: fill"
-          />
-        </PokemonCard>
-      </div>
-      <div>
-        <div
-          v-for="(
-            updatedInfo, updatedInfoIndex
-          ) in selectedPokemonInfo.updatedList"
-          :key="updatedInfoIndex"
-          class="px-10"
-        >
-          <div class="mb-2">
-            <strong>
-              {{ updatedInfo.updatedDate }}
-            </strong>
-          </div>
-          <div
-            v-for="(
-              updatedContentInfo, updatedContentInfoIndex
-            ) in updatedInfo.updatedContentList"
-            :key="updatedContentInfoIndex"
-            class="m-3"
-          >
-            <div>- {{ updatedContentInfo.updatedName }}</div>
-            <div>
-              <div
-                v-for="(
-                  updatedContent, updatedContentIndex
-                ) in updatedContentInfo.updatedContents"
-                :key="updatedContentIndex"
-              >
-                {{ updatedContent }}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 <style></style>

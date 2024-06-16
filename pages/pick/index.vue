@@ -228,13 +228,11 @@ onBeforeMount(() => {
           }
         "
       >
-        <PokemonCard class="border-8 ring-1 card-back">
-          <div class="flex flex-col justify-center items-center">
-            <NuxtImg
-              src="/img/pokemon/uniteLogo.png"
-              width="100"
-              class="mb-3"
-            />
+        <PokemonCard
+          class="card-back hover:scale-[1.05] hover:shadow-xl hover:shadow-gray-400 shadow-md shadow-gray-400 ease-out duration-200 cursor-pointer rounded"
+        >
+          <div class="flex flex-col justify-center items-center h-[100%]">
+            <NuxtImg src="/img/pokemon/uniteLogo.png" width="80" class="mb-3" />
             <NuxtImg src="/img/pokemon/monsterball.png" width="60" />
           </div>
         </PokemonCard>
@@ -266,16 +264,13 @@ onBeforeMount(() => {
           },
         }"
       >
-        <PokemonCard>
-          <div class="absolute top-0 start-0">
-            <NuxtImg
-              :src="cardInfo.image"
-              class="rounded-lg pattern border-[1.4px] border-gray-700 shadow-gray-500 shadow-md"
-              style="-webkit-user-drag: none"
-              :style="{ backgroundColor: cardInfo.color }"
-            />
-          </div>
-          <div></div>
+        <PokemonCard class="shadow-gray-400 rounded shadow-md">
+          <NuxtImg
+            :src="cardInfo.image"
+            class="rounded pattern"
+            style="-webkit-user-drag: none"
+            :style="{ backgroundColor: cardInfo.color }"
+          />
         </PokemonCard>
       </div>
       <!-- 아래쪽 카드 영역 -->
@@ -301,16 +296,13 @@ onBeforeMount(() => {
           },
         }"
       >
-        <PokemonCard>
-          <div class="absolute top-0 start-0">
-            <NuxtImg
-              :src="cardInfo.image"
-              class="rounded-lg pattern border-[1.4px] border-gray-700 shadow-gray-500 shadow-md"
-              style="-webkit-user-drag: none"
-              :style="{ backgroundColor: cardInfo.color }"
-            />
-          </div>
-          <div></div>
+        <PokemonCard class="shadow-gray-400 rounded shadow-md">
+          <NuxtImg
+            :src="cardInfo.image"
+            class="rounded pattern"
+            style="-webkit-user-drag: none"
+            :style="{ backgroundColor: cardInfo.color }"
+          />
         </PokemonCard>
       </div>
       <!-- 버튼 영역 -->
