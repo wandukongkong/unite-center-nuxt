@@ -193,7 +193,7 @@ onBeforeMount(() => {
 });
 </script>
 <template>
-  <div class="relative bg-red-200 select-none" style="-webkit-user-drag: none">
+  <div class="relative select-none" style="-webkit-user-drag: none">
     <div class="relative min-h-screen flex justify-center items-center">
       <!--  카드 덱 영역 -->
       <div
