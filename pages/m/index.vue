@@ -4,9 +4,7 @@ const { isMobile } = useDevice();
 </script>
 <template>
   <div class="min-h-screen flex flex-col justify-center items-center">
-    <div
-      class="relative flex justify-center items-center w-[400px] mb-20 bg-slate-500"
-    >
+    <div class="relative flex justify-center items-center w-[400px] mb-2">
       <!-- 배경 이미지 -->
       <div class="absolute">
         <div class="flex justify-center">

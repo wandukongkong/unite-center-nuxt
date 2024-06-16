@@ -1,8 +1,8 @@
 <template>
-  <div class="min-h-screen">
+  <div class="relative">
     <!-- <NuxtWelcome /> -->
     <NuxtLayout>
-      <NuxtPage />
+      <NuxtPage class="" />
     </NuxtLayout>
   </div>
 </template>
@@ -10,9 +10,18 @@
 /* transition */
 body,
 html {
-  background-color: rgb(247, 247, 247);
+  /* background-color: rgb(247, 247, 247); */
 }
 
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
 .page-enter-active,
 .page-leave-active {
   transition: all 0.1s;
@@ -25,10 +34,15 @@ html {
 
 .pattern {
   background-image: url("@/public/svg/square-pattern.svg"),
-    linear-gradient(180deg, rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 38%);
+    linear-gradient(180deg, rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%);
   background-size: 120px, auto;
   background-position:
     center,
     left top;
+  box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+:root {
+  color-scheme: light only;
 }
 </style>

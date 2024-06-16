@@ -20,70 +20,70 @@ const unitePokemonList = toRef([...unitePokemonListJson]);
 const defaultCardList = toRef([
   {
     cardNumber: 0,
-    position: [110, 70],
+    position: [110, 130],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 1,
-    position: [0, 70],
+    position: [0, 130],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 2,
-    position: [-110, 70],
+    position: [-110, 130],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 3,
-    position: [60, 170],
+    position: [60, 230],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 4,
-    position: [-60, 170],
+    position: [-60, 230],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 5,
-    position: [110, -190],
+    position: [110, -130],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 6,
-    position: [0, -190],
+    position: [0, -130],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 7,
-    position: [-110, -190],
+    position: [-110, -130],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 8,
-    position: [60, -290],
+    position: [60, -230],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 9,
-    position: [-60, -290],
+    position: [-60, -230],
     name: "",
     color: "",
     image: "",
@@ -207,7 +207,7 @@ onMounted(() => {
           scale: 0.3,
           opacity: 1,
           x: 0,
-          y: -index * 1.2 - 60,
+          y: -index * 1.2,
           rotate: (Math.random() - 0.5) * 5,
           transition: {
             damping: 15,
@@ -320,13 +320,13 @@ onMounted(() => {
           scale: 0.5,
           opacity: 0,
           x: 0,
-          y: 0,
+          y: 60,
         }"
         :enter="{
           scale: 0.5,
           opacity: 1,
           x: 0,
-          y: 0,
+          y: 60,
           transition: {
             damping: 15,
             mass: 0.1,
@@ -351,7 +351,7 @@ onMounted(() => {
                 trailing-icon="i-heroicons-cog-6-tooth"
               />
               <template #panel>
-                <div class="relative bg-white">
+                <div class="relative w-[400px]">
                   <div class="px-4 py-2 flex flex-col">
                     <small class="truncate me-14 mb-2 opacity-[0.4]"
                       >Position Mode</small
@@ -359,7 +359,7 @@ onMounted(() => {
                     <div class="flex flex-wrap justify-start">
                       <UTooltip text="Default">
                         <UButton
-                          class="hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          class="hover:bg-[#ececec] m-1 w-[40px] h-[40px] rounded-sm flex justify-center items-center border-none shadow-none"
                           color="transparent"
                           :class="
                             selectedMode === 'default' ? 'bg-[#ececec]' : ''
@@ -375,7 +375,7 @@ onMounted(() => {
                       </UTooltip>
                       <UTooltip text="Attack">
                         <UButton
-                          class="hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          class="hover:bg-[#ececec] m-1 w-[40px] h-[40px] rounded-sm flex justify-center items-center border-none shadow-none"
                           color="transparent"
                           :class="
                             selectedMode === 'attack' ? 'bg-[#ececec]' : ''
@@ -391,7 +391,7 @@ onMounted(() => {
                       </UTooltip>
                       <UTooltip text="Support">
                         <UButton
-                          class="hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          class="hover:bg-[#ececec] m-1 w-[40px] h-[40px] rounded-sm flex justify-center items-center border-none shadow-none"
                           color="transparent"
                           :class="
                             selectedMode === 'support' ? 'bg-[#ececec]' : ''
@@ -407,7 +407,7 @@ onMounted(() => {
                       </UTooltip>
                       <UTooltip text="Balance">
                         <UButton
-                          class="hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          class="hover:bg-[#ececec] m-1 w-[40px] h-[40px] rounded-sm flex justify-center items-center border-none shadow-none"
                           color="transparent"
                           :class="
                             selectedMode === 'balance' ? 'bg-[#ececec]' : ''
@@ -423,7 +423,7 @@ onMounted(() => {
                       </UTooltip>
                       <UTooltip text="Speed">
                         <UButton
-                          class="hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          class="hover:bg-[#ececec] m-1 w-[40px] h-[40px] rounded-sm flex justify-center items-center border-none shadow-none"
                           color="transparent"
                           :class="
                             selectedMode === 'speed' ? 'bg-[#ececec]' : ''
@@ -439,7 +439,7 @@ onMounted(() => {
                       </UTooltip>
                       <UTooltip text="Defence">
                         <UButton
-                          class="hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          class="hover:bg-[#ececec] m-1 w-[40px] h-[40px] rounded-sm flex justify-center items-center border-none shadow-none"
                           color="transparent"
                           :class="
                             selectedMode === 'Defence' ? 'bg-[#ececec]' : ''
@@ -463,7 +463,7 @@ onMounted(() => {
                     <div class="flex flex-wrap justify-start w-[170px]">
                       <UCheckbox
                         v-model="isBanEx"
-                        class="mb-1"
+                        class="mb-3"
                         :disabled="isLoading"
                         name="isEx"
                         label="Ban EX"
@@ -504,15 +504,15 @@ onMounted(() => {
           opacity: 0,
           scale: 0.7,
           x: 0,
-          y: -65,
+          y: -5,
         }"
         :enter="{
           opacity: 1,
           scale: 0.25,
           x: 0,
-          y: -65,
+          y: -5,
           transition: {
-            delay: 500,
+            delay: 600,
           },
         }"
       >

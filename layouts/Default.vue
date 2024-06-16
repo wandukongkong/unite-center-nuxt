@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
-  <div class="absolute top-0 w-[100%] z-50">
-    <Header class=""></Header>
+  <div class="bg-transparent z-50" style="position: fixed; top: 10">
+    <Header></Header>
   </div>
   <slot></slot>
 </template>
