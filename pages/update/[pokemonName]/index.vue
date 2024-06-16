@@ -1,6 +1,7 @@
 <script setup>
 import { computed } from "vue";
 import { storeToRefs } from "pinia";
+import { useDayjs } from "#dayjs";
 
 // store
 import { useCommonStore } from "../../stores/commonStore";
@@ -10,6 +11,7 @@ const { unitePokemonList } = storeToRefs(useCommonStore());
 
 // use
 const router = useRouter();
+const dayjs = useDayjs();
 
 // local state
 const selectedPokemonInfo = computed(() =>
@@ -18,6 +20,19 @@ const selectedPokemonInfo = computed(() =>
       unitePokemonInfo.name === router.currentRoute.value.params.pokemonName
   )
 );
+
+const selectedPokemonDetailList = computed(() => {
+  return selectedPokemonInfo.value.updatedList.sort((a, b) => {
+    const aDateNumber = Number(
+      dayjs(a.updatedDate, "YYYY-MM-DD").format("YYYYMMDD")
+    );
+    const bDateNumber = Number(
+      dayjs(b.updatedDate, "YYYY-MM-DD").format("YYYYMMDD")
+    );
+
+    return aDateNumber < bDateNumber ? 1 : -1;
+  });
+});
 </script>
 <template>
   <div class="ps-20 h-[100vh]">
@@ -33,9 +48,7 @@ const selectedPokemonInfo = computed(() =>
       </div>
       <div>
         <div
-          v-for="(
-            updatedInfo, updatedInfoIndex
-          ) in selectedPokemonInfo.updatedList"
+          v-for="(updatedInfo, updatedInfoIndex) in selectedPokemonDetailList"
           :key="updatedInfoIndex"
           class="px-10"
         >

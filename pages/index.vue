@@ -1,8 +1,14 @@
 <script setup>
-import { onMounted, onBeforeMount } from "vue";
+import { onMounted, onBeforeMount, watch } from "vue";
+import { storeToRefs } from "pinia";
 import { useMotionProperties, useMotionControls } from "@vueuse/motion";
+import { useHomeStore } from "@/stores/homeStore";
 
+// use
 const router = useRouter();
+
+//store
+const { hoveredMenuName } = storeToRefs(useHomeStore());
 
 // local state
 const isClickedMenuButton = toRef(false);
@@ -190,16 +196,31 @@ const { apply: applyObject7Motion } = useMotionControls(
   }
 );
 
-// const clickMenuButton = (pageName) => {
-//   isClickedMenuButton.value = true;
+watch(
+  () => hoveredMenuName.value,
+  () => {
+    switch (hoveredMenuName.value) {
+      case "home":
+        applyLogoMotion("enter");
 
-//   applyImageAreaMotion("leave");
-//   applySideBarMotion("leave");
+        break;
+      case "update":
+        applyObject3Motion("enter");
 
-//   setTimeout(() => {
-//     router.push(`/${pageName}`);
-//   }, 1100);
-// };
+        break;
+      case "pick":
+        applyObject7Motion("enter");
+
+        break;
+
+      default:
+        applyLogoMotion("stop");
+        applyObject3Motion("stop");
+        applyObject7Motion("stop");
+        break;
+    }
+  }
+);
 
 onBeforeMount(() => {
   applyImageAreaMotion("initial");

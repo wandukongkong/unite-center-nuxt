@@ -1,11 +1,16 @@
 <script setup>
 import { toRef, onBeforeMount, onMounted, watch } from "vue";
 import { useMotionProperties, useMotionControls } from "@vueuse/motion";
+import { storeToRefs } from "pinia";
+import { useHomeStore } from "@/stores/homeStore";
 
 // use
 const route = useRoute();
 const router = useRouter();
 const { isMobile } = useDevice();
+
+// store
+const { hoveredMenuName } = storeToRefs(useHomeStore());
 
 // local state
 const sideBarRef = toRef(null);
@@ -71,7 +76,6 @@ const { apply: applySideBarMotion } = useMotionControls(
 watch(
   () => router.currentRoute.value.fullPath,
   () => {
-    console.log("wtf");
     if (router.currentRoute.value.fullPath === "/") {
       applySideBarMotion("enterHome");
     } else {
@@ -104,6 +108,8 @@ onMounted(() => {
     >
       <UButton
         class="flex w-[100%] mb-3 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
+        @mouseover="() => (hoveredMenuName = 'home')"
+        @mouseleave="() => (hoveredMenuName = '')"
         @click="
           () => {
             applySideBarMotion('enterHome');
@@ -122,6 +128,8 @@ onMounted(() => {
       </UButton>
       <UButton
         class="flex w-[100%] mb-3 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
+        @mouseover="() => (hoveredMenuName = 'update')"
+        @mouseleave="() => (hoveredMenuName = '')"
         @click="
           () => {
             applySideBarMotion('leaveHome');
@@ -140,6 +148,8 @@ onMounted(() => {
       </UButton>
       <UButton
         class="flex w-[100%] mb-3 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
+        @mouseover="() => (hoveredMenuName = 'pick')"
+        @mouseleave="() => (hoveredMenuName = '')"
         @click="
           () => {
             applySideBarMotion('leaveHome');
