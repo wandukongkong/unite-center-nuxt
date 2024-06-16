@@ -82,7 +82,7 @@ const { apply: applySideBarMotion } = useMotionControls(
       opacity: 0,
       width: "250px",
       height: "60vh",
-      // boxShadow: '1px 1px 1px black'
+      backgroundColor: "white",
     },
     enter: {
       x: 200,
@@ -99,10 +99,9 @@ const { apply: applySideBarMotion } = useMotionControls(
       y: 10,
       width: "50px",
       height: "97vh",
-      boxShadow: 0,
-      style: {},
       transition: {
-        damping: 15,
+        // duration: 1000,
+        damping: 14,
         mass: 0.1,
       },
     },
@@ -191,16 +190,16 @@ const { apply: applyObject7Motion } = useMotionControls(
   }
 );
 
-const clickMenuButton = (pageName) => {
-  isClickedMenuButton.value = true;
+// const clickMenuButton = (pageName) => {
+//   isClickedMenuButton.value = true;
 
-  applyImageAreaMotion("leave");
-  applySideBarMotion("leave");
+//   applyImageAreaMotion("leave");
+//   applySideBarMotion("leave");
 
-  setTimeout(() => {
-    router.push(`/${pageName}`);
-  }, 1100);
-};
+//   setTimeout(() => {
+//     router.push(`/${pageName}`);
+//   }, 1100);
+// };
 
 onBeforeMount(() => {
   applyImageAreaMotion("initial");
@@ -217,54 +216,6 @@ onMounted(() => {
 </script>
 <template>
   <div>
-    <div ref="sideBarRef" class="absolute opacity-0">
-      <div
-        class="border rounded py-5 hover:scale-105 hover:shadow-xl ease-out duration-300 bg-white h-[100%]"
-        :class="isClickedMenuButton ? 'px-0' : 'px-2'"
-      >
-        <UButton
-          class="flex w-[100%] mb-3 bg-white shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
-          @mouseover="async () => await applyLogoMotion('enter')"
-          @mouseleave="async () => await applyLogoMotion('stop')"
-        >
-          <div class="flex justify-center w-[50px]">
-            <img class="h-[20px]" src="@/public/img/pokemon/ball.png" />
-          </div>
-          <div v-if="!isClickedMenuButton" class="ms-2 text-gray-950">
-            <strong>Home</strong>
-          </div>
-        </UButton>
-        <!-- @click="() => clickMenuButton()" -->
-        <UButton
-          class="flex w-[100%] mb-3 bg-white shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
-          @click="() => clickMenuButton('update')"
-          @mouseover="async () => await applyObject3Motion('enter')"
-          @mouseleave="async () => await applyObject3Motion('stop')"
-        >
-          <div class="flex justify-center w-[50px]">
-            <img class="h-[20px]" src="@/public/img/pokemon/object3.png" />
-          </div>
-          <div v-if="!isClickedMenuButton" class="ms-2 text-gray-950">
-            <strong>Update</strong>
-          </div>
-        </UButton>
-        <UButton
-          class="flex w-[100%] mb-3 bg-white shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
-          @click="() => clickMenuButton('pick')"
-          @mouseover="async () => await applyObject7Motion('enter')"
-          @mouseleave="async () => await applyObject7Motion('stop')"
-        >
-          <div class="flex justify-center w-[50px]">
-            <img class="h-[20px]" src="@/public/img/pokemon/object7.png" />
-          </div>
-          <div v-if="!isClickedMenuButton" class="ms-2 text-gray-950">
-            <strong>Random Pick</strong>
-          </div>
-        </UButton>
-      </div>
-    </div>
-    <!-- <div class="flex flex-col justify-center items-center bg-red-400"> -->
-    <!-- <div class="relative flex justify-center w-[1200px] h-[800px] "> -->
     <div ref="imageAreaRef">
       <!-- 로고 -->
       <div class="absolute opacity-0" ref="logoRef">
@@ -299,7 +250,7 @@ onMounted(() => {
         <img
           class="hover:scale-105 hover:shadow-xl ease-out duration-200 cursor-pointer"
           src="@/public/img/pokemon/object3.png"
-          @click="clickMenuButton('update')"
+          @click="router.push('/update')"
         />
       </div>
       <!-- 테이블 오브젝트 -->
@@ -319,7 +270,7 @@ onMounted(() => {
         <img
           class="hover:scale-105 hover:shadow-xl ease-out duration-200 cursor-pointer"
           src="@/public/img/pokemon/object7.png"
-          @click="clickMenuButton('pick')"
+          @click="router.push('/pick')"
         />
       </div>
     </div>
