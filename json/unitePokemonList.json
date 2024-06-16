@@ -9027,5 +9027,24 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Ceruledge",
+    "nameKo": "파라블레이즈",
+    "image": "/img/unitePokemon/roster-ceruledge-2x.png",
+    "color": "#ce5fd3",
+    "position": "balance",
+    "isEx": true,
+    "updatedList": [
+      {
+        "updatedDate": "2024-06-13",
+        "updatedContentList": [
+          {
+            "updatedName": "출시",
+            "updatedContents": [""]
+          }
+        ]
+      }
+    ]
   }
 ]

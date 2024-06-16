@@ -22,70 +22,70 @@ const unitePokemonList = toRef([...unitePokemonListJson]);
 const defaultCardList = toRef([
   {
     cardNumber: 0,
-    position: [310, 200],
+    position: [330, 200],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 1,
-    position: [70, 200],
+    position: [110, 200],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 2,
-    position: [-170, 200],
+    position: [-110, 200],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 3,
-    position: [-410, 200],
+    position: [-330, 200],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 4,
-    position: [-650, 200],
+    position: [-550, 200],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 5,
-    position: [310, -200],
+    position: [330, -200],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 6,
-    position: [70, -200],
+    position: [110, -200],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 7,
-    position: [-170, -200],
+    position: [-110, -200],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 8,
-    position: [-410, -200],
+    position: [-330, -200],
     name: "",
     color: "",
     image: "",
   },
   {
     cardNumber: 9,
-    position: [-650, -200],
+    position: [-550, -200],
     name: "",
     color: "",
     image: "",
@@ -193,8 +193,8 @@ onBeforeMount(() => {
 });
 </script>
 <template>
-  <div class="relative select-none" style="-webkit-user-drag: none">
-    <div class="relative min-h-screen border flex justify-center items-center">
+  <div class="relative bg-red-200 select-none" style="-webkit-user-drag: none">
+    <div class="relative min-h-screen flex justify-center items-center">
       <!--  카드 덱 영역 -->
       <div
         v-for="(cardInfo, index) in defaultArray"
@@ -202,16 +202,16 @@ onBeforeMount(() => {
         class="absolute cursor-pointer"
         v-motion
         :initial="{
-          scale: 1.3,
+          scale: 1,
           opacity: 0,
-          x: 650,
+          x: 600,
           y: -500,
           rotate: 0,
         }"
         :enter="{
-          scale: 1,
+          scale: 0.8,
           opacity: 1,
-          x: 650,
+          x: 600,
           y: -index * 1.2,
           rotate: (Math.random() - 0.5) * 5,
           transition: {
@@ -247,13 +247,13 @@ onBeforeMount(() => {
         v-motion
         :initial="{
           opacity: 1,
-          scale: 1,
-          x: 650,
+          scale: 0.8,
+          x: 600,
           y: 0,
         }"
         :enter="{
           opacity: 1,
-          scale: 1.2,
+          scale: 1,
           x: cardInfo?.position[0] ?? 0,
           y: cardInfo?.position[1] ?? 0,
           style: {
@@ -286,13 +286,13 @@ onBeforeMount(() => {
         v-motion
         :initial="{
           opacity: 1,
-          scale: 1,
+          scale: 0.8,
           x: 650,
           y: 0,
         }"
         :enter="{
           opacity: 1,
-          scale: 1.2,
+          scale: 1,
           x: cardInfo?.position[0] ?? 0,
           y: cardInfo?.position[1] ?? 0,
           transition: {
@@ -319,12 +319,12 @@ onBeforeMount(() => {
         v-motion
         :initial="{
           opacity: 0,
-          x: 650,
+          x: 600,
           y: 150,
         }"
         :enter="{
           opacity: 1,
-          x: 650,
+          x: 600,
           y: 150,
           transition: {
             damping: 15,
@@ -496,13 +496,13 @@ onBeforeMount(() => {
         :initial="{
           opacity: 0,
           scale: 0.7,
-          x: -170,
+          x: -110,
           y: 5,
         }"
         :enter="{
           opacity: 1,
           scale: 0.2,
-          x: -170,
+          x: -110,
           y: 5,
           transition: {
             delay: 600,

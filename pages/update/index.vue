@@ -112,39 +112,38 @@ const clickPokemonCard = (pokemonInfo) => {
 
     <!-- TODO: 리스트 영역 -->
     <Transition>
-      <div
-        v-if="!isOpenDtail"
-        class="reative flex flex-col justify-start py-3 bg-transparent"
-      >
-        <div
-          v-for="(groupedPokemonInfo, index) in groupedPokemonList"
-          :key="index"
-          class="mb-3 ms-20"
-        >
-          <strong>{{ groupedPokemonInfo.updatedDate }}</strong>
-          <div class="flex flex-wrap">
-            <div
-              v-for="(
-                pokemonInfo, pokemonListIndex
-              ) in groupedPokemonInfo.pokemonList"
-              :key="pokemonListIndex"
-              class="m-2"
-            >
-              <PokemonCard
-                class="relative transition-transform hover:scale-[1.03] cursor-pointer"
-                @click="() => clickPokemonCard(pokemonInfo)"
+      <div class="reative flex flex-col justify-start py-3 bg-transparent">
+        <MotionGroup preset="slideVisibleLeft" :duration="600">
+          <div
+            v-for="(groupedPokemonInfo, index) in groupedPokemonList"
+            :key="index"
+            class="mb-3 ms-20"
+          >
+            <strong>{{ groupedPokemonInfo.updatedDate }}</strong>
+            <div class="flex flex-wrap">
+              <div
+                v-for="(
+                  pokemonInfo, pokemonListIndex
+                ) in groupedPokemonInfo.pokemonList"
+                :key="pokemonListIndex"
+                class="m-2"
               >
-                <img
-                  :src="pokemonInfo.image"
-                  class="absolute top-0 start-0 rounded-lg pattern border-[1.4px] border-gray-700 shadow-gray-500 shadow-md"
-                  style="-webkit-user-drag: none"
-                  :style="{ backgroundColor: pokemonInfo.color }"
-                />
-                <div>{{ pokemonInfo.name }}</div>
-              </PokemonCard>
+                <PokemonCard
+                  class="relative transition-transform hover:scale-[1.03] cursor-pointer"
+                  @click="() => clickPokemonCard(pokemonInfo)"
+                >
+                  <img
+                    :src="pokemonInfo.image"
+                    class="absolute top-0 start-0 rounded-lg pattern border-[1.4px] border-gray-700 shadow-gray-500 shadow-md"
+                    style="-webkit-user-drag: none"
+                    :style="{ backgroundColor: pokemonInfo.color }"
+                  />
+                  <div>{{ pokemonInfo.name }}</div>
+                </PokemonCard>
+              </div>
             </div>
           </div>
-        </div>
+        </MotionGroup>
       </div>
     </Transition>
 
