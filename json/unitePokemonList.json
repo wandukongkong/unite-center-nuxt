@@ -9015,7 +9015,7 @@
     "image": "/img/unitePokemon/roster-falinks-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": true,
+    "isEx": false,
     "updatedList": [
       {
         "updatedDate": "2024-04-25",
@@ -9034,7 +9034,7 @@
     "image": "/img/unitePokemon/roster-ceruledge-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
-    "isEx": true,
+    "isEx": false,
     "updatedList": [
       {
         "updatedDate": "2024-06-13",
