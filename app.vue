@@ -1,8 +1,8 @@
 <template>
-  <div class="">
+  <div class="relative">
     <!-- <NuxtWelcome /> -->
     <NuxtLayout>
-      <NuxtPage />
+      <NuxtPage class="" />
     </NuxtLayout>
   </div>
 </template>
@@ -13,7 +13,16 @@ html {
   background-color: rgb(247, 247, 247);
 }
 
-.page-enter-active,
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+CSS 트랜 .page-enter-active,
 .page-leave-active {
   transition: all 0.1s;
 }

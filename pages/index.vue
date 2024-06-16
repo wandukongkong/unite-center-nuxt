@@ -1,15 +1,23 @@
 <script setup>
-import { onMounted } from "vue";
+import { onMounted, onBeforeMount } from "vue";
 import { useMotionProperties, useMotionControls } from "@vueuse/motion";
 
 const router = useRouter();
 
+// local state
+const isClickedMenuButton = toRef(false);
+const imageAreaRef = toRef(null);
+const pokemonCenterRef = toRef(null);
 const sideBarRef = toRef(null);
 const logoRef = toRef(null);
 const object3Ref = toRef(null);
-const object7Ref = toRef(null);
+const object7Ref = toRef(null); 
 
 // Object Properties
+const { motionProperties: imageAreaProperties } =
+  useMotionProperties(imageAreaRef);
+const { motionProperties: pokemonCenterProperties } =
+  useMotionProperties(pokemonCenterRef);
 const { motionProperties: sideBarMotionProperties } =
   useMotionProperties(sideBarRef);
 const { motionProperties: logoMotionProperties } = useMotionProperties(logoRef);
@@ -19,6 +27,55 @@ const { motionProperties: object7MotionProperties } =
   useMotionProperties(object7Ref);
 
 // Motion Event
+const { apply: applyImageAreaMotion } = useMotionControls(
+  imageAreaProperties,
+  {
+    initial: {
+      opacity: 1,
+    },
+    enter:{
+      opacity:1,
+      transition: {
+        delay: 300,
+        damping: 15,
+        mass: 0.1,
+      },
+    },
+    leave: {
+      opacity:0,
+      transition: {
+        damping: 15,
+        mass: 0.1,
+      },
+    },
+  }
+);
+
+const { apply: applyPokemonCenterMotion } = useMotionControls(
+  pokemonCenterProperties,
+  {
+    initial: {
+      x: 470,
+      y: 170,
+      opacity: 1,
+      width: "800px",
+    },
+    enter: {
+      x: 470,
+      y: 170,
+      opacity: 1,
+      transition: {
+        delay: 300,
+        damping: 15,
+        mass: 0.1,
+      },
+    },
+    leave: {
+      opacity:0
+    },
+  }
+);
+
 const { apply: applySideBarMotion } = useMotionControls(
   sideBarMotionProperties,
   {
@@ -28,12 +85,14 @@ const { apply: applySideBarMotion } = useMotionControls(
       opacity: 0,
       width: "250px",
       height: "60vh",
+      // boxShadow: '1px 1px 1px black'
     },
     enter: {
       x: 200,
       y: 170,
       opacity: 1,
       transition: {
+        delay: 300,
         damping: 15,
         mass: 0.1,
       },
@@ -43,6 +102,9 @@ const { apply: applySideBarMotion } = useMotionControls(
       y: 10,
       width: "50px",
       height: "97vh",
+      boxShadow: 0,
+      style:{
+      },
       transition: {
         damping: 15,
         mass: 0.1,
@@ -67,6 +129,9 @@ const { apply: applyLogoMotion } = useMotionControls(logoMotionProperties, {
       repeatType: "reverse",
     },
   },
+  leave: {
+    opacity: 0,
+  },
   stop: {
     y: 120,
   },
@@ -90,6 +155,9 @@ const { apply: applyObject3Motion } = useMotionControls(
         repeatType: "reverse",
       },
     },
+    leave: {
+      opacity: 0,
+    },
     stop: {
       y: 215,
     },
@@ -105,6 +173,9 @@ const { apply: applyObject7Motion } = useMotionControls(
       scale: 1,
       opacity: 1,
     },
+    leave: {
+      opacity: 0,
+    },
     enter: {
       y: 435,
       transition: {
@@ -115,6 +186,9 @@ const { apply: applyObject7Motion } = useMotionControls(
         repeatType: "reverse",
       },
     },
+    leave: {
+      opacity: 0,
+    },
     stop: {
       y: 440,
     },
@@ -122,59 +196,81 @@ const { apply: applyObject7Motion } = useMotionControls(
 );
 
 const clickMenuButton = (pageName) => {
+  isClickedMenuButton.value = true;
+
+  applyImageAreaMotion("leave");
   applySideBarMotion("leave");
+
+  setTimeout(() => {
+    router.push(`/${pageName}`)
+  }, 1100);
 };
 
-onMounted(() => {
+onBeforeMount(() => {
+  applyImageAreaMotion("initial");
+  applyPokemonCenterMotion("initial");
   applySideBarMotion("initial");
-  applySideBarMotion("enter");
   applyLogoMotion("initial");
   applyObject3Motion("initial");
   applyObject7Motion("initial");
+}); 
+
+onMounted(() => {
+  applySideBarMotion("enter");
+  
 });
 </script>
 <template>
   <div>
-    <div
-      ref="sideBarRef"
-      class="absolute opacity-0 hover:scale-105 hover:shadow-xl ease-out duration-200"
-    >
-      <UCard class="h-[100%]">
+    <div ref="sideBarRef" class="absolute opacity-0">
+      <div
+        class="border rounded  py-5 hover:scale-105 hover:shadow-xl ease-out duration-300 bg-white h-[100%]"
+        :class="isClickedMenuButton ? 'px-0' : 'px-2'"
+      >
         <UButton
-          class="flex w-[100%] mb-3 bg-white text-gray-950 shadow-none hover:bg-slate-100 hover:scale-110 ease-out duration-200"
+          class="flex w-[100%] mb-3 bg-white  shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
           @mouseover="async () => await applyLogoMotion('enter')"
           @mouseleave="async () => await applyLogoMotion('stop')"
         >
-          <div class="flex justify-center me-2 w-[50px]">
+          <div class="flex justify-center w-[50px]">
             <img class="h-[20px]" src="@/public/img/pokemon/ball.png" />
           </div>
-          <strong>Home</strong>
+          <div v-if="!isClickedMenuButton" class="ms-2 text-gray-950">
+            <strong>Home</strong>
+          </div>
         </UButton>
+        <!-- @click="() => clickMenuButton()" -->
         <UButton
-          class="flex w-[100%] mb-3 bg-white text-gray-950 shadow-none hover:bg-slate-100 hover:scale-110 ease-out duration-200"
-          @click="() => clickMenuButton()"
+          class="flex w-[100%] mb-3 bg-white  shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200  "
+          @click="()=> clickMenuButton('update')"
           @mouseover="async () => await applyObject3Motion('enter')"
           @mouseleave="async () => await applyObject3Motion('stop')"
         >
-          <div class="flex justify-center me-2 w-[50px]">
+          <div class="flex justify-center w-[50px]">
             <img class="h-[20px]" src="@/public/img/pokemon/object3.png" />
           </div>
-          <strong>Update</strong>
+          <div v-if="!isClickedMenuButton" class="ms-2 text-gray-950">
+            <strong>Update</strong>
+          </div>
         </UButton>
         <UButton
-          class="flex w-[100%] mb-3 bg-white text-gray-950 shadow-none hover:bg-slate-100 hover:scale-110 ease-out duration-200"
+          class="flex w-[100%] mb-3 bg-white  shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
+          @click="()=> clickMenuButton('pick')"
           @mouseover="async () => await applyObject7Motion('enter')"
           @mouseleave="async () => await applyObject7Motion('stop')"
         >
-          <div class="flex justify-center me-2 w-[50px]">
+          <div class="flex justify-center w-[50px]">
             <img class="h-[20px]" src="@/public/img/pokemon/object7.png" />
           </div>
-          <strong>Random Pick</strong>
+          <div v-if="!isClickedMenuButton" class="ms-2 text-gray-950">
+            <strong>Random Pick</strong>
+          </div>
         </UButton>
-      </UCard>
+      </div>
     </div>
     <!-- <div class="flex flex-col justify-center items-center bg-red-400"> -->
     <!-- <div class="relative flex justify-center w-[1200px] h-[800px] "> -->
+    <div ref="imageAreaRef">
     <!-- 로고 -->
     <div class="absolute opacity-0" ref="logoRef">
       <img
@@ -183,9 +279,8 @@ onMounted(() => {
       />
     </div>
     <!-- 배경 이미지 -->
-    <div
-      class="absolute flex items-center opacity-0 select-none min-h-screen"
-      v-motion
+    <div ref="pokemonCenterRef" class="absolute opacity-0 select-none">
+      <!-- v-motion
       :initial="{
         opacity: 1,
         x: 470,
@@ -193,9 +288,8 @@ onMounted(() => {
       :enter="{
         opacity: 1,
         x: 470,
-      }"
-    >
-      <img src="@/public/img/pokemon/pokemoncenter.png" class="h-[60vh]" />
+      }" -->
+      <img src="@/public/img/pokemon/pokemoncenter.png" />
     </div>
     <!-- 컴퓨터 오브젝트 -->
     <!-- <div class="absolute">
@@ -233,6 +327,7 @@ onMounted(() => {
         @click="router.push('/pick')"
       />
     </div>
+  </div>
     <!-- </div> -->
     <!-- </div> -->
   </div>

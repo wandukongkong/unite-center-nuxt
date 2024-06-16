@@ -104,20 +104,22 @@ const clickPokemonCard = (pokemonInfo) => {
 };
 </script>
 <template>
-  <div class="ps-5">
+  <div class="absolute">
     <!-- TODO: 검색 영역 -->
-    <div class="flex flex-col items-end w-[100%] px-8 mt-[10px] mb-2">
+    <!-- <div class="flex flex-col items-end w-[100%] px-8 mt-[10px] mb-2">
       <UInput class="w-[100%] mb-2 opacity-0"></UInput>
-      <!-- <div>정렬</div> -->
-    </div>
+    </div> -->
 
     <!-- TODO: 리스트 영역 -->
     <Transition>
-      <div v-if="!isOpenDtail" class="reative flex flex-col justify-start py-3">
+      <div
+        v-if="!isOpenDtail"
+        class="reative flex flex-col justify-start py-3 bg-transparent"
+      >
         <div
           v-for="(groupedPokemonInfo, index) in groupedPokemonList"
           :key="index"
-          class="mb-3"
+          class="mb-3 ms-20"
         >
           <strong>{{ groupedPokemonInfo.updatedDate }}</strong>
           <div class="flex flex-wrap">
