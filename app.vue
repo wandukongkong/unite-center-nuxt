@@ -10,7 +10,7 @@
 /* transition */
 body,
 html {
-  background-color: rgb(247, 247, 247);
+  /* background-color: rgb(247, 247, 247); */
 }
 
 .fade-enter-active,
@@ -22,7 +22,7 @@ html {
 .fade-leave-to {
   opacity: 0;
 }
-CSS 트랜 .page-enter-active,
+.page-enter-active,
 .page-leave-active {
   transition: all 0.1s;
 }
@@ -34,11 +34,12 @@ CSS 트랜 .page-enter-active,
 
 .pattern {
   background-image: url("@/public/svg/square-pattern.svg"),
-    linear-gradient(180deg, rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 38%);
+    linear-gradient(180deg, rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%);
   background-size: 120px, auto;
   background-position:
     center,
     left top;
+  box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 0.2);
 }
 
 :root {

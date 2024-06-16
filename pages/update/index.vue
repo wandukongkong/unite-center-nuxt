@@ -11,6 +11,9 @@ import { useCommonStore } from "../../stores/commonStore";
 const dayjs = useDayjs();
 const { unitePokemonList } = storeToRefs(useCommonStore());
 
+// use
+const router = useRouter();
+
 // state
 const detailArea = toRef();
 const isOpenDtail = toRef(false);
@@ -60,24 +63,6 @@ const groupedPokemonList = computed(() => {
     {}
   );
 
-  // // Node 버전 21 이상만 Object.groupBy 사용 가능
-  // const groupedPokemonInfo = Object.groupBy(
-  //   unitePokemonList.value,
-  //   (unitePokemonInfo) => {
-  //     return unitePokemonInfo.updatedList
-  //       .sort((a, b) => {
-  //         const aUpdatedDateNumber = Number(
-  //           dayjs(a.updatedDate, "YYYY-MM-DD").format("YYYYMMDD")
-  //         );
-  //         const bUpdatedDateNumber = Number(
-  //           dayjs(b.updatedDate, "YYYY-MM-DD").format("YYYYMMDD")
-  //         );
-  //         return aUpdatedDateNumber < bUpdatedDateNumber ? 1 : -1;
-  //       })
-  //       .at(0).updatedDate;
-  //   }
-  // );
-
   // 배열로 변환
   return Object.keys(groupedPokemonInfo)
     .sort((a, b) =>
@@ -94,13 +79,7 @@ const groupedPokemonList = computed(() => {
 
 // TODO: click card event
 const clickPokemonCard = (pokemonInfo) => {
-  selectedPokemonInfo.value = pokemonInfo;
-  isOpenDtail.value = true;
-
-  setDetailMotion({
-    opacity: 1,
-    x: 0,
-  });
+  router.push(`/update/${pokemonInfo.name}`);
 };
 </script>
 <template>
@@ -113,37 +92,34 @@ const clickPokemonCard = (pokemonInfo) => {
     <!-- TODO: 리스트 영역 -->
     <Transition>
       <div class="reative flex flex-col justify-start py-3 bg-transparent">
-        <MotionGroup preset="slideVisibleLeft" :duration="600">
-          <div
-            v-for="(groupedPokemonInfo, index) in groupedPokemonList"
-            :key="index"
-            class="mb-3 ms-20"
-          >
-            <strong>{{ groupedPokemonInfo.updatedDate }}</strong>
-            <div class="flex flex-wrap">
-              <div
-                v-for="(
-                  pokemonInfo, pokemonListIndex
-                ) in groupedPokemonInfo.pokemonList"
-                :key="pokemonListIndex"
-                class="m-2"
+        <div
+          v-for="(groupedPokemonInfo, index) in groupedPokemonList"
+          :key="index"
+          class="mb-3 ms-20"
+        >
+          <strong>{{ groupedPokemonInfo.updatedDate }}</strong>
+          <div class="flex flex-wrap">
+            <div
+              v-for="(
+                pokemonInfo, pokemonListIndex
+              ) in groupedPokemonInfo.pokemonList"
+              :key="pokemonListIndex"
+              class="m-2"
+            >
+              <PokemonCard
+                class="relative flex w-[400px] hover:scale-[1.05] hover:shadow-xl hover:shadow-gray-400 shadow-md shadow-gray-400 ease-out duration-200 cursor-pointer rounded"
+                @click="() => clickPokemonCard(pokemonInfo)"
               >
-                <PokemonCard
-                  class="relative transition-transform hover:scale-[1.03] cursor-pointer"
-                  @click="() => clickPokemonCard(pokemonInfo)"
-                >
-                  <img
-                    :src="pokemonInfo.image"
-                    class="absolute top-0 start-0 rounded-lg pattern border-[1.4px] border-gray-700 shadow-gray-500 shadow-md"
-                    style="-webkit-user-drag: none"
-                    :style="{ backgroundColor: pokemonInfo.color }"
-                  />
-                  <div>{{ pokemonInfo.name }}</div>
-                </PokemonCard>
-              </div>
+                <img
+                  :src="pokemonInfo.image"
+                  class="rounded pattern ease-out duration-200"
+                  style="-webkit-user-drag: none"
+                  :style="{ backgroundColor: pokemonInfo.color }"
+                />
+              </PokemonCard>
             </div>
           </div>
-        </MotionGroup>
+        </div>
       </div>
     </Transition>
 
