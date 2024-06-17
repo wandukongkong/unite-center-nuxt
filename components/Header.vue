@@ -112,7 +112,6 @@ onMounted(() => {
         @mouseleave="() => (hoveredMenuName = '')"
         @click="
           () => {
-            applySideBarMotion('enterHome');
             router.push('/');
           }
         "
@@ -132,7 +131,6 @@ onMounted(() => {
         @mouseleave="() => (hoveredMenuName = '')"
         @click="
           () => {
-            applySideBarMotion('leaveHome');
             router.push('/update');
           }
         "
@@ -152,7 +150,6 @@ onMounted(() => {
         @mouseleave="() => (hoveredMenuName = '')"
         @click="
           () => {
-            applySideBarMotion('leaveHome');
             router.push('/pick');
           }
         "
