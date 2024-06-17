@@ -1,6 +1,8 @@
 <script setup>
 import { toRef, onMounted, onBeforeMount } from "vue";
 import { storeToRefs } from "pinia";
+import Vue3TagsInput from "vue3-tags-input";
+import { useMotionProperties, useMotionControls } from "@vueuse/motion";
 
 // store
 import { usePickStore } from "@/stores/pickStore";
@@ -9,14 +11,23 @@ import { usePickStore } from "@/stores/pickStore";
 import unitePokemonListJson from "@/json/unitePokemonList.json";
 
 // store state
-const { isBanEx, isDuplicatedPokemon, selectedMode } =
-  storeToRefs(usePickStore());
+const {
+  isBanEx,
+  isDuplicatedPokemon,
+  isActiveUserInput,
+  selectedMode,
+  userTags,
+} = storeToRefs(usePickStore());
 
 // state
+const versusVRef = toRef(null);
+const versusSRef = toRef(null);
+
 const { isMobile } = useDevice();
 const router = useRouter();
 const isLoading = toRef(true);
 const selectedCardList = toRef([]);
+const selectedUsers = toRef([]);
 const defaultArray = toRef([]);
 const unitePokemonList = toRef([...unitePokemonListJson]);
 const defaultCardList = toRef([
@@ -92,6 +103,67 @@ const defaultCardList = toRef([
   },
 ]);
 
+// Object Properties
+const { motionProperties: vuersusVMotionProperties } =
+  useMotionProperties(versusVRef);
+const { motionProperties: vuersusSMotionProperties } =
+  useMotionProperties(versusSRef);
+
+// Motion Event
+const { apply: applyVersusVMotion } = useMotionControls(
+  vuersusVMotionProperties,
+  {
+    initial: {
+      opacity: 0,
+      scale: 0.16,
+      x: -80,
+      y: -100,
+    },
+    enter: {
+      opacity: 1,
+      scale: 0.16,
+      x: -110,
+      y: 5,
+      transition: {
+        delay: 600,
+      },
+    },
+    leave: {
+      opacity: 0,
+      transition: {
+        delay: 0,
+      },
+    },
+  }
+);
+const { apply: applyVersusSMotion } = useMotionControls(
+  vuersusSMotionProperties,
+  {
+    initial: {
+      opacity: 0,
+      // scale: 0.7,
+      scale: 0.16,
+      x: -140,
+      y: 100,
+    },
+    enter: {
+      opacity: 1,
+      scale: 0.16,
+      x: -110,
+      y: 5,
+      transition: {
+        delay: 600,
+      },
+    },
+    leave: {
+      opacity: 0,
+      transition: {
+        delay: 0,
+      },
+    },
+  }
+);
+
 // Suffle
 const resetCardDeck = () => {
   isLoading.value = true;
@@ -99,6 +171,9 @@ const resetCardDeck = () => {
   selectedCardList.value = [];
 
   let unitePokemonListClone = [...unitePokemonList.value];
+
+  applyVersusVMotion("leave");
+  applyVersusSMotion("leave");
 
   // 포켓몬 포지션 체크
   unitePokemonListClone = unitePokemonListClone
@@ -142,6 +217,24 @@ const resetCardDeck = () => {
     unitePokemonListClone = [...aTeamPokemonList, ...bTeamPokemonList];
   }
 
+  // 유저 입력 체크
+  if (isActiveUserInput.value) {
+    const deffUsers = 10 - userTags.value.length;
+    let userTagsClone = [...userTags.value];
+
+    if (userTags.value.length < 10) {
+      userTagsClone = [
+        ...userTagsClone,
+        ...Array(deffUsers).fill("AI Trainer"),
+      ];
+    }
+
+    selectedUsers.value = [...userTagsClone]
+      .sort(() => Math.random() - 0.5)
+      .sort(() => Math.random() - 0.5)
+      .sort(() => Math.random() - 0.5);
+  }
+
   // 카드에 맞게 리스트 가공
   unitePokemonListClone = unitePokemonListClone.map(
     (unitePokemonInfo, index) => ({
@@ -159,6 +252,8 @@ const resetCardDeck = () => {
 
   setTimeout(() => {
     isLoading.value = false;
+    applyVersusVMotion("initial");
+    applyVersusSMotion("initial");
   }, 1700);
 };
 
@@ -166,27 +261,28 @@ const resetCardDeck = () => {
 const clickCardDeck = (cardInfo) => {
   selectedCardList.value.push(cardInfo);
   defaultArray.value = defaultArray.value.slice(0, -1);
-};
 
-// 이미지 동적 import
-const getPokemonImage = (imageUrl) => {
-  return new URL(imageUrl);
+  if (selectedCardList.value.length >= 10) {
+    applyVersusVMotion("enter");
+    applyVersusSMotion("enter");
+  }
 };
 
 onMounted(() => {
   // defaultArray.value = defaultCardList.value;
   resetCardDeck();
-
-  setTimeout(() => {
-    isLoading.value = false;
-
-    // defaultArray.value.forEach((info) => {
-    //   clickCardDeck(info);
-    // });
-  }, 1500);
 });
 
+const tagInputHandler = (itmes) => {
+  userTags.value = itmes;
+
+  resetCardDeck();
+};
+
 onBeforeMount(() => {
+  applyVersusVMotion("initial");
+  applyVersusSMotion("initial");
+
   if (isMobile) {
     router.push("/m/pick");
   }
@@ -194,24 +290,46 @@ onBeforeMount(() => {
 </script>
 <template>
   <div class="relative select-none" style="-webkit-user-drag: none">
+    <div
+      v-if="isActiveUserInput"
+      class="absolute flex justify-center items-center w-[100%] py-3 z-40 opacity-0"
+      v-motion
+      :initial="{
+        y: -100,
+        opacity: 0,
+      }"
+      :enter="{
+        y: 0,
+        opacity: 1,
+      }"
+    >
+      <strong class="opacity-20 me-3">{{ userTags.length }}/10</strong>
+      <Vue3TagsInput
+        limit="10"
+        :tags="userTags"
+        :placeholder="userTags.length === 10 ? '' : 'enter some user'"
+        @on-tags-changed="tagInputHandler"
+        class="w-[80%]"
+      />
+    </div>
     <div class="relative min-h-screen flex justify-center items-center">
       <!--  카드 덱 영역 -->
       <div
         v-for="(cardInfo, index) in defaultArray"
         :key="index"
-        class="absolute cursor-pointer"
+        class="absolute cursor-pointer p-2"
         v-motion
         :initial="{
           scale: 1,
           opacity: 0,
-          x: 600,
+          x: 650,
           y: -500,
           rotate: 0,
         }"
         :enter="{
           scale: 0.8,
           opacity: 1,
-          x: 600,
+          x: 650,
           y: -index * 1.2,
           rotate: (Math.random() - 0.5) * 5,
           transition: {
@@ -220,13 +338,6 @@ onBeforeMount(() => {
             delay: index * 100,
           },
         }"
-        @click="
-          () => {
-            if (!isLoading) {
-              clickCardDeck(cardInfo);
-            }
-          }
-        "
       >
         <PokemonCard
           class="card-back hover:scale-[1.05] hover:shadow-xl hover:shadow-gray-400 shadow-md shadow-gray-400 ease-out duration-200 cursor-pointer rounded"
@@ -236,6 +347,19 @@ onBeforeMount(() => {
             <NuxtImg src="/img/pokemon/monsterball.png" width="60" />
           </div>
         </PokemonCard>
+        <div
+          v-if="defaultArray.length === index + 1"
+          class="absolute top-[14px] scale-[1.1]"
+          @click="
+            () => {
+              if (!isLoading) {
+                clickCardDeck(cardInfo);
+              }
+            }
+          "
+        >
+          <PokemonCard class="opacity-0"> </PokemonCard>
+        </div>
       </div>
       <!-- 위쪽 카드 영역 -->
       <div
@@ -246,7 +370,7 @@ onBeforeMount(() => {
         :initial="{
           opacity: 1,
           scale: 0.8,
-          x: 600,
+          x: 650,
           y: 0,
         }"
         :enter="{
@@ -264,13 +388,21 @@ onBeforeMount(() => {
           },
         }"
       >
-        <PokemonCard class="shadow-gray-400 rounded shadow-md">
+        <PokemonCard class="relative shadow-gray-400 rounded shadow-md">
           <NuxtImg
             :src="cardInfo.image"
             class="rounded pattern"
             style="-webkit-user-drag: none"
             :style="{ backgroundColor: cardInfo.color }"
           />
+          <div
+            v-if="isActiveUserInput"
+            class="absolute bottom-0 w-[100%] px-1 bg-gradient-to-r from-slate-800 to-transparent rounded-b-md text-white"
+          >
+            <strong>
+              {{ selectedUsers[index] }}
+            </strong>
+          </div>
         </PokemonCard>
       </div>
       <!-- 아래쪽 카드 영역 -->
@@ -296,13 +428,21 @@ onBeforeMount(() => {
           },
         }"
       >
-        <PokemonCard class="shadow-gray-400 rounded shadow-md">
+        <PokemonCard class="relative shadow-gray-400 rounded shadow-md">
           <NuxtImg
             :src="cardInfo.image"
             class="rounded pattern"
             style="-webkit-user-drag: none"
             :style="{ backgroundColor: cardInfo.color }"
           />
+          <div
+            v-if="isActiveUserInput"
+            class="absolute bottom-0 w-[100%] px-1 bg-gradient-to-r from-slate-800 to-transparent rounded-b-md text-white"
+          >
+            <strong>
+              {{ selectedUsers[index + 5] }}
+            </strong>
+          </div>
         </PokemonCard>
       </div>
       <!-- 버튼 영역 -->
@@ -311,12 +451,12 @@ onBeforeMount(() => {
         v-motion
         :initial="{
           opacity: 0,
-          x: 600,
+          x: 650,
           y: 150,
         }"
         :enter="{
           opacity: 1,
-          x: 600,
+          x: 650,
           y: 150,
           transition: {
             damping: 15,
@@ -456,9 +596,17 @@ onBeforeMount(() => {
                       />
                       <UCheckbox
                         v-model="isDuplicatedPokemon"
+                        class="mb-1"
                         :disabled="isLoading"
                         name="isDuplicated"
                         label="Duplicate Pokemon"
+                        @change="resetCardDeck"
+                      />
+                      <UCheckbox
+                        v-model="isActiveUserInput"
+                        :disabled="isLoading"
+                        name="isActiveInput"
+                        label="Show User"
                         @change="resetCardDeck"
                       />
                     </div>
@@ -481,29 +629,17 @@ onBeforeMount(() => {
         </div>
       </div>
       <!-- 중앙 versus 영역 -->
-      <div
-        v-if="selectedCardList.length > 9"
-        class="absolute"
-        v-motion
-        :initial="{
-          opacity: 0,
-          scale: 0.7,
-          x: -110,
-          y: 5,
-        }"
-        :enter="{
-          opacity: 1,
-          scale: 0.2,
-          x: -110,
-          y: 5,
-          transition: {
-            delay: 600,
-          },
-        }"
-      >
+      <div class="absolute opacity-0" ref="versusVRef">
         <NuxtImg
           class="h-[90%]"
-          src="/img/versus2.png"
+          src="/img/versus_v.png"
+          style="-webkit-user-drag: none"
+        />
+      </div>
+      <div class="absolute opacity-0" ref="versusSRef">
+        <NuxtImg
+          class="h-[90%]"
+          src="/img/versus_s.png"
           style="-webkit-user-drag: none"
         />
       </div>
@@ -535,5 +671,29 @@ onBeforeMount(() => {
   background-position:
     center,
     left top;
+}
+
+.v3ti {
+  border: 0px solid #9ca3af !important;
+  background-color: transparent !important;
+}
+
+.v3ti .v3ti-new-tag {
+  /* margin: 0 !important; */
+}
+
+.v3ti .v3ti-tag {
+  background: #ebaa41 !important;
+  /* border-width: 0 !important;
+  border-radius: 0 !important; */
+}
+
+.v3ti .v3ti-tag .v3ti-remove-tag {
+  color: #000000;
+  transition: color 0.3s;
+}
+
+.v3ti .v3ti-tag .v3ti-remove-tag:hover {
+  color: #ffffff;
 }
 </style>
