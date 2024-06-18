@@ -291,7 +291,7 @@ onBeforeMount(() => {
   <div class="relative select-none" style="-webkit-user-drag: none">
     <div
       v-if="isActiveUserInput"
-      class="absolute flex justify-start items-center w-[100%] py-3 z-40 opacity-0"
+      class="absolute flex justify-start items-center py-3 z-40 opacity-0"
       v-motion
       :initial="{
         x: 100,

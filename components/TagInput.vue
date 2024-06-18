@@ -34,7 +34,7 @@ const deleteTag = (tagValue) => {
     >
       <strong class="me-1 text-white mb-[1px]">{{ tag }}</strong>
       <UButton
-        class="p-0 border-none hover:bg-[#c79038] active:bg-transparent h-[20px] bg-transparent"
+        class="p-0 border-none hover:bg-[#c79038] h-[20px] bg-transparent"
         trailing-icon="i-heroicons-x-mark-16-solid"
         @click="() => deleteTag(tag)"
       ></UButton>
