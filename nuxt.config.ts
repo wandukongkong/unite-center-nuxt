@@ -7,8 +7,8 @@ export default defineNuxtConfig({
   },
   modules: [
     "@nuxt/ui",
-    "nuxt-icon",
     "nuxt-lodash",
+    "nuxt-icon",
     "@vueuse/motion/nuxt",
     "@pinia/nuxt",
     "@pinia-plugin-persistedstate/nuxt",

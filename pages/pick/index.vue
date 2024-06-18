@@ -1,7 +1,6 @@
 <script setup>
 import { toRef, onMounted, onBeforeMount } from "vue";
 import { storeToRefs } from "pinia";
-import Vue3TagsInput from "vue3-tags-input";
 import { useMotionProperties, useMotionControls } from "@vueuse/motion";
 
 // store
@@ -292,25 +291,26 @@ onBeforeMount(() => {
   <div class="relative select-none" style="-webkit-user-drag: none">
     <div
       v-if="isActiveUserInput"
-      class="absolute flex justify-center items-center w-[100%] py-3 z-40 opacity-0"
+      class="absolute flex justify-start items-center w-[100%] py-3 z-40 opacity-0"
       v-motion
       :initial="{
+        x: 100,
         y: -100,
         opacity: 0,
       }"
       :enter="{
+        x: 100,
         y: 0,
         opacity: 1,
       }"
     >
-      <strong class="opacity-20 me-3">{{ userTags.length }}/10</strong>
-      <Vue3TagsInput
-        limit="10"
+      <!-- TODO: -->
+      <TagInput
         :tags="userTags"
-        :placeholder="userTags.length === 10 ? '' : 'enter some user'"
-        @on-tags-changed="tagInputHandler"
-        class="w-[80%]"
-      />
+        limit="10"
+        placeholder="Enter User"
+        @change-tags="tagInputHandler"
+      ></TagInput>
     </div>
     <div class="relative min-h-screen flex justify-center items-center">
       <!--  카드 덱 영역 -->
@@ -671,29 +671,5 @@ onBeforeMount(() => {
   background-position:
     center,
     left top;
-}
-
-.v3ti {
-  border: 0px solid #9ca3af !important;
-  background-color: transparent !important;
-}
-
-.v3ti .v3ti-new-tag {
-  /* margin: 0 !important; */
-}
-
-.v3ti .v3ti-tag {
-  background: #ebaa41 !important;
-  /* border-width: 0 !important;
-  border-radius: 0 !important; */
-}
-
-.v3ti .v3ti-tag .v3ti-remove-tag {
-  color: #000000;
-  transition: color 0.3s;
-}
-
-.v3ti .v3ti-tag .v3ti-remove-tag:hover {
-  color: #ffffff;
 }
 </style>
