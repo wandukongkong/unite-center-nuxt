@@ -320,14 +320,14 @@ onBeforeMount(() => {
         class="absolute cursor-pointer p-2"
         v-motion
         :initial="{
-          scale: 1,
+          scale: 1.2,
           opacity: 0,
           x: 650,
           y: -500,
           rotate: 0,
         }"
         :enter="{
-          scale: 0.8,
+          scale: 1,
           opacity: 1,
           x: 650,
           y: -index * 1.2,
@@ -369,13 +369,13 @@ onBeforeMount(() => {
         v-motion
         :initial="{
           opacity: 1,
-          scale: 0.8,
+          scale: 1,
           x: 650,
           y: 0,
         }"
         :enter="{
           opacity: 1,
-          scale: 1,
+          scale: 1.25,
           x: cardInfo?.position[0] ?? 0,
           y: cardInfo?.position[1] ?? 0,
           style: {
@@ -391,7 +391,7 @@ onBeforeMount(() => {
         <PokemonCard class="relative shadow-gray-400 rounded shadow-md">
           <NuxtImg
             :src="cardInfo.image"
-            class="rounded pattern"
+            class="rounded pattern w-[100%] h-[100%]"
             style="-webkit-user-drag: none"
             :style="{ backgroundColor: cardInfo.color }"
           />
@@ -413,13 +413,13 @@ onBeforeMount(() => {
         v-motion
         :initial="{
           opacity: 1,
-          scale: 0.8,
+          scale: 1,
           x: 650,
           y: 0,
         }"
         :enter="{
           opacity: 1,
-          scale: 1,
+          scale: 1.25,
           x: cardInfo?.position[0] ?? 0,
           y: cardInfo?.position[1] ?? 0,
           transition: {
@@ -431,7 +431,7 @@ onBeforeMount(() => {
         <PokemonCard class="relative shadow-gray-400 rounded shadow-md">
           <NuxtImg
             :src="cardInfo.image"
-            class="rounded pattern"
+            class="rounded pattern w-[100%] h-[100%]"
             style="-webkit-user-drag: none"
             :style="{ backgroundColor: cardInfo.color }"
           />
