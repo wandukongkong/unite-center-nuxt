@@ -77,7 +77,7 @@ const groupedPokemonList = computed(() => {
     }));
 });
 
-// TODO: click card event
+// click card event
 const clickPokemonCard = (pokemonInfo) => {
   router.push(`/update/${pokemonInfo.name}`);
 };
@@ -89,7 +89,7 @@ const clickPokemonCard = (pokemonInfo) => {
       <UInput class="w-[100%] mb-2 opacity-0"></UInput>
     </div> -->
 
-    <!-- TODO: 리스트 영역 -->
+    <!-- 리스트 영역 -->
     <Transition>
       <div class="reative flex flex-col justify-start py-3 bg-transparent">
         <div

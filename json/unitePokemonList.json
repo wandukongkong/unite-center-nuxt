@@ -159,6 +159,19 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-06-19",
+        "updatedContentList": [
+          {
+            "updatedName": "따라가때리기",
+            "updatedContents": ["정면에서 명중시켰을 때 주는 데미지: 22% 증가"]
+          },
+          {
+            "updatedName": "사이코커터",
+            "updatedContents": ["칼날로 주는 데미지: 50% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -2593,6 +2606,50 @@
             "updatedContents": ["오류 수정"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-06-19",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["일반 공격 속도: 10%~80% → 10%~60%(레벨 1~15)"]
+          },
+          {
+            "updatedName": "강화 공격",
+            "updatedContents": [
+              "추가 데미지: 최대 HP의 3%(상한 1000) → 최대 HP의 1.5%(상한 500)"
+            ]
+          },
+          {
+            "updatedName": "러스터캐논",
+            "updatedContents": [
+              "기술을 사용했을 때 공격 속도가 100% 오르며 5초에 걸쳐 원래 공격 속도로 돌아갑니다.",
+              "강화 공격의 추가 데미지: 최대 HP의 3%(상한 1000) → 최대 HP의 1.5%(상한 500)"
+            ]
+          },
+          {
+            "updatedName": "용의파동",
+            "updatedContents": [
+              "조금 충전했을 때 주는 데미지: 약 14% 증가",
+              "최대 충전했을 때 주는 데미지: 약 15% 증가"
+            ]
+          },
+          {
+            "updatedName": "스텔스록",
+            "updatedContents": [
+              "명중하면 실드 효과를 획득합니다.",
+              "상대편 포켓몬이 행동할 수 없게 되는 타격 수: 4번 → 2번"
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 두랄디재스터",
+            "updatedContents": [
+              "마지막에 상대편 포켓몬을 밀쳐내도록 변경되었습니다.",
+              "광선의 데미지: 30% 증가",
+              "불꽃 궤적의 지속 데미지: 50% 감소"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -3096,6 +3153,33 @@
           {
             "updatedName": "드래곤다이브",
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-06-19",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "받은 방해 효과의 단축률: 0~20% → 0~25%(레벨 1~15)"
+            ]
+          },
+          {
+            "updatedName": "지진",
+            "updatedContents": ["데미지: 15% 증가"]
+          },
+          {
+            "updatedName": "구멍파기",
+            "updatedContents": ["데미지: 10% 증가"]
+          },
+          {
+            "updatedName": "드래곤다이브",
+            "updatedContents": ["대기 시간: 6초 → 5초"]
+          },
+          {
+            "updatedName": "드래곤다이브+",
+            "updatedContents": ["대기 시간: 5초 → 4초"]
           }
         ]
       }
@@ -4221,6 +4305,21 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-06-19",
+        "updatedContentList": [
+          {
+            "updatedName": "트릭",
+            "updatedContents": [
+              "고스트다이브와 연계했을 때 HP 회복량: 50% 감소"
+            ]
+          },
+          {
+            "updatedName": "트릭+",
+            "updatedContents": ["주는 데미지에 따른 HP 회복량: 60% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -5078,6 +5177,18 @@
             "updatedContents": ["방어 교체에 관한 오류가 수정되었습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-06-19",
+        "updatedContentList": [
+          {
+            "updatedName": "파워스왑",
+            "updatedContents": [
+              "이동 속도 상승량: 8% → 10%",
+              "HP 회복량: 22% 증가"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -5599,6 +5710,15 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-06-19",
+        "updatedContentList": [
+          {
+            "updatedName": "칼춤(핫삼)",
+            "updatedContents": ["대기 시간: 7초 → 8.5초"]
+          }
+        ]
       }
     ]
   },
@@ -5774,6 +5894,25 @@
             "updatedContents": [
               "대편 포켓몬에게 주는 데미지가 증가되었습니다.",
               "증기에 의한 데미지에 따라 「특성 둔감」의 효과가 발동하지 않던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-06-19",
+        "updatedContentList": [
+          {
+            "updatedName": "게으름피우기",
+            "updatedContents": ["회복량: 최대 HP의 9% → 최대 HP의 12%"]
+          },
+          {
+            "updatedName": "파도타기",
+            "updatedContents": ["대기 시간: 8초 → 7초"]
+          },
+          {
+            "updatedName": "열탕",
+            "updatedContents": [
+              "화상 상태로 공격을 떨어뜨리는 효과: 40% 감소 → 60% 감소"
             ]
           }
         ]
@@ -6394,6 +6533,32 @@
             "updatedContents": [
               "상대편 포켓몬에게 주는 효과가 강해지고 기술에 의한 이동 속도의 상승률이 상승되었습니다."
             ]
+          },
+          {
+            "updatedDate": "2024-06-19",
+            "updatedContentList": [
+              {
+                "updatedName": "",
+                "updatedContents": [""]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-06-19",
+        "updatedContentList": [
+          {
+            "updatedName": "우드해머",
+            "updatedContents": ["데미지: 18% 감소"]
+          },
+          {
+            "updatedName": "우드혼",
+            "updatedContents": ["대기 시간: 8.5초 → 9초"]
+          },
+          {
+            "updatedName": "저주",
+            "updatedContents": ["데미지: 25%~18% 감소(레벨 5~15)"]
           }
         ]
       }
@@ -6845,6 +7010,27 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-06-19",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": ["공격: 150~485 → 150~450(레벨 1~15)"]
+          },
+          {
+            "updatedName": "모래지옥",
+            "updatedContents": ["피격 데미지 감소량: 25% → 15%"]
+          },
+          {
+            "updatedName": "스톤에지",
+            "updatedContents": ["데미지: 10% 감소"]
+          },
+          {
+            "updatedName": "유나이트 기술: 리슬램페이지",
+            "updatedContents": ["데미지: 20% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -7124,6 +7310,20 @@
             "updatedName": "유나이트 기술: 그린레이지",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-06-19",
+        "updatedContentList": [
+          {
+            "updatedName": "오물폭탄",
+            "updatedContents": [
+              "데미지: 20% 증가",
+              "독에 의한 데미지: 50% 증가",
+              "특수방어를 떨어뜨리는 양(지속 시간): 30%(1초 동안) → 40%(2초 동안)",
+              "감속 효과(지속 시간): 45%(1초) → 50%(2초)"
             ]
           }
         ]
@@ -8213,6 +8413,19 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-06-19",
+        "updatedContentList": [
+          {
+            "updatedName": "특성: 엽록소",
+            "updatedContents": ["이동 속도 상승량: 8% → 10%"]
+          },
+          {
+            "updatedName": "솔라블레이드",
+            "updatedContents": ["데미지: 13%~9% 감소(레벨 5~15)"]
+          }
+        ]
       }
     ]
   },
@@ -8612,6 +8825,23 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-06-19",
+        "updatedContentList": [
+          {
+            "updatedName": "특성: 맹화",
+            "updatedContents": ["HP 회복량: 최대 HP의 5% → 최대 HP의 7%"]
+          },
+          {
+            "updatedName": "기합구슬",
+            "updatedContents": ["대기 시간: 9초 → 8초"]
+          },
+          {
+            "updatedName": "블레이즈킥",
+            "updatedContents": ["대기 시간: 10초 → 9초"]
+          }
+        ]
       }
     ]
   },
@@ -8672,6 +8902,23 @@
           {
             "updatedName": "트릭룸+",
             "updatedContents": ["대기 시간: 9초 → 7.5초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-06-19",
+        "updatedContentList": [
+          {
+            "updatedName": "섀도클로",
+            "updatedContents": ["HP 회복량: 20% 증가"]
+          },
+          {
+            "updatedName": "치근거리기",
+            "updatedContents": ["대기 시간: 9초 → 8초", "감속 효과: 20% → 30%"]
+          },
+          {
+            "updatedName": "치근거리기+",
+            "updatedContents": ["대기 시간: 8초 → 7초"]
           }
         ]
       }
@@ -9003,6 +9250,19 @@
             "updatedName": "오류 수정",
             "updatedContents": [
               "강화된 '라이트닝드라이브'를 충전하는 동안에 대상이 KO 당했을 때 뒤로 워프하는 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-06-19",
+        "updatedContentList": [
+          {
+            "updatedName": "라이트닝드라이브",
+            "updatedContents": [
+              "데미지: 5% 감소",
+              "강화되었을 때 주는 데미지: 10% 감소",
+              "강화되었을 때 주는 추가 데미지: 10% 감소"
             ]
           }
         ]
