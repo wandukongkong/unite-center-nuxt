@@ -16,7 +16,9 @@ const imageAreaRef = toRef(null);
 const pokemonCenterRef = toRef(null);
 const sideBarRef = toRef(null);
 const logoRef = toRef(null);
+
 const object3Ref = toRef(null);
+const object4Ref = toRef(null);
 const object7Ref = toRef(null);
 
 // Object Properties
@@ -29,6 +31,8 @@ const { motionProperties: sideBarMotionProperties } =
 const { motionProperties: logoMotionProperties } = useMotionProperties(logoRef);
 const { motionProperties: object3MotionProperties } =
   useMotionProperties(object3Ref);
+const { motionProperties: object4MotionProperties } =
+  useMotionProperties(object4Ref);
 const { motionProperties: object7MotionProperties } =
   useMotionProperties(object7Ref);
 
@@ -164,6 +168,32 @@ const { apply: applyObject3Motion } = useMotionControls(
     },
   }
 );
+const { apply: applyObject4Motion } = useMotionControls(
+  object4MotionProperties,
+  {
+    initial: {
+      x: 1100,
+      y: 495,
+      opacity: 1,
+    },
+    enter: {
+      y: 490,
+      transition: {
+        duration: 400,
+        ease: "easyOut",
+        repeat: Infinity,
+        repeatDelay: 0,
+        repeatType: "reverse",
+      },
+    },
+    leave: {
+      opacity: 0,
+    },
+    stop: {
+      y: 495,
+    },
+  }
+);
 
 const { apply: applyObject7Motion } = useMotionControls(
   object7MotionProperties,
@@ -212,10 +242,15 @@ watch(
         applyObject7Motion("enter");
 
         break;
+      case "tournament":
+        applyObject4Motion("enter");
+
+        break;
 
       default:
         applyLogoMotion("stop");
         applyObject3Motion("stop");
+        applyObject4Motion("stop");
         applyObject7Motion("stop");
         break;
     }
@@ -228,6 +263,7 @@ onBeforeMount(() => {
   applySideBarMotion("initial");
   applyLogoMotion("initial");
   applyObject3Motion("initial");
+  applyObject4Motion("initial");
   applyObject7Motion("initial");
 });
 
@@ -275,9 +311,13 @@ onMounted(() => {
         />
       </div>
       <!-- 테이블 오브젝트 -->
-      <!-- <div class="absolute bottom-[26.5%] end-[18.2%]">
-        <img class="object" src="@/public/img/pokemon/object4.png" />
-      </div> -->
+      <div class="absolute opacity-0" ref="object4Ref">
+        <img
+          class="hover:scale-105 hover:shadow-xl ease-out duration-200 cursor-pointer"
+          src="@/public/img/pokemon/object4.png"
+          @click="router.push('/tournament')"
+        />
+      </div>
       <!-- 벽걸이 지도 오브젝트 -->
       <!-- <div class="absolute top-[14.9%] end-[18.5%]">
         <img class="object" src="@/public/img/pokemon/object5.png" />

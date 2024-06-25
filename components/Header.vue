@@ -30,7 +30,7 @@ const { apply: applySideBarMotion } = useMotionControls(
       x: 180,
       y: 170,
       opacity: 0,
-      width: "250px",
+      width: "220px",
       height: "60vh",
       backgroundColor: "white",
     },
@@ -48,9 +48,9 @@ const { apply: applySideBarMotion } = useMotionControls(
     },
     enterHome: {
       opacity: 1,
-      x: 200,
+      x: 240,
       y: 170,
-      width: "250px",
+      width: "220px",
       height: "60vh",
       transition: {
         // duration: 1000,
@@ -160,6 +160,25 @@ onMounted(() => {
         <Transition>
           <div v-if="isShowButtonTitle" class="ms-2 text-gray-950 truncate">
             <strong>Random Pick</strong>
+          </div>
+        </Transition>
+      </UButton>
+      <UButton
+        class="flex w-[100%] mb-3 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
+        @mouseover="() => (hoveredMenuName = 'tournament')"
+        @mouseleave="() => (hoveredMenuName = '')"
+        @click="
+          () => {
+            router.push('/tournament');
+          }
+        "
+      >
+        <div class="flex justify-center w-[50px]">
+          <img class="h-[20px]" src="@/public/img/pokemon/object4.png" />
+        </div>
+        <Transition>
+          <div v-if="isShowButtonTitle" class="ms-2 text-gray-950 truncate">
+            <strong>Tournament</strong>
           </div>
         </Transition>
       </UButton>
