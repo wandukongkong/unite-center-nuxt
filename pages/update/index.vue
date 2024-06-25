@@ -95,7 +95,7 @@ const clickPokemonCard = (pokemonInfo) => {
         <div
           v-for="(groupedPokemonInfo, index) in groupedPokemonList"
           :key="index"
-          class="mb-3 ms-20"
+          class="ms-20"
         >
           <div>
             <strong>{{ groupedPokemonInfo.updatedDate }}</strong>
@@ -121,6 +121,7 @@ const clickPokemonCard = (pokemonInfo) => {
               </PokemonCard>
             </div>
           </div>
+          <div class="border w-[97%] my-3 opacity-[0.7]"></div>
         </div>
       </div>
     </Transition>
