@@ -35,15 +35,19 @@ const selectedPokemonDetailList = computed(() => {
 });
 </script>
 <template>
-  <div class="ps-20 h-[100vh]">
-    <div
-      class="flex justify-end items-start min-h-screen w-[100%] fixed pt-[50px] pe-[200px] z-40"
-    >
-      <div>
-        <div class="w-[250px] border rounded shadow-md bg-white">
-          <img :src="selectedPokemonInfo.image" class="rounded" />
-        </div>
-      </div>
+  <div class="flex ps-20 h-[100vh]">
+    <div class="flex flex-col">
+      <img
+        :src="selectedPokemonInfo.image"
+        class="rounded"
+        width="200"
+        style="object-fit: contain"
+      />
+      <!-- <div class="bg-gradient-to-b from-[#afafaf] to-transparent h-[50px]">
+        <strong class="text-white">
+          {{ router.currentRoute.value.params.pokemonName }}
+        </strong>
+      </div> -->
     </div>
     <!-- TODO: Detail 영역 -->
     <div class="flex p-2" ref="detailArea">

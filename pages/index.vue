@@ -11,10 +11,8 @@ const router = useRouter();
 const { hoveredMenuName } = storeToRefs(useHomeStore());
 
 // local state
-const isClickedMenuButton = toRef(false);
 const imageAreaRef = toRef(null);
 const pokemonCenterRef = toRef(null);
-const sideBarRef = toRef(null);
 const logoRef = toRef(null);
 
 const object3Ref = toRef(null);
@@ -26,8 +24,6 @@ const { motionProperties: imageAreaProperties } =
   useMotionProperties(imageAreaRef);
 const { motionProperties: pokemonCenterProperties } =
   useMotionProperties(pokemonCenterRef);
-const { motionProperties: sideBarMotionProperties } =
-  useMotionProperties(sideBarRef);
 const { motionProperties: logoMotionProperties } = useMotionProperties(logoRef);
 const { motionProperties: object3MotionProperties } =
   useMotionProperties(object3Ref);
@@ -62,14 +58,14 @@ const { apply: applyPokemonCenterMotion } = useMotionControls(
   pokemonCenterProperties,
   {
     initial: {
-      x: 470,
-      y: 170,
+      x: 0,
+      y: 0,
       opacity: 1,
       width: "800px",
     },
     enter: {
-      x: 470,
-      y: 170,
+      x: 0,
+      y: 0,
       opacity: 1,
       transition: {
         delay: 300,
@@ -79,53 +75,18 @@ const { apply: applyPokemonCenterMotion } = useMotionControls(
     },
     leave: {
       opacity: 0,
-    },
-  }
-);
-
-const { apply: applySideBarMotion } = useMotionControls(
-  sideBarMotionProperties,
-  {
-    initial: {
-      x: 100,
-      y: 170,
-      opacity: 0,
-      width: "250px",
-      height: "60vh",
-      backgroundColor: "white",
-    },
-    enter: {
-      x: 200,
-      y: 170,
-      opacity: 1,
-      transition: {
-        delay: 300,
-        damping: 15,
-        mass: 0.1,
-      },
-    },
-    leave: {
-      x: 10,
-      y: 10,
-      width: "50px",
-      height: "97vh",
-      transition: {
-        // duration: 1000,
-        damping: 14,
-        mass: 0.1,
-      },
     },
   }
 );
 
 const { apply: applyLogoMotion } = useMotionControls(logoMotionProperties, {
   initial: {
-    x: 700,
-    y: 120,
+    x: 0,
+    y: -300,
     opacity: 1,
   },
   enter: {
-    y: 115,
+    y: -305,
     transition: {
       duration: 400,
       ease: "easyOut",
@@ -138,7 +99,7 @@ const { apply: applyLogoMotion } = useMotionControls(logoMotionProperties, {
     opacity: 0,
   },
   stop: {
-    y: 120,
+    y: -300,
   },
 });
 
@@ -146,12 +107,12 @@ const { apply: applyObject3Motion } = useMotionControls(
   object3MotionProperties,
   {
     initial: {
-      x: 580,
-      y: 215,
+      x: -226,
+      y: -164,
       opacity: 1,
     },
     enter: {
-      y: 210,
+      y: -169,
       transition: {
         duration: 400,
         ease: "easyOut",
@@ -164,7 +125,7 @@ const { apply: applyObject3Motion } = useMotionControls(
       opacity: 0,
     },
     stop: {
-      y: 215,
+      y: -164,
     },
   }
 );
@@ -172,12 +133,12 @@ const { apply: applyObject4Motion } = useMotionControls(
   object4MotionProperties,
   {
     initial: {
-      x: 1100,
-      y: 495,
+      x: 280,
+      y: 130,
       opacity: 1,
     },
     enter: {
-      y: 490,
+      y: 125,
       transition: {
         duration: 400,
         ease: "easyOut",
@@ -190,7 +151,7 @@ const { apply: applyObject4Motion } = useMotionControls(
       opacity: 0,
     },
     stop: {
-      y: 495,
+      y: 130,
     },
   }
 );
@@ -199,8 +160,8 @@ const { apply: applyObject7Motion } = useMotionControls(
   object7MotionProperties,
   {
     initial: {
-      x: 475,
-      y: 440,
+      x: -330,
+      y: 95,
       scale: 1,
       opacity: 1,
     },
@@ -208,7 +169,7 @@ const { apply: applyObject7Motion } = useMotionControls(
       opacity: 0,
     },
     enter: {
-      y: 435,
+      y: 90,
       transition: {
         duration: 400,
         ease: "easyOut",
@@ -221,7 +182,7 @@ const { apply: applyObject7Motion } = useMotionControls(
       opacity: 0,
     },
     stop: {
-      y: 440,
+      y: 95,
     },
   }
 );
@@ -260,20 +221,20 @@ watch(
 onBeforeMount(() => {
   applyImageAreaMotion("initial");
   applyPokemonCenterMotion("initial");
-  applySideBarMotion("initial");
   applyLogoMotion("initial");
   applyObject3Motion("initial");
   applyObject4Motion("initial");
   applyObject7Motion("initial");
 });
 
-onMounted(() => {
-  applySideBarMotion("enter");
-});
+onMounted(() => {});
 </script>
 <template>
   <div>
-    <div ref="imageAreaRef">
+    <div
+      ref="imageAreaRef"
+      class="relative flex justify-center items-center w-[100%] min-h-screen"
+    >
       <!-- 로고 -->
       <div class="absolute opacity-0" ref="logoRef">
         <img
