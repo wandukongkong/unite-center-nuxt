@@ -48,7 +48,7 @@ const { apply: applySideBarMotion } = useMotionControls(
     },
     enterHome: {
       opacity: 1,
-      x: 240,
+      x: 220,
       y: 170,
       width: "220px",
       height: "60vh",
