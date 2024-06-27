@@ -155,15 +155,15 @@ onMounted(() => {
 </script>
 <template>
   <div class="flex flex-col min-h-screen justify-center items-center">
-    <div class="flex justify-end ms-10 items-center w-[940px]">
+    <div class="flex justify-end ms-5 items-center w-[940px]">
       <img
         ref="logoRef"
-        class="opacity-0 h-[100%] py-1"
+        class="opacity-0 h-[30px] py-1"
         src="@/public/img/pokemon/uniteCenterLogo.png"
       />
     </div>
     <div class="flex rounded-xl shadow-2xl w-[940px]">
-      <div class="flex flex-col ps-7 pe-9 py-6">
+      <div class="flex flex-col ps-7 pe-5 py-6">
         <div
           class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
         >
@@ -171,7 +171,7 @@ onMounted(() => {
             <img src="@/public/img/pokemon/ball.png" class="h-4" />
           </div>
           <UButton
-            class="bg-white text-black shadow-none py-0 hover:bg-white"
+            class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
             @mouseover="() => applyLogoMotion('hover')"
             @mouseleave="() => applyLogoMotion('stop')"
           >
@@ -185,7 +185,7 @@ onMounted(() => {
             <img src="@/public/img/pokemon/object3.png" class="h-4" />
           </div>
           <UButton
-            class="bg-white text-black shadow-none py-0 hover:bg-white"
+            class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
             @click="() => router.push('/update')"
             @mouseover="() => applyObject3Motion('hover')"
             @mouseleave="() => applyObject3Motion('stop')"
@@ -200,7 +200,7 @@ onMounted(() => {
             <img src="@/public/img/pokemon/object7.png" class="h-4" />
           </div>
           <UButton
-            class="bg-white text-black shadow-none py-0 hover:bg-white"
+            class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
             @click="() => router.push('/pick')"
             @mouseover="() => applyObject7Motion('hover')"
             @mouseleave="() => applyObject7Motion('stop')"
@@ -215,7 +215,7 @@ onMounted(() => {
             <img src="@/public/img/pokemon/object4.png" class="h-4" />
           </div>
           <UButton
-            class="bg-white text-black shadow-none py-0 hover:bg-white"
+            class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
             @click="() => router.push('/tournament')"
             @mouseover="() => applyObject4Motion('hover')"
             @mouseleave="() => applyObject4Motion('stop')"
