@@ -9,6 +9,7 @@ const logoRef = toRef();
 const { motionProperties: logoMotionProperties } = useMotionProperties(logoRef);
 const { apply: applyLogoMotion } = useMotionControls(logoMotionProperties, {
   initial: {
+    scale: 0.8,
     opacity: 0,
   },
   enter: {
@@ -41,15 +42,16 @@ const { apply: applyObject3Motion } = useMotionControls(
   object3MotionProperties,
   {
     initial: {
-      x: 127,
-      y: -500,
+      x: 87,
+      y: -420,
+      scale: 0.8,
       opacity: 0,
     },
     enter: {
       opacity: 1,
     },
     hover: {
-      y: -505,
+      y: -425,
       transition: {
         duration: 400,
         ease: "easyOut",
@@ -62,7 +64,7 @@ const { apply: applyObject3Motion } = useMotionControls(
       opacity: 0,
     },
     stop: {
-      y: -500,
+      y: -420,
     },
   }
 );
@@ -75,15 +77,16 @@ const { apply: applyObject4Motion } = useMotionControls(
   object4MotionProperties,
   {
     initial: {
-      x: 710,
-      y: -190,
+      x: 550,
+      y: -160,
+      scale: 0.8,
       opacity: 0,
     },
     enter: {
       opacity: 1,
     },
     hover: {
-      y: -195,
+      y: -165,
       transition: {
         duration: 400,
         ease: "easyOut",
@@ -96,7 +99,7 @@ const { apply: applyObject4Motion } = useMotionControls(
       opacity: 0,
     },
     stop: {
-      y: -190,
+      y: -160,
     },
   }
 );
@@ -109,8 +112,9 @@ const { apply: applyObject7Motion } = useMotionControls(
   object7MotionProperties,
   {
     initial: {
-      x: 0,
+      x: -20,
       y: -200,
+      scale: 0.7,
       opacity: 0,
     },
     enter: {
@@ -151,12 +155,14 @@ onMounted(() => {
 </script>
 <template>
   <div class="flex flex-col min-h-screen justify-center items-center">
-    <img
-      ref="logoRef"
-      class="mb-3 opacity-0"
-      src="@/public/img/pokemon/uniteCenterLogo.png"
-    />
-    <div class="flex rounded-xl shadow-2xl">
+    <div class="flex justify-end ms-10 items-center w-[940px]">
+      <img
+        ref="logoRef"
+        class="opacity-0 h-[100%] py-1"
+        src="@/public/img/pokemon/uniteCenterLogo.png"
+      />
+    </div>
+    <div class="flex rounded-xl shadow-2xl w-[940px]">
       <div class="flex flex-col ps-7 pe-9 py-6">
         <div
           class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
