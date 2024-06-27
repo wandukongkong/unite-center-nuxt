@@ -1,8 +1,8 @@
+<script setup></script>
 <template>
   <div class="relative">
-    <!-- <NuxtWelcome /> -->
-    <NuxtLayout>
-      <NuxtPage class="" />
+    <NuxtLayout name="default">
+      <NuxtPage name="default" />
     </NuxtLayout>
   </div>
 </template>

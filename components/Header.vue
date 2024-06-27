@@ -47,11 +47,11 @@ const { apply: applySideBarMotion } = useMotionControls(
       },
     },
     enterHome: {
-      opacity: 1,
-      x: 220,
-      y: 170,
-      width: "220px",
-      height: "60vh",
+      opacity: 0,
+      // x: 220,
+      // y: 170,
+      // width: "220px",
+      // height: "60vh",
       transition: {
         // duration: 1000,
         damping: 14,
@@ -86,7 +86,7 @@ watch(
 
 onBeforeMount(() => {
   if (router.currentRoute.value.fullPath === "/") {
-    applySideBarMotion("homeInitial");
+    // applySideBarMotion("homeInitial");
   } else {
     applySideBarMotion("otherMenuInitial");
   }
@@ -94,7 +94,7 @@ onBeforeMount(() => {
 
 onMounted(() => {
   if (router.currentRoute.value.fullPath === "/") {
-    applySideBarMotion("enterHome");
+    // applySideBarMotion("enterHome");
   } else {
     applySideBarMotion("leaveHome");
   }
@@ -119,11 +119,6 @@ onMounted(() => {
         <div class="flex justify-center w-[50px]">
           <img class="h-[20px]" src="@/public/img/pokemon/ball.png" />
         </div>
-        <Transition>
-          <div v-if="isShowButtonTitle" class="ms-2 text-gray-950 truncate">
-            <strong>Home</strong>
-          </div>
-        </Transition>
       </UButton>
       <UButton
         class="flex w-[100%] mb-3 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
@@ -138,11 +133,6 @@ onMounted(() => {
         <div class="flex justify-center w-[50px]">
           <img class="h-[20px]" src="@/public/img/pokemon/object3.png" />
         </div>
-        <Transition>
-          <div v-if="isShowButtonTitle" class="ms-2 text-gray-950 truncate">
-            <strong>Update</strong>
-          </div>
-        </Transition>
       </UButton>
       <UButton
         class="flex w-[100%] mb-3 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
@@ -157,11 +147,6 @@ onMounted(() => {
         <div class="flex justify-center w-[50px]">
           <img class="h-[20px]" src="@/public/img/pokemon/object7.png" />
         </div>
-        <Transition>
-          <div v-if="isShowButtonTitle" class="ms-2 text-gray-950 truncate">
-            <strong>Random Pick</strong>
-          </div>
-        </Transition>
       </UButton>
       <UButton
         class="flex w-[100%] mb-3 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
@@ -176,11 +161,6 @@ onMounted(() => {
         <div class="flex justify-center w-[50px]">
           <img class="h-[20px]" src="@/public/img/pokemon/object4.png" />
         </div>
-        <Transition>
-          <div v-if="isShowButtonTitle" class="ms-2 text-gray-950 truncate">
-            <strong>Tournament</strong>
-          </div>
-        </Transition>
       </UButton>
     </div>
   </div>
