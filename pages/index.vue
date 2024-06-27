@@ -1,92 +1,22 @@
 <script setup>
-import { onMounted, onBeforeMount, watch } from "vue";
-import { storeToRefs } from "pinia";
+import { toRef, computed, onMounted, onBeforeMount } from "vue";
 import { useMotionProperties, useMotionControls } from "@vueuse/motion";
-import { useHomeStore } from "@/stores/homeStore";
 
-// use
 const router = useRouter();
 
-//store
-const { hoveredMenuName } = storeToRefs(useHomeStore());
-
-// local state
-const imageAreaRef = toRef(null);
-const pokemonCenterRef = toRef(null);
-const logoRef = toRef(null);
-
-const object3Ref = toRef(null);
-const object4Ref = toRef(null);
-const object7Ref = toRef(null);
-
-// Object Properties
-const { motionProperties: imageAreaProperties } =
-  useMotionProperties(imageAreaRef);
-const { motionProperties: pokemonCenterProperties } =
-  useMotionProperties(pokemonCenterRef);
+// Logo Motion
+const logoRef = toRef();
 const { motionProperties: logoMotionProperties } = useMotionProperties(logoRef);
-const { motionProperties: object3MotionProperties } =
-  useMotionProperties(object3Ref);
-const { motionProperties: object4MotionProperties } =
-  useMotionProperties(object4Ref);
-const { motionProperties: object7MotionProperties } =
-  useMotionProperties(object7Ref);
-
-// Motion Event
-const { apply: applyImageAreaMotion } = useMotionControls(imageAreaProperties, {
-  initial: {
-    opacity: 1,
-  },
-  enter: {
-    opacity: 1,
-    transition: {
-      delay: 300,
-      damping: 15,
-      mass: 0.1,
-    },
-  },
-  leave: {
-    opacity: 0,
-    transition: {
-      damping: 15,
-      mass: 0.1,
-    },
-  },
-});
-
-const { apply: applyPokemonCenterMotion } = useMotionControls(
-  pokemonCenterProperties,
-  {
-    initial: {
-      x: 0,
-      y: 0,
-      opacity: 1,
-      width: "800px",
-    },
-    enter: {
-      x: 0,
-      y: 0,
-      opacity: 1,
-      transition: {
-        delay: 300,
-        damping: 15,
-        mass: 0.1,
-      },
-    },
-    leave: {
-      opacity: 0,
-    },
-  }
-);
-
 const { apply: applyLogoMotion } = useMotionControls(logoMotionProperties, {
   initial: {
-    x: 0,
-    y: -300,
-    opacity: 1,
+    opacity: 0,
   },
   enter: {
-    y: -305,
+    y: 0,
+    opacity: 1,
+  },
+  hover: {
+    y: -5,
     transition: {
       duration: 400,
       ease: "easyOut",
@@ -99,20 +29,27 @@ const { apply: applyLogoMotion } = useMotionControls(logoMotionProperties, {
     opacity: 0,
   },
   stop: {
-    y: -300,
+    y: 0,
   },
 });
 
+// object3 Motion
+const object3Ref = toRef();
+const { motionProperties: object3MotionProperties } =
+  useMotionProperties(object3Ref);
 const { apply: applyObject3Motion } = useMotionControls(
   object3MotionProperties,
   {
     initial: {
-      x: -226,
-      y: -164,
-      opacity: 1,
+      x: 127,
+      y: -500,
+      opacity: 0,
     },
     enter: {
-      y: -169,
+      opacity: 1,
+    },
+    hover: {
+      y: -505,
       transition: {
         duration: 400,
         ease: "easyOut",
@@ -125,20 +62,28 @@ const { apply: applyObject3Motion } = useMotionControls(
       opacity: 0,
     },
     stop: {
-      y: -164,
+      y: -500,
     },
   }
 );
+
+// object4 motion
+const object4Ref = toRef();
+const { motionProperties: object4MotionProperties } =
+  useMotionProperties(object4Ref);
 const { apply: applyObject4Motion } = useMotionControls(
   object4MotionProperties,
   {
     initial: {
-      x: 280,
-      y: 130,
-      opacity: 1,
+      x: 710,
+      y: -190,
+      opacity: 0,
     },
     enter: {
-      y: 125,
+      opacity: 1,
+    },
+    hover: {
+      y: -195,
       transition: {
         duration: 400,
         ease: "easyOut",
@@ -151,25 +96,28 @@ const { apply: applyObject4Motion } = useMotionControls(
       opacity: 0,
     },
     stop: {
-      y: 130,
+      y: -190,
     },
   }
 );
 
+// object7 motion
+const object7Ref = toRef();
+const { motionProperties: object7MotionProperties } =
+  useMotionProperties(object7Ref);
 const { apply: applyObject7Motion } = useMotionControls(
   object7MotionProperties,
   {
     initial: {
-      x: -330,
-      y: 95,
-      scale: 1,
-      opacity: 1,
-    },
-    leave: {
+      x: 0,
+      y: -200,
       opacity: 0,
     },
     enter: {
-      y: 90,
+      opacity: 1,
+    },
+    hover: {
+      y: -205,
       transition: {
         duration: 400,
         ease: "easyOut",
@@ -182,123 +130,122 @@ const { apply: applyObject7Motion } = useMotionControls(
       opacity: 0,
     },
     stop: {
-      y: 95,
+      y: -200,
     },
   }
 );
 
-watch(
-  () => hoveredMenuName.value,
-  () => {
-    switch (hoveredMenuName.value) {
-      case "home":
-        applyLogoMotion("enter");
-
-        break;
-      case "update":
-        applyObject3Motion("enter");
-
-        break;
-      case "pick":
-        applyObject7Motion("enter");
-
-        break;
-      case "tournament":
-        applyObject4Motion("enter");
-
-        break;
-
-      default:
-        applyLogoMotion("stop");
-        applyObject3Motion("stop");
-        applyObject4Motion("stop");
-        applyObject7Motion("stop");
-        break;
-    }
-  }
-);
-
 onBeforeMount(() => {
-  applyImageAreaMotion("initial");
-  applyPokemonCenterMotion("initial");
   applyLogoMotion("initial");
   applyObject3Motion("initial");
   applyObject4Motion("initial");
   applyObject7Motion("initial");
 });
 
-onMounted(() => {});
+onMounted(() => {
+  applyLogoMotion("enter");
+  applyObject3Motion("enter");
+  applyObject4Motion("enter");
+  applyObject7Motion("enter");
+});
 </script>
 <template>
-  <div>
-    <div
-      ref="imageAreaRef"
-      class="relative flex justify-center items-center w-[100%] min-h-screen"
-    >
-      <!-- 로고 -->
-      <div class="absolute opacity-0" ref="logoRef">
-        <img
-          class="hover:scale-105 hover:shadow-xl ease-out duration-200 cursor-pointer"
-          src="@/public/img/pokemon/uniteCenterLogo.png"
-        />
+  <div class="flex flex-col min-h-screen justify-center items-center">
+    <img
+      ref="logoRef"
+      class="mb-3 opacity-0"
+      src="@/public/img/pokemon/uniteCenterLogo.png"
+    />
+    <div class="flex rounded-xl shadow-2xl">
+      <div class="flex flex-col ps-7 pe-9 py-6">
+        <div
+          class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
+        >
+          <div class="flex justify-center w-[50px]">
+            <img src="@/public/img/pokemon/ball.png" class="h-4" />
+          </div>
+          <UButton
+            class="bg-white text-black shadow-none py-0 hover:bg-white"
+            @mouseover="() => applyLogoMotion('hover')"
+            @mouseleave="() => applyLogoMotion('stop')"
+          >
+            <strong>Home</strong>
+          </UButton>
+        </div>
+        <div
+          class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
+        >
+          <div class="flex justify-center w-[50px]">
+            <img src="@/public/img/pokemon/object3.png" class="h-4" />
+          </div>
+          <UButton
+            class="bg-white text-black shadow-none py-0 hover:bg-white"
+            @click="() => router.push('/update')"
+            @mouseover="() => applyObject3Motion('hover')"
+            @mouseleave="() => applyObject3Motion('stop')"
+          >
+            <strong>Update</strong>
+          </UButton>
+        </div>
+        <div
+          class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
+        >
+          <div class="flex justify-center w-[50px]">
+            <img src="@/public/img/pokemon/object7.png" class="h-4" />
+          </div>
+          <UButton
+            class="bg-white text-black shadow-none py-0 hover:bg-white"
+            @click="() => router.push('/pick')"
+            @mouseover="() => applyObject7Motion('hover')"
+            @mouseleave="() => applyObject7Motion('stop')"
+          >
+            <strong>Random Pick</strong>
+          </UButton>
+        </div>
+        <div
+          class="flex items-center hover:scale-[1.04] ease-in-out duration-200"
+        >
+          <div class="flex justify-center w-[50px]">
+            <img src="@/public/img/pokemon/object4.png" class="h-4" />
+          </div>
+          <UButton
+            class="bg-white text-black shadow-none py-0 hover:bg-white"
+            @click="() => router.push('/tournament')"
+            @mouseover="() => applyObject4Motion('hover')"
+            @mouseleave="() => applyObject4Motion('stop')"
+          >
+            <strong>Tournament</strong>
+          </UButton>
+        </div>
       </div>
-      <!-- 배경 이미지 -->
-      <div ref="pokemonCenterRef" class="absolute opacity-0 select-none">
-        <!-- v-motion
-      :initial="{
-        opacity: 1,
-        x: 470,
-      }"
-      :enter="{
-        opacity: 1,
-        x: 470,
-      }" -->
-        <img src="@/public/img/pokemon/pokemoncenter.png" />
-      </div>
-      <!-- 컴퓨터 오브젝트 -->
-      <!-- <div class="absolute">
-    <img class="object" src="@/public/img/pokemon/object1.png" />
-  </div> -->
-      <!-- 치료기 오브젝트 -->
-      <!-- <div class="absolute top-[18.4%] end-[49.6%]">
-        <img class="object" src="@/public/img/pokemon/object2.png" />
-      </div> -->
-      <!-- 책장 오브젝트 -->
-      <div class="absolute opacity-0" ref="object3Ref">
+      <div class="relative border-8 border-white rounded-xl">
+        <img class="rounded-md" src="@/public/img/pokemon/pokemoncenter.png" />
         <img
-          class="hover:scale-105 hover:shadow-xl ease-out duration-200 cursor-pointer"
+          class="absolute opacity-0 cursor-pointer"
+          ref="object3Ref"
           src="@/public/img/pokemon/object3.png"
-          @click="router.push('/update')"
+          @click="() => router.push('/update')"
+          @mouseover="() => applyObject3Motion('hover')"
+          @mouseleave="() => applyObject3Motion('stop')"
         />
-      </div>
-      <!-- 테이블 오브젝트 -->
-      <div class="absolute opacity-0" ref="object4Ref">
         <img
-          class="hover:scale-105 hover:shadow-xl ease-out duration-200 cursor-pointer"
+          class="absolute opacity-0 cursor-pointer"
+          ref="object4Ref"
           src="@/public/img/pokemon/object4.png"
-          @click="router.push('/tournament')"
+          @click="() => router.push('/tournament')"
+          @mouseover="() => applyObject4Motion('hover')"
+          @mouseleave="() => applyObject4Motion('stop')"
         />
-      </div>
-      <!-- 벽걸이 지도 오브젝트 -->
-      <!-- <div class="absolute top-[14.9%] end-[18.5%]">
-        <img class="object" src="@/public/img/pokemon/object5.png" />
-      </div> -->
-      <!-- 벽걸이 TV 오브젝트 -->
-      <!-- <div class="absolute top-[14.4%] end-[41.9%]">
-        <img class="object" src="@/public/img/pokemon/object6.png" />
-      </div> -->
-      <!-- 에스컬레이터 오브젝트 -->
-      <div class="absolute opacity-0" ref="object7Ref">
         <img
-          class="hover:scale-105 hover:shadow-xl ease-out duration-200 cursor-pointer"
+          class="absolute opacity-0 cursor-pointer"
+          ref="object7Ref"
           src="@/public/img/pokemon/object7.png"
-          @click="router.push('/pick')"
+          @click="() => router.push('/pick')"
+          @mouseover="() => applyObject7Motion('hover')"
+          @mouseleave="() => applyObject7Motion('stop')"
         />
       </div>
     </div>
-    <!-- </div> -->
-    <!-- </div> -->
   </div>
 </template>
-
-<style lang="css"></style>
+<style></style>
