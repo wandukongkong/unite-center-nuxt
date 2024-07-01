@@ -16,6 +16,7 @@ export default defineNuxtConfig({
     "@nuxtjs/device",
     "@nuxt/image",
     "@nuxtjs/color-mode",
+    "nuxt-echarts",
   ],
   devtools: { enabled: false },
   vite: {
@@ -46,4 +47,10 @@ export default defineNuxtConfig({
     },
   },
   nitro: {},
+  echarts: {
+    ssr: true,
+    renderer: ["canvas", "svg"],
+    charts: ["BarChart"],
+    components: ["DatasetComponent", "GridComponent", "TooltipComponent"],
+  },
 });
