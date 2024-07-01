@@ -122,6 +122,20 @@ onMounted(() => {
       </UButton>
       <UButton
         class="flex w-[100%] mb-3 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
+        @mouseover="() => (hoveredMenuName = 'dashboard')"
+        @mouseleave="() => (hoveredMenuName = '')"
+        @click="
+          () => {
+            router.push('/dashboard');
+          }
+        "
+      >
+        <div class="flex justify-center w-[50px]">
+          <img class="h-[20px]" src="@/public/img/pokemon/object6.png" />
+        </div>
+      </UButton>
+      <UButton
+        class="flex w-[100%] mb-3 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
         @mouseover="() => (hoveredMenuName = 'update')"
         @mouseleave="() => (hoveredMenuName = '')"
         @click="

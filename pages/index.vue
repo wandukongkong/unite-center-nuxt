@@ -104,6 +104,41 @@ const { apply: applyObject4Motion } = useMotionControls(
   }
 );
 
+//object 6 motion
+const object6Ref = toRef();
+const { motionProperties: object6MotionProperties } =
+  useMotionProperties(object6Ref);
+const { apply: applyObject6Motion } = useMotionControls(
+  object6MotionProperties,
+  {
+    initial: {
+      x: 370,
+      y: -435,
+      scale: 0.7,
+      opacity: 0,
+    },
+    enter: {
+      opacity: 1,
+    },
+    hover: {
+      y: -440,
+      transition: {
+        duration: 400,
+        ease: "easyOut",
+        repeat: Infinity,
+        repeatDelay: 0,
+        repeatType: "reverse",
+      },
+    },
+    leave: {
+      opacity: 0,
+    },
+    stop: {
+      y: -435,
+    },
+  }
+);
+
 // object7 motion
 const object7Ref = toRef();
 const { motionProperties: object7MotionProperties } =
@@ -143,6 +178,7 @@ onBeforeMount(() => {
   applyLogoMotion("initial");
   applyObject3Motion("initial");
   applyObject4Motion("initial");
+  applyObject6Motion("initial");
   applyObject7Motion("initial");
 });
 
@@ -150,6 +186,7 @@ onMounted(() => {
   applyLogoMotion("enter");
   applyObject3Motion("enter");
   applyObject4Motion("enter");
+  applyObject6Motion("enter");
   applyObject7Motion("enter");
 });
 </script>
@@ -176,6 +213,21 @@ onMounted(() => {
             @mouseleave="() => applyLogoMotion('stop')"
           >
             <strong>Home</strong>
+          </UButton>
+        </div>
+        <div
+          class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
+        >
+          <div class="flex justify-center w-[50px]">
+            <img src="@/public/img/pokemon/object6.png" class="h-4" />
+          </div>
+          <UButton
+            class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
+            @click="() => router.push('/dashboard')"
+            @mouseover="() => applyObject6Motion('hover')"
+            @mouseleave="() => applyObject6Motion('stop')"
+          >
+            <strong>Dashboard</strong>
           </UButton>
         </div>
         <div
@@ -241,6 +293,14 @@ onMounted(() => {
           @click="() => router.push('/tournament')"
           @mouseover="() => applyObject4Motion('hover')"
           @mouseleave="() => applyObject4Motion('stop')"
+        />
+        <img
+          class="absolute opacity-0 cursor-pointer"
+          ref="object6Ref"
+          src="@/public/img/pokemon/object6.png"
+          @click="() => router.push('/pick')"
+          @mouseover="() => applyObject6Motion('hover')"
+          @mouseleave="() => applyObject6Motion('stop')"
         />
         <img
           class="absolute opacity-0 cursor-pointer"
