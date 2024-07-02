@@ -298,7 +298,7 @@ onMounted(() => {
           class="absolute opacity-0 cursor-pointer"
           ref="object6Ref"
           src="@/public/img/pokemon/object6.png"
-          @click="() => router.push('/pick')"
+          @click="() => router.push('/dashboard')"
           @mouseover="() => applyObject6Motion('hover')"
           @mouseleave="() => applyObject6Motion('stop')"
         />
