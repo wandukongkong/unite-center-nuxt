@@ -14,6 +14,7 @@ const {
   isBanEx,
   isDuplicatedPokemon,
   isActiveUserInput,
+  isOnlyShufflePokemon,
   selectedMode,
   userTags,
 } = storeToRefs(usePickStore());
@@ -228,10 +229,14 @@ const resetCardDeck = () => {
       ];
     }
 
-    selectedUsers.value = [...userTagsClone]
-      .sort(() => Math.random() - 0.5)
-      .sort(() => Math.random() - 0.5)
-      .sort(() => Math.random() - 0.5);
+    if (isOnlyShufflePokemon.value) {
+      selectedUsers.value = [...userTagsClone];
+    } else {
+      selectedUsers.value = [...userTagsClone]
+        .sort(() => Math.random() - 0.5)
+        .sort(() => Math.random() - 0.5)
+        .sort(() => Math.random() - 0.5);
+    }
   }
 
   // 카드에 맞게 리스트 가공
@@ -585,7 +590,7 @@ onBeforeMount(() => {
                       >Other</small
                     >
                     <!-- <Placeholder class="h-20 w-48" /> -->
-                    <div class="flex flex-wrap justify-start w-[170px]">
+                    <div class="flex flex-wrap justify-start w-[180px]">
                       <UCheckbox
                         v-model="isBanEx"
                         class="mb-1"
@@ -604,9 +609,17 @@ onBeforeMount(() => {
                       />
                       <UCheckbox
                         v-model="isActiveUserInput"
+                        class="mb-1"
                         :disabled="isLoading"
                         name="isActiveInput"
                         label="Show User"
+                        @change="resetCardDeck"
+                      />
+                      <UCheckbox
+                        v-model="isOnlyShufflePokemon"
+                        :disabled="isLoading"
+                        name="isOnlyShufflePokemon"
+                        label="Only Shuffle Pokemon"
                         @change="resetCardDeck"
                       />
                     </div>
