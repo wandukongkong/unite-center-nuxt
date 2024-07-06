@@ -1,6 +1,11 @@
 <script setup>
-import { toRef, computed } from "vue";
+import { toRef, computed, watch } from "vue";
+import { useIntervalFn } from "@vueuse/core";
+
 import { useDayjs } from "#dayjs";
+
+const { data, refresh } = await useFetch("/api/status");
+const readyState = toRef(data.value ?? 0);
 
 // json
 import unitePokemonList from "../../json/unitePokemonList.json";
@@ -121,6 +126,21 @@ const latestUpdatePokemonList = computed(() => {
 
   return groupedUnitePokemonInfo[lastesUpdateDate];
 });
+
+const { pause, resume } = useIntervalFn(async () => {
+  refresh();
+  readyState.value = data.value ?? 0;
+  console.log("re-checking...");
+}, 5000);
+
+watch(
+  readyState,
+  () => {
+    if (readyState.value === 1) pause();
+    else resume();
+  },
+  { immediate: true }
+);
 </script>
 <template>
   <div class="flex flex-wrap px-20 pt-3">
@@ -197,6 +217,7 @@ const latestUpdatePokemonList = computed(() => {
         </div>
       </div>
     </div>
+    <Connection :code="readyState ?? 0" />
   </div>
 </template>
 <style></style>
