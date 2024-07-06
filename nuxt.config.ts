@@ -17,15 +17,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxtjs/color-mode",
     "nuxt-echarts",
-    "nuxt-mongoose",
   ],
-  serverMiddleware: [{ path: "/api", handler: "~/api/index.js" }],
-  mongoose: {
-    uri: "mongodb+srv://toutopia0:michael89!@pokemonunitecenter.elr1ojx.mongodb.net/",
-    options: {},
-    modelsDir: "models",
-    devtools: true,
-  },
   devtools: { enabled: false },
   vite: {
     plugin: [eslintPlugin()],
