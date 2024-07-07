@@ -445,7 +445,7 @@ onBeforeMount(() => {
           :class="
             (selectedUsers?.[index] || '') !== 'AI Trainer'
               ? 'cursor-pointer hover:scale-[1.03]'
-              : 'cursor-not-allowed'
+              : 'cursor-default'
           "
           @click="
             () => {
@@ -499,7 +499,7 @@ onBeforeMount(() => {
           :class="
             (selectedUsers?.[index + 5] || '') !== 'AI Trainer'
               ? 'cursor-pointer hover:scale-[1.03]'
-              : 'cursor-not-allowed'
+              : 'cursor-default'
           "
           @click="
             () => {
