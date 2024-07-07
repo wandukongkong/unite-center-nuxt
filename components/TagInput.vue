@@ -30,7 +30,7 @@ const deleteTag = (tagValue) => {
     <div
       v-for="(tag, index) in props.tags"
       :key="index"
-      class="flex justify-center items-center rounded-md px-2 me-1 mt-1 bg-[#ebaa41]"
+      class="flex justify-center items-center rounded-md px-2 me-1 mt-1 bg-[#eab308]"
     >
       <strong class="me-1 text-white mb-[1px]">{{ tag }}</strong>
       <UButton

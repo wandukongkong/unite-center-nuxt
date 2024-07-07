@@ -552,6 +552,7 @@ onBeforeMount(() => {
                 isLoading ? '' : 'i-heroicons-arrow-path-16-solid'
               "
               :loading="isLoading"
+              color="yellow"
               @click="() => resetCardDeck()"
             >
             </UButton>
@@ -670,6 +671,7 @@ onBeforeMount(() => {
                         v-model="isBanEx"
                         class="mb-1"
                         :disabled="isLoading"
+                        color="yellow"
                         name="isEx"
                         label="Ban EX"
                         @change="resetCardDeck"
@@ -678,6 +680,7 @@ onBeforeMount(() => {
                         v-model="isDuplicatedPokemon"
                         class="mb-1"
                         :disabled="isLoading"
+                        color="yellow"
                         name="isDuplicated"
                         label="Duplicate Pokemon"
                         @change="resetCardDeck"
@@ -686,6 +689,7 @@ onBeforeMount(() => {
                         v-model="isActiveUserInput"
                         class="mb-1"
                         :disabled="isLoading"
+                        color="yellow"
                         name="isActiveInput"
                         label="Show User"
                         @change="resetCardDeck"
@@ -693,6 +697,7 @@ onBeforeMount(() => {
                       <UCheckbox
                         v-model="isOnlyShufflePokemon"
                         :disabled="isLoading"
+                        color="yellow"
                         name="isOnlyShufflePokemon"
                         label="Only Shuffle Pokemon"
                         @change="resetCardDeck"
@@ -765,9 +770,7 @@ onBeforeMount(() => {
               </Transition>
             </div>
             <div>
-              <UButton
-                class="me-2 bg-[#ebaa41] hover:bg-[#cfa157]"
-                @click="changeUser"
+              <UButton class="me-2" color="yellow" @click="changeUser"
                 >Save</UButton
               >
               <UButton
