@@ -1,5 +1,5 @@
 <script setup>
-import { toRef, onMounted, onBeforeMount } from "vue";
+import { toRef, onMounted, onBeforeMount, watch } from "vue";
 import { storeToRefs } from "pinia";
 import { useMotionProperties, useMotionControls } from "@vueuse/motion";
 
@@ -23,13 +23,19 @@ const {
 const versusVRef = toRef(null);
 const versusSRef = toRef(null);
 
+const isOpenModal = toRef(false);
 const { isMobile } = useDevice();
 const router = useRouter();
 const isLoading = toRef(true);
 const selectedCardList = toRef([]);
 const selectedUsers = toRef([]);
+const clickedCardIndex = toRef(-1);
+const clickedCardTagIndex = toRef(-1);
+const isDuplicateUserName = toRef(false);
 const defaultArray = toRef([]);
 const unitePokemonList = toRef([...unitePokemonListJson]);
+const modalInputValue = toRef("");
+const originModalInputValue = toRef("");
 const defaultCardList = toRef([
   {
     cardNumber: 0,
@@ -272,6 +278,47 @@ const clickCardDeck = (cardInfo) => {
   }
 };
 
+// 픽된 카드 클릭 이벤트
+const clickCard = (cardIndex) => {
+  isOpenModal.value = true;
+
+  modalInputValue.value = selectedUsers.value[cardIndex];
+  originModalInputValue.value = selectedUsers.value[cardIndex];
+  clickedCardIndex.value = cardIndex;
+  clickedCardTagIndex.value = userTags.value.findIndex(
+    (tagValue) => tagValue === modalInputValue.value
+  );
+};
+
+// 모달창 save 이벤트
+const changeUser = () => {
+  // isDuplicateUserName.value =
+  //   userTags.value.findIndex(
+  //     (tagValue) => tagValue === modalInputValue.value
+  //   ) !== -1;
+
+  const convertedUserTags = userTags.value.map((tagValue, index) => {
+    return index === clickedCardTagIndex.value
+      ? modalInputValue.value
+      : tagValue;
+  });
+
+  if (clickedCardTagIndex !== -1 && !isDuplicateUserName.value) {
+    userTags.value = convertedUserTags;
+    selectedUsers.value[clickedCardIndex.value] = modalInputValue.value;
+    isOpenModal.value = false;
+  }
+};
+
+watch(
+  () => isOpenModal.value,
+  () => {
+    if (isOpenModal.value === false) {
+      isDuplicateUserName.value = false;
+    }
+  }
+);
+
 onMounted(() => {
   // defaultArray.value = defaultCardList.value;
   resetCardDeck();
@@ -393,7 +440,21 @@ onBeforeMount(() => {
           },
         }"
       >
-        <PokemonCard class="relative shadow-gray-400 rounded shadow-md">
+        <PokemonCard
+          class="relative shadow-gray-400 rounded shadow-md ease-out duration-200"
+          :class="
+            (selectedUsers?.[index] || '') !== 'AI Trainer'
+              ? 'cursor-pointer hover:scale-[1.03]'
+              : 'cursor-not-allowed'
+          "
+          @click="
+            () => {
+              if ((selectedUsers?.[index] || '') !== 'AI Trainer') {
+                clickCard(index);
+              }
+            }
+          "
+        >
           <NuxtImg
             :src="cardInfo.image"
             class="rounded pattern w-[100%] h-[100%]"
@@ -433,7 +494,21 @@ onBeforeMount(() => {
           },
         }"
       >
-        <PokemonCard class="relative shadow-gray-400 rounded shadow-md">
+        <PokemonCard
+          class="relative shadow-gray-400 rounded shadow-md ease-out duration-200"
+          :class="
+            (selectedUsers?.[index + 5] || '') !== 'AI Trainer'
+              ? 'cursor-pointer hover:scale-[1.03]'
+              : 'cursor-not-allowed'
+          "
+          @click="
+            () => {
+              if ((selectedUsers?.[index + 5] || '') !== 'AI Trainer') {
+                clickCard(index + 5);
+              }
+            }
+          "
+        >
           <NuxtImg
             :src="cardInfo.image"
             class="rounded pattern w-[100%] h-[100%]"
@@ -656,6 +731,55 @@ onBeforeMount(() => {
           style="-webkit-user-drag: none"
         />
       </div>
+    </div>
+    <!-- TODO: 포켓먼 클릭에 의한 모달 영역 -->
+    <div v-if="isOpenModal">
+      <UModal v-model="isOpenModal">
+        <div class="p-4">
+          <div class="mb-3">
+            <UFormGroup label="User Name" :error="isDuplicateUserName">
+              <UInput
+                v-model="modalInputValue"
+                class="pt-2"
+                color="yellow"
+                @keypress.enter="changeUser"
+                @input="
+                  (e) => {
+                    if (e.target.value !== originModalInputValue) {
+                      isDuplicateUserName =
+                        userTags.findIndex(
+                          (tagValue) => tagValue === e.target.value
+                        ) !== -1;
+                    } else {
+                      isDuplicateUserName = false;
+                    }
+                  }
+                "
+              ></UInput>
+            </UFormGroup>
+          </div>
+          <div class="flex justify-between items-center">
+            <div class="ms-2 text-gray-300">
+              <Transition>
+                <div v-if="isDuplicateUserName">Username already exists!</div>
+              </Transition>
+            </div>
+            <div>
+              <UButton
+                class="me-2 bg-[#ebaa41] hover:bg-[#cfa157]"
+                @click="changeUser"
+                >Save</UButton
+              >
+              <UButton
+                class=""
+                color="white"
+                @click="() => (isOpenModal = false)"
+                >Cancel</UButton
+              >
+            </div>
+          </div>
+        </div>
+      </UModal>
     </div>
   </div>
 </template>
