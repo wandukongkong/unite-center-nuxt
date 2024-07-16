@@ -147,7 +147,7 @@ const latestUpdatePokemonList = computed(() => {
             style="object-fit: contain"
           />
           <div class="flex flex-1 justify-center font-bold text-5xl">
-            {{ mostUpdatedPokemonInfo.updatedList.length }}
+            {{ mostUpdatedPokemonInfo.updatedList.length - 1 }}
           </div>
         </div>
       </div>
@@ -165,7 +165,7 @@ const latestUpdatePokemonList = computed(() => {
             style="object-fit: contain"
           />
           <div class="flex flex-1 justify-center font-bold text-5xl">
-            {{ leastUpdatedPokemonInfo.updatedList.length }}
+            {{ leastUpdatedPokemonInfo.updatedList.length - 1 }}
           </div>
         </div>
       </div>
