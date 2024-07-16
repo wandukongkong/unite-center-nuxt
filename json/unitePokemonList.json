@@ -1178,6 +1178,31 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "불꽃펀치",
+            "updatedContents": ["데미지: 10% 증가"]
+          },
+          {
+            "updatedName": "불꽃펀치+",
+            "updatedContents": [
+              "일반 공격에 의한 대기 시간 단축: 0.3초 → 0.4초"
+            ]
+          },
+          {
+            "updatedName": "플레어드라이브",
+            "updatedContents": ["데미지: 15% 증가", "실드: 20% 증가"]
+          },
+          {
+            "updatedName": "유나이트 기술: 어스크러셔",
+            "updatedContents": [
+              "방해 내성과 방해 무효 상태인 상대편도 잡아 올릴 수 있도록 변경되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1501,6 +1526,19 @@
             "updatedContents": [
               "파괴광선이 야생 포켓몬에게  비정상적인 데미지를 주던 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "달빛",
+            "updatedContents": ["회복량: 10% 증가"]
+          },
+          {
+            "updatedName": "드레인키스",
+            "updatedContents": ["대기 시간: 5초 → 4초"]
           }
         ]
       }
@@ -1836,6 +1874,15 @@
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "유나이트 기술: 거센파도미사일",
+            "updatedContents": ["데미지: 15% 감소"]
           }
         ]
       }
@@ -2251,6 +2298,23 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "특성: 맹화",
+            "updatedContents": ["데미지: 30% 증가"]
+          },
+          {
+            "updatedName": "불대문자",
+            "updatedContents": ["대기 시간: 7초 → 6.5초"]
+          },
+          {
+            "updatedName": "회오리불꽃",
+            "updatedContents": ["대기 시간: 7.5초 → 6.5초"]
+          }
+        ]
       }
     ]
   },
@@ -2365,6 +2429,15 @@
             "updatedContents": [
               "자신에 대한 대기 시간 단축 효과에 관한 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "트라이어택",
+            "updatedContents": ["데미지: 12% 감소"]
           }
         ]
       }
@@ -5454,6 +5527,19 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "번개",
+            "updatedContents": ["대기 시간: 7.5초 → 7초"]
+          },
+          {
+            "updatedName": "10만볼트",
+            "updatedContents": ["대기 시간: 7.5초 → 7초"]
+          }
+        ]
       }
     ]
   },
@@ -6212,6 +6298,21 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "하이퍼보이스",
+            "updatedContents": ["대기 시간: 5초 → 6초"]
+          },
+          {
+            "updatedName": "매지컬플레임",
+            "updatedContents": [
+              "불꽃이 명중했을 때 대기 시간 단축률: 15% → 12%"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -6383,6 +6484,19 @@
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "질풍날개",
+            "updatedContents": ["이동 속도 상승량: 10% → 15%"]
+          },
+          {
+            "updatedName": "니트로차지",
+            "updatedContents": ["데미지: 10% 증가"]
           }
         ]
       }
@@ -7166,6 +7280,23 @@
             "updatedContents": [
               "일정 시간 모으지 않고 최대로 모은 상태로 기술이 사용되던 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "수류연타",
+            "updatedContents": ["대기 시간: 12.5초 → 11초"]
+          },
+          {
+            "updatedName": "아쿠아브레이크",
+            "updatedContents": ["데미지: 50% 증가"]
+          },
+          {
+            "updatedName": "지옥찌르기",
+            "updatedContents": ["대기 시간: 9초 → 7초", "데미지: 20% 증가"]
           }
         ]
       }
@@ -8047,6 +8178,17 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "특성: 일루전",
+            "updatedContents": [
+              "변신 중에 획득하는 스테이터스를 변경: 보호 상태 → 방해 무효 상태"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -8203,6 +8345,23 @@
           {
             "updatedName": "봉인",
             "updatedContents": ["대기 시간: 10초 → 11초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "봉인",
+            "updatedContents": ["대기 시간: 10초 → 9초"]
+          },
+          {
+            "updatedName": "화염방사",
+            "updatedContents": ["대기 시간: 7.5초 → 7초"]
+          },
+          {
+            "updatedName": "유나이트 기술: 암야의업화",
+            "updatedContents": ["필요한 에너지: 10% 감소"]
           }
         ]
       }
@@ -8622,6 +8781,15 @@
             "updatedContents": ["대기 시간 : 8초 → 10초"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "사이코브레이크",
+            "updatedContents": ["대기 시간: 8초 → 9초"]
+          }
+        ]
       }
     ]
   },
@@ -8762,6 +8930,19 @@
           {
             "updatedName": "순간이동",
             "updatedContents": ["대기 시간 : 8초 → 10초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "일반 공격",
+            "updatedContents": ["사정거리: 7.0m → 6.5m"]
+          },
+          {
+            "updatedName": "일반 공격(메가진화 시)",
+            "updatedContents": ["사정거리(메가진화 시): 8.0m → 7.5m"]
           }
         ]
       }
@@ -9002,6 +9183,23 @@
             "updatedContents": ["필요한 에너지양: 약 16% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "특성: 심록",
+            "updatedContents": [
+              "데미지 상승량: 20% → 15%",
+              "준 데미지에 따른 회복량: 20% → 15%",
+              "이동 속도 증가: 20% → 15%"
+            ]
+          },
+          {
+            "updatedName": "유나이트 기술: 블루밍쇼타임!!",
+            "updatedContents": ["필요한 에너지: 약 11% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -9203,6 +9401,17 @@
             "updatedContents": ["필요한 에너지양: 약 11% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "용의숨결",
+            "updatedContents": [
+              "상대편에게 명중시켰을 때 공격 속도가 오르도록 변경되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -9266,6 +9475,32 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "스테이터스",
+            "updatedContents": [
+              "대기 시간 단축: 15% → 10%(레벨 9~12),  25% → 20%(레벨 13~15)"
+            ]
+          },
+          {
+            "updatedName": "라이트닝드라이브",
+            "updatedContents": ["대기 시간: 11초 → 12초"]
+          },
+          {
+            "updatedName": "라이트닝드라이브+",
+            "updatedContents": ["대기 시간: 7초 → 8초"]
+          },
+          {
+            "updatedName": "차지빔",
+            "updatedContents": [
+              "데미지: 10% 감소",
+              "강화되었을 때 주는 데미지: 10% 감소"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -9285,6 +9520,26 @@
             "updatedContents": [""]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "아이언헤드",
+            "updatedContents": [
+              "데미지: 25% 감소",
+              "아이언헤드로 강화된 일반 공격 데미지: 20% 감소"
+            ]
+          },
+          {
+            "updatedName": "배수의진",
+            "updatedContents": ["공격 상승량: 40% → 25%"]
+          },
+          {
+            "updatedName": "배수의진+",
+            "updatedContents": ["공격 상승량: 60% → 40%"]
+          }
+        ]
       }
     ]
   },
@@ -9302,6 +9557,49 @@
           {
             "updatedName": "출시",
             "updatedContents": [""]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedName": "일반 공격/강화 공격",
+            "updatedContents": [
+              "HP 회복량: 5% 증가(레벨 1~4 20%, 레벨 5~8 25%, 레벨 9~15 30%)"
+            ]
+          },
+          {
+            "updatedName": "깨어진갑옷",
+            "updatedContents": ["상처에 의한 지속 데미지: 50% 증가"]
+          },
+          {
+            "updatedName": "원념의칼",
+            "updatedContents": ["회복량: 준 데미지의  35% → 준 데미지의 50%"]
+          },
+          {
+            "updatedName": "원념의칼+",
+            "updatedContents": ["회복량: 준 데미지의  50% → 준 데미지의 70%"]
+          },
+          {
+            "updatedName": "고스트다이브",
+            "updatedContents": ["명중했을 때 단축되는 대기 시간: 30% → 40%"]
+          },
+          {
+            "updatedName": "사이코커터",
+            "updatedContents": [
+              "감소시키는 방어: 약 40% ~ 약 31% 증가(레벨 5~10)"
+            ]
+          },
+          {
+            "updatedName": "사이코커터+",
+            "updatedContents": [
+              "감소시키는 방어: 약 20% ~ 약 17% 증가(레벨 11~15)"
+            ]
+          },
+          {
+            "updatedName": "니트로차지",
+            "updatedContents": ["공격 속도 증가: 20% → 30%"]
           }
         ]
       }
