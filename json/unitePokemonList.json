@@ -9604,5 +9604,24 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Ho-oh",
+    "nameKo": "칠색조",
+    "image": "/img/unitePokemon/roster-ho-oh-2x.png",
+    "color": "#aced5b",
+    "position": "defence",
+    "isEx": true,
+    "updatedList": [
+      {
+        "updatedDate": "2024-07-19",
+        "updatedContentList": [
+          {
+            "updatedName": "출시",
+            "updatedContents": [""]
+          }
+        ]
+      }
+    ]
   }
 ]
