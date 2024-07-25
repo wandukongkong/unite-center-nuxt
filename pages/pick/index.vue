@@ -648,7 +648,7 @@ onBeforeMount(() => {
                         <UButton
                           class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
                           :class="
-                            selectedMode === 'Defence' ? 'bg-[#ececec]' : ''
+                            selectedMode === 'defence' ? 'bg-[#ececec]' : ''
                           "
                           @click="
                             () => {
