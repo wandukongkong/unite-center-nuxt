@@ -48,10 +48,9 @@ const { apply: applySideBarMotion } = useMotionControls(
     },
     enterHome: {
       opacity: 0,
-      // x: 220,
-      // y: 170,
-      // width: "220px",
-      // height: "60vh",
+      x: -100,
+      width: "50px",
+      height: "97vh",
       transition: {
         // duration: 1000,
         damping: 14,
@@ -162,7 +161,7 @@ onMounted(() => {
           <img class="h-[20px]" src="@/public/img/pokemon/object7.png" />
         </div>
       </UButton>
-      <UButton
+      <!-- <UButton
         class="flex w-[100%] mb-3 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
         @mouseover="() => (hoveredMenuName = 'tournament')"
         @mouseleave="() => (hoveredMenuName = '')"
@@ -175,7 +174,7 @@ onMounted(() => {
         <div class="flex justify-center w-[50px]">
           <img class="h-[20px]" src="@/public/img/pokemon/object4.png" />
         </div>
-      </UButton>
+      </UButton> -->
     </div>
   </div>
 </template>

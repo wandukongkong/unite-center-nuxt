@@ -260,7 +260,7 @@ onMounted(() => {
             <strong>Random Pick</strong>
           </UButton>
         </div>
-        <div
+        <!-- <div
           class="flex items-center hover:scale-[1.04] ease-in-out duration-200"
         >
           <div class="flex justify-center w-[50px]">
@@ -274,7 +274,7 @@ onMounted(() => {
           >
             <strong>Tournament</strong>
           </UButton>
-        </div>
+        </div> -->
       </div>
       <div class="relative border-8 border-white rounded-xl">
         <img class="rounded-md" src="@/public/img/pokemon/pokemoncenter.png" />

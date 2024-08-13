@@ -33,62 +33,98 @@ const selectedPokemonDetailList = computed(() => {
     return aDateNumber < bDateNumber ? 1 : -1;
   });
 });
+
+const convertedSkillInfo = computed(() => {
+  return selectedPokemonDetailList.value.reduce(
+    (result, selectedPokemonDetailInfo) => {
+      (selectedPokemonDetailInfo?.updatedContentList || []).forEach(
+        (updatedContentInfo) => {
+          if (!result?.[updatedContentInfo?.updatedName]) {
+            result[updatedContentInfo?.updatedName] = [];
+          }
+
+          result[updatedContentInfo?.updatedName].push(
+            selectedPokemonDetailInfo
+          );
+        }
+      );
+
+      return result;
+    },
+    {}
+  );
+});
 </script>
 <template>
   <div class="flex ps-20 h-[100vh]">
     <div class="flex flex-col">
       <img
         :src="selectedPokemonInfo.image"
-        class="rounded"
+        class="rounded shadow-md m-3"
         width="200"
         style="object-fit: contain"
       />
-      <!-- <div class="bg-gradient-to-b from-[#afafaf] to-transparent h-[50px]">
-        <strong class="text-white">
-          {{ router.currentRoute.value.params.pokemonName }}
-        </strong>
-      </div> -->
-    </div>
-    <!-- TODO: Detail 영역 -->
-    <div class="flex p-2" ref="detailArea">
-      <!-- <div>
-        <PokemonCard class="relative transition-transform">
-          <img :src="selectedPokemonInfo.image" />
-        </PokemonCard>
-      </div> -->
       <div>
         <div
-          v-for="(updatedInfo, updatedInfoIndex) in selectedPokemonDetailList"
-          :key="updatedInfoIndex"
-          class="px-10 w-[1200px]"
+          v-for="(skillInfo, index) in selectedPokemonInfo.skillList"
+          :key="index"
+          class="flex justify-between px-4 items-center mb-2"
         >
-          <div class="mb-2">
-            <strong>
-              {{ updatedInfo.updatedDate }}
-            </strong>
+          <div class="flex items-center">
+            <img
+              :src="skillInfo.image"
+              class="me-2"
+              width="30"
+              style="object-fit: contain"
+            />
+            <strong
+              class="truncate w-[140px]"
+              :title="skillInfo.skillNameKo"
+              style="font-size: 9pt"
+              >{{ skillInfo.skillNameKo }}</strong
+            >
           </div>
-
-          <div
-            v-for="(
-              updatedContentInfo, updatedContentInfoIndex
-            ) in updatedInfo.updatedContentList"
-            :key="updatedContentInfoIndex"
-            class="m-5"
+          <strong>
+            {{
+              (convertedSkillInfo?.[skillInfo.skillNameKo] || []).length
+            }}</strong
           >
-            <div class="mb-1">- {{ updatedContentInfo.updatedName }}</div>
-            <div>
-              <div
-                v-for="(
-                  updatedContent, updatedContentIndex
-                ) in updatedContentInfo.updatedContents"
-                :key="updatedContentIndex"
-              >
-                {{ updatedContent }}
-              </div>
+        </div>
+      </div>
+    </div>
+    <!-- Detail 영역 -->
+    <div class="flex flex-col flex-1 px-2" ref="detailArea">
+      <div
+        v-for="(updatedInfo, updatedInfoIndex) in selectedPokemonDetailList"
+        :key="updatedInfoIndex"
+        class="w-100 m-3 px-2 pt-2 rounded border shadow-md"
+      >
+        <div class="mb-2">
+          <strong>
+            {{ updatedInfo.updatedDate }}
+          </strong>
+        </div>
+
+        <div
+          v-for="(
+            updatedContentInfo, updatedContentInfoIndex
+          ) in updatedInfo.updatedContentList"
+          :key="updatedContentInfoIndex"
+          class="m-5"
+        >
+          <div class="mb-1">- {{ updatedContentInfo.updatedName }}</div>
+          <div>
+            <div
+              v-for="(
+                updatedContent, updatedContentIndex
+              ) in updatedContentInfo.updatedContents"
+              :key="updatedContentIndex"
+            >
+              {{ updatedContent }}
             </div>
           </div>
-          <div class="border w-[100%] my-3 opacity-[0.7]"></div>
         </div>
+        <!-- <div class="border w-[100%] my-3 opacity-[0.7]"></div> -->
       </div>
     </div>
   </div>
