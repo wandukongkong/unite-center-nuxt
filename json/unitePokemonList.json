@@ -2,10 +2,52 @@
   {
     "name": "Absol",
     "nameKo": "앱솔",
-    "image": "/img/unitePokemon/roster-absol-2x.png",
+    "image": "/img/unitePokemon/absol/roster-absol-2x.png",
     "color": "#29a5e3",
     "position": "speed",
     "isEx": false,
+    "skillList": [
+      {
+        "skillName": "Super Luck",
+        "skillNameKo": "대운",
+        "image": "/img/unitePokemon/absol/Super Luck.png"
+      },
+      {
+        "skillName": "Feint",
+        "skillNameKo": "페인트",
+        "image": "/img/unitePokemon/absol/Feint.png"
+      },
+      {
+        "skillName": "Slash",
+        "skillNameKo": " 베어가르기",
+        "image": "/img/unitePokemon/absol/Slash.png"
+      },
+      {
+        "skillName": "Night Slash",
+        "skillNameKo": "깜짝베기",
+        "image": "/img/unitePokemon/absol/Night Slash.png"
+      },
+      {
+        "skillName": "Pursuit",
+        "skillNameKo": "따라가때리기",
+        "image": "/img/unitePokemon/absol/Pursuit.png"
+      },
+      {
+        "skillName": "Psycho Cut",
+        "skillNameKo": "사이코커터",
+        "image": "/img/unitePokemon/absol/Psycho Cut.png"
+      },
+      {
+        "skillName": "Sucker Punch",
+        "skillNameKo": "기습",
+        "image": "/img/unitePokemon/absol/Sucker Punch.png"
+      },
+      {
+        "skillName": "Midnight Slash",
+        "skillNameKo": "유나이트 기술: 다크슬래셔",
+        "image": "/img/unitePokemon/absol/Midnight Slash.png"
+      }
+    ],
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
