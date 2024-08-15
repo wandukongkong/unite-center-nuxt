@@ -64,17 +64,20 @@ const convertedSkillInfo = computed(() => {
         width="200"
         style="object-fit: contain"
       />
-      <div>
+      <div class="px-3">
+        <div class="mb-3">
+          <strong>Updated skills</strong>
+        </div>
         <div
           v-for="(skillInfo, index) in selectedPokemonInfo.skillList"
           :key="index"
-          class="flex justify-between px-4 items-center mb-2"
+          class="flex justify-between items-center mb-2"
         >
           <div class="flex items-center">
             <img
               :src="skillInfo.image"
               class="me-2"
-              width="30"
+              width="20"
               style="object-fit: contain"
             />
             <strong
