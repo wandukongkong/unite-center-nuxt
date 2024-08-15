@@ -395,8 +395,17 @@ onBeforeMount(() => {
           class="card-back hover:scale-[1.05] hover:shadow-xl hover:shadow-gray-400 shadow-md shadow-gray-400 ease-out duration-200 cursor-pointer rounded"
         >
           <div class="flex flex-col justify-center items-center h-[100%]">
-            <NuxtImg src="/img/pokemon/uniteLogo.png" width="80" class="mb-3" />
-            <NuxtImg src="/img/pokemon/monsterball.png" width="60" />
+            <NuxtImg
+              src="/img/pokemon/uniteLogo.png"
+              width="80"
+              class="mb-3"
+              loading="lazy"
+            />
+            <NuxtImg
+              src="/img/pokemon/monsterball.png"
+              width="60"
+              loading="lazy"
+            />
           </div>
         </PokemonCard>
         <div
@@ -460,6 +469,7 @@ onBeforeMount(() => {
             class="rounded pattern w-[100%] h-[100%]"
             style="-webkit-user-drag: none"
             :style="{ backgroundColor: cardInfo.color }"
+            loading="lazy"
           />
           <div
             v-if="isActiveUserInput"
@@ -514,6 +524,7 @@ onBeforeMount(() => {
             class="rounded pattern w-[100%] h-[100%]"
             style="-webkit-user-drag: none"
             :style="{ backgroundColor: cardInfo.color }"
+            loading="lazy"
           />
           <div
             v-if="isActiveUserInput"
@@ -727,6 +738,7 @@ onBeforeMount(() => {
           class="h-[90%]"
           src="/img/versus_v.png"
           style="-webkit-user-drag: none"
+          loading="lazy"
         />
       </div>
       <div class="absolute opacity-0" ref="versusSRef">
@@ -734,6 +746,7 @@ onBeforeMount(() => {
           class="h-[90%]"
           src="/img/versus_s.png"
           style="-webkit-user-drag: none"
+          loading="lazy"
         />
       </div>
     </div>
