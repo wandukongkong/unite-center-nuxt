@@ -7,7 +7,6 @@ import { useHomeStore } from "@/stores/homeStore";
 // use
 const route = useRoute();
 const router = useRouter();
-const { isMobile } = useDevice();
 
 // store
 const { hoveredMenuName } = storeToRefs(useHomeStore());
