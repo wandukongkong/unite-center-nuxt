@@ -1,10 +1,14 @@
 <script setup>
-import Page from "../pages/index.vue";
+const { isMobile } = useDevice();
 </script>
 <template>
   <div class="bg-transparent z-50" style="position: fixed; top: 10">
-    <Header></Header>
+    <div v-if="isMobile">
+      <MobileHeader></MobileHeader>
+    </div>
+    <div v-else>
+      <Header></Header>
+    </div>
   </div>
   <slot></slot>
 </template>
-<style></style>
