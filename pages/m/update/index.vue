@@ -2,7 +2,6 @@
 import { toRef, computed, watch, watchEffect } from "vue";
 import { storeToRefs } from "pinia";
 import { useDayjs } from "#dayjs";
-import { useSpring, useMotionProperties } from "@vueuse/motion";
 
 // store
 import { useCommonStore } from "../../stores/commonStore";
@@ -18,22 +17,6 @@ const router = useRouter();
 const detailArea = toRef();
 const isOpenDtail = toRef(false);
 const selectedPokemonInfo = toRef({});
-
-// motion
-const { motionProperties: detailAreaMotionProperties } = useMotionProperties(
-  detailArea,
-  {
-    opacity: 0,
-    x: -500,
-  }
-);
-
-const { set: setDetailMotion } = useSpring(detailAreaMotionProperties, {
-  duration: 500,
-  transform: {
-    delay: 3000,
-  },
-});
 
 const groupedPokemonList = computed(() => {
   // 날짜 별로 Group

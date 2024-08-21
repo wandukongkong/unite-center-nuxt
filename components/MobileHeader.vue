@@ -1,10 +1,39 @@
 <script setup>
-import { toRef } from "vue";
+import { toRef, onBeforeMount } from "vue";
+
+const router = useRouter();
 
 const isOpenMenu = toRef(false);
+const isShowHeader = toRef(false);
+
+watch(
+  () => router.currentRoute.value.fullPath,
+  () => {
+    if (
+      router.currentRoute.value.fullPath === "/m/" ||
+      router.currentRoute.value.fullPath === "/m"
+    ) {
+      isShowHeader.value = false;
+    } else {
+      isShowHeader.value = true;
+    }
+  }
+);
+
+onBeforeMount(() => {
+  if (
+    router.currentRoute.value.fullPath === "/m/" ||
+    router.currentRoute.value.fullPath === "/m"
+  ) {
+    isShowHeader.value = false;
+  } else {
+    isShowHeader.value = true;
+  }
+});
 </script>
 <template>
   <UButton
+    v-if="isShowHeader"
     class="m-2"
     icon="i-heroicons-bars-3-16-solid"
     color="gray"
