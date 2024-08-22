@@ -196,6 +196,25 @@ const latestUpdatePokemonList = computed(() => {
           </div>
         </div>
       </div>
+      <div
+        class="border rounded px-5 py-2 m-2 shadow-xl hover:scale-[1.03] hover:shadow-2xl ease-out duration-300"
+      >
+        <div class="text-sm font-mono mb-2 font-bold">New Pokemon</div>
+        <div class="flex content-start flex-wrap w-[300px] mb-2 ms-2">
+          <div
+            class="pattern shadow-md rounded-xl m-1 w-[100%]"
+            style="background-color: #aced5b"
+          >
+            <UTooltip text="칠색조">
+              <img
+                src="@/public/img/unitePokemon/ho-oh/roster-ho-oh-2x.png"
+                class="rounded-xl"
+                style="object-fit: fill"
+              />
+            </UTooltip>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
