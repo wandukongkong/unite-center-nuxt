@@ -89,7 +89,7 @@ const convertedSkillInfo = computed(() => {
           </div>
           <strong>
             {{
-              (convertedSkillInfo?.[skillInfo.skillNameKo] || []).length
+              (convertedSkillInfo?.[skillInfo.skillName] || []).length
             }}</strong
           >
         </div>
@@ -115,7 +115,7 @@ const convertedSkillInfo = computed(() => {
           :key="updatedContentInfoIndex"
           class="m-5"
         >
-          <div class="mb-1">- {{ updatedContentInfo.updatedName }}</div>
+          <div class="mb-1">- {{ updatedContentInfo.updatedNameKo }}</div>
           <div>
             <div
               v-for="(

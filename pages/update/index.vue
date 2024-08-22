@@ -117,7 +117,6 @@ const clickPokemonCard = (pokemonInfo) => {
                   class="rounded pattern ease-out duration-200"
                   style="-webkit-user-drag: none"
                   :style="{ backgroundColor: pokemonInfo.color }"
-                  loading="lazy"
                 />
               </PokemonCard>
             </div>
