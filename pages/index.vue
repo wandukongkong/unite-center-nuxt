@@ -2,6 +2,7 @@
 import { toRef, computed, onMounted, onBeforeMount } from "vue";
 import { useMotionProperties, useMotionControls } from "@vueuse/motion";
 
+const { isMobile } = useDevice();
 const router = useRouter();
 
 // Logo Motion
@@ -191,7 +192,10 @@ onMounted(() => {
 });
 </script>
 <template>
-  <div class="flex flex-col min-h-screen justify-center items-center">
+  <div
+    v-if="!isMobile"
+    class="flex flex-col min-h-screen justify-center items-center"
+  >
     <div class="flex justify-end ms-5 items-center w-[940px]">
       <img
         ref="logoRef"
@@ -260,6 +264,19 @@ onMounted(() => {
             <strong>Random Pick</strong>
           </UButton>
         </div>
+        <div
+          class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
+        >
+          <div class="flex justify-center w-[50px]">
+            <img src="@/public/img/pokemon/object1.png" class="h-4" />
+          </div>
+          <UButton
+            class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
+            @click="() => router.push('/circle')"
+          >
+            <strong>Circle</strong>
+          </UButton>
+        </div>
         <!-- <div
           class="flex items-center hover:scale-[1.04] ease-in-out duration-200"
         >
@@ -311,6 +328,20 @@ onMounted(() => {
           @mouseleave="() => applyObject7Motion('stop')"
         />
       </div>
+    </div>
+  </div>
+  <div v-else>
+    <div class="flex flex-col justify-start items-center">
+      <img
+        class="h-[30px] py-1 my-12"
+        src="@/public/img/pokemon/uniteCenterLogo.png"
+      />
+      <NuxtLink class="mb-5" to="/update" @click="isOpenMenu = false">
+        <strong>Update</strong>
+      </NuxtLink>
+      <!-- <NuxtLink class="mb-5" to="/pick" @click="isOpenMenu = false">
+        <strong>Random Pick</strong>
+      </NuxtLink> -->
     </div>
   </div>
 </template>

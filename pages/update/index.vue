@@ -12,6 +12,7 @@ const dayjs = useDayjs();
 const { unitePokemonList } = storeToRefs(useCommonStore());
 
 // use
+const { isMobile } = useDevice();
 const router = useRouter();
 
 // state
@@ -91,11 +92,14 @@ const clickPokemonCard = (pokemonInfo) => {
 
     <!-- 리스트 영역 -->
     <Transition>
-      <div class="reative flex flex-col justify-start py-3 bg-transparent">
+      <div
+        class="reative flex flex-col justify-start py-3 bg-transparent"
+        :class="isMobile ? 'mt-10' : ''"
+      >
         <div
           v-for="(groupedPokemonInfo, index) in groupedPokemonList"
           :key="index"
-          class="ms-20"
+          :class="isMobile ? 'ms-5' : 'ms-20'"
         >
           <div>
             <strong>{{ groupedPokemonInfo.updatedDate }}</strong>
@@ -109,7 +113,8 @@ const clickPokemonCard = (pokemonInfo) => {
               class="m-2"
             >
               <PokemonCard
-                class="relative w-[30px] flex hover:scale-[1.05] hover:shadow-xl hover:shadow-gray-400 shadow-md shadow-gray-400 ease-out duration-200 cursor-pointer rounded"
+                class="relative flex hover:scale-[1.05] hover:shadow-xl hover:shadow-gray-400 shadow-md shadow-gray-400 ease-out duration-200 cursor-pointer rounded"
+                :class="isMobile ? 'w-[100px]' : ''"
                 @click="() => clickPokemonCard(pokemonInfo)"
               >
                 <NuxtImg

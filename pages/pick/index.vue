@@ -18,14 +18,14 @@ const {
   selectedMode,
   userTags,
 } = storeToRefs(usePickStore());
+const { isMobile } = useDevice();
+const router = useRouter();
 
 // state
 const versusVRef = toRef(null);
 const versusSRef = toRef(null);
 
 const isOpenModal = toRef(false);
-const { isMobile } = useDevice();
-const router = useRouter();
 const isLoading = toRef(true);
 const selectedCardList = toRef([]);
 const selectedUsers = toRef([]);
@@ -333,10 +333,6 @@ const tagInputHandler = (itmes) => {
 onBeforeMount(() => {
   applyVersusVMotion("initial");
   applyVersusSMotion("initial");
-
-  if (isMobile) {
-    router.push("/m/pick");
-  }
 });
 </script>
 <template>
@@ -393,6 +389,7 @@ onBeforeMount(() => {
       >
         <PokemonCard
           class="card-back hover:scale-[1.05] hover:shadow-xl hover:shadow-gray-400 shadow-md shadow-gray-400 ease-out duration-200 cursor-pointer rounded"
+          :class="isMobile ? 'w-[100px]' : 'w-[150px] h-[190px]'"
         >
           <div class="flex flex-col justify-center items-center h-[100%]">
             <NuxtImg
@@ -411,6 +408,7 @@ onBeforeMount(() => {
         <div
           v-if="defaultArray.length === index + 1"
           class="absolute top-[14px] scale-[1.1]"
+          :class="isMobile ? 'w-[100px]' : 'w-[150px] h-[190px]'"
           @click="
             () => {
               if (!isLoading) {
@@ -451,11 +449,14 @@ onBeforeMount(() => {
       >
         <PokemonCard
           class="relative shadow-gray-400 rounded shadow-md ease-out duration-200"
-          :class="
-            (selectedUsers?.[index] || '') !== 'AI Trainer'
-              ? 'cursor-pointer hover:scale-[1.03]'
-              : 'cursor-default'
-          "
+          :class="`
+            ${
+              (selectedUsers?.[index] || '') !== 'AI Trainer'
+                ? 'cursor-pointer hover:scale-[1.03]'
+                : 'cursor-default'
+            }
+             ${isMobile ? 'w-[100px]' : 'w-[150px] h-[190px]'}
+          `"
           @click="
             () => {
               if ((selectedUsers?.[index] || '') !== 'AI Trainer') {
@@ -506,11 +507,11 @@ onBeforeMount(() => {
       >
         <PokemonCard
           class="relative shadow-gray-400 rounded shadow-md ease-out duration-200"
-          :class="
+          :class="`${
             (selectedUsers?.[index + 5] || '') !== 'AI Trainer'
               ? 'cursor-pointer hover:scale-[1.03]'
               : 'cursor-default'
-          "
+          } ${isMobile ? 'w-[100px]' : 'w-[150px] h-[190px]'}`"
           @click="
             () => {
               if ((selectedUsers?.[index + 5] || '') !== 'AI Trainer') {

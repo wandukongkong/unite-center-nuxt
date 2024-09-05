@@ -11,6 +11,7 @@ const { unitePokemonList } = storeToRefs(useCommonStore());
 
 // use
 const router = useRouter();
+const { isMobile } = useDevice();
 const dayjs = useDayjs();
 
 // local state
@@ -56,8 +57,8 @@ const convertedSkillInfo = computed(() => {
 });
 </script>
 <template>
-  <div class="flex ps-20 h-[100vh]">
-    <div class="flex flex-col">
+  <div class="flex h-[100vh]" :class="isMobile ? 'pt-10' : 'ps-20'">
+    <div v-if="!isMobile" class="flex flex-col">
       <img
         :src="selectedPokemonInfo.image"
         class="rounded shadow-md m-3"
