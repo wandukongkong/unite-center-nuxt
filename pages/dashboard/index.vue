@@ -12,6 +12,20 @@ const unitePokemonListClone = toRef(
   JSON.parse(JSON.stringify(unitePokemonList))
 );
 
+// 최신 포켓몬 정보
+const newPokemonInfo = computed(() => {
+  return unitePokemonListClone.value.sort((a, b) => {
+    const aNumber = Number(
+      dayjs(a?.updatedList?.[0]?.updatedDate, "YYYY-MM-DD").format("YYYYMMDD")
+    );
+    const bNumber = Number(
+      dayjs(b?.updatedList?.[0]?.updatedDate, "YYYY-MM-DD").format("YYYYMMDD")
+    );
+
+    return aNumber < bNumber ? 1 : -1;
+  })?.[0];
+});
+
 // 포지션별 카운트 차트 옵션
 const positionPokemonChartOption = computed(() => {
   const groupedUnitePokemonInfo = unitePokemonListClone.value.reduce(
@@ -203,11 +217,11 @@ const latestUpdatePokemonList = computed(() => {
         <div class="flex content-start flex-wrap w-[300px] mb-2 ms-2">
           <div
             class="pattern shadow-md rounded-xl m-1 w-[100%]"
-            style="background-color: #aced5b"
+            :style="{ 'background-color': newPokemonInfo?.color }"
           >
-            <UTooltip text="칠색조">
+            <UTooltip :text="newPokemonInfo?.nameKo">
               <img
-                src="@/public/img/unitePokemon/ho-oh/roster-ho-oh-2x.png"
+                :src="`${newPokemonInfo?.image}`"
                 class="rounded-xl"
                 style="object-fit: fill"
               />

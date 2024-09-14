@@ -10805,5 +10805,72 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Armarouge",
+    "nameKo": "카디나르마",
+    "image": "/img/unitePokemon/armarouge/roster-armarouge-2x.png",
+    "color": "#f16c38",
+    "position": "attack",
+    "isEx": true,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/armarouge/Attack.png"
+      },
+      {
+        "skillName": "Flash Fire",
+        "skillNameKo": "타오르는불꽃",
+        "image": "/img/unitePokemon/armarouge/Flash Fire.png"
+      },
+      {
+        "skillName": "Incinerate",
+        "skillNameKo": "불태우기",
+        "image": "/img/unitePokemon/armarouge/Incinerate.png"
+      },
+      {
+        "skillName": "Will-o-Wisp",
+        "skillNameKo": "도깨비불",
+        "image": "/img/unitePokemon/armarouge/Will-o-Wisp.png"
+      },
+      {
+        "skillName": "Armor Cannon",
+        "skillNameKo": "아머캐논",
+        "image": "/img/unitePokemon/armarouge/Armor Cannon.png"
+      },
+      {
+        "skillName": "Fire Spin",
+        "skillNameKo": "회오리불꽃",
+        "image": "/img/unitePokemon/armarouge/Fire Spin.png"
+      },
+      {
+        "skillName": "Flame Charge",
+        "skillNameKo": "니트로차지",
+        "image": "/img/unitePokemon/armarouge/Flame Charge.png"
+      },
+      {
+        "skillName": "Psyshock",
+        "skillNameKo": "사이코쇼크",
+        "image": "/img/unitePokemon/armarouge/Psyshock.png"
+      },
+      {
+        "skillName": "Psykaboom",
+        "skillNameKo": "사이코익스플로전",
+        "image": "/img/unitePokemon/armarouge/Psykaboom.png"
+      }
+    ],
+    "updatedList": [
+      {
+        "updatedDate": "2024-09-12",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "출시",
+            "updatedName": "Release",
+            "updatedContents": [""]
+          }
+        ]
+      }
+    ]
   }
 ]
