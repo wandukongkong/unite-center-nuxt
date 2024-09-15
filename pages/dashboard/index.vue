@@ -1,20 +1,39 @@
 <script setup>
-import { toRef, computed, watch } from "vue";
+import { toRef, computed } from "vue";
+
+import * as echarts from "echarts/core";
+import { BarChart } from "echarts/charts";
+import {
+  TooltipComponent,
+  GridComponent,
+  DatasetComponent,
+  LegendComponent,
+} from "echarts/components";
 
 import { useDayjs } from "#dayjs";
 // json
 import unitePokemonList from "../../json/unitePokemonList.json";
 
+echarts.use([
+  BarChart,
+  TooltipComponent,
+  GridComponent,
+  DatasetComponent,
+  LegendComponent,
+  // LabelLayout,
+  // UniversalTransition,
+]);
+
 // use
 const dayjs = useDayjs();
 
-const unitePokemonListClone = toRef(
-  JSON.parse(JSON.stringify(unitePokemonList))
-);
+const pokemonList = toRef([...unitePokemonList]);
 
 // 최신 포켓몬 정보
 const newPokemonInfo = computed(() => {
-  return unitePokemonListClone.value.sort((a, b) => {
+  const pokeomnListClone = [...pokemonList.value];
+
+  const sortedPokemonList = pokeomnListClone.sort((a, b) => {
     const aNumber = Number(
       dayjs(a?.updatedList?.[0]?.updatedDate, "YYYY-MM-DD").format("YYYYMMDD")
     );
@@ -24,11 +43,15 @@ const newPokemonInfo = computed(() => {
 
     return aNumber < bNumber ? 1 : -1;
   })?.[0];
+
+  return sortedPokemonList;
 });
 
 // 포지션별 카운트 차트 옵션
 const positionPokemonChartOption = computed(() => {
-  const groupedUnitePokemonInfo = unitePokemonListClone.value.reduce(
+  const pokeomnListClone = [...pokemonList.value];
+
+  const groupedUnitePokemonInfo = pokeomnListClone.reduce(
     (result, unitePokemonInfo) => {
       if (!result?.[unitePokemonInfo.position]) {
         result[unitePokemonInfo.position] = [];
@@ -68,11 +91,6 @@ const positionPokemonChartOption = computed(() => {
     },
     legend: {
       show: false,
-      selected: groupedUnitePokemonInfo,
-    },
-    tooltip: {
-      show: false,
-      className: "echarts-tooltip",
     },
     xAxis: {
       type: "category",
@@ -94,14 +112,14 @@ const positionPokemonChartOption = computed(() => {
 
 // 가장 업데이트가 많은 포켓몬
 const mostUpdatedPokemonInfo = computed(() => {
-  return unitePokemonListClone.value.sort((a, b) =>
+  return pokemonList.value.sort((a, b) =>
     a.updatedList.length < b.updatedList.length ? 1 : -1
   )?.[0];
 });
 
 // 가장 업데이트가 적은 포켓몬
 const leastUpdatedPokemonInfo = computed(() => {
-  return unitePokemonListClone.value
+  return pokemonList.value
     .filter((unitePokemonInfo) => unitePokemonInfo.updatedList.length > 1)
     .sort((a, b) =>
       a.updatedList.length > b.updatedList.length ? 1 : -1
@@ -110,7 +128,7 @@ const leastUpdatedPokemonInfo = computed(() => {
 
 // 가장 최신 업데이트 포켓몬
 const latestUpdatePokemonList = computed(() => {
-  const groupedUnitePokemonInfo = unitePokemonListClone.value.reduce(
+  const groupedUnitePokemonInfo = pokemonList.value.reduce(
     (result, unitePokemonInfo) => {
       unitePokemonInfo.updatedList.forEach((updateInfo) => {
         if (!result?.[updateInfo.updatedDate]) {
@@ -146,7 +164,9 @@ const latestUpdatePokemonList = computed(() => {
       >
         <div class="text-sm font-mono mb-2 font-bold">Position Count</div>
         <div class="w-[300px] h-[200px] mb-2 ms-2">
-          <VChart :option="positionPokemonChartOption" />
+          <ClientOnly fallback-tag="span" fallback="">
+            <VChart :option="positionPokemonChartOption" />
+          </ClientOnly>
         </div>
       </div>
       <!-- 업데이트가 가장 많은 포켓몬 -->
