@@ -10812,7 +10812,7 @@
     "image": "/img/unitePokemon/armarouge/roster-armarouge-2x.png",
     "color": "#f16c38",
     "position": "attack",
-    "isEx": true,
+    "isEx": false,
     "skillList": [
       {
         "skillName": "Attack",
