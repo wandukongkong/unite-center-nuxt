@@ -571,16 +571,64 @@
   {
     "name": "Blastoise",
     "nameKo": "거북왕",
-    "image": "/img/unitePokemon/roster-blastoise-2x.png",
+    "image": "/img/unitePokemon/blastoise/roster-blastoise-2x.png",
     "color": "#aced5b",
     "position": "defence",
     "isEx": false,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/blastoise/Attack.png"
+      },
+      {
+        "skillName": "Torrent",
+        "skillNameKo": "급류",
+        "image": "/img/unitePokemon/blastoise/Torrent.png"
+      },
+      {
+        "skillName": "Water Gun",
+        "skillNameKo": "물대포",
+        "image": "/img/unitePokemon/blastoise/Water Gun.png"
+      },
+      {
+        "skillName": "Hydro Pump",
+        "skillNameKo": "하이드로펌프",
+        "image": "/img/unitePokemon/blastoise/Hydro Pump.png"
+      },
+      {
+        "skillName": "Water Spout",
+        "skillNameKo": "해수스파우팅",
+        "image": "/img/unitePokemon/blastoise/Water Spout.png"
+      },
+      {
+        "skillName": "Skull Bash",
+        "skillNameKo": "로켓박치기",
+        "image": "/img/unitePokemon/blastoise/Skull Bash.png"
+      },
+      {
+        "skillName": "Surf",
+        "skillNameKo": "파도타기",
+        "image": "/img/unitePokemon/blastoise/Surf.png"
+      },
+      {
+        "skillName": "Rapid Spin",
+        "skillNameKo": "고속스핀",
+        "image": "/img/unitePokemon/blastoise/Rapid Spin.png"
+      },
+      {
+        "skillName": "Hydro Typhoon",
+        "skillNameKo": "하이드로타이푼",
+        "image": "/img/unitePokemon/blastoise/Hydro Typhoon.png"
+      }
+    ],
     "updatedList": [
       {
         "updatedDate": "2021-09-01",
         "updatedContentList": [
           {
             "updatedNameKo": "출시",
+            "updatedName": "Release",
             "updatedContents": [""]
           }
         ]
@@ -590,10 +638,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "물대포",
+            "updatedName": "Water Gun",
             "updatedContents": ["데미지: 15% 감소"]
           },
           {
             "updatedNameKo": "하이드로펌프",
+            "updatedName": "Hydro Pump",
             "updatedContents": [
               "데미지: 10% 감소",
               "행동 불가 시간: 1초 → 0.6초"
@@ -601,10 +651,12 @@
           },
           {
             "updatedNameKo": "하이드로펌프+",
+            "updatedName": "Hydro Pump",
             "updatedContents": ["데미지: 10% 감소"]
           },
           {
             "updatedNameKo": "해수스파우팅",
+            "updatedName": "Water Spout",
             "updatedContents": ["데미지: 10% 감소"]
           }
         ]
@@ -614,6 +666,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "진화하는 레벨",
+            "updatedName": "Attack",
             "updatedContents": ["Lv.9 → Lv.7"]
           }
         ]
@@ -623,18 +676,21 @@
         "updatedContentList": [
           {
             "updatedNameKo": "강화 공격",
+            "updatedName": "Attack",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "하이드로펌프",
+            "updatedName": "Hydro Pump",
             "updatedContents": [
               "상대편 포켓몬에게 주는 행동 불가 효과의 지속 시간이 길어졌습니다."
             ]
           },
           {
             "updatedNameKo": "파도타기",
+            "updatedName": "Surf",
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           }
         ]
@@ -644,22 +700,26 @@
         "updatedContentList": [
           {
             "updatedNameKo": "물대포",
+            "updatedName": "Water Gun",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "로케트박치기",
+            "updatedName": "Skull Bash",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "파도타기",
+            "updatedName": "Surf",
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           },
           {
             "updatedNameKo": "유나이트 기술: 하이드로타이푼",
+            "updatedName": "Hydro Typhoon",
             "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
           }
         ]
@@ -669,16 +729,19 @@
         "updatedContentList": [
           {
             "updatedNameKo": "고속스핀",
+            "updatedName": "Rapid Spin",
             "updatedContents": [
               "기술에 의해 자신에게 주는 효과를 '방해 내성'으로 변경했습니다."
             ]
           },
           {
             "updatedNameKo": "하이드로펌프",
+            "updatedName": "Hydro Pump",
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           },
           {
             "updatedNameKo": "유나이트 기술: 하이드로타이푼",
+            "updatedName": "Hydro Typhoon",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
@@ -690,6 +753,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "강화 공격",
+            "updatedName": "Attack",
             "updatedContents": [
               "강화 공격에 급소 데미지가 발생하지 않았던 오류를 수정했습니다."
             ]
@@ -701,16 +765,19 @@
         "updatedContentList": [
           {
             "updatedNameKo": "하이드로펌프",
+            "updatedName": "Hydro Pump",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "해수스파우팅",
+            "updatedName": "Water Spout",
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           },
           {
             "updatedNameKo": "유나이트 기술: 하이드로타이푼",
+            "updatedName": "Hydro Typhoon",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
@@ -722,10 +789,46 @@
         "updatedContentList": [
           {
             "updatedNameKo": "고속스핀",
+            "updatedName": "Rapid Spin",
             "updatedContents": [
               "고속스핀 중에 공격한 상대편 포켓몬의 이동 속도가 떨어지던 오류가 수정되었습니다.",
               "고속스핀 중에 「하이드로펌프」와 일반 공격 또는 「해수스파우팅」과 일반 공격을 동시에 사용할 수 있던 오류가 수정되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-10-17",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "하이드로펌프",
+            "updatedName": "Hydro Pump",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "하이드로펌프+",
+            "updatedName": "Hydro Pump",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "파도타기",
+            "updatedName": "Surf",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "파도타기+",
+            "updatedName": "Surf",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "고속스핀+",
+            "updatedName": "Rapid Spin",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "방어, 특수방어",
+            "updatedName": "Attack",
+            "updatedContents": ["능력이 조정되었습니다."]
           }
         ]
       }
@@ -1807,16 +1910,64 @@
   {
     "name": "Cramorant",
     "nameKo": "윽우지",
-    "image": "/img/unitePokemon/roster-cramorant-2x.png",
+    "image": "/img/unitePokemon/cramorant/roster-cramorant-2x.png",
     "color": "#f16c38",
     "position": "attack",
     "isEx": false,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/cramorant/Attack.png"
+      },
+      {
+        "skillName": "Gulp Missile",
+        "skillNameKo": "그대로꿀꺽미사일",
+        "image": "/img/unitePokemon/cramorant/Gulp Missile.png"
+      },
+      {
+        "skillName": "Whirlpool",
+        "skillNameKo": "바다회오리",
+        "image": "/img/unitePokemon/cramorant/Whirlpool.png"
+      },
+      {
+        "skillName": "Surf",
+        "skillNameKo": "파도타기",
+        "image": "/img/unitePokemon/cramorant/Surf.png"
+      },
+      {
+        "skillName": "Dive",
+        "skillNameKo": "다이빙",
+        "image": "/img/unitePokemon/cramorant/Dive.png"
+      },
+      {
+        "skillName": "Feather Dance",
+        "skillNameKo": "깃털댄스",
+        "image": "/img/unitePokemon/cramorant/Feather Dance.png"
+      },
+      {
+        "skillName": "Hurricane",
+        "skillNameKo": "폭풍",
+        "image": "/img/unitePokemon/cramorant/Hurricane.png"
+      },
+      {
+        "skillName": "Air Slash",
+        "skillNameKo": "에어슬래시",
+        "image": "/img/unitePokemon/cramorant/Air Slash.png"
+      },
+      {
+        "skillName": "Gatling Gulp Missile",
+        "skillNameKo": "거센파도미사일",
+        "image": "/img/unitePokemon/cramorant/Gatling Gulp Missile.png"
+      }
+    ],
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
         "updatedContentList": [
           {
             "updatedNameKo": "출시",
+            "updatedName": "Release",
             "updatedContents": [""]
           }
         ]
@@ -1826,10 +1977,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "다이빙",
+            "updatedName": "Dive",
             "updatedContents": ["보유 횟수가 회복되는 시간: 6초 → 5초"]
           },
           {
             "updatedNameKo": "폭풍",
+            "updatedName": "Hurricane",
             "updatedContents": ["데미지: 15% 증가"]
           }
         ]
@@ -1839,10 +1992,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "능력",
+            "updatedName": "Attack",
             "updatedContents": ["레벨 9 때 특수공격의 드레인 효과 증가: 12.5%"]
           },
           {
             "updatedNameKo": "폭풍",
+            "updatedName": "Hurricane",
             "updatedContents": ["대기 시간: 9초 → 8초"]
           }
         ]
@@ -1852,6 +2007,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "다이빙",
+            "updatedName": "Dive",
             "updatedContents": [
               "기술을 사용한 뒤에 강화 공격으로 추가 데미지가 발생하지 않던 오류를 수정했습니다.",
               "발사된 찌로꼬치가 예상보다 많이 계속해서 튕기는 오류를 수정했습니다."
@@ -1859,6 +2015,7 @@
           },
           {
             "updatedNameKo": "폭풍",
+            "updatedName": "Hurricane",
             "updatedContents": ["대기 시간: 9초 → 8초"]
           }
         ]
@@ -1868,6 +2025,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "유나이트 기술: 거센파도미사일",
+            "updatedName": "Gatling Gulp Missile",
             "updatedContents": [
               "2마리의 포켓몬에게 동시에 공격되는 경우가 발생하던 오류를 수정했습니다."
             ]
@@ -1879,6 +2037,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "강화 공격",
+            "updatedName": "Attack",
             "updatedContents": [
               "찌로꼬치 1마리가 여러 마리의 상대편 포켓몬 사이를 왕복하며 너무 높은 데미지를 주는 경우가 발생하는 오류를 수정했습니다."
             ]
@@ -1890,6 +2049,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "에어슬래시+",
+            "updatedName": "Air Slash",
             "updatedContents": ["HP 회복량이 감소되었습니다."]
           }
         ]
@@ -1899,10 +2059,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "다이빙",
+            "updatedName": "Dive",
             "updatedContents": ["기술 대기 시간이 길어졌습니다."]
           },
           {
             "updatedNameKo": "에어슬래시",
+            "updatedName": "Air Slash",
             "updatedContents": ["기술 대기 시간이 길어졌습니다."]
           }
         ]
@@ -1912,14 +2074,17 @@
         "updatedContentList": [
           {
             "updatedNameKo": "다이빙",
+            "updatedName": "Dive",
             "updatedContents": ["최대 거리와 관련된 오류를 수정했습니다."]
           },
           {
             "updatedNameKo": "파도타기",
+            "updatedName": "Surf",
             "updatedContents": ["주는 데미지와 관련된 오류를 수정했습니다."]
           },
           {
             "updatedNameKo": "유나이트 기술: 거센파도미사일",
+            "updatedName": "Gatling Gulp Missile",
             "updatedContents": ["발동 타이밍과 관련된 오류를 수정했습니다."]
           }
         ]
@@ -1929,10 +2094,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "에어슬래시",
+            "updatedName": "Air Slash",
             "updatedContents": ["포켓몬 기술 상향"]
           },
           {
             "updatedNameKo": "유나이트 기술: 거센파도미사일",
+            "updatedName": "Gatling Gulp Missile",
             "updatedContents": [
               "유나이트 기술을 모으기 쉬워졌으며 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
@@ -1944,12 +2111,14 @@
         "updatedContentList": [
           {
             "updatedNameKo": "다이빙",
+            "updatedName": "Dive",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되고 액션이 조정되었습니다."
             ]
           },
           {
             "updatedNameKo": "에어슬래시",
+            "updatedName": "Air Slash",
             "updatedContents": ["기술 대기 시간이 길어졌습니다."]
           }
         ]
@@ -1959,6 +2128,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "강화 공격",
+            "updatedName": "Attack",
             "updatedContents": [
               "강화 공격에 급소 데미지가 발생하지 않았던 오류를 수정했습니다."
             ]
@@ -1970,6 +2140,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "다이빙",
+            "updatedName": "Dive",
             "updatedContents": ["오류가 수정되었습니다."]
           }
         ]
@@ -1979,22 +2150,26 @@
         "updatedContentList": [
           {
             "updatedNameKo": "강화 공격",
+            "updatedName": "Attack",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "파도타기",
+            "updatedName": "Surf",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "다이빙",
+            "updatedName": "Dive",
             "updatedContents": ["기술 사이의 대기 시간이 짧아졌습니다."]
           },
           {
             "updatedNameKo": "유나이트 기술: 거센파도미사일",
+            "updatedName": "Gatling Gulp Missile",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
@@ -2006,6 +2181,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "폭풍",
+            "updatedName": "Hurricane",
             "updatedContents": [
               "일부 야생 포켓몬에게 데미지를 주지 못하던 오류를 수정했습니다."
             ]
@@ -2017,12 +2193,14 @@
         "updatedContentList": [
           {
             "updatedNameKo": "바다회오리",
+            "updatedName": "Whirlpool",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "다이빙",
+            "updatedName": "Dive",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
@@ -2034,7 +2212,29 @@
         "updatedContentList": [
           {
             "updatedNameKo": "유나이트 기술: 거센파도미사일",
+            "updatedName": "Gatling Gulp Missile",
             "updatedContents": ["데미지: 15% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-10-17",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "다이빙",
+            "updatedName": "Dive",
+            "updatedContents": [
+              "기술 대기 시간이 길어졌습니다.",
+              "기술 발동 빈도가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "다이빙+",
+            "updatedName": "Dive",
+            "updatedContents": [
+              "기술 대기 시간이 길어졌습니다.",
+              "기술 발동 빈도가 감소되었습니다."
+            ]
           }
         ]
       }
@@ -2348,16 +2548,64 @@
   {
     "name": "Delphox",
     "nameKo": "마폭시",
-    "image": "/img/unitePokemon/roster-delphox-2x.png",
+    "image": "/img/unitePokemon/delphox/roster-delphox-2x.png",
     "color": "#f16c38",
     "position": "attack",
     "isEx": false,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/delphox/Attack.png"
+      },
+      {
+        "skillName": "Blaze",
+        "skillNameKo": "맹화",
+        "image": "/img/unitePokemon/delphox/Blaze.png"
+      },
+      {
+        "skillName": "Ember",
+        "skillNameKo": "불꽃세례",
+        "image": "/img/unitePokemon/delphox/Ember.png"
+      },
+      {
+        "skillName": "Fire Blast",
+        "skillNameKo": "불대문자",
+        "image": "/img/unitePokemon/delphox/Fire Blast.png"
+      },
+      {
+        "skillName": "Mystical Fire",
+        "skillNameKo": "매지컬플레임",
+        "image": "/img/unitePokemon/delphox/Mystical Fire.png"
+      },
+      {
+        "skillName": "Will-o-Wisp",
+        "skillNameKo": "도깨비불",
+        "image": "/img/unitePokemon/delphox/Will-o-Wisp.png"
+      },
+      {
+        "skillName": "Fire Spin",
+        "skillNameKo": "회오리불꽃",
+        "image": "/img/unitePokemon/delphox/Fire Spin.png"
+      },
+      {
+        "skillName": "Flame Charge",
+        "skillNameKo": "니트로차지",
+        "image": "/img/unitePokemon/delphox/Flame Charge.png"
+      },
+      {
+        "skillName": "Fanciful Fireworks",
+        "skillNameKo": "매지컬페스티벌",
+        "image": "/img/unitePokemon/delphox/Fanciful Fireworks.png"
+      }
+    ],
     "updatedList": [
       {
         "updatedDate": "2022-06-09",
         "updatedContentList": [
           {
             "updatedNameKo": "출시",
+            "updatedName": "Release",
             "updatedContents": [""]
           }
         ]
@@ -2367,6 +2615,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "회오리불꽃",
+            "updatedName": "Fire Spin",
             "updatedContents": [
               "회오리 지속 시간: 5초 → 4초",
               "대기 시간: 7초 → 7.5초"
@@ -2374,6 +2623,7 @@
           },
           {
             "updatedNameKo": "불대문자",
+            "updatedName": "Fire Blast",
             "updatedContents": ["데미지: 10% 감소", "대기 시간: 6초 → 7초"]
           }
         ]
@@ -2383,6 +2633,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "회오리불꽃",
+            "updatedName": "Fire Spin",
             "updatedContents": ["데미지: 27% 증가", "대기 시간: 8초 → 7초"]
           }
         ]
@@ -2392,6 +2643,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "맹화",
+            "updatedName": "Blaze",
             "updatedContents": ["효과가 중첩되어 발동되는 오류를 수정했습니다."]
           }
         ]
@@ -2401,14 +2653,17 @@
         "updatedContentList": [
           {
             "updatedNameKo": "불대문자",
+            "updatedName": "Fire Blast",
             "updatedContents": ["2단계의 데미지: 약 35% 증가"]
           },
           {
             "updatedNameKo": "매지컬플레임",
+            "updatedName": "Mystical Fire",
             "updatedContents": ["데미지: 약 10% 감소"]
           },
           {
             "updatedNameKo": "니트로차지+",
+            "updatedName": "Flame Charge",
             "updatedContents": ["이동 속도가 오르는 효과: 75% → 30%"]
           }
         ]
@@ -2418,6 +2673,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "니트로차지",
+            "updatedName": "Flame Charge",
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           }
         ]
@@ -2427,24 +2683,28 @@
         "updatedContentList": [
           {
             "updatedNameKo": "매지컬플레임",
+            "updatedName": "Mystical Fire",
             "updatedContents": [
               "특정 지닌물건을 지니고 있을 때 크리티컬이 발생하는 발생하는 오류를 수정했습니다."
             ]
           },
           {
             "updatedNameKo": "불대문자",
+            "updatedName": "Fire Blast",
             "updatedContents": [
               "특정 지닌물건을 지니고 있을 때 크리티컬이 발생하는 발생하는 오류를 수정했으며 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "회오리불꽃",
+            "updatedName": "Fire Spin",
             "updatedContents": [
               "지속 시간이 조정되었으며 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "니트로차지",
+            "updatedName": "Flame Charge",
             "updatedContents": [
               "지속 시간이 조정되었으며 기술이 닿는 거리가 멀어졌습니다."
             ]
@@ -2456,14 +2716,41 @@
         "updatedContentList": [
           {
             "updatedNameKo": "특성: 맹화",
+            "updatedName": "Blaze",
             "updatedContents": ["데미지: 30% 증가"]
           },
           {
             "updatedNameKo": "불대문자",
+            "updatedName": "Fire Blast",
             "updatedContents": ["대기 시간: 7초 → 6.5초"]
           },
           {
             "updatedNameKo": "회오리불꽃",
+            "updatedName": "Fire Spin",
+            "updatedContents": ["대기 시간: 7.5초 → 6.5초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-10-17",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "매지컬플레임",
+            "updatedName": "Mystical Fire",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "불대문자",
+            "updatedName": "Fire Blast",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "불대문자+",
+            "updatedName": "Fire Blast",
             "updatedContents": ["대기 시간: 7.5초 → 6.5초"]
           }
         ]
@@ -2598,16 +2885,64 @@
   {
     "name": "Dragapult",
     "nameKo": "드래펄트",
-    "image": "/img/unitePokemon/roster-dragapult-2x.png",
+    "image": "/img/unitePokemon/dragapult/roster-dragapult-2x.png",
     "color": "#f16c38",
     "position": "attack",
     "isEx": false,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/dragapult/Attack.png"
+      },
+      {
+        "skillName": "Clear Body",
+        "skillNameKo": "클리어바디",
+        "image": "/img/unitePokemon/dragapult/Clear Body.png"
+      },
+      {
+        "skillName": "Astonish",
+        "skillNameKo": "놀래키기",
+        "image": "/img/unitePokemon/dragapultAstonish.png"
+      },
+      {
+        "skillName": "Dragon Breath",
+        "skillNameKo": "용의숨결",
+        "image": "/img/unitePokemon/dragapult/Dragon Breath.png"
+      },
+      {
+        "skillName": "Shadow Ball",
+        "skillNameKo": "섀도볼",
+        "image": "/img/unitePokemon/dragapult/Shadow Ball.png"
+      },
+      {
+        "skillName": "Quick Attack",
+        "skillNameKo": "전광석화",
+        "image": "/img/unitePokemon/dragapult/Quick Attack.png"
+      },
+      {
+        "skillName": "Dragon Dance",
+        "skillNameKo": "용의춤",
+        "image": "/img/unitePokemon/dragapult/Dragon Dance.png"
+      },
+      {
+        "skillName": "Phantom Force",
+        "skillNameKo": "고스트다이브",
+        "image": "/img/unitePokemon/dragapult/Phantom Force.png"
+      },
+      {
+        "skillName": "Dreep and Destroy",
+        "skillNameKo": "드라군샷",
+        "image": "/img/unitePokemon/dragapult/Dreep and Destroy.png"
+      }
+    ],
     "updatedList": [
       {
         "updatedDate": "2022-12-29",
         "updatedContentList": [
           {
             "updatedNameKo": "출시",
+            "updatedName": "Release",
             "updatedContents": [""]
           }
         ]
@@ -2617,10 +2952,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
             "updatedContents": ["급소율: 0~15~30% → 0~10~25%(레벨1~5~9)"]
           },
           {
             "updatedNameKo": "고스트다이브",
+            "updatedName": "Phantom Force",
             "updatedContents": ["상승하는 공격 속도: 100% → 85%"]
           }
         ]
@@ -2630,10 +2967,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
             "updatedContents": ["공격: 140~470 → 140~500(레벨 1~15)"]
           },
           {
             "updatedNameKo": "고스트다이브",
+            "updatedName": "Phantom Force",
             "updatedContents": [
               "대기 시간: 14초 → 12초",
               "KO했을 때 오르는 공격력: 6 (8번까지)→10 (10번까지)",
@@ -2643,6 +2982,7 @@
           },
           {
             "updatedNameKo": "섀도볼",
+            "updatedName": "Shadow Ball",
             "updatedContents": [
               "데미지: 30% 증가",
               "마크가 부여된 상대에 대하여 증가하는 데미지: 30% 증가",
@@ -2651,6 +2991,7 @@
           },
           {
             "updatedNameKo": "섀도볼+",
+            "updatedName": "Shadow Ball",
             "updatedContents": [
               "데미지: 30% 증가",
               "추가로 오르는 데미지: 30% 증가",
@@ -2659,6 +3000,7 @@
           },
           {
             "updatedNameKo": "유나이트 기술: 드라군샷",
+            "updatedName": "Dreep and Destroy",
             "updatedContents": ["대기 시간: 12초 → 10초"]
           }
         ]
@@ -2668,6 +3010,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "용의춤",
+            "updatedName": "Dragon Dance",
             "updatedContents": [
               "기술 대기 시간을 단축하는 효과가 발동하지 않던 오류를 수정했습니다."
             ]
@@ -2679,11 +3022,25 @@
         "updatedContentList": [
           {
             "updatedNameKo": "섀도볼",
+            "updatedName": "Shadow Ball",
             "updatedContents": ["데미지: 12% 증가"]
           },
           {
             "updatedNameKo": "섀도볼+",
+            "updatedName": "Shadow Ball",
             "updatedContents": ["데미지: 12% 증가"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-10-17",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "고스트다이브",
+            "updatedName": "Phantom Force",
+            "updatedContents": [
+              "기술에 의해 자신에게 주는 효과가 약해졌습니다."
+            ]
           }
         ]
       }
@@ -4835,16 +5192,64 @@
   {
     "name": "Lucario",
     "nameKo": "루카리오",
-    "image": "/img/unitePokemon/roster-lucario-2x.png",
+    "image": "/img/unitePokemon/lucario/roster-lucario-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": false,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/lucario/Attack.png"
+      },
+      {
+        "skillName": "Steadfast",
+        "skillNameKo": "불굴의마음",
+        "image": "/img/unitePokemon/lucario/Steadfast.png"
+      },
+      {
+        "skillName": "Quick Attack",
+        "skillNameKo": "전광석화",
+        "image": "/img/unitePokemon/lucario/Quick Attack.png"
+      },
+      {
+        "skillName": "Extreme Speed",
+        "skillNameKo": "신속",
+        "image": "/img/unitePokemon/lucario/Extreme Speed.png"
+      },
+      {
+        "skillName": "Power-Up Punch",
+        "skillNameKo": "그로우펀치",
+        "image": "/img/unitePokemon/lucario/Power-Up Punch.png"
+      },
+      {
+        "skillName": "Meteor Mash",
+        "skillNameKo": "코멧펀치",
+        "image": "/img/unitePokemon/lucario/Meteor Mash.png"
+      },
+      {
+        "skillName": "Bone Rush",
+        "skillNameKo": "본러시",
+        "image": "/img/unitePokemon/lucario/Bone Rush.png"
+      },
+      {
+        "skillName": "Close Combat",
+        "skillNameKo": "인파이트",
+        "image": "/img/unitePokemon/lucario/Close Combat.png"
+      },
+      {
+        "skillName": "Aura Cannon",
+        "skillNameKo": "풀포스블라스트",
+        "image": "/img/unitePokemon/lucario/Aura Cannon.png"
+      }
+    ],
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
         "updatedContentList": [
           {
             "updatedNameKo": "출시",
+            "updatedName": "Release",
             "updatedContents": [""]
           }
         ]
@@ -4854,14 +5259,17 @@
         "updatedContentList": [
           {
             "updatedNameKo": "신속",
+            "updatedName": "Extreme Speed",
             "updatedContents": ["데미지: 5% 증가"]
           },
           {
             "updatedNameKo": "인파이트",
+            "updatedName": "Close Combat",
             "updatedContents": ["대기 시간: 9초 → 7.5초"]
           },
           {
             "updatedNameKo": "유나이트 기술: 풀포스블라스트",
+            "updatedName": "Aura Cannon",
             "updatedContents": [
               "기술 발동까지의 시간이 짧아졌습니다.",
               "필요한 에너지양: 약 15% 감소"
@@ -4874,6 +5282,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "그로우펀치",
+            "updatedName": "Power-Up Punch",
             "updatedContents": [
               "최대까지 충전했을 때 이동 거리가 짧아지던 오류를 수정했습니다."
             ]
@@ -4885,12 +5294,14 @@
         "updatedContentList": [
           {
             "updatedNameKo": "신속+",
+            "updatedName": "Extreme Speed",
             "updatedContents": [
               "상대편 포켓몬에게 주는 추가 데미지량이 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "그로우펀치",
+            "updatedName": "Power-Up Punch",
             "updatedContents": [
               "유나이트기술 직후에 그로우펀치의 데미지가 높아지던 오류를 수정했습니다."
             ]
@@ -4902,6 +5313,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "신속",
+            "updatedName": "Extreme Speed",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
@@ -4913,6 +5325,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "인파이트",
+            "updatedName": "Close Combat",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되고 기술에 의해 자신에게 주는 효과가 약해졌습니다."
             ]
@@ -4924,20 +5337,24 @@
         "updatedContentList": [
           {
             "updatedNameKo": "코멧펀치",
+            "updatedName": "Meteor Mash",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되고 상대편 포켓몬에게 주는 효과가 약해졌습니다."
             ]
           },
           {
             "updatedNameKo": "신속",
+            "updatedName": "Extreme Speed",
             "updatedContents": ["HP 회복량이 감소되었습니다."]
           },
           {
             "updatedNameKo": "인파이트",
+            "updatedName": "Close Combat",
             "updatedContents": ["포켓몬 기술 상향"]
           },
           {
             "updatedNameKo": "그로우펀치",
+            "updatedName": "Power-Up Punch",
             "updatedContents": [
               "코멧펀치를 사용한 직후에 그로우펀치를 사용하면 그로우펀치가 명중하지 않던 오류를 수정했습니다."
             ]
@@ -4949,12 +5366,14 @@
         "updatedContentList": [
           {
             "updatedNameKo": "그로우펀치",
+            "updatedName": "Power-Up Punch",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되고 기술을 모으는 시간이 짧아졌습니다."
             ]
           },
           {
             "updatedNameKo": "불굴의마음",
+            "updatedName": "Steadfast",
             "updatedContents": ["실드량이 감소되었습니다."]
           }
         ]
@@ -4964,14 +5383,17 @@
         "updatedContentList": [
           {
             "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
             "updatedContents": ["공격이 감소되었습니다."]
           },
           {
             "updatedNameKo": "불굴의마음",
+            "updatedName": "Steadfast",
             "updatedContents": ["능력이 하향되었습니다."]
           },
           {
             "updatedNameKo": "유나이트 기술: 풀포스블라스트",
+            "updatedName": "Aura Cannon",
             "updatedContents": ["오류가 수정되었습니다."]
           }
         ]
@@ -4981,18 +5403,21 @@
         "updatedContentList": [
           {
             "updatedNameKo": "그로우펀치",
+            "updatedName": "Power-Up Punch",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "인파이트",
+            "updatedName": "Close Combat",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되고 기술의 공격 횟수가 늘었습니다."
             ]
           },
           {
             "updatedNameKo": "인파이트+",
+            "updatedName": "Close Combat",
             "updatedContents": ["데미지 오류가 수정되었습니다."]
           }
         ]
@@ -5002,15 +5427,32 @@
         "updatedContentList": [
           {
             "updatedNameKo": "그로우펀치",
+            "updatedName": "Power-Up Punch",
             "updatedContents": [
               "그로우펀치의 효과로 상승한 공격이 발동 후에 일반 공격에도 반영되던 오류를 수정했습니다."
             ]
           },
           {
             "updatedNameKo": "본러쉬",
+            "updatedName": "Bone Rush",
             "updatedContents": [
               "다시 기술을 사용했을 때 주변의 상대에게 데미지를 주지 않던 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-10-17",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "신속",
+            "updatedName": "Extreme Speed",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "신속+",
+            "updatedName": "Extreme Speed",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           }
         ]
       }
@@ -5019,16 +5461,64 @@
   {
     "name": "Machamp",
     "nameKo": "괴력몬",
-    "image": "/img/unitePokemon/roster-machamp-2x.png",
+    "image": "/img/unitePokemon/machamp/roster-machamp-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": false,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/machamp/Attack.png"
+      },
+      {
+        "skillName": "Guts",
+        "skillNameKo": "근성",
+        "image": "/img/unitePokemon/machamp/Guts.png"
+      },
+      {
+        "skillName": "Karate Chop",
+        "skillNameKo": "태권당수",
+        "image": "/img/unitePokemon/machamp/Karate Chop.png"
+      },
+      {
+        "skillName": "Close Combat",
+        "skillNameKo": "인파이트",
+        "image": "/img/unitePokemon/machamp/Close Combat.png"
+      },
+      {
+        "skillName": "Cross Chop",
+        "skillNameKo": "크로스촙",
+        "image": "/img/unitePokemon/machamp/Cross Chop.png"
+      },
+      {
+        "skillName": "Bulk Up",
+        "skillNameKo": "벌크업",
+        "image": "/img/unitePokemon/machamp/Bulk Up.png"
+      },
+      {
+        "skillName": "Dynamic Punch",
+        "skillNameKo": "폭발펀치",
+        "image": "/img/unitePokemon/machamp/Dynamic Punch.png"
+      },
+      {
+        "skillName": "Submission",
+        "skillNameKo": "지옥의바퀴",
+        "image": "/img/unitePokemon/machamp/Submission.png"
+      },
+      {
+        "skillName": "Barrage Blow",
+        "skillNameKo": "호걸러시",
+        "image": "/img/unitePokemon/machamp/Barrage Blow.png"
+      }
+    ],
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
         "updatedContentList": [
           {
             "updatedNameKo": "출시",
+            "updatedName": "Release",
             "updatedContents": [""]
           }
         ]
@@ -5038,6 +5528,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "능력치",
+            "updatedName": "Attack",
             "updatedContents": [
               "방어: 98~490 → 100~510 (레벨 1~15)",
               "특수방어: 64~320 → 70~350 (레벨 1~15)"
@@ -5045,6 +5536,7 @@
           },
           {
             "updatedNameKo": "지옥의바퀴",
+            "updatedName": "Submission",
             "updatedContents": ["데미지: 23% 증가"]
           }
         ]
@@ -5054,10 +5546,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "지옥의바퀴",
+            "updatedName": "Submission",
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           },
           {
             "updatedNameKo": "폭발펀치",
+            "updatedName": "Dynamic Punch",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
@@ -5069,22 +5563,26 @@
         "updatedContentList": [
           {
             "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
             "updatedContents": [
               "레벨 7 이후에 일반 공격의 HP 회복 효과가 강해졌습니다."
             ]
           },
           {
             "updatedNameKo": "태권당수",
+            "updatedName": "Karate Chop",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "폭발펀치",
+            "updatedName": "Dynamic Punch",
             "updatedContents": ["기술이 닿는 거리가 멀어졌습니다."]
           },
           {
             "updatedNameKo": "지옥의바퀴",
+            "updatedName": "Submission",
             "updatedContents": [
               "상대편 포켓몬에게 방해 효과를 주지 못한 경우에도 데미지와 기술의 효과가 발동하도록 변경되었습니다."
             ]
@@ -5096,6 +5594,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "유나이트 기술: 호걸러시",
+            "updatedName": "Barrage Blow",
             "updatedContents": [
               "밀쳐내기의 오류가 수정되고 점프 패널에서 발생하던 오류가 수정되었습니다."
             ]
@@ -5107,14 +5606,40 @@
         "updatedContentList": [
           {
             "updatedNameKo": "크로스촙",
+            "updatedName": "Cross Chop",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "인파이트",
+            "updatedName": "Close Combat",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-10-17",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "인파이트",
+            "updatedName": "Close Combat",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "호걸러시",
+            "updatedName": "Barrage Blow",
+            "updatedContents": [
+              "발동 타이밍(즉발)",
+              "기술에 의해 자신에게 주는 효과의 지속 시간이 짧아졌습니다.",
+              "기술에 의한 방어의 상승률이 상승되었습니다.",
+              "기술에 의한 특수방어의 상승률이 상승되었습니다.",
+              "기술에 의한 이동 속도의 상승률이 상승되었습니다.",
+              "기술에 의한 공격의 상승률이 감소되었습니다."
             ]
           }
         ]
@@ -5124,16 +5649,64 @@
   {
     "name": "Mamoswine",
     "nameKo": "맘모꾸리",
-    "image": "/img/unitePokemon/roster-mamoswine-2x.png",
+    "image": "/img/unitePokemon/mamoswine/roster-mamoswine-2x.png",
     "color": "#aced5b",
     "position": "defence",
     "isEx": false,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/mamoswine/Attack.png"
+      },
+      {
+        "skillName": "Thick Fat",
+        "skillNameKo": "두꺼운지방",
+        "image": "/img/unitePokemon/mamoswine/Thick Fat.png"
+      },
+      {
+        "skillName": "Ice Shard",
+        "skillNameKo": "얼음뭉치",
+        "image": "/img/unitePokemon/mamoswine/Ice Shard.png"
+      },
+      {
+        "skillName": "Icicle Crash",
+        "skillNameKo": "고드름떨구기",
+        "image": "/img/unitePokemon/mamoswine/Icicle Crash.png"
+      },
+      {
+        "skillName": "Ice Fang",
+        "skillNameKo": "얼음엄니",
+        "image": "/img/unitePokemon/mamoswine/Ice Fang.png"
+      },
+      {
+        "skillName": "Tackle",
+        "skillNameKo": "몸통박치기",
+        "image": "/img/unitePokemon/mamoswine/Tackle.png"
+      },
+      {
+        "skillName": "High Horsepower",
+        "skillNameKo": "10만마력",
+        "image": "/img/unitePokemon/mamoswine/High Horsepower.png"
+      },
+      {
+        "skillName": "Earthquake",
+        "skillNameKo": "지진",
+        "image": "/img/unitePokemon/mamoswine/Earthquake.png"
+      },
+      {
+        "skillName": "Mammoth Mash",
+        "skillNameKo": "쾅쾅프레스",
+        "image": "/img/unitePokemon/mamoswine/Mammoth Mash.png"
+      }
+    ],
     "updatedList": [
       {
         "updatedDate": "2021-09-29",
         "updatedContentList": [
           {
             "updatedNameKo": "출시",
+            "updatedName": "Release",
             "updatedContents": [""]
           }
         ]
@@ -5143,6 +5716,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "특성: 두꺼운지방",
+            "updatedName": "Thick Fat",
             "updatedContents": [
               "상승하는 방어와 특수방어: 20+6×레벨 → 20+10×레벨",
               "지속 시간: 3초 → 5초"
@@ -5150,14 +5724,17 @@
           },
           {
             "updatedNameKo": "얼음엄니",
+            "updatedName": "Ice Fang",
             "updatedContents": ["데미지: 25% 증가"]
           },
           {
             "updatedNameKo": "지진",
+            "updatedName": "Earthquake",
             "updatedContents": ["데미지: 25% 증가"]
           },
           {
             "updatedNameKo": "유나이트 기술: 쾅쾅프레스",
+            "updatedName": "Mammoth Mash",
             "updatedContents": [
               "마지막에 상대를 날려버리는 시간: 1초 → 1.5초",
               "필요한 에너지양: 약 15% 감소"
@@ -5170,6 +5747,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "얼음엄니",
+            "updatedName": "Ice Fang",
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           }
         ]
@@ -5179,14 +5757,17 @@
         "updatedContentList": [
           {
             "updatedNameKo": "고드름떨구기",
+            "updatedName": "Icicle Crash",
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           },
           {
             "updatedNameKo": "얼음엄니",
+            "updatedName": "Ice Fang",
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           },
           {
             "updatedNameKo": "유나이트 기술: 쾅쾅프레스",
+            "updatedName": "Mammoth Mash",
             "updatedContents": ["유나이트 기술 게이지 수집률이 상승되었습니다."]
           }
         ]
@@ -5196,6 +5777,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
             "updatedContents": [
               "꾸꾸리로 진화하는 레벨이 5로 변경되었습니다.",
               "메꾸리로 진화하는 레벨이 9로 변경되었습니다."
@@ -5203,45 +5785,72 @@
           },
           {
             "updatedNameKo": "두꺼운지방",
+            "updatedName": "Thick Fat",
             "updatedContents": [
               "지닌물건 '힘의머리띠'를 가지고 있는 상태 또는 배틀 아이템 '에나비꼬리'로 마크된 야생 포켓몬에게 일반 공격을 사용했을 때 한번의 공격으로 '두꺼운지방'의 효과가 2단계까지 얻어지던 오류를 수정했습니다."
             ]
           },
           {
             "updatedNameKo": "고드름떨구기",
+            "updatedName": "Icicle Crash",
             "updatedContents": ["기술 습득 레벨이 5로 변경되었습니다."]
           },
           {
             "updatedNameKo": "고드름떨구기+",
+            "updatedName": "Icicle Crash",
             "updatedContents": ["기술 습득 레벨이 11로 변경되었습니다."]
           },
           {
             "updatedNameKo": "얼음엄니",
+            "updatedName": "Ice Fang",
             "updatedContents": ["기술 습득 레벨이 5로 변경되었습니다."]
           },
           {
             "updatedNameKo": "얼음엄니+",
+            "updatedName": "Ice Fang",
             "updatedContents": ["기술 습득 레벨이 11로 변경되었습니다."]
           },
           {
             "updatedNameKo": "10만마력",
+            "updatedName": "High Horsepower",
             "updatedContents": ["기술 습득 레벨이 7로 변경되었습니다."]
           },
           {
             "updatedNameKo": "10만마력+",
+            "updatedName": "High Horsepower",
             "updatedContents": ["기술 습득 레벨이 13로 변경되었습니다."]
           },
           {
             "updatedNameKo": "지진",
+            "updatedName": "Earthquake",
             "updatedContents": ["기술 습득 레벨이 7로 변경되었습니다."]
           },
           {
             "updatedNameKo": "지진+",
+            "updatedName": "Earthquake",
             "updatedContents": ["기술 습득 레벨이 13로 변경되었습니다."]
           },
           {
             "updatedNameKo": "유나이트 기술: 쾅쾅프레스",
+            "updatedName": "Mammoth Mash",
             "updatedContents": ["기술 습득 레벨이 9로 변경되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-10-17",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "지진",
+            "updatedName": "Earthquake",
+            "updatedContents": ["기술 대기 시간이 길어졌습니다."]
+          },
+          {
+            "updatedNameKo": "고드름떨구기",
+            "updatedName": "Icicle Crash",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
           }
         ]
       }
@@ -5704,16 +6313,64 @@
   {
     "name": "Alolan-ninetales",
     "nameKo": "알로라 나인테일",
-    "image": "/img/unitePokemon/roster-alolan-ninetales-2x.png",
+    "image": "/img/unitePokemon/alolan-ninetales/roster-alolan-ninetales-2x.png",
     "color": "#f16c38",
     "position": "attack",
     "isEx": false,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/alolan-ninetales/Attack.png"
+      },
+      {
+        "skillName": "Snow Warning",
+        "skillNameKo": "눈퍼뜨리기",
+        "image": "/img/unitePokemon/alolan-ninetales/Snow Warning.png"
+      },
+      {
+        "skillName": "Powder Snow",
+        "skillNameKo": "눈싸라기",
+        "image": "/img/unitePokemon/alolan-ninetales/Powder Snow.png"
+      },
+      {
+        "skillName": "Avalanche",
+        "skillNameKo": "눈사태",
+        "image": "/img/unitePokemon/alolan-ninetales/Avalanche.png"
+      },
+      {
+        "skillName": "Dazzling Gleam",
+        "skillNameKo": "매지컬샤인",
+        "image": "/img/unitePokemon/alolan-ninetales/Dazzling Gleam.png"
+      },
+      {
+        "skillName": "Icy Wind",
+        "skillNameKo": "얼어붙은바람",
+        "image": "/img/unitePokemon/alolan-ninetales/Icy Wind.png"
+      },
+      {
+        "skillName": "Blizzard",
+        "skillNameKo": "눈보라",
+        "image": "/img/unitePokemon/alolan-ninetales/Blizzard.png"
+      },
+      {
+        "skillName": "Aurora Veil",
+        "skillNameKo": "오로라베일",
+        "image": "/img/unitePokemon/alolan-ninetales/Aurora Veil.png"
+      },
+      {
+        "skillName": "Snow Globe",
+        "skillNameKo": "서클네주",
+        "image": "/img/unitePokemon/alolan-ninetales/Snow Globe.png"
+      }
+    ],
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
         "updatedContentList": [
           {
             "updatedNameKo": "출시",
+            "updatedName": "Release",
             "updatedContents": [""]
           }
         ]
@@ -5723,6 +6380,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "오로라베일",
+            "updatedName": "Aurora Veil",
             "updatedContents": [
               "기술 범위 내에서 사용한 강화 공격에 의한 HP 회복량: 100% 증가",
               "받는 데미지 경감량: 30% → 35%"
@@ -5730,6 +6388,7 @@
           },
           {
             "updatedNameKo": "오로라베일+",
+            "updatedName": "Aurora Veil",
             "updatedContents": [
               "기술 범위 내에서 사용한 강화 공격에 의한 HP 회복량: 100% 증가",
               "받는 데미지 경감량: 35% → 40%"
@@ -5742,10 +6401,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "눈사태",
+            "updatedName": "Avalanche",
             "updatedContents": ["대기 시간: 7초 → 8초"]
           },
           {
             "updatedNameKo": "눈보라",
+            "updatedName": "Blizzard",
             "updatedContents": ["대기 시간: 7초 → 8초"]
           }
         ]
@@ -5755,10 +6416,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "눈보라",
+            "updatedName": "Blizzard",
             "updatedContents": ["대기 시간: 9초 → 7초", "감속 효과: 20% → 35%"]
           },
           {
             "updatedNameKo": "유나이트 기술: 서클네주",
+            "updatedName": "Snow Globe",
             "updatedContents": ["필요한 유나이트 기술 게이지: 약 20% 감소"]
           }
         ]
@@ -5768,12 +6431,14 @@
         "updatedContentList": [
           {
             "updatedNameKo": "눈보라",
+            "updatedName": "Blizzard",
             "updatedContents": [
               "상대편 포켓몬에게 주는 효과의 지속 시간이 길어지고 기술의 범위가 넓어졌습니다."
             ]
           },
           {
             "updatedNameKo": "오로라베일",
+            "updatedName": "Aurora Veil",
             "updatedContents": ["포켓몬 기술 하향"]
           }
         ]
@@ -5783,6 +6448,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "오로라베일",
+            "updatedName": "Aurora Veil",
             "updatedContents": [
               "기술에 의해 자신에게 주는 공격 속도 상승 효과가 약해졌습니다.",
               "오류 수정"
@@ -5795,10 +6461,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "강화 공격",
+            "updatedName": "Attack",
             "updatedContents": ["조작이 조정되었습니다."]
           },
           {
             "updatedNameKo": "오로라베일",
+            "updatedName": "Aurora Veil",
             "updatedContents": [
               "지정한 장소로 뛰어들어 주변에 오로라를 만든다. 자신과 범위 안에 있는 같은 편 포켓몬이 받는 데미지가 감소한다.",
               "기술의 범위 안에 있는 동안 자신의 이동 속도가 오르며 일반 공격이 모두 강화 공격이 된다. 강화 공격으로 데미지를 주면 자신의 HP를 회복한다."
@@ -5811,10 +6479,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
             "updatedContents": ["특수공격이 상승되었습니다."]
           },
           {
             "updatedNameKo": "눈보라",
+            "updatedName": "Blizzard",
             "updatedContents": [
               "기술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
@@ -5826,16 +6496,19 @@
         "updatedContentList": [
           {
             "updatedNameKo": "눈보라",
+            "updatedName": "Blizzard",
             "updatedContents": [
               "눈보라가 장애물에 닿은 뒤에 데미지를 주는 방식이 변경되었습니다."
             ]
           },
           {
             "updatedNameKo": "유나이트 기술: 서클네주",
+            "updatedName": "Snow Globe",
             "updatedContents": ["오류를 수정했습니다."]
           },
           {
             "updatedNameKo": "눈퍼뜨리기",
+            "updatedName": "Snow Warning",
             "updatedContents": ["오류를 수정했습니다."]
           }
         ]
@@ -5845,15 +6518,52 @@
         "updatedContentList": [
           {
             "updatedNameKo": "특성 눈퍼뜨리기",
+            "updatedName": "Snow Warning",
             "updatedContents": [
               "풀숲에 있는 보이지 않는 상대편 포켓몬에게도 효과가 발동되던 오류를 수정했습니다."
             ]
           },
           {
             "updatedNameKo": "오로라베일",
+            "updatedName": "Aurora Veil",
             "updatedContents": [
               "범위 안에 있는 동안 「특성 눈퍼뜨리기」의 발동 빈도가 증가하던 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-10-17",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "방어,특수방어",
+            "updatedName": "Attack",
+            "updatedContents": ["레벨업 시의 능력이 조정되었습니다."]
+          },
+          {
+            "updatedNameKo": "눈보라",
+            "updatedName": "Blizzard",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "눈보라+",
+            "updatedName": "Blizzard",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "눈사태",
+            "updatedName": "Avalanche",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "눈사태+",
+            "updatedName": "Avalanche",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "눈퍼뜨리기",
+            "updatedName": "Snow Warning",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           }
         ]
       }
@@ -6616,16 +7326,64 @@
   {
     "name": "Snorlax",
     "nameKo": "잠만보",
-    "image": "/img/unitePokemon/roster-snorlax-2x.png",
+    "image": "/img/unitePokemon/snorlax/roster-snorlax-2x.png",
     "color": "#aced5b",
     "position": "defence",
     "isEx": false,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/snorlax/Attack.png"
+      },
+      {
+        "skillName": "Gluttony",
+        "skillNameKo": "먹보",
+        "image": "/img/unitePokemon/snorlax/Gluttony.png"
+      },
+      {
+        "skillName": "Tackle",
+        "skillNameKo": "몸통박치기",
+        "image": "/img/unitePokemon/snorlax/Tackle.png"
+      },
+      {
+        "skillName": "Heavy Slam",
+        "skillNameKo": "헤비봄버",
+        "image": "/img/unitePokemon/snorlax/Heavy Slam.png"
+      },
+      {
+        "skillName": "Flail",
+        "skillNameKo": "바둥바둥",
+        "image": "/img/unitePokemon/snorlax/Flail.png"
+      },
+      {
+        "skillName": "Rest",
+        "skillNameKo": "잠자기",
+        "image": "/img/unitePokemon/snorlax/Rest.png"
+      },
+      {
+        "skillName": "Block",
+        "skillNameKo": "블록",
+        "image": "/img/unitePokemon/snorlax/Block.png"
+      },
+      {
+        "skillName": "Yawn",
+        "skillNameKo": "하품",
+        "image": "/img/unitePokemon/snorlax/Yawn.png"
+      },
+      {
+        "skillName": "Power Nap",
+        "skillNameKo": "폭풍수면임팩트",
+        "image": "/img/unitePokemon/snorlax/Power Nap.png"
+      }
+    ],
     "updatedList": [
       {
         "updatedDate": "2021-07-21",
         "updatedContentList": [
           {
             "updatedNameKo": "출시",
+            "updatedName": "Release",
             "updatedContents": [""]
           }
         ]
@@ -6635,6 +7393,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "블록",
+            "updatedName": "Block",
             "updatedContents": [
               "자신의 이동 속도 감소 효과: 45% → 30%",
               "실드 양: 50% 증가"
@@ -6647,12 +7406,14 @@
         "updatedContentList": [
           {
             "updatedNameKo": "바둥바둥",
+            "updatedName": "Flail",
             "updatedContents": [
               "이동 속도 증가량: 70%(0.4초마다 14% 감소) → 70%(0.5초마다 10% 감소)"
             ]
           },
           {
             "updatedNameKo": "유나이트 기술: 폭풍수면임팩트",
+            "updatedName": "Power Nap",
             "updatedContents": [
               "회복량: 약 20% 증가",
               "필요한 유나이트 기술 게이지: 20% 감소"
@@ -6665,6 +7426,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "블록",
+            "updatedName": "Block",
             "updatedContents": [
               "블록+의 효과가 활성화되어있던 오류를 수정하였으며 블록+의 기술 설명을 수정할 예정입니다."
             ]
@@ -6676,18 +7438,22 @@
         "updatedContentList": [
           {
             "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
             "updatedContents": ["특수방어가 상승되었습니다."]
           },
           {
             "updatedNameKo": "헤비봄버",
+            "updatedName": "Heavy Slam",
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           },
           {
             "updatedNameKo": "블록",
+            "updatedName": "Block",
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           },
           {
             "updatedNameKo": "유나이트 기술: 폭풍수면임팩트",
+            "updatedName": "Power Nap",
             "updatedContents": [
               "유나이트 기술 게이지 수집률이 상승되고 상대편 포켓몬에게 주는 효과의 지속 시간이 길어졌습니다."
             ]
@@ -6699,24 +7465,29 @@
         "updatedContentList": [
           {
             "updatedNameKo": "바둥바둥",
+            "updatedName": "Flail",
             "updatedContents": [
               "기술 습득 레벨이 5로 변경되고 기술에 의해 자신에게 주는 효과의 지속 시간이 길어졌습니다."
             ]
           },
           {
             "updatedNameKo": "바둥바둥+",
+            "updatedName": "Flail",
             "updatedContents": ["기술 습득 레벨이 11로 변경되었습니다."]
           },
           {
             "updatedNameKo": "헤비봄버",
+            "updatedName": "Heavy Slam",
             "updatedContents": ["기술 습득 레벨이 5로 변경되었습니다."]
           },
           {
             "updatedNameKo": "헤비봄버+",
+            "updatedName": "Heavy Slam",
             "updatedContents": ["기술 습득 레벨이 11로 변경되었습니다."]
           },
           {
             "updatedNameKo": "블록",
+            "updatedName": "Block",
             "updatedContents": [
               "기술 습득 레벨이 7로 변경되었습니다.",
               "괴력몬의 '지옥의바퀴'와 같은 방해 무효 상태일 때에도 '철벽'을 사용하고 있는 잠만보를 통과하지 못하도록 변경되었습니다."
@@ -6724,20 +7495,24 @@
           },
           {
             "updatedNameKo": "블록+",
+            "updatedName": "Block",
             "updatedContents": [
               "기술 습득 레벨이 13으로 변경되었으며 자신에 대한 데미지 경감 효과에 관한 오류를 수정했습니다."
             ]
           },
           {
             "updatedNameKo": "하품",
+            "updatedName": "Yawn",
             "updatedContents": ["기술 습득 레벨이 7로 변경되었습니다."]
           },
           {
             "updatedNameKo": "하품+",
+            "updatedName": "Yawn",
             "updatedContents": ["기술 습득 레벨이 13으로 변경되었습니다."]
           },
           {
             "updatedNameKo": "유나이트 기술: 폭풍수면임팩트",
+            "updatedName": "Power Nap",
             "updatedContents": ["기술 습득 레벨이 9로 변경되었습니다."]
           }
         ]
@@ -6747,6 +7522,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "하품",
+            "updatedName": "Yawn",
             "updatedContents": [
               "잠듦 상태가 된 상대편 포켓몬의 오류가 수정되었습니다."
             ]
@@ -6758,23 +7534,61 @@
         "updatedContentList": [
           {
             "updatedNameKo": "헤비봄버",
+            "updatedName": "Heavy Slam",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "블록",
+            "updatedName": "Block",
             "updatedContents": [
               "상대편 포켓몬에게 주는 효과의 지속 시간이 짧아졌습니다."
             ]
           },
           {
             "updatedNameKo": "바둥바둥",
+            "updatedName": "Flail",
             "updatedContents": ["기술 효과가 상향되었습니다."]
           },
           {
             "updatedNameKo": "유나이트 기술: 폭풍수면임팩트",
+            "updatedName": "Power Nap",
             "updatedContents": ["HP 회복량이 감소되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-10-17",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "블록+",
+            "updatedName": "Block",
+            "updatedContents": [
+              "기술에 의해 자신에게 주는 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "바둥바둥",
+            "updatedName": "Flail",
+            "updatedContents": [
+              "기술에 의해 자신에게 주는 효과의 지속 시간이 길어졌습니다.",
+              "기술에 의해 자신에게 주는 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "하품",
+            "updatedName": "Yawn",
+            "updatedContents": [
+              "기술에 의해 자신에게 주는 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "하품+",
+            "updatedName": "Yawn",
+            "updatedContents": [
+              "기술에 의해 자신에게 주는 효과가 강해졌습니다."
+            ]
           }
         ]
       }
@@ -7392,16 +8206,69 @@
   {
     "name": "Dragonite",
     "nameKo": "망나뇽",
-    "image": "/img/unitePokemon/roster-dragonite-2x.png",
+    "image": "/img/unitePokemon/dragonite/roster-dragonite-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": false,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/dragonite/Attack.png"
+      },
+      {
+        "skillName": "Marvel Scale",
+        "skillNameKo": "이상한비늘",
+        "image": "/img/unitePokemon/dragonite/Marvel Scale.png"
+      },
+      {
+        "skillName": "Multiscale",
+        "skillNameKo": "멀티스케일",
+        "image": "/img/unitePokemon/dragonite/Multiscale.png"
+      },
+      {
+        "skillName": "Twister",
+        "skillNameKo": "회오리",
+        "image": "/img/unitePokemon/dragonite/Twister.png"
+      },
+      {
+        "skillName": "Dragon Dance",
+        "skillNameKo": "용의춤",
+        "image": "/img/unitePokemon/dragonite/Dragon Dance.png"
+      },
+      {
+        "skillName": "Extreme Speed",
+        "skillNameKo": "신속",
+        "image": "/img/unitePokemon/dragonite/Extreme Speed.png"
+      },
+      {
+        "skillName": "Dragon Breath",
+        "skillNameKo": "용의숨결",
+        "image": "/img/unitePokemon/dragonite/Dragon Breath.png"
+      },
+      {
+        "skillName": "Hyper Beam",
+        "skillNameKo": "파괴광선",
+        "image": "/img/unitePokemon/dragonite/Hyper Beam.png"
+      },
+      {
+        "skillName": "Outrage",
+        "skillNameKo": "역린",
+        "image": "/img/unitePokemon/dragonite/Outrage.png"
+      },
+      {
+        "skillName": "Draco Impact",
+        "skillNameKo": "용성러시",
+        "image": "/img/unitePokemon/dragonite/Draco Impact.png"
+      }
+    ],
     "updatedList": [
       {
         "updatedDate": "2021-12-20",
         "updatedContentList": [
           {
             "updatedNameKo": "출시",
+            "updatedName": "Release",
             "updatedContents": [""]
           }
         ]
@@ -7411,6 +8278,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "파괴광선",
+            "updatedName": "Hyper Beam",
             "updatedContents": ["대기 시간: 10초 → 11.5초"]
           }
         ]
@@ -7420,6 +8288,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "파괴광선",
+            "updatedName": "Hyper Beam",
             "updatedContents": ["대기 시간: 8초 → 10초"]
           }
         ]
@@ -7429,6 +8298,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
             "updatedContents": [
               "공격: 150~520→165~550 (레벨 1~15)",
               "공격 속도: 110%~130% → 110%~150% (레벨 1~15)",
@@ -7437,6 +8307,7 @@
           },
           {
             "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
             "updatedContents": [
               "공격: 150~520→165~550 (레벨 1~15)",
               "공격 속도: 110%~130% → 110%~150% (레벨 1~15)"
@@ -7444,6 +8315,7 @@
           },
           {
             "updatedNameKo": "특성: 멀티스케일",
+            "updatedName": "Multiscale",
             "updatedContents": ["데미지 감소량: 25% → 30%"]
           }
         ]
@@ -7453,10 +8325,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "역린",
+            "updatedName": "Outrage",
             "updatedContents": ["강화 공격 데미지: 10% 증가"]
           },
           {
             "updatedNameKo": "유나이트 기술: 용성러시",
+            "updatedName": "Draco Impact",
             "updatedContents": ["필요한 유나이트 기술 게이지: 약 20% 감소"]
           }
         ]
@@ -7466,10 +8340,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "용의춤",
+            "updatedName": "Dragon Dance",
             "updatedContents": ["기술 대기 시간이 길어졌습니다."]
           },
           {
             "updatedNameKo": "파괴광선",
+            "updatedName": "Hyper Beam",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
@@ -7481,6 +8357,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
             "updatedContents": ["공격이 상승되었습니다."]
           }
         ]
@@ -7490,24 +8367,47 @@
         "updatedContentList": [
           {
             "updatedNameKo": "일반 공격",
+            "updatedName": "Attack",
             "updatedContents": ["기술이 닿는 거리가 짧아졌습니다."]
           },
           {
             "updatedNameKo": "파괴광선",
+            "updatedName": "Hyper Beam",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "신속",
+            "updatedName": "Extreme Speed",
             "updatedContents": [
               "기술이 닿는 거리가 멀어지고 기술 대기 시간이 짧아졌습니다."
             ]
           },
           {
             "updatedNameKo": "유나이트 기술: 용성러시",
+            "updatedName": "Draco Impact",
             "updatedContents": [
               "소비하는 유나이트 기술 게이지의 양이 늘어났습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-10-17",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "역린",
+            "updatedName": "Outrage",
+            "updatedContents": [
+              "기술에 의해 자신에게 주는 효과가 약해졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "강화 공격(망나뇽)",
+            "updatedName": "Attack",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 효과의 지속 시간이 짧아졌습니다."
             ]
           }
         ]
@@ -7862,16 +8762,74 @@
   {
     "name": "Urshifu",
     "nameKo": "우라오스",
-    "image": "/img/unitePokemon/roster-urshifu-2x.png",
+    "image": "/img/unitePokemon/urshifu/roster-urshifu-2x.png",
     "color": "#ce5fd3",
     "position": "balance",
     "isEx": false,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/urshifu/Attack.png"
+      },
+      {
+        "skillName": "Inner Focus",
+        "skillNameKo": "정신력",
+        "image": "/img/unitePokemon/urshifu/Inner Focus.png"
+      },
+      {
+        "skillName": "Unseen Fist",
+        "skillNameKo": "보이지않는주먹",
+        "image": "/img/unitePokemon/urshifu/Unseen Fist.png"
+      },
+      {
+        "skillName": "Rock Smash",
+        "skillNameKo": "바위깨기",
+        "image": "/img/unitePokemon/urshifu/Rock Smash.png"
+      },
+      {
+        "skillName": "Wicked Blow",
+        "skillNameKo": "암흑강타",
+        "image": "/img/unitePokemon/urshifu/Wicked Blow.png"
+      },
+      {
+        "skillName": "Surging Strikes",
+        "skillNameKo": "수류연타",
+        "image": "/img/unitePokemon/urshifu/Surging Strikes.png"
+      },
+      {
+        "skillName": "Headbutt",
+        "skillNameKo": "박치기",
+        "image": "/img/unitePokemon/urshifu/Headbutt.png"
+      },
+      {
+        "skillName": "Throat Chop",
+        "skillNameKo": "지옥찌르기",
+        "image": "/img/unitePokemon/urshifu/Throat Chop.png"
+      },
+      {
+        "skillName": "Liquidation",
+        "skillNameKo": "아쿠아브레이크",
+        "image": "/img/unitePokemon/urshifu/Liquidation.png"
+      },
+      {
+        "skillName": "Ebon Fist",
+        "skillNameKo": "칠흑의마지막강타",
+        "image": "/img/unitePokemon/urshifu/Ebon Fist.png"
+      },
+      {
+        "skillName": "Flowing Fists",
+        "skillNameKo": "푸른물의무도",
+        "image": "/img/unitePokemon/urshifu/Flowing Fists.png"
+      }
+    ],
     "updatedList": [
       {
         "updatedDate": "2022-12-01",
         "updatedContentList": [
           {
             "updatedNameKo": "출시",
+            "updatedName": "Release",
             "updatedContents": [""]
           }
         ]
@@ -7881,6 +8839,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "수류연타",
+            "updatedName": "Surging Strikes",
             "updatedContents": [
               "기술을 사용한 뒤의 강화 공격 데미지: 20% 감소",
               "대기 시간: 11초 → 12.5초"
@@ -7893,10 +8852,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
             "updatedContents": ["방어:80~480 → 80~430(레벨 1~15)"]
           },
           {
             "updatedNameKo": "수류연타",
+            "updatedName": "Surging Strikes",
             "updatedContents": [
               "데미지: 약 17%~10% 감소(레벨 5~15)",
               "강화 공격의 HP 회복량: 최대 HP의 3% → 최대 HP의 2%"
@@ -7909,6 +8870,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "수류연타",
+            "updatedName": "Surging Strikes",
             "updatedContents": ["데미지: 10% 감소"]
           }
         ]
@@ -7918,12 +8880,14 @@
         "updatedContentList": [
           {
             "updatedNameKo": "수류연타",
+            "updatedName": "Surging Strikes",
             "updatedContents": [
               "기술을 사용한 뒤 회복 효과: 25% ~ 15% 감소(레벨 5~15)"
             ]
           },
           {
             "updatedNameKo": "수류연타+",
+            "updatedName": "Surging Strikes",
             "updatedContents": [
               "기술을 사용한 뒤 일반 공격의 대기 시간을 단축하는 효과가 약해지던 오류를 수정하였습니다."
             ]
@@ -7935,14 +8899,17 @@
         "updatedContentList": [
           {
             "updatedNameKo": "암흑강타",
+            "updatedName": "Release",
             "updatedContents": ["충전하고 있는 동안의 데미지 감소량: 30% → 20%"]
           },
           {
             "updatedNameKo": "암흑강타+",
+            "updatedName": "Wicked Blow",
             "updatedContents": ["충전하고 있는 동안의 데미지 감소량: 60% → 40%"]
           },
           {
             "updatedNameKo": "유나이트 기술: 칠흑의마지막강타",
+            "updatedName": "Ebon Fist",
             "updatedContents": [
               "데미지: 25% 감소",
               "방향을 지정하지 않았을 때, 데미지를 주고 날려버리는 대상이 지정한 상대편 포켓몬으로만 조정하였습니다."
@@ -7950,14 +8917,17 @@
           },
           {
             "updatedNameKo": "강화 공격(연격)",
+            "updatedName": "Attack",
             "updatedContents": ["기술 대기 시간을 짧게 하는 효과: 1.5초 → 2초"]
           },
           {
             "updatedNameKo": "수류연타",
+            "updatedName": "Surging Strikes",
             "updatedContents": ["대기 시간: 13초 → 11초"]
           },
           {
             "updatedNameKo": "유나이트 기술: 푸른물의무도",
+            "updatedName": "Flowing Fists",
             "updatedContents": [
               "2단계 연속 공격의 횟수를 1번 증가시킬 때 필요한 데미지 횟수: 3번 → 2번"
             ]
@@ -7969,6 +8939,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "아쿠아브레이크",
+            "updatedName": "Liquidation",
             "updatedContents": [
               "대기 시간: 12초 → 10초",
               "획득하는 실드: 20% 증가"
@@ -7976,6 +8947,7 @@
           },
           {
             "updatedNameKo": "아쿠아브레이크+",
+            "updatedName": "Liquidation",
             "updatedContents": [
               "대기 시간: 10초 → 9초 ",
               "획득하는 실드: 20% 증가"
@@ -7988,6 +8960,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "암흑강타",
+            "updatedName": "Wicked Blow",
             "updatedContents": [
               "일정 시간 모으지 않고 최대로 모은 상태로 기술이 사용되던 오류를 수정했습니다."
             ]
@@ -7999,15 +8972,35 @@
         "updatedContentList": [
           {
             "updatedNameKo": "수류연타",
+            "updatedName": "Surging Strikes",
             "updatedContents": ["대기 시간: 12.5초 → 11초"]
           },
           {
             "updatedNameKo": "아쿠아브레이크",
+            "updatedName": "Liquidation",
             "updatedContents": ["데미지: 50% 증가"]
           },
           {
             "updatedNameKo": "지옥찌르기",
+            "updatedName": "Throat Chop",
             "updatedContents": ["대기 시간: 9초 → 7초", "데미지: 20% 증가"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-10-17",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "강화 공격",
+            "updatedName": "Attack",
+            "updatedContents": ["대기 시간: 12.5초 → 11초"]
+          },
+          {
+            "updatedNameKo": "수류연타",
+            "updatedName": "Surging Strikes",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
           }
         ]
       }
@@ -8868,16 +9861,64 @@
   {
     "name": "Zoroark",
     "nameKo": "조로아크",
-    "image": "/img/unitePokemon/roster-zoroark-2x.png",
+    "image": "/img/unitePokemon/zoroark/roster-zoroark-2x.png",
     "color": "#29a5e3",
     "position": "speed",
     "isEx": false,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/zoroark/Attack.png"
+      },
+      {
+        "skillName": "Illusion",
+        "skillNameKo": "일루전",
+        "image": "/img/unitePokemon/zoroark/Illusion.png"
+      },
+      {
+        "skillName": "Slash",
+        "skillNameKo": "베어가르기",
+        "image": "/img/unitePokemon/zoroark/Slash.png"
+      },
+      {
+        "skillName": "Shadow Claw",
+        "skillNameKo": "섀도클로",
+        "image": "/img/unitePokemon/zoroark/Shadow Claw.png"
+      },
+      {
+        "skillName": "Cut",
+        "skillNameKo": "풀베기",
+        "image": "/img/unitePokemon/zoroark/Cut.png"
+      },
+      {
+        "skillName": "Fury Swipes",
+        "skillNameKo": "마구할퀴기",
+        "image": "/img/unitePokemon/zoroark/Fury Swipes.png"
+      },
+      {
+        "skillName": "Night Slash",
+        "skillNameKo": "깜짝베기",
+        "image": "/img/unitePokemon/zoroark/Night Slash.png"
+      },
+      {
+        "skillName": "Feint Attack",
+        "skillNameKo": "속여때리기",
+        "image": "/img/unitePokemon/zoroark/Feint Attack.png"
+      },
+      {
+        "skillName": "Nightfall Daze",
+        "skillNameKo": "나이트폴버스트",
+        "image": "/img/unitePokemon/zoroark/Nightfall Daze.png"
+      }
+    ],
     "updatedList": [
       {
         "updatedDate": "2022-10-27",
         "updatedContentList": [
           {
             "updatedNameKo": "출시",
+            "updatedName": "Release",
             "updatedContents": [""]
           }
         ]
@@ -8887,6 +9928,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "깜짝베기",
+            "updatedName": "Night Slash",
             "updatedContents": [
               "데미지: 15% 감소",
               "대기 시간: 8초 → 9초",
@@ -8900,6 +9942,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
             "updatedContents": ["공격: 150~700 → 135~660 (레벨 1~18)"]
           }
         ]
@@ -8909,22 +9952,27 @@
         "updatedContentList": [
           {
             "updatedNameKo": "깜짝베기",
+            "updatedName": "Night Slash",
             "updatedContents": ["대기 시간: 10초 → 8초"]
           },
           {
             "updatedNameKo": "깜짝베기+",
+            "updatedName": "Night Slash",
             "updatedContents": ["대기 시간: 9초 → 7초"]
           },
           {
             "updatedNameKo": "속여때리기",
+            "updatedName": "Feint Attack",
             "updatedContents": ["대기 시간: 7초 → 6초"]
           },
           {
             "updatedNameKo": "속여때리기+",
+            "updatedName": "Feint Attack",
             "updatedContents": ["대기 시간: 6초 → 5초"]
           },
           {
             "updatedNameKo": "풀베기",
+            "updatedName": "Cut",
             "updatedContents": ["대기 시간: 5.5초 → 4.5초"]
           }
         ]
@@ -8934,14 +9982,17 @@
         "updatedContentList": [
           {
             "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
             "updatedContents": ["공격: 160 ~ 670 → 150 ~ 700(레벨 1~15)"]
           },
           {
             "updatedNameKo": "풀베기",
+            "updatedName": "Cut",
             "updatedContents": ["데미지: 10% 증가"]
           },
           {
             "updatedNameKo": "유나이트 기술: 나이트폴버스트",
+            "updatedName": "Nightfall Daze",
             "updatedContents": ["필요한 유나이트 기술 게이지: 약 10% 감소"]
           }
         ]
@@ -8951,6 +10002,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "깜짝베기",
+            "updatedName": "Night Slash",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
@@ -8962,18 +10014,21 @@
         "updatedContentList": [
           {
             "updatedNameKo": "깜짝베기",
+            "updatedName": "Night Slash",
             "updatedContents": [
               "기술 대기 시간이 길어졌으며 기술의 데미지가 중복해서 발생하던 오류를 수정했습니다."
             ]
           },
           {
             "updatedNameKo": "깜짝베기+",
+            "updatedName": "Night Slash",
             "updatedContents": [
               "기술 대기 시간이 길어졌으며 특정 순서로 조작할 경우 업그레이드되지 않던 오류를 수정했습니다."
             ]
           },
           {
             "updatedNameKo": "속여때리기",
+            "updatedName": "Feint Attack",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
@@ -8985,9 +10040,39 @@
         "updatedContentList": [
           {
             "updatedNameKo": "특성: 일루전",
+            "updatedName": "Illusion",
             "updatedContents": [
               "변신 중에 획득하는 스테이터스를 변경: 보호 상태 → 방해 무효 상태"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-10-17",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "속여때리기",
+            "updatedName": "Feint Attack",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "속여때리기+",
+            "updatedName": "Feint Attack",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "깜짝베기",
+            "updatedName": "Night Slash",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "깜짝베기+",
+            "updatedName": "Night Slash",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           }
         ]
       }
@@ -10863,6 +11948,116 @@
     "updatedList": [
       {
         "updatedDate": "2024-09-12",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "출시",
+            "updatedName": "Release",
+            "updatedContents": [""]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-10-17",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "회오리불꽃",
+            "updatedName": "Fire Spin",
+            "updatedContents": [
+              "기술에 의해 자신에게 주는 효과가 강해졌습니다.",
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "기술에 의한 실드 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "회오리불꽃+",
+            "updatedName": "Fire Spin",
+            "updatedContents": [
+              "기술에 의한 이동 속도의 상승률이 조정되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "니트로차지",
+            "updatedName": "Flame Charge",
+            "updatedContents": ["기술에 의한 실드 효과가 약해졌습니다."]
+          },
+          {
+            "updatedNameKo": "아머캐논",
+            "updatedName": "Armor Cannon",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "사이코쇼크",
+            "updatedName": "Psyshock",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "사이코쇼크+",
+            "updatedName": "Psyshock",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Darkrai",
+    "nameKo": "다크라이",
+    "image": "/img/unitePokemon/darkrai/roster-darkrai-2x.png",
+    "color": "#29a5e3",
+    "position": "speed",
+    "isEx": false,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/darkrai/Attack.png"
+      },
+      {
+        "skillName": "Bad Dreams",
+        "skillNameKo": "나이트메어",
+        "image": "/img/unitePokemon/darkrai/Bad Dreams.png"
+      },
+      {
+        "skillName": "Hypnosis",
+        "skillNameKo": "최면술",
+        "image": "/img/unitePokemon/darkrai/Hypnosis.png"
+      },
+      {
+        "skillName": "Dark Void",
+        "skillNameKo": "다크볼",
+        "image": "/img/unitePokemon/darkrai/Dark Void.png"
+      },
+      {
+        "skillName": "Shadow Claw",
+        "skillNameKo": "새도클로",
+        "image": "/img/unitePokemon/darkrai/Shadow Claw.png"
+      },
+      {
+        "skillName": "Calm Mind",
+        "skillNameKo": "명상",
+        "image": "/img/unitePokemon/darkrai/Calm Mind.png"
+      },
+      {
+        "skillName": "Nasty Plot",
+        "skillNameKo": "나쁜음모",
+        "image": "/img/unitePokemon/darkrai/Nasty Plot.png"
+      },
+      {
+        "skillName": "Dark Pulse",
+        "skillNameKo": "악의파동",
+        "image": "/img/unitePokemon/darkrai/Dark Pulse.png"
+      },
+      {
+        "skillName": "Worst Nightmare",
+        "skillNameKo": "깊은악몽으로의유인",
+        "image": "/img/unitePokemon/darkrai/Worst Nightmare.png"
+      }
+    ],
+    "updatedList": [
+      {
+        "updatedDate": "2024-10-17",
         "updatedContentList": [
           {
             "updatedNameKo": "출시",
