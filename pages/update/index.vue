@@ -84,52 +84,54 @@ const clickPokemonCard = (pokemonInfo) => {
 };
 </script>
 <template>
-  <div class="absolute">
-    <!-- TODO: 검색 영역 -->
-    <!-- <div class="flex flex-col items-end w-[100%] px-8 mt-[10px] mb-2">
+  <div>
+    <div class="absolute">
+      <!-- TODO: 검색 영역 -->
+      <!-- <div class="flex flex-col items-end w-[100%] px-8 mt-[10px] mb-2">
       <UInput class="w-[100%] mb-2 opacity-0"></UInput>
     </div> -->
 
-    <!-- 리스트 영역 -->
-    <Transition>
-      <div
-        class="reative flex flex-col justify-start py-3 bg-transparent"
-        :class="isMobile ? 'mt-10' : ''"
-      >
+      <!-- 리스트 영역 -->
+      <Transition>
         <div
-          v-for="(groupedPokemonInfo, index) in groupedPokemonList"
-          :key="index"
-          :class="isMobile ? 'ms-5' : 'ms-20'"
+          class="reative flex flex-col justify-start py-3 bg-transparent"
+          :class="isMobile ? 'mt-10' : ''"
         >
-          <div>
-            <strong>{{ groupedPokemonInfo.updatedDate }}</strong>
-          </div>
-          <div class="flex flex-wrap">
-            <div
-              v-for="(
-                pokemonInfo, pokemonListIndex
-              ) in groupedPokemonInfo.pokemonList"
-              :key="pokemonListIndex"
-              class="m-2"
-            >
-              <PokemonCard
-                class="relative flex hover:scale-[1.05] hover:shadow-xl hover:shadow-gray-400 shadow-md shadow-gray-400 ease-out duration-200 cursor-pointer rounded"
-                :class="isMobile ? 'w-[100px]' : ''"
-                @click="() => clickPokemonCard(pokemonInfo)"
-              >
-                <NuxtImg
-                  :src="pokemonInfo.image"
-                  class="rounded pattern ease-out duration-200"
-                  style="-webkit-user-drag: none"
-                  :style="{ backgroundColor: pokemonInfo.color }"
-                />
-              </PokemonCard>
+          <div
+            v-for="(groupedPokemonInfo, index) in groupedPokemonList"
+            :key="index"
+            :class="isMobile ? 'ms-5' : 'ms-20'"
+          >
+            <div>
+              <strong>{{ groupedPokemonInfo.updatedDate }}</strong>
             </div>
+            <div class="flex flex-wrap">
+              <div
+                v-for="(
+                  pokemonInfo, pokemonListIndex
+                ) in groupedPokemonInfo.pokemonList"
+                :key="pokemonListIndex"
+                class="m-2"
+              >
+                <PokemonCard
+                  class="relative flex hover:scale-[1.05] hover:shadow-xl hover:shadow-gray-400 shadow-md shadow-gray-400 ease-out duration-200 cursor-pointer rounded"
+                  :class="isMobile ? 'w-[100px]' : ''"
+                  @click="() => clickPokemonCard(pokemonInfo)"
+                >
+                  <NuxtImg
+                    :src="pokemonInfo.image"
+                    class="rounded pattern ease-out duration-200"
+                    style="-webkit-user-drag: none"
+                    :style="{ backgroundColor: pokemonInfo.color }"
+                  />
+                </PokemonCard>
+              </div>
+            </div>
+            <div class="border w-[97%] my-3 opacity-[0.7]"></div>
           </div>
-          <div class="border w-[97%] my-3 opacity-[0.7]"></div>
         </div>
-      </div>
-    </Transition>
+      </Transition>
+    </div>
   </div>
 </template>
 <style></style>

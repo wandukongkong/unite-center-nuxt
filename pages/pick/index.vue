@@ -459,7 +459,10 @@ onBeforeMount(() => {
           `"
           @click="
             () => {
-              if ((selectedUsers?.[index] || '') !== 'AI Trainer') {
+              if (
+                (selectedUsers?.[index] || '') !== 'AI Trainer' &&
+                isActiveUserInput
+              ) {
                 clickCard(index);
               }
             }
@@ -514,7 +517,10 @@ onBeforeMount(() => {
           } ${isMobile ? 'w-[100px]' : 'w-[150px] h-[190px]'}`"
           @click="
             () => {
-              if ((selectedUsers?.[index + 5] || '') !== 'AI Trainer') {
+              if (
+                (selectedUsers?.[index + 5] || '') !== 'AI Trainer' &&
+                isActiveUserInput
+              ) {
                 clickCard(index + 5);
               }
             }
