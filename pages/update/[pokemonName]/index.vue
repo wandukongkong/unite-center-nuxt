@@ -65,7 +65,7 @@ const convertedSkillInfo = computed(() => {
         width="200"
         style="object-fit: contain"
       />
-      <div class="px-3">
+      <!-- <div class="px-3">
         <div class="mb-3">
           <strong>Updated skills</strong>
         </div>
@@ -94,7 +94,7 @@ const convertedSkillInfo = computed(() => {
             }}</strong
           >
         </div>
-      </div>
+      </div> -->
     </div>
     <!-- Detail 영역 -->
     <div class="flex flex-col flex-1 px-2" ref="detailArea">
