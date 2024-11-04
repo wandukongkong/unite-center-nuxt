@@ -565,6 +565,27 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-11-01",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "특수방어",
+            "updatedContents": ["레벨업 시의 능력이 조정되었습니다."]
+          },
+          {
+            "updatedNameKo": "바다회오리",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "바다회오리+",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 거품북대시",
+            "updatedContents": ["기술에 의한 실드 효과가 강해졌습니다."]
+          }
+        ]
       }
     ]
   },
@@ -837,7 +858,7 @@
   {
     "name": "Blissey",
     "nameKo": "해피너스",
-    "image": "/img/unitePokemon/roster-blissey-2x.png",
+    "image": "/img/unitePokemon/blissey/roster-blissey-2x.png",
     "color": "#fecc51",
     "position": "support",
     "isEx": false,
@@ -1006,6 +1027,35 @@
             "updatedNameKo": "신비의부적+",
             "updatedContents": [
               "「업그레이드 후에는 실드 효과를 통해 무효로 할 수 있는 데미지가 증가한다.」"
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-11-01",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "신비의부적",
+            "updatedContents": ["기술에 의한 실드 효과가 강해졌습니다."]
+          },
+          {
+            "updatedNameKo": "신비의부적+",
+            "updatedContents": ["기술에 의한 실드 효과가 강해졌습니다."]
+          },
+          {
+            "updatedNameKo": "도우미",
+            "updatedContents": [
+              "기술 대기 시간이 짧아졌습니다.",
+              "아래 내용이 조정되었습니다.",
+              "지속 시간"
+            ]
+          },
+          {
+            "updatedNameKo": "도우미+",
+            "updatedContents": [
+              "기술 대기 시간이 짧아졌습니다.",
+              "아래 내용이 조정되었습니다.",
+              "지속 시간"
             ]
           }
         ]
@@ -3517,6 +3567,43 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-11-01",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "방어",
+            "updatedContents": ["레벨업 시의 능력이 조정되었습니다."]
+          },
+          {
+            "updatedNameKo": "특수방어",
+            "updatedContents": ["레벨업 시의 능력이 조정되었습니다."]
+          },
+          {
+            "updatedNameKo": "사이코쇼크",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "사이코쇼크+",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "미래예지",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "미래예지+",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -3968,6 +4055,51 @@
             "updatedNameKo": "사이코키네시스",
             "updatedContents": [
               "명중한 상대편 포켓몬의 특수방어가 떨어지는 효과를 추가했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-11-01",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "방어",
+            "updatedContents": ["레벨업 시의 능력이 조정되었습니다."]
+          },
+          {
+            "updatedNameKo": "특수방어",
+            "updatedContents": ["레벨업 시의 능력이 조정되었습니다."]
+          },
+          {
+            "updatedNameKo": "사이코키네시스",
+            "updatedContents": ["상대편 포켓몬에게 주는 효과가 강해졌습니다."]
+          },
+          {
+            "updatedNameKo": "사이코키네시스+",
+            "updatedContents": ["상대편 포켓몬에게 주는 효과가 강해졌습니다."]
+          },
+          {
+            "updatedNameKo": "사이코쇼크",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "사이코쇼크+",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "미래예지",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "미래예지+",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
           }
         ]
@@ -4505,6 +4637,39 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-11-01",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "방어",
+            "updatedContents": ["레벨업 시의 능력이 조정되었습니다."]
+          },
+          {
+            "updatedNameKo": "고드름침",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "고드름침+",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "프리즈드라이",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "프리즈드라이+",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -4588,16 +4753,64 @@
   {
     "name": "Greedent",
     "nameKo": "요씽리스",
-    "image": "/img/unitePokemon/roster-greedent-2x.png",
+    "image": "/img/unitePokemon/greedent/roster-greedent-2x.png",
     "color": "#aced5b",
     "position": "defence",
     "isEx": false,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/greedent/Attack.png"
+      },
+      {
+        "skillName": "Cheek Pouch",
+        "skillNameKo": "볼주머니",
+        "image": "/img/unitePokemon/greedent/Cheek Pouch.png"
+      },
+      {
+        "skillName": "Tackle",
+        "skillNameKo": "몸통박치기",
+        "image": "/img/unitePokemon/greedent/Tackle.png"
+      },
+      {
+        "skillName": "Bullet Seed",
+        "skillNameKo": "볼가득넣기",
+        "image": "/img/unitePokemon/greedent/Bullet Seed.png"
+      },
+      {
+        "skillName": "Belch",
+        "skillNameKo": "탐내기",
+        "image": "/img/unitePokemon/greedent/Belch.png"
+      },
+      {
+        "skillName": "Defense Curl",
+        "skillNameKo": "웅크리기",
+        "image": "/img/unitePokemon/greedent/Defense Curl.png"
+      },
+      {
+        "skillName": "Stuff Cheeks",
+        "skillNameKo": "씨기관총",
+        "image": "/img/unitePokemon/greedent/Stuff Cheeks.png"
+      },
+      {
+        "skillName": "Covet",
+        "skillNameKo": "트림",
+        "image": "/img/unitePokemon/greedent/Covet.png"
+      },
+      {
+        "skillName": "Berry Belly Flop",
+        "skillNameKo": "나무열매욕심다이브",
+        "image": "/img/unitePokemon/greedent/Berry Belly Flop.png"
+      }
+    ],
     "updatedList": [
       {
         "updatedDate": "2021-10-20",
         "updatedContentList": [
           {
             "updatedNameKo": "출시",
+            "updatedName": "Release",
             "updatedContents": [""]
           }
         ]
@@ -4607,6 +4820,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "씨기관총",
+            "updatedName": "Stuff Cheeks",
             "updatedContents": ["데미지: 15% 증가"]
           }
         ]
@@ -4616,33 +4830,20 @@
         "updatedContentList": [
           {
             "updatedNameKo": "오류 수정",
+            "updatedName": "Attack",
             "updatedContents": [
               "'씨기관총'이 야도란의 유나이트 기술로 중단되지 않는 오류를 수정했습니다."
             ]
           }
         ]
       },
-      {
-        "updatedDate": "2023-11-13",
-        "updatedContentList": [
-          {
-            "updatedNameKo": "망각술",
-            "updatedContents": [
-              "모아둔  HP를 회복하는 회복량: 22% 감소",
-              "방어 상승: 300 → 250"
-            ]
-          },
-          {
-            "updatedNameKo": "망각술+",
-            "updatedContents": ["특수방어 상승: 150 → 125"]
-          }
-        ]
-      },
+
       {
         "updatedDate": "2022-09-28",
         "updatedContentList": [
           {
             "updatedNameKo": "기관총",
+            "updatedName": "Stuff Cheeks",
             "updatedContents": [
               "행동 방해를 받았을 때 기술이 중단되던 오류를 수정했습니다."
             ]
@@ -4654,6 +4855,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "탐내다",
+            "updatedName": "Belch",
             "updatedContents": [
               "최선을 다해 달려 부딪친 상대편 포켓몬에게 데미지를 주고 날려버린다. 이때 잠시 동안 방해 내성을 얻는다.",
               "달리는 동안 몸에서 나무열매가 떨어진다. 그 나무열매를 먹으면 이동 속도가 잠시 동안 오르고 먹으면 먹을수록 이동 속도가 오른다.",
@@ -4667,14 +4869,17 @@
         "updatedContentList": [
           {
             "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
             "updatedContents": ["이동 속도가 감소되었습니다."]
           },
           {
             "updatedNameKo": "몸통박치기",
+            "updatedName": "Tackle",
             "updatedContents": ["기술 대기 시간이 길어졌습니다."]
           },
           {
             "updatedNameKo": "웅크리기",
+            "updatedName": "Defense Curl",
             "updatedContents": [
               "기술에 의해 자신에게 주는 효과가 약해졌습니다."
             ]
@@ -4686,6 +4891,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "탐내다",
+            "updatedName": "Belch",
             "updatedContents": [
               "기술 대기 시간이 길어졌으며 기술에 의해 자신에게 주는 효과의 지속 시간이 짧아지고 자신에게 주는 효과가 약해졌습니다."
             ]
@@ -4697,37 +4903,89 @@
         "updatedContentList": [
           {
             "updatedNameKo": "볼주머니",
+            "updatedName": "Cheek Pouch",
             "updatedContents": [
               "기술의 HP 회복량이 감소되었으며 요씽리스가 떨어뜨린 나무열매의 회복량도 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "탐내다",
+            "updatedName": "Belch",
             "updatedContents": [
               "특정 조건에서 '탐내다'를 사용한 뒤 '트림'을 상정된 것보다 잦게 사용할 수 있던 오류를 수정했습니다."
             ]
           },
           {
             "updatedNameKo": "트림",
+            "updatedName": "Covet",
             "updatedContents": [
               "기술 대기 시간이 길어지고 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "볼가득넣기",
+            "updatedName": "Bullet Seed",
             "updatedContents": ["기술에 의한 실드 효과가 약해졌습니다."]
           },
           {
             "updatedNameKo": "기관총",
+            "updatedName": "Stuff Cheeks",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "유나이트 기술: 나무열매욕심다이브",
+            "updatedName": "Berry Belly Flop",
             "updatedContents": [
               "점프 패널을 사용한 뒤에 유나이트 기술을 사용하면 의도하지 않은 동작이 일어나는 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-11-01",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "트림",
+            "updatedName": "Covet",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다.",
+              "상대편 포켓몬에게 주는 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "트림+",
+            "updatedName": "Covet",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다.",
+              "상대편 포켓몬에게 주는 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "씨기관총",
+            "updatedName": "Stuff Cheeks",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "씨기관총+",
+            "updatedName": "Stuff Cheeks",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "탐내기",
+            "updatedName": "Belch",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "탐내기+",
+            "updatedName": "Belch",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "나무열매욕심다이브",
+            "updatedName": "Berry Belly Flop",
+            "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
           }
         ]
       }
@@ -6773,6 +7031,48 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-11-01",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "일렉트릭볼",
+            "updatedName": "Electro Ball",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "기술 대기 시간이 길어졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "일렉트릭볼+",
+            "updatedName": "Electro Ball",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "기술 대기 시간이 길어졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "번개",
+            "updatedName": "Thunder",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "번개+",
+            "updatedName": "Thunder",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "풀볼트스톰",
+            "updatedName": "Thunderstorm",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -7103,6 +7403,24 @@
             "updatedNameKo": "출시",
             "updatedName": "Release",
             "updatedContents": [""]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-11-13",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "망각술",
+            "updatedName": "Amnesia",
+            "updatedContents": [
+              "모아둔  HP를 회복하는 회복량: 22% 감소",
+              "방어 상승: 300 → 250"
+            ]
+          },
+          {
+            "updatedNameKo": "망각술+",
+            "updatedName": "Amnesia",
+            "updatedContents": ["특수방어 상승: 150 → 125"]
           }
         ]
       },
@@ -9603,6 +9921,27 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-11-01",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "성스러운칼",
+            "updatedName": "Sacred Sword",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 효과가 약해졌습니다.",
+              "기술에 의해 자신에게 주는 효과가 약해졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "성스러운칼+",
+            "updatedName": "Sacred Sword",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 효과가 약해졌습니다.",
+              "기술에 의해 자신에게 주는 효과가 약해졌습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -10081,17 +10420,64 @@
   {
     "name": "Lapras",
     "nameKo": "라프라스",
-    "image": "/img/unitePokemon/roster-lapras-2x.png",
+    "image": "/img/unitePokemon/lapras/roster-lapras-2x.png",
     "color": "#aced5b",
     "position": "defence",
     "isEx": false,
-
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/lapras/Attack.png"
+      },
+      {
+        "skillName": "Shell Armor",
+        "skillNameKo": "조가비갑옷",
+        "image": "/img/unitePokemon/lapras/Shell Armor.png"
+      },
+      {
+        "skillName": "Whirlpool",
+        "skillNameKo": "바다회오리",
+        "image": "/img/unitePokemon/lapras/Whirlpool.png"
+      },
+      {
+        "skillName": "Water Pulse",
+        "skillNameKo": "물의파동",
+        "image": "/img/unitePokemon/lapras/Water Pulse.png"
+      },
+      {
+        "skillName": "Perish Song",
+        "skillNameKo": "멸망의노래",
+        "image": "/img/unitePokemon/lapras/Perish Song.png"
+      },
+      {
+        "skillName": "Ice Shard",
+        "skillNameKo": "얼음뭉치",
+        "image": "/img/unitePokemon/lapras/Ice Shard.png"
+      },
+      {
+        "skillName": "Bubble Beam",
+        "skillNameKo": "거품광선",
+        "image": "/img/unitePokemon/lapras/Bubble Beam.png"
+      },
+      {
+        "skillName": "Ice Beam",
+        "skillNameKo": "냉동빔",
+        "image": "/img/unitePokemon/lapras/Ice Beam.png"
+      },
+      {
+        "skillName": "Lapras Express",
+        "skillNameKo": "라이드온!라프라스",
+        "image": "/img/unitePokemon/lapras/Lapras Express.png"
+      }
+    ],
     "updatedList": [
       {
         "updatedDate": "2023-04-13",
         "updatedContentList": [
           {
             "updatedNameKo": "출시",
+            "updatedName": "Release",
             "updatedContents": [""]
           }
         ]
@@ -10101,14 +10487,17 @@
         "updatedContentList": [
           {
             "updatedNameKo": "냉동빔",
+            "updatedName": "Release",
             "updatedContents": ["얼어붙은 지면이 주는 데미지: 20% 감소"]
           },
           {
             "updatedNameKo": "물의파동",
+            "updatedName": "Release",
             "updatedContents": ["1번째 파동의 데미지: 12% 감소"]
           },
           {
             "updatedNameKo": "유나이트 기술: 라이드온!라프라스",
+            "updatedName": "Release",
             "updatedContents": ["필요한 에너지양: 25% 증가"]
           }
         ]
@@ -10118,16 +10507,19 @@
         "updatedContentList": [
           {
             "updatedNameKo": "특성: 조가비갑옷",
+            "updatedName": "Release",
             "updatedContents": ["데미지 감소량: 25% → 20%"]
           },
           {
             "updatedNameKo": "일반 공격",
+            "updatedName": "Release",
             "updatedContents": [
               "강화 공격의 회복량: 최대 HP의 3% → 최대 HP의 2%"
             ]
           },
           {
             "updatedNameKo": "멸망의노래",
+            "updatedName": "Release",
             "updatedContents": ["데미지: 20% 감소"]
           }
         ]
@@ -10137,14 +10529,17 @@
         "updatedContentList": [
           {
             "updatedNameKo": "물의파동",
+            "updatedName": "Release",
             "updatedContents": ["데미지: 10% 감소"]
           },
           {
             "updatedNameKo": "거품광선",
+            "updatedName": "Release",
             "updatedContents": ["대기 시간: 7초 → 9초"]
           },
           {
             "updatedNameKo": "유나이트 기술: 라이드온!라프라스",
+            "updatedName": "Release",
             "updatedContents": ["데미지: 15% 감소"]
           }
         ]
@@ -10154,12 +10549,14 @@
         "updatedContentList": [
           {
             "updatedNameKo": "바다회오리",
+            "updatedName": "Release",
             "updatedContents": [
               "KO 당한 뒤에도 판정이 계속 남아있던 오류를 수정했습니다."
             ]
           },
           {
             "updatedNameKo": "유나이트 기술: 라이드온!라프라스",
+            "updatedName": "Release",
             "updatedContents": [
               "골로 돌아가는 같은 편 포켓몬을 태운 다음, 그 같은 편 포켓몬의 이동 속도가 오른 채로 유지되던 오류를 수정했습니다."
             ]
@@ -10171,7 +10568,52 @@
         "updatedContentList": [
           {
             "updatedNameKo": "물의파동",
+            "updatedName": "Release",
             "updatedContents": ["데미지: 15% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-11-01",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "강화 공격",
+            "updatedName": "Attack",
+            "updatedContents": ["HP 회복량이 증가되었습니다."]
+          },
+          {
+            "updatedNameKo": "방어",
+            "updatedName": "Attack",
+            "updatedContents": ["레벨업 시의 능력이 조정되었습니다."]
+          },
+          {
+            "updatedNameKo": "특수방어",
+            "updatedName": "Attack",
+            "updatedContents": ["레벨업 시의 능력이 조정되었습니다."]
+          },
+          {
+            "updatedNameKo": "거품광선",
+            "updatedName": "Bubble Beam",
+            "updatedContents": ["기술에 의한 실드 효과가 강해졌습니다."]
+          },
+          {
+            "updatedNameKo": "거품광선+",
+            "updatedName": "Bubble Beam",
+            "updatedContents": ["기술에 의한 실드 효과가 강해졌습니다."]
+          },
+          {
+            "updatedNameKo": "멸망의노래",
+            "updatedName": "Perish Song",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "멸망의노래+",
+            "updatedName": "Perish Song",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
           }
         ]
       }
@@ -10607,201 +11049,67 @@
     ]
   },
   {
-    "name": "MewtwoX",
-    "nameKo": "뮤츠X",
-    "image": "/img/unitePokemon/roster-mewtwo-2x.png",
+    "name": "MewtwoY",
+    "nameKo": "뮤츠Y",
+    "image": "/img/unitePokemon/mewtwox/roster-mewtwo-2x.png",
     "color": "#f16c38",
     "position": "attack",
     "isEx": true,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/mewtwox/Attack.png"
+      },
+      {
+        "skillName": "Pressure",
+        "skillNameKo": "프레셔",
+        "image": "/img/unitePokemon/mewtwox/Pressure.png"
+      },
+      {
+        "skillName": "Confusion",
+        "skillNameKo": "염동력",
+        "image": "/img/unitePokemon/mewtwox/Confusion.png"
+      },
+      {
+        "skillName": "Future Sight",
+        "skillNameKo": "미래예지",
+        "image": "/img/unitePokemon/mewtwox/Future Sight.png"
+      },
+      {
+        "skillName": "Psystrike",
+        "skillNameKo": "사이코브레이크",
+        "image": "/img/unitePokemon/mewtwox/Psystrike.png"
+      },
+      {
+        "skillName": "Barrier",
+        "skillNameKo": "배리어",
+        "image": "/img/unitePokemon/mewtwox/Barrier.png"
+      },
+      {
+        "skillName": "Recover",
+        "skillNameKo": "HP회복",
+        "image": "/img/unitePokemon/mewtwox/Recover.png"
+      },
+      {
+        "skillName": "Teleport",
+        "skillNameKo": "순간이동",
+        "image": "/img/unitePokemon/mewtwox/Teleport.png"
+      },
+      {
+        "skillName": "Infinite Psyburn",
+        "skillNameKo": "인피니티사이코번",
+        "image": "/img/unitePokemon/mewtwox/Infinite Psyburn.png"
+      }
+    ],
     "updatedList": [
       {
         "updatedDate": "2023-08-17",
         "updatedContentList": [
           {
-            "updatedNameKo": "",
-            "updatedContents": ["Y 출시"]
-          }
-        ]
-      },
-      {
-        "updatedDate": "2024-02-27",
-        "updatedContentList": [
-          {
-            "updatedNameKo": "특성: 프레셔",
-            "updatedContents": [
-              "메가진화 타이밍에 보유하고 있는 에오스 에너지를 일정량 소모하도록 변경되었습니다.",
-              "보유하고 있는 에오스 에너지가 부족한 경우(0을 포함)에도 보유하고 있는 에너지를 모두 소모합니다.",
-              "소모한 에오스 에너지에 따라 메가진화한 모습의 시간이 길어집니다.",
-              "이번 업데이트 이후 25 에너지를 소모하면 기존과 동일한 메가진화한 모습의 시간이 됩니다."
-            ]
-          }
-        ]
-      },
-      {
-        "updatedDate": "2023-11-13",
-        "updatedContentList": [
-          {
-            "updatedNameKo": "스테이터스",
-            "updatedContents": [
-              "공격: 190~530 → 170~500(레벨 1~15)",
-              "일반 공격으로 입힌 데미지에 따른 회복량: 10-15-20％ → 5-5-10%(레벨 5-9-13)"
-            ]
-          },
-          {
-            "updatedNameKo": "사이코브레이크",
-            "updatedContents": ["데미지: 12% 감소"]
-          }
-        ]
-      },
-      {
-        "updatedDate": "2023-09-07",
-        "updatedContentList": [
-          {
-            "updatedNameKo": "스테이터스",
-            "updatedContents": [
-              "급소율: 10%(레벨 5 ~), 20%(레벨 9 ~) → 5%(레벨 5 ~), 10%(레벨 10 ~)"
-            ]
-          },
-          {
-            "updatedNameKo": "미래예지",
-            "updatedContents": [
-              "대기 시간: 7.5초 → 9초",
-              "행동 불가로 만드는 시간: 0.75초 → 0.5초",
-              "일부 포켓몬의 기술을 사용할 수 없게 만드는 오류를 수정했습니다."
-            ]
-          },
-          {
-            "updatedNameKo": "유나이트 기술: 인피니티사이코번",
-            "updatedContents": [
-              "데미지: 15% 감소",
-              "필요한 에너지양: 20% 증가",
-              "만병통치제를 사용한 포켓몬에게 중복해서 명중하는 경우가 발생하던 오류를 수정했습니다."
-            ]
-          }
-        ]
-      },
-      {
-        "updatedDate": "2023-08-07",
-        "updatedContentList": [
-          {
-            "updatedNameKo": "순간이동",
-            "updatedContents": [
-              "데미지 상승량: 20% → 10%",
-              "증가하는 이동 속도: 30% → 10%"
-            ]
-          },
-          {
-            "updatedNameKo": "순간이동+",
-            "updatedContents": [
-              "데미지 상승량: 30% → 15%",
-              "증가하는 이동 속도: 30% → 10%"
-            ]
-          },
-          {
-            "updatedNameKo": "미래예지",
-            "updatedContents": [
-              "추가 데미지에 상한이 설정되어있지 않은 오류를 수정하였습니다."
-            ]
-          }
-        ]
-      },
-      {
-        "updatedDate": "2023-07-22",
-        "updatedContentList": [
-          {
-            "updatedNameKo": "스테이터스",
-            "updatedContents": [
-              "메가게이지가 증가할 때 상승하는 방어/특수방어 : 4% → 2%",
-              "메가진화 시에 상승하는 방어/특수방어 : 30% → 10%",
-              "메가진화 시에 상승하는 공격 : 20% → 10%",
-              "메가진화 시에 획득하는 HP : 최대 HP의 20% → 최대 HP의 10%"
-            ]
-          },
-          {
-            "updatedNameKo": "사이코브레이크",
-            "updatedContents": ["대기 시간 : 6초 → 8초"]
-          },
-          {
-            "updatedNameKo": "HP회복",
-            "updatedContents": ["대기 시간 : 8초 → 10초"]
-          },
-          {
-            "updatedNameKo": "순간이동",
-            "updatedContents": ["대기 시간 : 8초 → 10초"]
-          }
-        ]
-      },
-      {
-        "updatedDate": "2024-07-16",
-        "updatedContentList": [
-          {
-            "updatedNameKo": "사이코브레이크",
-            "updatedContents": ["대기 시간: 8초 → 9초"]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "MewtwoY",
-    "nameKo": "뮤츠Y",
-    "image": "/img/unitePokemon/roster-mewtwo-2x.png",
-    "color": "#ce5fd3",
-    "position": "balance",
-    "isEx": true,
-    "updatedList": [
-      {
-        "updatedDate": "2023-07-21",
-        "updatedContentList": [
-          {
-            "updatedNameKo": "",
-            "updatedContents": ["X 출시"]
-          }
-        ]
-      },
-      {
-        "updatedDate": "2024-02-27",
-        "updatedContentList": [
-          {
-            "updatedNameKo": "특성: 프레셔",
-            "updatedContents": [
-              "메가진화 타이밍에 보유하고 있는 에오스 에너지를 일정량 소모하도록 변경되었습니다.",
-              "보유하고 있는 에오스 에너지가 부족한 경우(0을 포함)에도 보유하고 있는 에너지를 모두 소모합니다.",
-              "소모한 에오스 에너지에 따라 메가진화한 모습의 시간이 길어집니다.",
-              "이번 업데이트 이후 25 에너지를 소모하면 기존과 동일한 메가진화한 모습의 시간이 됩니다."
-            ]
-          }
-        ]
-      },
-      {
-        "updatedDate": "2023-10-18",
-        "updatedContentList": [
-          {
-            "updatedNameKo": "스테이터스",
-            "updatedContents": [
-              "급소율: 5%(레벨 5~8), 10%(레벨 9~15) → 0%(레벨5~15)",
-              "특수공격: 150~900 → 150~810(레벨 1~15)"
-            ]
-          },
-          {
-            "updatedNameKo": "미래예지",
-            "updatedContents": [
-              "효과의 지속 시간 중에 주는 데미지의 증가량: 20% → 10%"
-            ]
-          },
-          {
-            "updatedNameKo": "미래예지+",
-            "updatedContents": [
-              "효과의 지속 시간 중에 주는 데미지의 증가량: 30% → 15%"
-            ]
-          },
-          {
-            "updatedNameKo": "HP회복",
-            "updatedContents": [
-              "실드: 25% 감소",
-              "이동 속도 증가량: 20%  → 10%",
-              "획득할 수 있는 메가 게이지: 50% 감소"
-            ]
+            "updatedNameKo": "출시",
+            "updatedName": "Release",
+            "updatedContents": []
           }
         ]
       },
@@ -10810,6 +11118,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "미래예지",
+            "updatedName": "Future Sight",
             "updatedContents": [
               "추가 데미지의 상한: 2000 → 1500",
               "대기 시간: 8초 → 10초",
@@ -10819,10 +11128,12 @@
           },
           {
             "updatedNameKo": "HP회복",
+            "updatedName": "Recover",
             "updatedContents": ["대기 시간: 10초 → 12초"]
           },
           {
             "updatedNameKo": "유나이트 기술: 인피니티사이코번",
+            "updatedName": "Infinite Psyburn",
             "updatedContents": [
               "데미지: 15% 감소",
               "필요한 에너지양: 20% 증가",
@@ -10831,28 +11142,184 @@
           }
         ]
       },
+
       {
-        "updatedDate": "2023-08-07",
+        "updatedDate": "2023-10-18",
         "updatedContentList": [
           {
-            "updatedNameKo": "순간이동",
+            "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
             "updatedContents": [
-              "데미지 상승량: 20% → 10%",
-              "증가하는 이동 속도: 30% → 10%"
-            ]
-          },
-          {
-            "updatedNameKo": "순간이동+",
-            "updatedContents": [
-              "데미지 상승량: 30% → 15%",
-              "증가하는 이동 속도: 30% → 10%"
+              "급소율: 5%(레벨 5~8), 10%(레벨 9~15) → 0%(레벨5~15)",
+              "특수공격: 150~900 → 150~810(레벨 1~15)"
             ]
           },
           {
             "updatedNameKo": "미래예지",
+            "updatedName": "Release",
             "updatedContents": [
-              "추가 데미지에 상한이 설정되어있지 않은 오류를 수정하였습니다."
+              "효과의 지속 시간 중에 주는 데미지의 증가량: 20% → 10%"
             ]
+          },
+          {
+            "updatedNameKo": "미래예지+",
+            "updatedName": "Future Sight",
+            "updatedContents": [
+              "효과의 지속 시간 중에 주는 데미지의 증가량: 30% → 15%"
+            ]
+          },
+          {
+            "updatedNameKo": "HP회복",
+            "updatedName": "Recover",
+            "updatedContents": [
+              "실드: 25% 감소",
+              "이동 속도 증가량: 20%  → 10%",
+              "획득할 수 있는 메가 게이지: 50% 감소"
+            ]
+          }
+        ]
+      },
+
+      {
+        "updatedDate": "2024-02-27",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "특성: 프레셔",
+            "updatedName": "Pressure",
+            "updatedContents": [
+              "메가진화 타이밍에 보유하고 있는 에오스 에너지를 일정량 소모하도록 변경되었습니다.",
+              "보유하고 있는 에오스 에너지가 부족한 경우(0을 포함)에도 보유하고 있는 에너지를 모두 소모합니다.",
+              "소모한 에오스 에너지에 따라 메가진화한 모습의 시간이 길어집니다.",
+              "이번 업데이트 이후 25 에너지를 소모하면 기존과 동일한 메가진화한 모습의 시간이 됩니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-07-16",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "일반 공격",
+            "updatedName": "Attack",
+            "updatedContents": ["사정거리: 7.0m → 6.5m"]
+          },
+          {
+            "updatedNameKo": "일반 공격(메가진화 시)",
+            "updatedName": "Attack",
+            "updatedContents": ["사정거리(메가진화 시): 8.0m → 7.5m"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-11-01",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "일반 공격",
+            "updatedName": "Attack",
+            "updatedContents": ["일반 공격이 빨라졌습니다."]
+          },
+          {
+            "updatedNameKo": "미래예지",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 효과가 강해졌습니다.",
+              "기술 대기 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "미래예지+",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 효과가 강해졌습니다.",
+              "기술 대기 시간이 짧아졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "HP회복",
+            "updatedContents": [
+              "기술 대기 시간이 짧아졌습니다.",
+              "기술에 의해 자신에게 주는 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "HP회복+",
+            "updatedContents": [
+              "기술 대기 시간이 짧아졌습니다.",
+              "기술에 의해 자신에게 주는 효과가 강해졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "순간이동",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          },
+          {
+            "updatedNameKo": "순간이동+",
+            "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "MewtwoX",
+    "nameKo": "뮤츠X",
+    "image": "/img/unitePokemon/mewtwox/roster-mewtwo-2x.png",
+    "color": "#ce5fd3",
+    "position": "balance",
+    "isEx": true,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/mewtwox/Attack.png"
+      },
+      {
+        "skillName": "Pressure",
+        "skillNameKo": "프레셔",
+        "image": "/img/unitePokemon/mewtwox/Pressure.png"
+      },
+      {
+        "skillName": "Confusion",
+        "skillNameKo": "염동력",
+        "image": "/img/unitePokemon/mewtwox/Confusion.png"
+      },
+      {
+        "skillName": "Future Sight",
+        "skillNameKo": "미래예지",
+        "image": "/img/unitePokemon/mewtwox/Future Sight.png"
+      },
+      {
+        "skillName": "Psystrike",
+        "skillNameKo": "사이코브레이크",
+        "image": "/img/unitePokemon/mewtwox/Psystrike.png"
+      },
+      {
+        "skillName": "Barrier",
+        "skillNameKo": "배리어",
+        "image": "/img/unitePokemon/mewtwox/Barrier.png"
+      },
+      {
+        "skillName": "Recover",
+        "skillNameKo": "HP회복",
+        "image": "/img/unitePokemon/mewtwox/Recover.png"
+      },
+      {
+        "skillName": "Teleport",
+        "skillNameKo": "순간이동",
+        "image": "/img/unitePokemon/mewtwox/Teleport.png"
+      },
+      {
+        "skillName": "Infinite Psyburn",
+        "skillNameKo": "인피니티사이코번",
+        "image": "/img/unitePokemon/mewtwox/Infinite Psyburn.png"
+      }
+    ],
+    "updatedList": [
+      {
+        "updatedDate": "2023-07-21",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "출시",
+            "updatedName": "Release",
+            "updatedContents": [""]
           }
         ]
       },
@@ -10861,6 +11328,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
             "updatedContents": [
               "메가게이지가 증가할 때 상승하는 방어/특수방어 : 4% → 2%",
               "메가진화 시에 상승하는 방어/특수방어 : 30% → 10%",
@@ -10870,28 +11338,101 @@
           },
           {
             "updatedNameKo": "사이코브레이크",
+            "updatedName": "Psystrike",
             "updatedContents": ["대기 시간 : 6초 → 8초"]
           },
           {
             "updatedNameKo": "HP회복",
+            "updatedName": "Recover",
             "updatedContents": ["대기 시간 : 8초 → 10초"]
           },
           {
             "updatedNameKo": "순간이동",
+            "updatedName": "Teleport",
             "updatedContents": ["대기 시간 : 8초 → 10초"]
           }
         ]
       },
       {
-        "updatedDate": "2024-07-16",
+        "updatedDate": "2023-09-07",
         "updatedContentList": [
           {
-            "updatedNameKo": "일반 공격",
-            "updatedContents": ["사정거리: 7.0m → 6.5m"]
+            "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
+            "updatedContents": [
+              "급소율: 10%(레벨 5 ~), 20%(레벨 9 ~) → 5%(레벨 5 ~), 10%(레벨 10 ~)"
+            ]
           },
           {
-            "updatedNameKo": "일반 공격(메가진화 시)",
-            "updatedContents": ["사정거리(메가진화 시): 8.0m → 7.5m"]
+            "updatedNameKo": "미래예지",
+            "updatedName": "Future Sight",
+            "updatedContents": [
+              "대기 시간: 7.5초 → 9초",
+              "행동 불가로 만드는 시간: 0.75초 → 0.5초",
+              "일부 포켓몬의 기술을 사용할 수 없게 만드는 오류를 수정했습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 인피니티사이코번",
+            "updatedName": "Infinite Psyburn",
+            "updatedContents": [
+              "데미지: 15% 감소",
+              "필요한 에너지양: 20% 증가",
+              "만병통치제를 사용한 포켓몬에게 중복해서 명중하는 경우가 발생하던 오류를 수정했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2023-11-13",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
+            "updatedContents": [
+              "공격: 190~530 → 170~500(레벨 1~15)",
+              "일반 공격으로 입힌 데미지에 따른 회복량: 10-15-20％ → 5-5-10%(레벨 5-9-13)"
+            ]
+          },
+          {
+            "updatedNameKo": "사이코브레이크",
+            "updatedName": "Psystrike",
+            "updatedContents": ["데미지: 12% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-02-27",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "특성: 프레셔",
+            "updatedName": "Pressure",
+            "updatedContents": [
+              "메가진화 타이밍에 보유하고 있는 에오스 에너지를 일정량 소모하도록 변경되었습니다.",
+              "보유하고 있는 에오스 에너지가 부족한 경우(0을 포함)에도 보유하고 있는 에너지를 모두 소모합니다.",
+              "소모한 에오스 에너지에 따라 메가진화한 모습의 시간이 길어집니다.",
+              "이번 업데이트 이후 25 에너지를 소모하면 기존과 동일한 메가진화한 모습의 시간이 됩니다."
+            ]
+          }
+        ]
+      },
+
+      {
+        "updatedDate": "2024-11-01",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "사이코브레이크",
+            "updatedName": "Psystrike",
+            "updatedContents": [
+              "기술에 의해 자신에게 주는 효과가 약해졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "사이코브레이크+",
+            "updatedName": "Psystrike",
+            "updatedContents": [
+              "기술에 의해 자신에게 주는 효과가 약해졌습니다."
+            ]
           }
         ]
       }
@@ -11516,16 +12057,64 @@
   {
     "name": "Miraidon",
     "nameKo": "미라이돈",
-    "image": "/img/unitePokemon/roster-miraidon-2x.png",
+    "image": "/img/unitePokemon/miraidon/roster-miraidon-2x.png",
     "color": "#f16c38",
     "position": "attack",
     "isEx": true,
+    "skillList": [
+      {
+        "skillName": "Attack",
+        "skillNameKo": "스테이터스",
+        "image": "/img/unitePokemon/miraidon/Attack.png"
+      },
+      {
+        "skillName": "Hadron Engine",
+        "skillNameKo": "하드론엔진",
+        "image": "/img/unitePokemon/miraidon/Hadron Engine.png"
+      },
+      {
+        "skillName": "Thunder Shock",
+        "skillNameKo": "전기쇼크",
+        "image": "/img/unitePokemon/miraidon/Thunder Shock.png"
+      },
+      {
+        "skillName": "Charge Beam",
+        "skillNameKo": "차지빔",
+        "image": "/img/unitePokemon/miraidon/Charge Beam.png"
+      },
+      {
+        "skillName": "Electro Drift",
+        "skillNameKo": "라이트닝드라이브",
+        "image": "/img/unitePokemon/miraidon/Electro Drift.png"
+      },
+      {
+        "skillName": "Thunder Wave",
+        "skillNameKo": "전기자석파",
+        "image": "/img/unitePokemon/miraidon/Thunder Wave.png"
+      },
+      {
+        "skillName": "Thunder",
+        "skillNameKo": "번개",
+        "image": "/img/unitePokemon/miraidon/Thunder.png"
+      },
+      {
+        "skillName": "Parabolic Charge",
+        "skillNameKo": "파라볼라차지",
+        "image": "/img/unitePokemon/miraidon/Parabolic Charge.png"
+      },
+      {
+        "skillName": "Bright Future Meteor Storm",
+        "skillNameKo": "미래를비추는유성",
+        "image": "/img/unitePokemon/miraidon/Bright Future Meteor Storm.png"
+      }
+    ],
     "updatedList": [
       {
         "updatedDate": "2024-02-27",
         "updatedContentList": [
           {
             "updatedNameKo": "출시",
+            "updatedName": "Release",
             "updatedContents": [""]
           }
         ]
@@ -11535,10 +12124,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "차지빔",
+            "updatedName": "Charge Beam",
             "updatedContents": ["데미지: 13%~16% 감소(레벨 5~15)"]
           },
           {
             "updatedNameKo": "번개",
+            "updatedName": "Thunder",
             "updatedContents": [
               "대기 시간: 8초 → 10초",
               "이동 속도를 떨어뜨리는 효과: 30% → 10%"
@@ -11546,6 +12137,7 @@
           },
           {
             "updatedNameKo": "번개+",
+            "updatedName": "Thunder",
             "updatedContents": ["이동 속도를 떨어뜨리는 효과: 50%→ 20%"]
           }
         ]
@@ -11555,6 +12147,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "오류 수정",
+            "updatedName": "Attack",
             "updatedContents": [
               "강화된 '라이트닝드라이브'를 충전하는 동안에 대상이 KO 당했을 때 뒤로 워프하는 오류를 수정했습니다."
             ]
@@ -11566,6 +12159,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "라이트닝드라이브",
+            "updatedName": "Electro Drift",
             "updatedContents": [
               "데미지: 5% 감소",
               "강화되었을 때 주는 데미지: 10% 감소",
@@ -11579,24 +12173,71 @@
         "updatedContentList": [
           {
             "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
             "updatedContents": [
               "대기 시간 단축: 15% → 10%(레벨 9~12),  25% → 20%(레벨 13~15)"
             ]
           },
           {
             "updatedNameKo": "라이트닝드라이브",
+            "updatedName": "Electro Drift",
             "updatedContents": ["대기 시간: 11초 → 12초"]
           },
           {
             "updatedNameKo": "라이트닝드라이브+",
+            "updatedName": "Electro Drift",
             "updatedContents": ["대기 시간: 7초 → 8초"]
           },
           {
             "updatedNameKo": "차지빔",
+            "updatedName": "Charge Beam",
             "updatedContents": [
               "데미지: 10% 감소",
               "강화되었을 때 주는 데미지: 10% 감소"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-11-01",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "차지빔",
+            "updatedName": "Charge Beam",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "차지빔+",
+            "updatedName": "Charge Beam",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "라이트닝드라이브",
+            "updatedName": "Electro Drift",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "라이트닝드라이브+",
+            "updatedName": "Electro Drift",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "파라볼라차지",
+            "updatedName": "Parabolic Charge",
+            "updatedContents": ["기술 대기 시간이 길어졌습니다."]
+          },
+          {
+            "updatedNameKo": "파라볼라차지+",
+            "updatedName": "Parabolic Charge",
+            "updatedContents": ["기술 대기 시간이 길어졌습니다."]
           }
         ]
       }
@@ -11781,6 +12422,55 @@
             "updatedContents": ["데미지: 16% ~ 0% 감소(레벨 5~15)"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-11-01",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "원념의칼",
+            "updatedName": "Bitter Blade",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "기술에 의해 자신에게 주는 효과가 약해졌습니다.",
+              "기술 대기 시간이 길어졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "원념의칼+",
+            "updatedName": "Bitter Blade",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "기술에 의해 자신에게 주는 효과가 약해졌습니다.",
+              "기술 대기 시간이 길어졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "사이코커터",
+            "updatedName": "Psycho Cut",
+            "updatedContents": ["상대편 포켓몬에게 주는 효과가 약해졌습니다."]
+          },
+          {
+            "updatedNameKo": "사이코커터+",
+            "updatedName": "Psycho Cut",
+            "updatedContents": ["상대편 포켓몬에게 주는 효과가 약해졌습니다."]
+          },
+          {
+            "updatedNameKo": "고스트다이브",
+            "updatedName": "Phantom Force",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "기술 대기 시간이 길어졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "고스트다이브+",
+            "updatedName": "Phantom Force",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "기술 대기 시간이 길어졌습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -11886,6 +12576,44 @@
             "updatedContents": [
               "기술을 배운 뒤 같은 편 포켓몬이 깃털 마크를 남기도록 변경되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-11-01",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "회오리불꽃",
+            "updatedName": "Fire Spin",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "기술에 의한 실드 효과가 약해졌습니다.",
+              "기술 대기 시간이 길어졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "회오리불꽃+",
+            "updatedName": "Fire Spin",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "기술에 의한 실드 효과가 약해졌습니다.",
+              "기술 대기 시간이 길어졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "불새",
+            "updatedName": "Sky Attack",
+            "updatedContents": ["기술 대기 시간이 길어졌습니다."]
+          },
+          {
+            "updatedNameKo": "불새+",
+            "updatedName": "Sky Attack",
+            "updatedContents": ["기술 대기 시간이 길어졌습니다."]
+          },
+          {
+            "updatedNameKo": "부활하는홍염",
+            "updatedName": "Rekindling Flame",
+            "updatedContents": ["유나이트 기술을 모으기 어려워졌습니다."]
           }
         ]
       }
@@ -11996,6 +12724,57 @@
             "updatedNameKo": "사이코쇼크+",
             "updatedName": "Psyshock",
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-11-01",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "회오리불꽃",
+            "updatedName": "Fire Spin",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "기술에 의한 실드 효과가 약해졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "회오리불꽃+",
+            "updatedName": "Fire Spin",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "기술에 의한 실드 효과가 약해졌습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "사이코쇼크",
+            "updatedName": "Psyshock",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "사이코쇼크+",
+            "updatedName": "Psyshock",
+            "updatedContents": [
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "아머캐논",
+            "updatedName": "Armor Cannon",
+            "updatedContents": [
+              "기술 대기 시간이 길어졌습니다.",
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
+          },
+          {
+            "updatedNameKo": "아머캐논+",
+            "updatedName": "Armor Cannon",
+            "updatedContents": [
+              "기술 대기 시간이 길어졌습니다.",
+              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+            ]
           }
         ]
       }
