@@ -7,7 +7,7 @@ export const UserSchema = defineMongooseModel({
       type: "string",
       required: true,
     },
-    slug: {
+    role: {
       type: "string",
       required: true,
       unique: true,

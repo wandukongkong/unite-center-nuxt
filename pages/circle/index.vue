@@ -16,10 +16,7 @@ const circleList = toRef([
 </script>
 <template>
   <div class="flex justify-center">
-    {{ usersData }}
     <div class="container mt-3">
-      <!-- <input class="border rounded w-[100%] mb-4" /> -->
-      <Connection :code="readyState ?? 0" />
       <div
         v-for="(circleInfo, index) in circleList"
         :key="index"

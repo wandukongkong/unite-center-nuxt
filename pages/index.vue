@@ -204,80 +204,81 @@ onMounted(() => {
       />
     </div>
     <div class="flex rounded-xl shadow-2xl w-[940px]">
-      <div class="flex flex-col ps-7 pe-5 py-6">
-        <div
-          class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
-        >
-          <div class="flex justify-center w-[50px]">
-            <img src="@/public/img/pokemon/ball.png" class="h-4" />
-          </div>
-          <UButton
-            class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
-            @mouseover="() => applyLogoMotion('hover')"
-            @mouseleave="() => applyLogoMotion('stop')"
+      <div class="flex flex-col justify-between">
+        <div class="flex flex-col ps-7 pe-5 py-6">
+          <div
+            class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
           >
-            <strong>Home</strong>
-          </UButton>
-        </div>
-        <div
-          class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
-        >
-          <div class="flex justify-center w-[50px]">
-            <img src="@/public/img/pokemon/object6.png" class="h-4" />
+            <div class="flex justify-center w-[50px]">
+              <img src="@/public/img/pokemon/ball.png" class="h-4" />
+            </div>
+            <UButton
+              class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
+              @mouseover="() => applyLogoMotion('hover')"
+              @mouseleave="() => applyLogoMotion('stop')"
+            >
+              <strong>Home</strong>
+            </UButton>
           </div>
-          <UButton
-            class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
-            @click="() => router.push('/dashboard')"
-            @mouseover="() => applyObject6Motion('hover')"
-            @mouseleave="() => applyObject6Motion('stop')"
+          <div
+            class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
           >
-            <strong>Dashboard</strong>
-          </UButton>
-        </div>
-        <div
-          class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
-        >
-          <div class="flex justify-center w-[50px]">
-            <img src="@/public/img/pokemon/object3.png" class="h-4" />
+            <div class="flex justify-center w-[50px]">
+              <img src="@/public/img/pokemon/object6.png" class="h-4" />
+            </div>
+            <UButton
+              class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
+              @click="() => router.push('/dashboard')"
+              @mouseover="() => applyObject6Motion('hover')"
+              @mouseleave="() => applyObject6Motion('stop')"
+            >
+              <strong>Dashboard</strong>
+            </UButton>
           </div>
-          <UButton
-            class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
-            @click="() => router.push('/update')"
-            @mouseover="() => applyObject3Motion('hover')"
-            @mouseleave="() => applyObject3Motion('stop')"
+          <div
+            class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
           >
-            <strong>Update</strong>
-          </UButton>
-        </div>
-        <div
-          class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
-        >
-          <div class="flex justify-center w-[50px]">
-            <img src="@/public/img/pokemon/object7.png" class="h-4" />
+            <div class="flex justify-center w-[50px]">
+              <img src="@/public/img/pokemon/object3.png" class="h-4" />
+            </div>
+            <UButton
+              class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
+              @click="() => router.push('/update')"
+              @mouseover="() => applyObject3Motion('hover')"
+              @mouseleave="() => applyObject3Motion('stop')"
+            >
+              <strong>Update</strong>
+            </UButton>
           </div>
-          <UButton
-            class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
-            @click="() => router.push('/pick')"
-            @mouseover="() => applyObject7Motion('hover')"
-            @mouseleave="() => applyObject7Motion('stop')"
+          <div
+            class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
           >
-            <strong>Random Pick</strong>
-          </UButton>
-        </div>
-        <!-- <div
-          class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
-        >
-          <div class="flex justify-center w-[50px]">
-            <img src="@/public/img/pokemon/object1.png" class="h-4" />
+            <div class="flex justify-center w-[50px]">
+              <img src="@/public/img/pokemon/object7.png" class="h-4" />
+            </div>
+            <UButton
+              class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
+              @click="() => router.push('/pick')"
+              @mouseover="() => applyObject7Motion('hover')"
+              @mouseleave="() => applyObject7Motion('stop')"
+            >
+              <strong>Random Pick</strong>
+            </UButton>
           </div>
-          <UButton
-            class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
-            @click="() => router.push('/circle')"
+          <div
+            class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
           >
-            <strong>Circle</strong>
-          </UButton>
-        </div> -->
-        <!-- <div
+            <div class="flex justify-center w-[50px]">
+              <img src="@/public/img/pokemon/object1.png" class="h-4" />
+            </div>
+            <UButton
+              class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
+              @click="() => router.push('/circle')"
+            >
+              <strong>Circle</strong>
+            </UButton>
+          </div>
+          <!-- <div
           class="flex items-center hover:scale-[1.04] ease-in-out duration-200"
         >
           <div class="flex justify-center w-[50px]">
@@ -292,6 +293,22 @@ onMounted(() => {
             <strong>Tournament</strong>
           </UButton>
         </div> -->
+        </div>
+        <div class="flex justify-around py-2">
+          <UButton
+            class="flex flex-1 justify-center ms-2 mb-2 border text-center bg-gray-50 hover:bg-white text-black py-0"
+            @click="
+              () => {
+                router.push('/auth/signIn');
+              }
+            "
+            ><strong>Sign In</strong></UButton
+          >
+          <UButton
+            class="flex flex-1 justify-center ms-2 mb-2 border text-center bg-gray-50 hover:bg-white text-black py-0"
+            ><strong>Sign Up</strong></UButton
+          >
+        </div>
       </div>
       <div class="relative border-8 border-white rounded-xl">
         <img class="rounded-md" src="@/public/img/pokemon/pokemoncenter.png" />

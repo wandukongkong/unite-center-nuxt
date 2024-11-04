@@ -17,8 +17,9 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxtjs/color-mode",
     "nuxt-echarts",
+    "nuxt-mongoose",
   ],
-  devtools: { enabled: false },
+  devtools: { enabled: true },
   vite: {
     plugin: [eslintPlugin()],
     server: {
@@ -29,6 +30,12 @@ export default defineNuxtConfig({
         usePolling: true,
       },
     },
+  },
+  mongoose: {
+    uri: process.env.MONGODB_URI,
+    options: {},
+    modelsDir: "models",
+    devtools: true,
   },
   app: {
     pageTransition: {
@@ -53,4 +60,5 @@ export default defineNuxtConfig({
     charts: ["BarChart"],
     components: ["DatasetComponent", "GridComponent", "TooltipComponent"],
   },
+  serverMiddleware: [{ path: "/api", handler: "~/api/index.js" }],
 });

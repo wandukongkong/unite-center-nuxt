@@ -99,7 +99,7 @@ onMounted(() => {
 });
 </script>
 <template>
-  <div ref="sideBarRef" class="absolute opacity-0 bg-white">
+  <div ref="sideBarRef" v-if="false" class="absolute opacity-0 bg-white">
     <div
       class="border shadow-md rounded py-5 h-[100%] hover:scale-[1.01] hover:shadow-xl ease-out duration-300"
       :class="isShowButtonTitle ? 'px-2' : 'px-0'"

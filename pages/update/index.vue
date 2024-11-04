@@ -115,7 +115,7 @@ const clickPokemonCard = (pokemonInfo) => {
               >
                 <PokemonCard
                   class="relative flex hover:scale-[1.05] hover:shadow-xl hover:shadow-gray-400 shadow-md shadow-gray-400 ease-out duration-200 cursor-pointer rounded"
-                  :class="isMobile ? 'w-[100px]' : ''"
+                  :class="isMobile ? 'w-[100px]' : 'w-[100px]'"
                   @click="() => clickPokemonCard(pokemonInfo)"
                 >
                   <NuxtImg
