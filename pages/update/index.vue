@@ -36,47 +36,49 @@ const { set: setDetailMotion } = useSpring(detailAreaMotionProperties, {
   },
 });
 
-const groupedPokemonList = computed(() => {
-  // 날짜 별로 Group
-  const groupedPokemonInfo = unitePokemonList.value.reduce(
-    (result, unitePokemonInfo) => {
-      const lastUpdatedDate = unitePokemonInfo.updatedList
-        .sort((a, b) => {
-          const aUpdatedDateNumber = Number(
-            dayjs(a.updatedDate, "YYYY-MM-DD").format("YYYYMMDD")
-          );
-          const bUpdatedDateNumber = Number(
-            dayjs(b.updatedDate, "YYYY-MM-DD").format("YYYYMMDD")
-          );
+const groupedPokemonList = toRef([]);
 
-          return aUpdatedDateNumber < bUpdatedDateNumber ? 1 : -1;
-        })
-        .at(0).updatedDate;
+// const groupedPokemonList = computed(() => {
+//   // 날짜 별로 Group
+//   const groupedPokemonInfo = unitePokemonList.value.reduce(
+//     (result, unitePokemonInfo) => {
+//       const lastUpdatedDate = unitePokemonInfo.updatedList
+//         .sort((a, b) => {
+//           const aUpdatedDateNumber = Number(
+//             dayjs(a.updatedDate, "YYYY-MM-DD").format("YYYYMMDD")
+//           );
+//           const bUpdatedDateNumber = Number(
+//             dayjs(b.updatedDate, "YYYY-MM-DD").format("YYYYMMDD")
+//           );
 
-      if (!result[lastUpdatedDate]) {
-        result[lastUpdatedDate] = [];
-      }
+//           return aUpdatedDateNumber < bUpdatedDateNumber ? 1 : -1;
+//         })
+//         .at(0).updatedDate;
 
-      result[lastUpdatedDate].push(unitePokemonInfo);
+//       if (!result[lastUpdatedDate]) {
+//         result[lastUpdatedDate] = [];
+//       }
 
-      return result;
-    },
-    {}
-  );
+//       result[lastUpdatedDate].push(unitePokemonInfo);
 
-  // 배열로 변환
-  return Object.keys(groupedPokemonInfo)
-    .sort((a, b) =>
-      Number(dayjs(a, "YYYY-MM-DD").format("YYYYMMDD")) <
-      Number(dayjs(b, "YYYY-MM-DD").format("YYYYMMDD"))
-        ? 1
-        : -1
-    )
-    .map((key) => ({
-      updatedDate: key,
-      pokemonList: groupedPokemonInfo[key],
-    }));
-});
+//       return result;
+//     },
+//     {}
+//   );
+
+//   // 배열로 변환
+//   return Object.keys(groupedPokemonInfo)
+//     .sort((a, b) =>
+//       Number(dayjs(a, "YYYY-MM-DD").format("YYYYMMDD")) <
+//       Number(dayjs(b, "YYYY-MM-DD").format("YYYYMMDD"))
+//         ? 1
+//         : -1
+//     )
+//     .map((key) => ({
+//       updatedDate: key,
+//       pokemonList: groupedPokemonInfo[key],
+//     }));
+// });
 
 const setGrouppedPokemonList = () => {
   // 날짜 별로 Group
@@ -107,7 +109,7 @@ const setGrouppedPokemonList = () => {
   );
 
   // 배열로 변환
-  return Object.keys(groupedPokemonInfo)
+  groupedPokemonList.value = Object.keys(groupedPokemonInfo)
     .sort((a, b) =>
       Number(dayjs(a, "YYYY-MM-DD").format("YYYYMMDD")) <
       Number(dayjs(b, "YYYY-MM-DD").format("YYYYMMDD"))
@@ -116,8 +118,19 @@ const setGrouppedPokemonList = () => {
     )
     .map((key) => ({
       updatedDate: key,
-      pokemonList: groupedPokemonInfo[key],
+      pokemonList: [],
     }));
+
+  groupedPokemonList.value.forEach((info, iindex) => {
+    groupedPokemonInfo[info.updatedDate].forEach((pokemonInfo, index) => {
+      setTimeout(
+        () => {
+          info.pokemonList.push(pokemonInfo);
+        },
+        iindex * 150 + index * 50
+      );
+    });
+  });
 };
 
 // click card event
@@ -125,7 +138,9 @@ const clickPokemonCard = (pokemonInfo) => {
   router.push(`/update/${pokemonInfo.name}`);
 };
 
-onMounted(() => {});
+onMounted(() => {
+  setGrouppedPokemonList();
+});
 </script>
 <template>
   <div>
@@ -147,32 +162,34 @@ onMounted(() => {});
               :key="index"
               :class="isMobile ? 'ms-5' : 'ms-20'"
             >
-              <div>
+              <div v-if="groupedPokemonInfo.pokemonList.length > 0">
                 <strong>{{ groupedPokemonInfo.updatedDate }}</strong>
               </div>
-              <div class="flex flex-wrap">
-                <div
-                  v-for="(
-                    pokemonInfo, pokemonListIndex
-                  ) in groupedPokemonInfo.pokemonList"
-                  :key="pokemonListIndex"
-                  class="m-2"
-                >
-                  <PokemonCard
-                    class="relative flex hover:scale-[1.05] hover:shadow-xl hover:shadow-gray-400 shadow-md shadow-gray-400 ease-out duration-200 cursor-pointer rounded w-[100px] h-[115px]"
-                    @click="() => clickPokemonCard(pokemonInfo)"
+              <div class="flex flex-wrap mb-5">
+                <TransitionGroup name="bounce">
+                  <div
+                    v-for="(
+                      pokemonInfo, pokemonListIndex
+                    ) in groupedPokemonInfo.pokemonList"
+                    :key="pokemonListIndex"
+                    class="m-2"
                   >
-                    <NuxtImg
-                      :src="pokemonInfo.image"
-                      class="rounded pattern ease-out w-[100%] duration-200"
-                      placeholder-class="custom-test"
-                      style="-webkit-user-drag: none"
-                      :style="{ backgroundColor: pokemonInfo.color }"
-                    />
-                  </PokemonCard>
-                </div>
+                    <PokemonCard
+                      class="relative flex hover:scale-[1.05] hover:shadow-xl hover:shadow-gray-400 shadow-md shadow-gray-400 ease-out duration-200 cursor-pointer rounded w-[90px] h-[105px]"
+                      @click="() => clickPokemonCard(pokemonInfo)"
+                    >
+                      <NuxtImg
+                        :src="pokemonInfo.image"
+                        class="rounded pattern ease-out w-[100%] duration-200"
+                        placeholder-class="custom-test"
+                        style="-webkit-user-drag: none"
+                        :style="{ backgroundColor: pokemonInfo.color }"
+                      />
+                    </PokemonCard>
+                  </div>
+                </TransitionGroup>
               </div>
-              <div class="border w-[97%] my-3 opacity-[0.7]"></div>
+              <!-- <div class="border w-[97%] my-3 opacity-[0.7]"></div> -->
             </div>
           </Transition-group>
         </div>
