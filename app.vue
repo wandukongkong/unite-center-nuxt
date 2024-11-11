@@ -32,6 +32,23 @@ html {
   filter: blur(1rem);
 }
 
+.bounce-enter-active {
+  animation: bounce-in 0.5s;
+}
+.bounce-leave-active {
+  animation: bounce-in 0.5s reverse;
+}
+@keyframes bounce-in {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 .pattern {
   background-image: url("@/public/svg/square-pattern.svg"),
     linear-gradient(180deg, rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 50%);

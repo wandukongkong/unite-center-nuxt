@@ -5,6 +5,45 @@ import { useMotionProperties, useMotionControls } from "@vueuse/motion";
 const { isMobile } = useDevice();
 const router = useRouter();
 
+// container motion
+const container = toRef();
+const { motionProperties: containerMotionProperties } =
+  useMotionProperties(container);
+const { apply: applyContainerMotion } = useMotionControls(
+  containerMotionProperties,
+  {
+    initial: {
+      scale: 1,
+      opacity: 0,
+    },
+    enter: {
+      y: 0,
+      opacity: 1,
+    },
+    leave: {
+      y: 15,
+      // bounce: 4,
+      transition: {
+        duration: 150,
+        ease: "easyOut",
+        repeatDelay: 0,
+        // repeatType: "reverse",
+      },
+    },
+    leave2: {
+      y: -200,
+      opacity: 0,
+      bounce: 0,
+      transition: {
+        type: "spring",
+        stiffness: 250,
+        damping: 25,
+        mass: 0.5,
+      },
+    },
+  }
+);
+
 // Logo Motion
 const logoRef = toRef();
 const { motionProperties: logoMotionProperties } = useMotionProperties(logoRef);
@@ -175,12 +214,21 @@ const { apply: applyObject7Motion } = useMotionControls(
   }
 );
 
+const clickMenu = async (pageName) => {
+  applyLogoMotion("leave");
+  await applyContainerMotion("leave");
+  await applyContainerMotion("leave2");
+
+  router.push(pageName);
+};
+
 onBeforeMount(() => {
   applyLogoMotion("initial");
   applyObject3Motion("initial");
   applyObject4Motion("initial");
   applyObject6Motion("initial");
   applyObject7Motion("initial");
+  applyContainerMotion("initial");
 });
 
 onMounted(() => {
@@ -189,13 +237,11 @@ onMounted(() => {
   applyObject4Motion("enter");
   applyObject6Motion("enter");
   applyObject7Motion("enter");
+  applyContainerMotion("enter");
 });
 </script>
 <template>
-  <div
-    v-if="!isMobile"
-    class="flex flex-col min-h-screen justify-center items-center"
-  >
+  <div class="flex flex-col min-h-screen justify-center items-center">
     <div class="flex justify-end ms-5 items-center w-[940px]">
       <img
         ref="logoRef"
@@ -203,7 +249,7 @@ onMounted(() => {
         src="@/public/img/pokemon/uniteCenterLogo.png"
       />
     </div>
-    <div class="flex rounded-xl shadow-2xl w-[940px]">
+    <div ref="container" class="flex rounded-xl shadow-2xl w-[940px] opacity-0">
       <div class="flex flex-col ps-7 pe-5 py-6">
         <div
           class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
@@ -227,7 +273,7 @@ onMounted(() => {
           </div>
           <UButton
             class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
-            @click="() => router.push('/dashboard')"
+            @click="() => clickMenu('dashboard')"
             @mouseover="() => applyObject6Motion('hover')"
             @mouseleave="() => applyObject6Motion('stop')"
           >
@@ -242,7 +288,7 @@ onMounted(() => {
           </div>
           <UButton
             class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
-            @click="() => router.push('/update')"
+            @click="() => clickMenu('update')"
             @mouseover="() => applyObject3Motion('hover')"
             @mouseleave="() => applyObject3Motion('stop')"
           >
@@ -257,7 +303,7 @@ onMounted(() => {
           </div>
           <UButton
             class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
-            @click="() => router.push('/pick')"
+            @click="() => clickMenu('pick')"
             @mouseover="() => applyObject7Motion('hover')"
             @mouseleave="() => applyObject7Motion('stop')"
           >
@@ -328,20 +374,6 @@ onMounted(() => {
           @mouseleave="() => applyObject7Motion('stop')"
         />
       </div>
-    </div>
-  </div>
-  <div v-else>
-    <div class="flex flex-col justify-start items-center">
-      <img
-        class="h-[30px] py-1 my-12"
-        src="@/public/img/pokemon/uniteCenterLogo.png"
-      />
-      <NuxtLink class="mb-5" to="/update" @click="isOpenMenu = false">
-        <strong>Update</strong>
-      </NuxtLink>
-      <!-- <NuxtLink class="mb-5" to="/pick" @click="isOpenMenu = false">
-        <strong>Random Pick</strong>
-      </NuxtLink> -->
     </div>
   </div>
 </template>
