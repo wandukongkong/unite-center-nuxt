@@ -118,7 +118,7 @@ onMounted(() => {
           <img class="h-[20px]" src="@/public/img/pokemon/ball.png" />
         </div>
       </UButton>
-      <UButton
+      <!-- <UButton
         class="flex w-[100%] mb-3 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
         @mouseover="() => (hoveredMenuName = 'dashboard')"
         @mouseleave="() => (hoveredMenuName = '')"
@@ -131,7 +131,7 @@ onMounted(() => {
         <div class="flex justify-center w-[50px]">
           <img class="h-[20px]" src="@/public/img/pokemon/object6.png" />
         </div>
-      </UButton>
+      </UButton> -->
       <UButton
         class="flex w-[100%] mb-3 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
         @mouseover="() => (hoveredMenuName = 'update')"

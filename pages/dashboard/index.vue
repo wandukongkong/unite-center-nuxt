@@ -42,9 +42,9 @@ const newPokemonInfo = computed(() => {
     );
 
     return aNumber < bNumber ? 1 : -1;
-  })?.[0];
+  });
 
-  return sortedPokemonList;
+  return sortedPokemonList[0];
 });
 
 // 포지션별 카운트 차트 옵션
