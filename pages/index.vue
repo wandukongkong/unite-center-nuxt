@@ -265,7 +265,7 @@ onMounted(() => {
             <strong>Home</strong>
           </UButton>
         </div>
-        <div
+        <!-- <div
           class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
         >
           <div class="flex justify-center w-[50px]">
@@ -279,7 +279,7 @@ onMounted(() => {
           >
             <strong>Dashboard</strong>
           </UButton>
-        </div>
+        </div> -->
         <div
           class="flex items-center mb-5 hover:scale-[1.04] ease-in-out duration-200"
         >

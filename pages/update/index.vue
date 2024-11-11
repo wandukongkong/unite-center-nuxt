@@ -16,11 +16,50 @@ const { isMobile } = useDevice();
 const router = useRouter();
 
 // state
+const container = toRef();
 const detailArea = toRef();
 const isOpenDtail = toRef(false);
 const selectedPokemonInfo = toRef({});
 
 // motion
+// container motion
+const { motionProperties: containerMotionProperties } =
+  useMotionProperties(container);
+const { apply: applyContainerMotion } = useMotionControls(
+  containerMotionProperties,
+  {
+    initial: {
+      scale: 1,
+      opacity: 0,
+    },
+    enter: {
+      x: 0,
+      opacity: 1,
+    },
+    leave: {
+      x: 15,
+      // bounce: 4,
+      transition: {
+        duration: 150,
+        ease: "easyOut",
+        repeatDelay: 0,
+        // repeatType: "reverse",
+      },
+    },
+    leave2: {
+      x: -200,
+      opacity: 0,
+      bounce: 0,
+      transition: {
+        type: "spring",
+        stiffness: 250,
+        damping: 25,
+        mass: 0.5,
+      },
+    },
+  }
+);
+
 const { motionProperties: detailAreaMotionProperties } = useMotionProperties(
   detailArea,
   {
@@ -134,16 +173,23 @@ const setGrouppedPokemonList = () => {
 };
 
 // click card event
-const clickPokemonCard = (pokemonInfo) => {
+const clickPokemonCard = async (pokemonInfo) => {
+  await applyContainerMotion("leave");
+  await applyContainerMotion("leave2");
   router.push(`/update/${pokemonInfo.name}`);
 };
 
+onBeforeMount(() => {
+  applyContainerMotion("initial");
+});
+
 onMounted(() => {
+  applyContainerMotion("enter");
   setGrouppedPokemonList();
 });
 </script>
 <template>
-  <div>
+  <div ref="container">
     <div class="absolute">
       <!-- TODO: 검색 영역 -->
       <!-- <div class="flex flex-col items-end w-[100%] px-8 mt-[10px] mb-2">
