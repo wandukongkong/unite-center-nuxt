@@ -5,7 +5,7 @@ import { useDayjs } from "#dayjs";
 import { useSpring, useMotionProperties } from "@vueuse/motion";
 
 // store
-import { useCommonStore } from "../../stores/commonStore";
+import { useCommonStore } from "@/stores/commonStore";
 
 // json
 const dayjs = useDayjs();
