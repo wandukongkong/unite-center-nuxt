@@ -12846,5 +12846,26 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Psyduck",
+    "nameKo": "고라파덕",
+    "image": "/img/unitePokemon/psyduck/roster-psyduck-2x.png",
+    "color": "#fecc51",
+    "position": "support",
+    "isEx": false,
+    "skillList": [],
+    "updatedList": [
+      {
+        "updatedDate": "2024-11-14",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "출시",
+            "updatedName": "Release",
+            "updatedContents": [""]
+          }
+        ]
+      }
+    ]
   }
 ]
