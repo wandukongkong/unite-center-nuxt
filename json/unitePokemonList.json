@@ -1679,6 +1679,26 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-11-21",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "방어: 50~250 → 50~268",
+              "특방: 30~150 → 30~232"
+            ]
+          },
+          {
+            "updatedNameKo": "블레이즈킥",
+            "updatedContents": ["대기 시간: 8s → 9s"]
+          },
+          {
+            "updatedNameKo": "블레이즈킥+",
+            "updatedContents": ["대기 시간: 8s → 9s"]
+          }
+        ]
       }
     ]
   },
@@ -4680,7 +4700,6 @@
     "color": "#aced5b",
     "position": "defence",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2023-03-16",
@@ -4745,6 +4764,27 @@
             "updatedContents": [
               "기술을 명중시키지 않은 포켓몬도 끌어오던 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-11-21",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "파워휩",
+            "updatedContents": ["대기 시간: 8s → 7.5s"]
+          },
+          {
+            "updatedNameKo": "파워휩+",
+            "updatedContents": ["대기 시간: 8s → 7.5s"]
+          },
+          {
+            "updatedNameKo": "애시드봄",
+            "updatedContents": ["대기 시간: 8s → 7.5s"]
+          },
+          {
+            "updatedNameKo": "애시드봄+",
+            "updatedContents": ["대기 시간: 8s → 7.5s"]
           }
         ]
       }
@@ -10194,6 +10234,35 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-11-21",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스파크",
+            "updatedContents": ["대기 시간: 10s → 9s"]
+          },
+          {
+            "updatedNameKo": "스파크+",
+            "updatedContents": ["대기 시간: 10s → 9s"]
+          },
+          {
+            "updatedNameKo": "와일드볼트",
+            "updatedContents": ["대기 시간: 10s → 9s"]
+          },
+          {
+            "updatedNameKo": "와일드볼트+",
+            "updatedContents": ["대기 시간: 10s → 9s"]
+          },
+          {
+            "updatedNameKo": "방전",
+            "updatedContents": ["실드량 : 15% 증가"]
+          },
+          {
+            "updatedNameKo": "방전+",
+            "updatedContents": ["실드량 : 15% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -12842,6 +12911,26 @@
             "updatedNameKo": "출시",
             "updatedName": "Release",
             "updatedContents": [""]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-11-21",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "악의파동",
+            "updatedName": "Dark Pulse",
+            "updatedContents": ["대기시간：6s → 8s", "데미지량：25%저하"]
+          },
+          {
+            "updatedNameKo": "악의파동+",
+            "updatedName": "Dark Pulse",
+            "updatedContents": ["대기시간：6s → 8s", "데미지량：25%저하"]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 깊은악몽으로의유인",
+            "updatedName": "Dark Pulse",
+            "updatedContents": ["대미지량: 25% 저하"]
           }
         ]
       }
