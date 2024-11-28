@@ -24,18 +24,18 @@ const selectedCircleInfo = computed(() =>
         <!-- 서클 간단 설명란 -->
         <div class="flex flex-col flex-1 px-5">
           <div class="mb-3">
-            <strong class="text-xl me-2">Striker</strong>
-            <small class="text-sm opacity-20 font-bold">2024-11-14 ~</small>
+            <strong class="text-xl me-2">{{
+              selectedCircleInfo.circleName
+            }}</strong>
+            <small class="text-sm opacity-20 font-bold"
+              >{{ selectedCircleInfo.createAt }} ~
+              {{ selectedCircleInfo.closedAt }}</small
+            >
           </div>
           <div class="text-wrap mb-5">
-            서클 설명 설명 설명설명 서클 설명설명 설명설명 설명 설명설명
-            서클설명 설명설명 서클설명 설명설명 서클설명 설명설명 서클설명
-            설명설명 서클명설명 서클명설명 서클 설명설명 설명설명 설명 설명설명
-            서클설명 설명설명 서클설명 설명설명 서클설명 설명설명 서클설명
-            설명설명 서클명설명 서클설명 설명설명 서클설명 설명설명 서클설명
-            설명설명 서클
+            {{ selectedCircleInfo.description }}
           </div>
-          <div class="mb-5">http://kakaokakakoaka.co.akr.akd</div>
+          <div class="mb-5">{{ selectedCircleInfo.cirleUrl }}</div>
         </div>
       </div>
       <!-- TODO: circle content-->
@@ -44,14 +44,14 @@ const selectedCircleInfo = computed(() =>
           <strong>- 가입 조건</strong>
         </div>
         <div class="flex flex-wrap justify-start items-start">
-          <div class="border shadow-sm shadow-gray-400 mx-2 rounded px-5 py-1">
-            <span>랭크 최고점수 1600</span>
-          </div>
-          <div class="border shadow-sm shadow-gray-400 mx-2 rounded px-5 py-1">
-            <span>매 시즌 랭크 1600 이상</span>
-          </div>
-          <div class="border shadow-sm shadow-gray-400 mx-2 rounded px-5 py-1">
-            <span>철새 불가</span>
+          <div
+            v-for="(
+              condition, index
+            ) in selectedCircleInfo.membershipConditions"
+            :key="index"
+            class="border shadow-sm shadow-gray-400 mx-2 rounded px-5 py-1"
+          >
+            <span>{{ condition }}</span>
           </div>
         </div>
       </div>

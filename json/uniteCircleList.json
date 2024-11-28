@@ -2,9 +2,17 @@
   {
     "circleName": "Strike",
     "circleCode": "1230213012",
-    "cirleUrl": "",
+    "cirleUrl": "http://kakaokakakoaka.co.akr.akd",
     "circleImage": "",
     "circleBorderImage": "",
+    "createAt": "2024-11-14",
+    "closedAt": "",
+    "description": "서클 설명 설명 설명설명 서클 설명설명 설명설명 설명 설명설명 서클설명 설명설명 서클설명 설명설명 서클설명 설명설명 서클설명 설명설명 서클명설명 서클명설명 서클 설명설명 설명설명 설명 설명설명 서클설명 설명설명 서클설명 설명설명 서클설명 설명설명 서클설명 설명설명 서클명설명 서클설명 설명설명 서클설명 설명설명 서클설명 설명설명 서클",
+    "membershipConditions": [
+      "랭크 최고점수 1600",
+      "매 시즌 랭크 1600 이상",
+      "철새 불가"
+    ],
     "circleMemberList": [
       {
         "circleCode": "1230213012",
