@@ -1,5 +1,5 @@
 <script setup>
-import { toRef, onMounted, onBeforeMount, watch } from "vue";
+import { toRef, onMounted, onBeforeMount, watch, computed } from "vue";
 import { storeToRefs } from "pinia";
 import { useMotionProperties, useMotionControls } from "@vueuse/motion";
 
@@ -16,6 +16,7 @@ const {
   isActiveUserInput,
   isOnlyShufflePokemon,
   selectedMode,
+  selectedBanPokemonInfo,
   userTags,
 } = storeToRefs(usePickStore());
 const { isMobile } = useDevice();
@@ -25,7 +26,8 @@ const router = useRouter();
 const versusVRef = toRef(null);
 const versusSRef = toRef(null);
 
-const isOpenModal = toRef(false);
+const isOpenUserInputModal = toRef(false);
+const isOpenBanPokemonModal = toRef(false);
 const isLoading = toRef(true);
 const selectedCardList = toRef([]);
 const selectedUsers = toRef([]);
@@ -36,6 +38,11 @@ const defaultArray = toRef([]);
 const unitePokemonList = toRef([...unitePokemonListJson]);
 const modalInputValue = toRef("");
 const originModalInputValue = toRef("");
+const banSearchInputValue = toRef("");
+const selectedBanCardNumber = toRef(0);
+const selectedFirstBanPokemonInfo = toRef({});
+const selectedSecondBanPokemonInfo = toRef({});
+const selectedThirdBanPokemonInfo = toRef({});
 const defaultCardList = toRef([
   {
     cardNumber: 0,
@@ -108,6 +115,17 @@ const defaultCardList = toRef([
     image: "",
   },
 ]);
+
+const filteredUnitePokemonList = computed(() => {
+  return banSearchInputValue.value === ""
+    ? unitePokemonListJson
+    : unitePokemonListJson.filter((unitePokemonInfo) =>
+        unitePokemonInfo.nameKo
+          .toLocaleLowerCase()
+          .trim()
+          .includes(banSearchInputValue.value.toLocaleLowerCase().trim())
+      );
+});
 
 // Object Properties
 const { motionProperties: vuersusVMotionProperties } =
@@ -280,7 +298,7 @@ const clickCardDeck = (cardInfo) => {
 
 // 픽된 카드 클릭 이벤트
 const clickCard = (cardIndex) => {
-  isOpenModal.value = true;
+  isOpenUserInputModal.value = true;
 
   modalInputValue.value = selectedUsers.value[cardIndex];
   originModalInputValue.value = selectedUsers.value[cardIndex];
@@ -306,14 +324,14 @@ const changeUser = () => {
   if (clickedCardTagIndex !== -1 && !isDuplicateUserName.value) {
     userTags.value = convertedUserTags;
     selectedUsers.value[clickedCardIndex.value] = modalInputValue.value;
-    isOpenModal.value = false;
+    isOpenUserInputModal.value = false;
   }
 };
 
 watch(
-  () => isOpenModal.value,
+  () => isOpenUserInputModal.value,
   () => {
-    if (isOpenModal.value === false) {
+    if (isOpenUserInputModal.value === false) {
       isDuplicateUserName.value = false;
     }
   }
@@ -336,6 +354,7 @@ onBeforeMount(() => {
 });
 </script>
 <template>
+  {{ selectedBanPokemonInfo[1] }}
   <div class="relative select-none" style="-webkit-user-drag: none">
     <div
       v-if="isActiveUserInput"
@@ -356,11 +375,99 @@ onBeforeMount(() => {
       <TagInput
         :tags="userTags"
         limit="10"
-        placeholder="Enter User"
+        placeholder="유저 입력 Enter ↵"
         @change-tags="tagInputHandler"
       ></TagInput>
     </div>
     <div class="relative min-h-screen flex justify-center items-center">
+      <div
+        class="absolute opacity-0"
+        v-motion
+        :initial="{
+          opacity: 0,
+          x: 650,
+          y: -200,
+        }"
+        :enter="{
+          opacity: 1,
+          x: 650,
+          y: -200,
+          transition: {
+            damping: 15,
+            mass: 0.1,
+          },
+        }"
+      >
+        <div class="w-[100%] text-center font-bold text-gray-400 font-sans">
+          <small>금지 포켓몬 </small>
+        </div>
+        <div class="w-[100%] border rounded mt-1 mb-3"></div>
+        <div class="flex justify-between">
+          <div
+            class="relative me-2 w-[50px] h-[56px]"
+            @click="
+              () => {
+                selectedBanCardNumber = 1;
+                isOpenBanPokemonModal = true;
+              }
+            "
+          >
+            <PokemonCard
+              class="w-[100%] h-[100%] rounded border shadow-md shadow-gray-400 mb-2 cursor-pointer hover:scale-[1.1] hover:shadow-lg transition ease-in-out duration-200 bg-zinc-100"
+              :style="{
+                backgroundColor: selectedBanPokemonInfo[1].color,
+              }"
+            >
+              <NuxtImg
+                class="rounded pattern"
+                :src="selectedBanPokemonInfo[1].image"
+              ></NuxtImg>
+            </PokemonCard>
+          </div>
+          <div
+            class="relative me-2 w-[50px] h-[56px]"
+            @click="
+              () => {
+                selectedBanCardNumber = 2;
+                isOpenBanPokemonModal = true;
+              }
+            "
+          >
+            <PokemonCard
+              class="w-[100%] h-[100%] rounded border shadow-md shadow-gray-400 mb-2 cursor-pointer hover:scale-[1.1] hover:shadow-lg transition ease-in-out duration-200 bg-zinc-100"
+              :style="{
+                backgroundColor: selectedBanPokemonInfo[2].color,
+              }"
+            >
+              <NuxtImg
+                class="rounded pattern"
+                :src="selectedBanPokemonInfo[2].image"
+              ></NuxtImg>
+            </PokemonCard>
+          </div>
+          <div
+            class="relative w-[50px] h-[56px]"
+            @click="
+              () => {
+                selectedBanCardNumber = 3;
+                isOpenBanPokemonModal = true;
+              }
+            "
+          >
+            <PokemonCard
+              class="w-[100%] h-[100%] rounded border shadow-md shadow-gray-400 mb-2 cursor-pointer hover:scale-[1.1] hover:shadow-lg transition ease-in-out duration-200 bg-zinc-100"
+              :style="{
+                backgroundColor: selectedBanPokemonInfo[3].color,
+              }"
+            >
+              <NuxtImg
+                class="rounded pattern"
+                :src="selectedBanPokemonInfo[3].image"
+              ></NuxtImg>
+            </PokemonCard>
+          </div>
+        </div>
+      </div>
       <!--  카드 덱 영역 -->
       <div
         v-for="(cardInfo, index) in defaultArray"
@@ -584,10 +691,10 @@ onBeforeMount(() => {
                 <div class="relative">
                   <div class="px-4 py-2 flex flex-col">
                     <small class="truncate me-14 mb-2 opacity-[0.4]"
-                      >Position Mode</small
+                      >타입 선택</small
                     >
                     <div class="flex flex-wrap justify-start">
-                      <UTooltip text="Default">
+                      <UTooltip text="전체">
                         <UButton
                           class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
                           :class="
@@ -602,7 +709,7 @@ onBeforeMount(() => {
                           ><div class="text-[#7e7e7e] mb-1">●</div></UButton
                         >
                       </UTooltip>
-                      <UTooltip text="Attack">
+                      <UTooltip text="어택">
                         <UButton
                           class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
                           :class="
@@ -617,7 +724,7 @@ onBeforeMount(() => {
                           ><div class="text-[#f15438] mb-1">●</div></UButton
                         >
                       </UTooltip>
-                      <UTooltip text="Support">
+                      <UTooltip text="서포트">
                         <UButton
                           class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
                           :class="
@@ -632,7 +739,7 @@ onBeforeMount(() => {
                           ><div class="text-[#fecc51] mb-1">●</div></UButton
                         >
                       </UTooltip>
-                      <UTooltip text="Balance">
+                      <UTooltip text="벨런스">
                         <UButton
                           class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
                           :class="
@@ -647,7 +754,7 @@ onBeforeMount(() => {
                           ><div class="text-[#ce5fd3] mb-1">●</div></UButton
                         >
                       </UTooltip>
-                      <UTooltip text="Speed">
+                      <UTooltip text="스피드">
                         <UButton
                           class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
                           :class="
@@ -662,7 +769,7 @@ onBeforeMount(() => {
                           ><div class="text-[#29a5e3] mb-1">●</div></UButton
                         >
                       </UTooltip>
-                      <UTooltip text="Defence">
+                      <UTooltip text="디펜스">
                         <UButton
                           class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
                           :class="
@@ -681,17 +788,17 @@ onBeforeMount(() => {
                   </div>
                   <div class="px-4 py-2 flex flex-col">
                     <small class="truncate me-14 mb-2 opacity-[0.4]"
-                      >Other</small
+                      >기타</small
                     >
                     <!-- <Placeholder class="h-20 w-48" /> -->
-                    <div class="flex flex-wrap justify-start w-[180px]">
+                    <div class="flex flex-col justify-start w-[180px]">
                       <UCheckbox
                         v-model="isBanEx"
                         class="mb-1"
                         :disabled="isLoading"
                         color="yellow"
                         name="isEx"
-                        label="Ban EX"
+                        label="전설 금지"
                         @change="resetCardDeck"
                       />
                       <UCheckbox
@@ -700,7 +807,7 @@ onBeforeMount(() => {
                         :disabled="isLoading"
                         color="yellow"
                         name="isDuplicated"
-                        label="Duplicate Pokemon"
+                        label="중복 허용"
                         @change="resetCardDeck"
                       />
                       <UCheckbox
@@ -709,7 +816,7 @@ onBeforeMount(() => {
                         :disabled="isLoading"
                         color="yellow"
                         name="isActiveInput"
-                        label="Show User"
+                        label="유저 입력"
                         @change="resetCardDeck"
                       />
                       <UCheckbox
@@ -717,7 +824,7 @@ onBeforeMount(() => {
                         :disabled="isLoading"
                         color="yellow"
                         name="isOnlyShufflePokemon"
-                        label="Only Shuffle Pokemon"
+                        label="포켓몬만 랜덤"
                         @change="resetCardDeck"
                       />
                     </div>
@@ -758,8 +865,8 @@ onBeforeMount(() => {
       </div>
     </div>
     <!-- TODO: 포켓먼 클릭에 의한 모달 영역 -->
-    <div v-if="isOpenModal">
-      <UModal v-model="isOpenModal">
+    <div v-if="isOpenUserInputModal">
+      <UModal v-model="isOpenUserInputModal">
         <div class="p-4">
           <div class="mb-3">
             <UFormGroup label="User Name" :error="isDuplicateUserName">
@@ -796,7 +903,7 @@ onBeforeMount(() => {
               <UButton
                 class=""
                 color="white"
-                @click="() => (isOpenModal = false)"
+                @click="() => (isOpenUserInputModal = false)"
                 >Cancel</UButton
               >
             </div>
@@ -805,6 +912,68 @@ onBeforeMount(() => {
       </UModal>
     </div>
   </div>
+
+  <!-- 벤 modal 창  -->
+  <UModal v-model="isOpenBanPokemonModal" fullscreen>
+    <UCard
+      :ui="{
+        base: 'h-full flex flex-col',
+        rounded: '',
+        divide: 'divide-y divide-gray-100 dark:divide-gray-800',
+        body: {
+          base: 'grow',
+        },
+      }"
+    >
+      <template #header>
+        <div class="flex items-center justify-between mb-3">
+          <h3
+            class="text-base font-semibold leading-6 text-gray-900 dark:text-white"
+          >
+            <UInput
+              v-model="banSearchInputValue"
+              icon="i-heroicons-magnifying-glass-20-solid"
+              color="yellow"
+              class="w-[300px]"
+            />
+          </h3>
+          <UButton
+            color="yellow"
+            variant="ghost"
+            icon="i-heroicons-x-mark-20-solid"
+            class="my-1"
+            @click="isOpenBanPokemonModal = false"
+          />
+        </div>
+        <div class="flex flex-wrap">
+          <TransitionGroup name="list">
+            <div
+              v-for="(unitePokemonInfo, index) in filteredUnitePokemonList"
+              :key="index"
+            >
+              <PokemonCard
+                class="w-[100px] rounded shadow-md shadow-gray-400 me-2 mb-2 cursor-pointer hover:scale-[1.1] hover:shadow-lg transition ease-in-out duration-200"
+                :style="{ backgroundColor: unitePokemonInfo.color }"
+                @click="
+                  () => {
+                    selectedBanPokemonInfo[selectedBanCardNumber] =
+                      unitePokemonInfo;
+
+                    isOpenBanPokemonModal = false;
+                  }
+                "
+              >
+                <NuxtImg
+                  class="rounded pattern"
+                  :src="unitePokemonInfo.image"
+                ></NuxtImg>
+              </PokemonCard>
+            </div>
+          </TransitionGroup>
+        </div>
+      </template>
+    </UCard>
+  </UModal>
 </template>
 
 <style>
@@ -831,5 +1000,15 @@ onBeforeMount(() => {
   background-position:
     center,
     left top;
+}
+.diagonal {
+  background-image: linear-gradient(
+    to left bottom,
+    transparent calc(50% - 1px),
+    #d60000,
+    transparent calc(50% + 1px)
+  );
+  background-size: 120% 120%;
+  background-position: center;
 }
 </style>
