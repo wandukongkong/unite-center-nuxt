@@ -216,9 +216,7 @@ onMounted(() => {
                   <div
                     v-for="(
                       pokemonInfo, pokemonListIndex
-                    ) in groupedPokemonInfo.pokemonList.sort((a, b) =>
-                      a?.position > b?.position ? 1 : -1
-                    )"
+                    ) in groupedPokemonInfo.pokemonList"
                     :key="pokemonListIndex"
                     class="m-2"
                   >
