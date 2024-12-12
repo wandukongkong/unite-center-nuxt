@@ -118,9 +118,10 @@ onMounted(() => {
 <template>
   <div class="flex h-[100vh]" :class="isMobile ? 'pt-10' : 'ps-20'">
     <div v-if="!isMobile" class="flex flex-col">
-      <img
+      <NuxtImg
         ref="pokemonImage"
         :src="selectedPokemonInfo.image"
+        placeholder="/img/unitePokemon/roster-default-2x.png"
         class="rounded shadow-md m-3"
         width="200"
         style="object-fit: contain"

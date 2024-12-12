@@ -13452,5 +13452,26 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Tinkaton",
+    "nameKo": "두드리짱",
+    "image": "/img/unitePokemon/tinkaton/roster-tinkaton-2x.png",
+    "color": "#ce5fd3",
+    "position": "balance",
+    "isEx": false,
+    "skillList": [],
+    "updatedList": [
+      {
+        "updatedDate": "2024-12-12",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "출시",
+            "updatedName": "Release",
+            "updatedContents": [""]
+          }
+        ]
+      }
+    ]
   }
 ]
