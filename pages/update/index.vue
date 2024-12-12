@@ -216,7 +216,9 @@ onMounted(() => {
                   <div
                     v-for="(
                       pokemonInfo, pokemonListIndex
-                    ) in groupedPokemonInfo.pokemonList"
+                    ) in groupedPokemonInfo.pokemonList.sort((a, b) =>
+                      a?.position > b?.position ? 1 : -1
+                    )"
                     :key="pokemonListIndex"
                     class="m-2"
                   >
@@ -225,9 +227,11 @@ onMounted(() => {
                       @click="() => clickPokemonCard(pokemonInfo)"
                     >
                       <NuxtImg
+                        :title="pokemonInfo?.nameKo"
                         :src="pokemonInfo.image"
                         class="rounded pattern ease-out w-[100%] duration-200"
                         placeholder-class="custom-test"
+                        placeholder="/img/unitePokemon/roster-default-2x.png"
                         style="-webkit-user-drag: none"
                         :style="{ backgroundColor: pokemonInfo.color }"
                       />
