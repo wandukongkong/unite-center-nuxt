@@ -251,6 +251,7 @@ const resetCardDeck = () => {
       cardNumber: index,
       position: defaultCardList.value[index]?.position,
       name: unitePokemonInfo.name,
+      nameKo: unitePokemonInfo.nameKo,
       color: unitePokemonInfo.color,
       image: unitePokemonInfo.image,
     })
@@ -470,6 +471,8 @@ onBeforeMount(() => {
         >
           <NuxtImg
             :src="cardInfo.image"
+            placeholder="/img/unitePokemon/roster-default-2x.png"
+            :title="cardInfo.nameKo"
             class="rounded pattern w-[100%] h-[100%]"
             style="-webkit-user-drag: none"
             :style="{ backgroundColor: cardInfo.color }"
@@ -528,6 +531,8 @@ onBeforeMount(() => {
         >
           <NuxtImg
             :src="cardInfo.image"
+            placeholder="/img/unitePokemon/roster-default-2x.png"
+            :title="cardInfo.nameKo"
             class="rounded pattern w-[100%] h-[100%]"
             style="-webkit-user-drag: none"
             :style="{ backgroundColor: cardInfo.color }"

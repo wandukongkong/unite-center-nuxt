@@ -233,6 +233,34 @@ onMounted(() => {
                         style="-webkit-user-drag: none"
                         :style="{ backgroundColor: pokemonInfo.color }"
                       />
+                      <div
+                        class="absolute top-0 w-[100%] flex justify-end mt-2"
+                      >
+                        <div
+                          v-for="(state, index) in pokemonInfo.updatedList.find(
+                            (updateInfo) =>
+                              updateInfo.updatedDate ===
+                              groupedPokemonInfo.updatedDate
+                          )?.updateStates || []"
+                          :key="index"
+                        >
+                          <NuxtImg
+                            v-if="state === 'buff'"
+                            src="/img/icon/up-arrow.png"
+                            class="h-4 mb-2 me-1"
+                          ></NuxtImg>
+                          <NuxtImg
+                            v-if="state === 'nurf'"
+                            src="/img/icon/down-arrow.png"
+                            class="h-4 mb-2 me-1"
+                          ></NuxtImg>
+                          <NuxtImg
+                            v-if="state === 'adjust'"
+                            src="/img/icon/adjust.png"
+                            class="h-3 mb-2 me-1"
+                          ></NuxtImg>
+                        </div>
+                      </div>
                     </PokemonCard>
                   </div>
                 </TransitionGroup>
