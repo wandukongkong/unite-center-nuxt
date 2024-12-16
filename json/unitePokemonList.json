@@ -13471,6 +13471,60 @@
             "updatedContents": [""]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-12-16",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
+            "updatedContents": ["HP：3250~8200 → 3250~8400 (레벨 1~15)"]
+          },
+          {
+            "updatedNameKo": "거대해머",
+            "updatedName": "",
+            "updatedContents": [
+              "대기 시간: 7s → 6s",
+              "날려버리는 시간: 0.5초/0.75초/1초 → 0.5초/1초/1.5초(모으는 시간에 따라)"
+            ]
+          },
+          {
+            "updatedNameKo": "거대해머+",
+            "updatedName": "",
+            "updatedContents": ["대기 시간: 5.5s → 5s"]
+          },
+          {
+            "updatedNameKo": "아이스해머",
+            "updatedName": "",
+            "updatedContents": [
+              "기술을 사용한 뒤에 움직일 수 있을 때까지 걸리는 시간이 줄었습니다.",
+              "대기 시간: 6.5초 → 5초",
+              "감속 효과: 30% → 50%",
+              "공격과 특수방어를 떨어뜨리는 효과: 15% → 30%"
+            ]
+          },
+          {
+            "updatedNameKo": "아이스해머+",
+            "updatedName": "",
+            "updatedContents": ["공격과 특수방어를 떨어뜨리는 효과: 30% → 50%"]
+          },
+          {
+            "updatedNameKo": "떨어뜨리기",
+            "updatedName": "",
+            "updatedContents": ["대기 시간: 8초 → 6초", "데미지: 20% 증가"]
+          },
+          {
+            "updatedNameKo": "떨어뜨리기+",
+            "updatedName": "",
+            "updatedContents": ["대기 시간: 6.5초 → 5초"]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 완전러블리♡콰앙!",
+            "updatedName": "",
+            "updatedContents": ["필요한 에너지 양: 20% 감소"]
+          }
+        ]
       }
     ]
   }
