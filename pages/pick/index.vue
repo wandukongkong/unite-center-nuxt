@@ -15,6 +15,7 @@ const {
   isDuplicatedPokemon,
   isActiveUserInput,
   isOnlyShufflePokemon,
+  isBanGlobal,
   selectedMode,
   selectedBanPokemonInfo,
   userTags,
@@ -199,6 +200,17 @@ const resetCardDeck = () => {
   applyVersusVMotion("leave");
   applyVersusSMotion("leave");
 
+  // Ban 체크
+  if (isBanGlobal.value) {
+    unitePokemonListClone = unitePokemonListClone.filter((unitePokemonInfo) => {
+      const banPokemonNamese = Object.keys(selectedBanPokemonInfo.value).map(
+        (key) => selectedBanPokemonInfo.value?.[key]?.name || ""
+      );
+
+      return !banPokemonNamese.includes(unitePokemonInfo.name);
+    });
+  }
+
   // 포켓몬 포지션 체크
   unitePokemonListClone = unitePokemonListClone
     .filter(
@@ -354,7 +366,6 @@ onBeforeMount(() => {
 });
 </script>
 <template>
-  {{ selectedBanPokemonInfo[1] }}
   <div class="relative select-none" style="-webkit-user-drag: none">
     <div
       v-if="isActiveUserInput"
@@ -371,7 +382,6 @@ onBeforeMount(() => {
         opacity: 1,
       }"
     >
-      <!-- TODO: -->
       <TagInput
         :tags="userTags"
         limit="10"
@@ -381,18 +391,20 @@ onBeforeMount(() => {
     </div>
     <div class="relative min-h-screen flex justify-center items-center">
       <div
+        v-if="isBanGlobal"
         class="absolute opacity-0"
         v-motion
         :initial="{
           opacity: 0,
           x: 650,
-          y: -200,
+          y: -190,
         }"
         :enter="{
-          opacity: 1,
+          opacity: isBanGlobal ? 1 : 0,
           x: 650,
-          y: -200,
+          y: -180,
           transition: {
+            delay: 1900,
             damping: 15,
             mass: 0.1,
           },
@@ -421,6 +433,7 @@ onBeforeMount(() => {
               <NuxtImg
                 class="rounded pattern"
                 :src="selectedBanPokemonInfo[1].image"
+                placeholder="/img/unitePokemon/roster-default-2x.png"
               ></NuxtImg>
             </PokemonCard>
           </div>
@@ -442,6 +455,7 @@ onBeforeMount(() => {
               <NuxtImg
                 class="rounded pattern"
                 :src="selectedBanPokemonInfo[2].image"
+                placeholder="/img/unitePokemon/roster-default-2x.png"
               ></NuxtImg>
             </PokemonCard>
           </div>
@@ -463,6 +477,7 @@ onBeforeMount(() => {
               <NuxtImg
                 class="rounded pattern"
                 :src="selectedBanPokemonInfo[3].image"
+                placeholder="/img/unitePokemon/roster-default-2x.png"
               ></NuxtImg>
             </PokemonCard>
           </div>
@@ -545,7 +560,6 @@ onBeforeMount(() => {
           x: cardInfo?.position[0] ?? 0,
           y: cardInfo?.position[1] ?? 0,
           style: {
-            // transition: rotateY('150deg'),
             paddingTop: 50,
           },
           transition: {
@@ -821,10 +835,19 @@ onBeforeMount(() => {
                       />
                       <UCheckbox
                         v-model="isOnlyShufflePokemon"
+                        class="mb-1"
                         :disabled="isLoading"
                         color="yellow"
                         name="isOnlyShufflePokemon"
                         label="포켓몬만 랜덤"
+                        @change="resetCardDeck"
+                      />
+                      <UCheckbox
+                        v-model="isBanGlobal"
+                        :disabled="isLoading"
+                        color="yellow"
+                        name="isOnlyShufflePokemon"
+                        label="금지 포켓몬 사용"
                         @change="resetCardDeck"
                       />
                     </div>
@@ -956,10 +979,13 @@ onBeforeMount(() => {
                 :style="{ backgroundColor: unitePokemonInfo.color }"
                 @click="
                   () => {
-                    selectedBanPokemonInfo[selectedBanCardNumber] =
-                      unitePokemonInfo;
+                    if (!isLoading) {
+                      selectedBanPokemonInfo[selectedBanCardNumber] =
+                        unitePokemonInfo;
 
-                    isOpenBanPokemonModal = false;
+                      isOpenBanPokemonModal = false;
+                      resetCardDeck();
+                    }
                   }
                 "
               >
