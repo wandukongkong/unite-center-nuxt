@@ -32,6 +32,18 @@ html {
   filter: blur(1rem);
 }
 
+.list-enter-active {
+  transition: all 0.2s ease;
+}
+.list-leave-active {
+  opacity: 0;
+}
+.list-enter-from,
+.list-leave-to {
+  opacity: 0;
+  /* transform: translateY(10px); */
+}
+
 .bounce-enter-active {
   animation: bounce-in 0.5s;
 }
