@@ -426,6 +426,7 @@ onBeforeMount(() => {
             "
           >
             <PokemonCard
+              v-if="selectedBanPokemonInfo[1].image"
               class="w-[100%] h-[100%] rounded border shadow-md shadow-gray-400 mb-2 cursor-pointer hover:scale-[1.1] hover:shadow-lg transition ease-in-out duration-200 bg-zinc-100"
               :style="{
                 backgroundColor: selectedBanPokemonInfo[1].color,
@@ -437,6 +438,12 @@ onBeforeMount(() => {
                 placeholder="/img/unitePokemon/roster-default-2x.png"
               ></NuxtImg>
             </PokemonCard>
+            <button
+              v-else
+              class="w-[100%] h-[100%] text-zinc-600 shadow-md rounded shadow-gray-400 mb-2 cursor-pointer hover:scale-[1.1] hover:shadow-lg transition ease-in-out duration-200"
+            >
+              <UIcon name="i-heroicons-plus-16-solid" class="w-5 h-5" />
+            </button>
           </div>
           <div
             class="relative me-2 w-[50px] h-[56px]"
@@ -448,6 +455,7 @@ onBeforeMount(() => {
             "
           >
             <PokemonCard
+              v-if="selectedBanPokemonInfo[2].image"
               class="w-[100%] h-[100%] rounded border shadow-md shadow-gray-400 mb-2 cursor-pointer hover:scale-[1.1] hover:shadow-lg transition ease-in-out duration-200 bg-zinc-100"
               :style="{
                 backgroundColor: selectedBanPokemonInfo[2].color,
@@ -459,6 +467,12 @@ onBeforeMount(() => {
                 placeholder="/img/unitePokemon/roster-default-2x.png"
               ></NuxtImg>
             </PokemonCard>
+            <button
+              v-else
+              class="w-[100%] h-[100%] text-zinc-600 shadow-md rounded shadow-gray-400 mb-2 cursor-pointer hover:scale-[1.1] hover:shadow-lg transition ease-in-out duration-200"
+            >
+              <UIcon name="i-heroicons-plus-16-solid" class="w-5 h-5" />
+            </button>
           </div>
           <div
             class="relative w-[50px] h-[56px]"
@@ -470,6 +484,7 @@ onBeforeMount(() => {
             "
           >
             <PokemonCard
+              v-if="selectedBanPokemonInfo[3].image"
               class="w-[100%] h-[100%] rounded border shadow-md shadow-gray-400 mb-2 cursor-pointer hover:scale-[1.1] hover:shadow-lg transition ease-in-out duration-200 bg-zinc-100"
               :style="{
                 backgroundColor: selectedBanPokemonInfo[3].color,
@@ -481,6 +496,12 @@ onBeforeMount(() => {
                 placeholder="/img/unitePokemon/roster-default-2x.png"
               ></NuxtImg>
             </PokemonCard>
+            <button
+              v-else
+              class="w-[100%] h-[100%] text-zinc-600 shadow-md rounded shadow-gray-400 mb-2 cursor-pointer hover:scale-[1.1] hover:shadow-lg transition ease-in-out duration-200"
+            >
+              <UIcon name="i-heroicons-plus-16-solid" class="w-5 h-5" />
+            </button>
           </div>
         </div>
       </div>
@@ -892,7 +913,7 @@ onBeforeMount(() => {
         />
       </div>
     </div>
-    <!-- TODO: 포켓먼 클릭에 의한 모달 영역 -->
+    <!-- 포켓먼 클릭에 의한 모달 영역 -->
     <div v-if="isOpenUserInputModal">
       <UModal v-model="isOpenUserInputModal">
         <div class="p-4">
@@ -975,6 +996,24 @@ onBeforeMount(() => {
         </div>
         <div class="flex flex-wrap">
           <TransitionGroup name="list">
+            <PokemonCard
+              class="w-[100px] rounded shadow-sm shadow-gray-400 me-2 mb-2 cursor-pointer hover:scale-[1.1] hover:shadow-lg transition ease-in-out duration-200"
+              @click="
+                () => {
+                  if (!isLoading) {
+                    selectedBanPokemonInfo[selectedBanCardNumber] = {};
+
+                    isOpenBanPokemonModal = false;
+                    resetCardDeck();
+                  }
+                }
+              "
+            >
+              <NuxtImg
+                class="rounded pattern"
+                src="/img/unitePokemon/roster-default-2x.png"
+              ></NuxtImg>
+            </PokemonCard>
             <div
               v-for="(unitePokemonInfo, index) in filteredUnitePokemonList"
               :key="index"
