@@ -960,72 +960,46 @@ onBeforeMount(() => {
         </div>
       </UModal>
     </div>
-  </div>
-
-  <!-- 벤 modal 창  -->
-  <UModal v-model="isOpenBanPokemonModal" fullscreen>
-    <UCard
-      :ui="{
-        base: 'h-full flex flex-col',
-        rounded: '',
-        divide: 'divide-y divide-gray-100 dark:divide-gray-800',
-        body: {
-          base: 'grow',
-        },
-      }"
-    >
-      <template #header>
-        <div class="flex items-center justify-between mb-3">
-          <h3
-            class="text-base font-semibold leading-6 text-gray-900 dark:text-white"
-          >
-            <UInput
-              v-model="banSearchInputValue"
-              icon="i-heroicons-magnifying-glass-20-solid"
+    <!-- 벤 modal 창  -->
+    <UModal v-model="isOpenBanPokemonModal" fullscreen>
+      <UCard
+        :ui="{
+          base: 'h-full flex flex-col',
+          rounded: '',
+          divide: 'divide-y divide-gray-100 dark:divide-gray-800',
+          body: {
+            base: 'grow',
+          },
+        }"
+      >
+        <template #header>
+          <div class="flex items-center justify-between mb-3">
+            <h3
+              class="text-base font-semibold leading-6 text-gray-900 dark:text-white"
+            >
+              <UInput
+                v-model="banSearchInputValue"
+                icon="i-heroicons-magnifying-glass-20-solid"
+                color="yellow"
+                class="w-[300px]"
+              />
+            </h3>
+            <UButton
               color="yellow"
-              class="w-[300px]"
+              variant="ghost"
+              icon="i-heroicons-x-mark-20-solid"
+              class="my-1"
+              @click="isOpenBanPokemonModal = false"
             />
-          </h3>
-          <UButton
-            color="yellow"
-            variant="ghost"
-            icon="i-heroicons-x-mark-20-solid"
-            class="my-1"
-            @click="isOpenBanPokemonModal = false"
-          />
-        </div>
-        <div class="flex flex-wrap">
-          <TransitionGroup name="list">
-            <PokemonCard
-              class="w-[100px] rounded shadow-sm shadow-gray-400 me-2 mb-2 cursor-pointer hover:scale-[1.1] hover:shadow-lg transition ease-in-out duration-200"
-              @click="
-                () => {
-                  if (!isLoading) {
-                    selectedBanPokemonInfo[selectedBanCardNumber] = {};
-
-                    isOpenBanPokemonModal = false;
-                    resetCardDeck();
-                  }
-                }
-              "
-            >
-              <NuxtImg
-                class="rounded pattern"
-                src="/img/unitePokemon/roster-default-2x.png"
-              ></NuxtImg>
-            </PokemonCard>
-            <div
-              v-for="(unitePokemonInfo, index) in filteredUnitePokemonList"
-              :key="index"
-            >
+          </div>
+          <div class="flex flex-wrap">
+            <TransitionGroup name="list">
               <PokemonCard
-                class="w-[100px] rounded shadow-md shadow-gray-400 me-2 mb-2 cursor-pointer hover:scale-[1.1] hover:shadow-lg transition ease-in-out duration-200"
-                :style="{ backgroundColor: unitePokemonInfo.color }"
+                class="w-[100px] rounded shadow-sm shadow-gray-400 me-2 mb-2 cursor-pointer hover:scale-[1.1] hover:shadow-lg transition ease-in-out duration-200"
                 @click="
                   () => {
                     if (!isLoading) {
-                      selectedBanPokemonInfo[selectedBanCardNumber] =
-                        unitePokemonInfo;
+                      selectedBanPokemonInfo[selectedBanCardNumber] = {};
 
                       isOpenBanPokemonModal = false;
                       resetCardDeck();
@@ -1035,15 +1009,40 @@ onBeforeMount(() => {
               >
                 <NuxtImg
                   class="rounded pattern"
-                  :src="unitePokemonInfo.image"
+                  src="/img/unitePokemon/roster-default-2x.png"
                 ></NuxtImg>
               </PokemonCard>
-            </div>
-          </TransitionGroup>
-        </div>
-      </template>
-    </UCard>
-  </UModal>
+              <div
+                v-for="(unitePokemonInfo, index) in filteredUnitePokemonList"
+                :key="index"
+              >
+                <PokemonCard
+                  class="w-[100px] rounded shadow-md shadow-gray-400 me-2 mb-2 cursor-pointer hover:scale-[1.1] hover:shadow-lg transition ease-in-out duration-200"
+                  :style="{ backgroundColor: unitePokemonInfo.color }"
+                  @click="
+                    () => {
+                      if (!isLoading) {
+                        selectedBanPokemonInfo[selectedBanCardNumber] =
+                          unitePokemonInfo;
+
+                        isOpenBanPokemonModal = false;
+                        resetCardDeck();
+                      }
+                    }
+                  "
+                >
+                  <NuxtImg
+                    class="rounded pattern"
+                    :src="unitePokemonInfo.image"
+                  ></NuxtImg>
+                </PokemonCard>
+              </div>
+            </TransitionGroup>
+          </div>
+        </template>
+      </UCard>
+    </UModal>
+  </div>
 </template>
 
 <style>
