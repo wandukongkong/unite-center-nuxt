@@ -241,6 +241,19 @@
             "updatedContents": ["칼날로 주는 데미지: 50% 증가"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "따라가때리기",
+            "updatedContents": ["대기 시간: 5s → 5.5s"]
+          },
+          {
+            "updatedNameKo": "따라가때리기+",
+            "updatedContents": ["대기 시간: 5s → 5.5s"]
+          }
+        ]
       }
     ]
   },
@@ -1284,6 +1297,27 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "떨어뜨리기",
+            "updatedContents": ["범위 데미지: 20% 증가"]
+          },
+          {
+            "updatedNameKo": "떨어뜨리기+",
+            "updatedContents": ["범위 데미지: 20% 증가"]
+          },
+          {
+            "updatedNameKo": "덤벼들기",
+            "updatedContents": ["공격 저하 지속 시간: 2s → 2.5s"]
+          },
+          {
+            "updatedNameKo": "덤벼들기+",
+            "updatedContents": ["공격 저하 지속 시간: 2s → 2.5s"]
+          }
+        ]
       }
     ]
   },
@@ -1866,6 +1900,27 @@
             "updatedContents": ["대기 시간: 5초 → 4초"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "날따름",
+            "updatedContents": ["방해 시간: 1.5s → 2"]
+          },
+          {
+            "updatedNameKo": "날따름+",
+            "updatedContents": ["방해 시간: 1.5s → 2"]
+          },
+          {
+            "updatedNameKo": "중력",
+            "updatedContents": ["대기 시간: 9s → 8s"]
+          },
+          {
+            "updatedNameKo": "중력+",
+            "updatedContents": ["대기 시간: 9s → 8s"]
+          }
+        ]
       }
     ]
   },
@@ -2307,6 +2362,15 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "파도타기+",
+            "updatedContents": ["이동 속도 저하 지속 시간: 2s → 3s"]
+          }
+        ]
       }
     ]
   },
@@ -2468,6 +2532,39 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "암석봉인",
+            "updatedContents": ["대기 시간: 5s → 5.5s"]
+          },
+          {
+            "updatedNameKo": "암석봉인+",
+            "updatedContents": ["대기 시간: 5s → 5.5s"]
+          },
+          {
+            "updatedNameKo": "스텔스록",
+            "updatedContents": ["대기 시간: 5s → 5.5s", "대미지: 8% 감소"]
+          },
+          {
+            "updatedNameKo": "스텔스록+",
+            "updatedContents": ["대기 시간: 5s → 5.5s", "대미지: 8% 감소"]
+          },
+          {
+            "updatedNameKo": "시저크로스",
+            "updatedContents": ["대기 시간: 6s → 6.5s"]
+          },
+          {
+            "updatedNameKo": "시저크로스+",
+            "updatedContents": ["대기 시간: 6s → 6.5s"]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 쇄석선풍루",
+            "updatedContents": ["필요 에너지량: 20% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -2609,6 +2706,18 @@
             "updatedNameKo": "나뭇잎",
             "updatedContents": [
               "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "방어: 50 ~ 250 → 50 ~ 270 (레벨 1-15)",
+              "특방: 30 ~ 150 → 30 ~ 230 (레벨 1-15)"
             ]
           }
         ]
@@ -2824,6 +2933,19 @@
             "updatedContents": ["대기 시간: 7.5초 → 6.5초"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": ["특방:27 ~ 139 → 27 ~ 225 (레벨 1-15)"]
+          },
+          {
+            "updatedNameKo": "니트로차지+",
+            "updatedContents": ["이동 속도 상승의 지속 시간: 1s → 1.5s"]
+          }
+        ]
       }
     ]
   },
@@ -2947,6 +3069,27 @@
           {
             "updatedNameKo": "트라이어택",
             "updatedContents": ["데미지: 12% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "고속이동",
+            "updatedContents": ["대기 시간: 11s → 9s"]
+          },
+          {
+            "updatedNameKo": "고속이동+",
+            "updatedContents": ["대기 시간: 11s → 9s"]
+          },
+          {
+            "updatedNameKo": "회전부리",
+            "updatedContents": ["데미지 : 6% 증가"]
+          },
+          {
+            "updatedNameKo": "회전부리+",
+            "updatedContents": ["데미지 : 6% 증가"]
           }
         ]
       }
@@ -3300,6 +3443,27 @@
               "광선의 데미지: 30% 증가",
               "불꽃 궤적의 지속 데미지: 50% 감소"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "러스터캐논",
+            "updatedContents": ["강화 공격의 이동 속도 저하: 80% → 60%"]
+          },
+          {
+            "updatedNameKo": "러스터캐논+",
+            "updatedContents": ["강화 공격의 이동 속도 저하: 80% → 60%"]
+          },
+          {
+            "updatedNameKo": "스텔스록",
+            "updatedContents": ["사용 횟수 회복 시간: 8s → 8.5s"]
+          },
+          {
+            "updatedNameKo": "스텔스록+",
+            "updatedContents": ["사용 횟수 회복 시간: 8s → 8.5s"]
           }
         ]
       }
@@ -3869,6 +4033,31 @@
           {
             "updatedNameKo": "드래곤다이브+",
             "updatedContents": ["대기 시간: 5초 → 4초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": ["공격 속도: 0 ~ 7.5% 감소 (레벨 1-15)"]
+          },
+          {
+            "updatedNameKo": "지진",
+            "updatedContents": ["대미지 : 5% 감소"]
+          },
+          {
+            "updatedNameKo": "지진+",
+            "updatedContents": ["대미지 : 5% 감소", "이동 속도 저하: 40% → 20%"]
+          },
+          {
+            "updatedNameKo": "드래곤다이브",
+            "updatedContents": ["대기 시간: 5s → 5.5s"]
+          },
+          {
+            "updatedNameKo": "드래곤다이브+",
+            "updatedContents": ["대기 시간: 5s → 5.5s"]
           }
         ]
       }
@@ -5941,6 +6130,23 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "폭발펀치+",
+            "updatedContents": ["공격 상승률: 20% → 12%"]
+          },
+          {
+            "updatedNameKo": "지옥의바퀴",
+            "updatedContents": ["공격속도 상승: 50% → 40%"]
+          },
+          {
+            "updatedNameKo": "지옥의바퀴+",
+            "updatedContents": ["공격속도 상승: 50% → 40%"]
+          }
+        ]
       }
     ]
   },
@@ -6605,6 +6811,19 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "사이코키네시스",
+            "updatedContents": ["대기 시간: 6s → 6.5s"]
+          },
+          {
+            "updatedNameKo": "사이코키네시스+",
+            "updatedContents": ["대기 시간: 6s → 6.5s"]
+          }
+        ]
       }
     ]
   },
@@ -7223,6 +7442,15 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "야습",
+            "updatedContents": ["대기 시간: 13s → 12s"]
+          }
+        ]
       }
     ]
   },
@@ -7376,6 +7604,19 @@
           {
             "updatedNameKo": "칼춤(핫삼)",
             "updatedContents": ["대기 시간: 7초 → 8.5초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "더블윙",
+            "updatedContents": ["HP 회복량: 15% 증가"]
+          },
+          {
+            "updatedNameKo": "더블윙+",
+            "updatedContents": ["HP 회복량: 15% 증가"]
           }
         ]
       }
@@ -8196,6 +8437,36 @@
             "updatedContents": ["지정한 포켓몬에게 명중되도록 변경되었습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
+            "updatedContents": ["특방：38 ~ 190 → 38 ~ 240 (레벨 1-15)"]
+          },
+          {
+            "updatedNameKo": "드레인키스",
+            "updatedName": "Draining Kiss",
+            "updatedContents": ["HP 회복 효과 : 8% 감소"]
+          },
+          {
+            "updatedNameKo": "드레인키스+",
+            "updatedName": "Draining Kiss",
+            "updatedContents": ["HP 회복 효과 : 8% 감소"]
+          },
+          {
+            "updatedNameKo": "매지컬플레임",
+            "updatedName": "Mystical Fire",
+            "updatedContents": ["대미지 : 8% 감소"]
+          },
+          {
+            "updatedNameKo": "매지컬플레임+",
+            "updatedName": "Mystical Fire",
+            "updatedContents": ["대미지 : 8% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -8380,6 +8651,15 @@
           {
             "updatedNameKo": "니트로차지",
             "updatedContents": ["데미지: 10% 증가"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "브레이브버드+",
+            "updatedContents": ["대미지 경감율: 15% → 25%"]
           }
         ]
       }
@@ -8985,6 +9265,47 @@
             "updatedContents": ["HP 회복량이 감소되었습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "트리플악셀",
+            "updatedContents": [
+              "명중할 때마다 상승하는 데미지량: 5% → 8% (총 데미지 5% 증가)"
+            ]
+          },
+          {
+            "updatedNameKo": "트리플악셀+",
+            "updatedContents": [
+              "명중할 때마다 상승하는 데미지량: 5% → 8% (총 데미지 5% 증가)"
+            ]
+          },
+          {
+            "updatedNameKo": "트로피컬킥",
+            "updatedContents": ["실드량: 20% 증가"]
+          },
+          {
+            "updatedNameKo": "트로피컬킥+",
+            "updatedContents": ["실드량: 20% 증가"]
+          },
+          {
+            "updatedNameKo": "그래스슬라이더",
+            "updatedContents": ["실드량: 20% 증가"]
+          },
+          {
+            "updatedNameKo": "그래스슬라이더+",
+            "updatedContents": ["실드량: 20% 증가"]
+          },
+          {
+            "updatedNameKo": "짓밟기",
+            "updatedContents": ["대미지 : 5% 감소"]
+          },
+          {
+            "updatedNameKo": "짓밟기+",
+            "updatedContents": ["대미지 : 5% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -9112,6 +9433,27 @@
           {
             "updatedNameKo": "유나이트 기술: 리슬램페이지",
             "updatedContents": ["데미지: 20% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스톤에지",
+            "updatedContents": ["대미지: 10% 감소"]
+          },
+          {
+            "updatedNameKo": "스톤에지+",
+            "updatedContents": ["대미지: 10% 감소"]
+          },
+          {
+            "updatedNameKo": "악의파동",
+            "updatedContents": ["대기 시간: 5s → 5.5s"]
+          },
+          {
+            "updatedNameKo": "악의파동+",
+            "updatedContents": ["대기 시간: 5s → 5.5s"]
           }
         ]
       }
@@ -9520,6 +9862,27 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "기가드레인",
+            "updatedContents": ["대미지 경감율: 35% → 40%"]
+          },
+          {
+            "updatedNameKo": "기가드레인+",
+            "updatedContents": ["대미지 경감율: 35% → 40%"]
+          },
+          {
+            "updatedNameKo": "솔라빔",
+            "updatedContents": ["대미지 : 8% 감소"]
+          },
+          {
+            "updatedNameKo": "솔라빔+",
+            "updatedContents": ["대미지 : 8% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -9699,6 +10062,27 @@
             "updatedContents": [
               "일부 야생 포켓몬에게 데미지를 주지 못하던 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "노래하기",
+            "updatedContents": ["방어와 특방 감소량: 35% → 25%"]
+          },
+          {
+            "updatedNameKo": "노래하기+",
+            "updatedContents": ["방어와 특방 감소량: 35% → 25%"]
+          },
+          {
+            "updatedNameKo": "연속뺨치기",
+            "updatedContents": ["대기 시간: 4.5s → 5s"]
+          },
+          {
+            "updatedNameKo": "연속뺨치기+",
+            "updatedContents": ["대기 시간: 4.5s → 5s"]
           }
         ]
       }
@@ -10695,7 +11079,6 @@
     "color": "#f16c38",
     "position": "attack",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2023-04-27",
@@ -10759,6 +11142,18 @@
           {
             "updatedNameKo": "유나이트 기술: 암야의업화",
             "updatedContents": ["필요한 에너지: 10% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "방어: 35 ~ 175 → 35 ~ 200 (레벨 1-15)",
+              "특방: 30 ~ 140 → 30 ~ 203 (레벨 1-15)"
+            ]
           }
         ]
       }
@@ -10875,6 +11270,19 @@
             "updatedContents": ["대기 시간: 6.5초 → 5.5초"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "속임수",
+            "updatedContents": ["대미지 : 6% 감소"]
+          },
+          {
+            "updatedNameKo": "속임수+",
+            "updatedContents": ["대미지 : 6% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -10980,6 +11388,19 @@
           {
             "updatedNameKo": "솔라블레이드",
             "updatedContents": ["데미지: 13%~9% 감소(레벨 5~15)"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "제비반환",
+            "updatedContents": ["사용 횟수 회복 시간: 4s → 5s"]
+          },
+          {
+            "updatedNameKo": "제비반환+",
+            "updatedContents": ["사용 횟수 회복 시간: 4s → 5s"]
           }
         ]
       }
@@ -11112,6 +11533,34 @@
             "updatedNameKo": "아쿠아브레이크",
             "updatedName": "Liquidation",
             "updatedContents": ["데미지: 12% 증가"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "방어: 35 ~ 170 → 35 ~ 225 (레벨 1-15)",
+              "특방: 25 ~ 140 → 25 ~ 225 (레벨 1-15)"
+            ]
+          },
+          {
+            "updatedNameKo": "마지막일침",
+            "updatedContents": ["대기 시간: 7s → 6.5s"]
+          },
+          {
+            "updatedNameKo": "마지막일침+",
+            "updatedContents": ["대기 시간: 7s → 6.5s"]
+          },
+          {
+            "updatedNameKo": "애크러뱃",
+            "updatedContents": ["대기 시간: 8s → 7.5s"]
+          },
+          {
+            "updatedNameKo": "애크러뱃+",
+            "updatedContents": ["대기 시간: 8s → 7.5s"]
           }
         ]
       }
@@ -11662,6 +12111,19 @@
             "updatedContents": ["데미지: 14% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "오버히트",
+            "updatedContents": ["대미지 : 6% 감소"]
+          },
+          {
+            "updatedNameKo": "오버히트+",
+            "updatedContents": ["대미지 : 6% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -12025,6 +12487,19 @@
               "상대 1마리를 노렸을 때 데미지: 30% 증가",
               "벽을 만들 때 데미지: 20% 증가"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "코멧펀치",
+            "updatedContents": ["대기 시간: 8s → 7s"]
+          },
+          {
+            "updatedNameKo": "코멧펀치+",
+            "updatedContents": ["대기 시간: 8s → 7s"]
           }
         ]
       }
@@ -12952,6 +13427,102 @@
             "updatedNameKo": "출시",
             "updatedName": "Release",
             "updatedContents": [""]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "사슬묶기",
+            "updatedContents": [
+              "대기 시간 : 6s → 7s",
+              "대미지 : 20% 감소",
+              "일부러의 대기 시간을 연장하는 효과 : 3s → 2s"
+            ]
+          },
+          {
+            "updatedNameKo": "사슬묶기+",
+            "updatedContents": [
+              "대기 시간 : 6s → 7s",
+              "대미지 : 20% 감소",
+              "일부러의 대기 시간을 연장하는 효과 : 3s → 2s"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tinkaton",
+    "nameKo": "두드리짱",
+    "image": "/img/unitePokemon/tinkaton/roster-tinkaton.png",
+    "color": "#ce5fd3",
+    "position": "balance",
+    "isEx": false,
+    "skillList": [],
+    "updatedList": [
+      {
+        "updatedDate": "2024-12-12",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "출시",
+            "updatedName": "Release",
+            "updatedContents": [""]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-16",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
+            "updatedContents": ["HP：3250~8200 → 3250~8400 (레벨 1~15)"]
+          },
+          {
+            "updatedNameKo": "거대해머",
+            "updatedName": "",
+            "updatedContents": [
+              "대기 시간: 7s → 6s",
+              "날려버리는 시간: 0.5초/0.75초/1초 → 0.5초/1초/1.5초(모으는 시간에 따라)"
+            ]
+          },
+          {
+            "updatedNameKo": "거대해머+",
+            "updatedName": "",
+            "updatedContents": ["대기 시간: 5.5s → 5s"]
+          },
+          {
+            "updatedNameKo": "아이스해머",
+            "updatedName": "",
+            "updatedContents": [
+              "기술을 사용한 뒤에 움직일 수 있을 때까지 걸리는 시간이 줄었습니다.",
+              "대기 시간: 6.5초 → 5초",
+              "감속 효과: 30% → 50%",
+              "공격과 특수방어를 떨어뜨리는 효과: 15% → 30%"
+            ]
+          },
+          {
+            "updatedNameKo": "아이스해머+",
+            "updatedName": "",
+            "updatedContents": ["공격과 특수방어를 떨어뜨리는 효과: 30% → 50%"]
+          },
+          {
+            "updatedNameKo": "떨어뜨리기",
+            "updatedName": "",
+            "updatedContents": ["대기 시간: 8초 → 6초", "데미지: 20% 증가"]
+          },
+          {
+            "updatedNameKo": "떨어뜨리기+",
+            "updatedName": "",
+            "updatedContents": ["대기 시간: 6.5초 → 5초"]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 완전러블리♡콰앙!",
+            "updatedName": "",
+            "updatedContents": ["필요한 에너지 양: 20% 감소"]
           }
         ]
       }
