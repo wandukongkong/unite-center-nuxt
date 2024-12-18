@@ -1,7 +1,7 @@
 <script setup>
-const colorMode = useColorMode();
+// const colorMode = useColorMode();
 
-colorMode.preference = "light";
+// colorMode.preference = "light";
 </script>
 <template>
   <div class="relative">
