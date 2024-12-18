@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+const colorMode = useColorMode();
+
+colorMode.preference = "light";
+</script>
 <template>
   <div class="relative">
     <NuxtLayout name="default">

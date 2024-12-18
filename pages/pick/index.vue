@@ -140,13 +140,14 @@ const { apply: applyVersusVMotion } = useMotionControls(
   {
     initial: {
       opacity: 0,
-      scale: 0.16,
+      // scale: 0.16,
+      width: 80,
       x: -80,
       y: -100,
     },
     enter: {
       opacity: 1,
-      scale: 0.16,
+      // scale: 0.16,
       x: -110,
       y: 5,
       transition: {
@@ -167,13 +168,14 @@ const { apply: applyVersusSMotion } = useMotionControls(
     initial: {
       opacity: 0,
       // scale: 0.7,
-      scale: 0.16,
+      // scale: 0.16,
+      width: 80,
       x: -140,
       y: 100,
     },
     enter: {
       opacity: 1,
-      scale: 0.16,
+      // scale: 0.16,
       x: -110,
       y: 5,
       transition: {
@@ -870,6 +872,7 @@ onBeforeMount(() => {
                       />
                       <UCheckbox
                         v-model="isBanGlobal"
+                        class="mb-1"
                         :disabled="isLoading"
                         color="yellow"
                         name="isOnlyShufflePokemon"
