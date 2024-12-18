@@ -20,6 +20,9 @@ export default defineNuxtConfig({
     "nuxt-gtag",
   ],
   devtools: { enabled: false },
+  ui: {
+    colorMode: true,
+  },
   vite: {
     plugin: [eslintPlugin()],
     server: {
