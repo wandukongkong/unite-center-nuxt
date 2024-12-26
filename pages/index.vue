@@ -259,6 +259,7 @@ onMounted(() => {
           </div>
           <UButton
             class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
+            color="transparent"
             @mouseover="() => applyLogoMotion('hover')"
             @mouseleave="() => applyLogoMotion('stop')"
           >
@@ -288,6 +289,7 @@ onMounted(() => {
           </div>
           <UButton
             class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
+            color="transparent"
             @click="() => clickMenu('update')"
             @mouseover="() => applyObject3Motion('hover')"
             @mouseleave="() => applyObject3Motion('stop')"
@@ -303,6 +305,7 @@ onMounted(() => {
           </div>
           <UButton
             class="bg-white w-[120px] text-black shadow-none py-0 hover:bg-white"
+            color="transparent"
             @click="() => clickMenu('pick')"
             @mouseover="() => applyObject7Motion('hover')"
             @mouseleave="() => applyObject7Motion('stop')"

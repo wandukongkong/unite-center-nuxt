@@ -16,7 +16,7 @@ const isOpenMenu = toRef(false);
   <USlideover v-model="isOpenMenu">
     <div class="p-4">
       <UButton
-        color="gray"
+        color="white"
         variant="ghost"
         size="sm"
         icon="i-heroicons-x-mark-20-solid"
@@ -26,16 +26,24 @@ const isOpenMenu = toRef(false);
         @click="isOpenMenu = false"
       />
     </div>
-    <div class="flex flex-col items-center px-3">
+    <div class="flex flex-col items-center">
       <!-- <NuxtLink class="mb-5" to="/m" @click="isOpenMenu = false">
         <strong>Home</strong>
       </NuxtLink> -->
-      <NuxtLink class="mb-5" to="/update" @click="isOpenMenu = false">
-        <strong>Update</strong>
-      </NuxtLink>
-      <NuxtLink class="mb-5" to="/pick" @click="isOpenMenu = false">
+      <UButton
+        :padded="false"
+        class="mb-5"
+        color="white"
+        variant="ghost"
+        size="xl"
+        to="/update"
+        @click="isOpenMenu = false"
+      >
+        Update
+      </UButton>
+      <!-- <NuxtLink class="mb-5" to="/pick" @click="isOpenMenu = false">
         <strong>Random Pick dd</strong>
-      </NuxtLink>
+      </NuxtLink> -->
     </div>
   </USlideover>
 </template>

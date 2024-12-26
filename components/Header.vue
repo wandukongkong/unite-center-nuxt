@@ -104,8 +104,9 @@ onMounted(() => {
       class="border shadow-md rounded py-5 h-[100%] hover:scale-[1.01] hover:shadow-xl ease-out duration-300"
       :class="isShowButtonTitle ? 'px-2' : 'px-0'"
     >
-      <UButton
-        class="flex w-[100%] mb-3 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
+      <button
+        class="flex w-[100%] mb-5 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
+        color="transparent"
         @mouseover="() => (hoveredMenuName = 'home')"
         @mouseleave="() => (hoveredMenuName = '')"
         @click="
@@ -117,9 +118,9 @@ onMounted(() => {
         <div class="flex justify-center w-[50px]">
           <img class="h-[20px]" src="@/public/img/pokemon/ball.png" />
         </div>
-      </UButton>
+      </button>
       <!-- <UButton
-        class="flex w-[100%] mb-3 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
+        class="flex w-[100%] mb-5 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
         @mouseover="() => (hoveredMenuName = 'dashboard')"
         @mouseleave="() => (hoveredMenuName = '')"
         @click="
@@ -132,8 +133,9 @@ onMounted(() => {
           <img class="h-[20px]" src="@/public/img/pokemon/object6.png" />
         </div>
       </UButton> -->
-      <UButton
-        class="flex w-[100%] mb-3 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
+      <button
+        class="flex w-[100%] mb-5 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
+        color="transparent"
         @mouseover="() => (hoveredMenuName = 'update')"
         @mouseleave="() => (hoveredMenuName = '')"
         @click="
@@ -145,9 +147,10 @@ onMounted(() => {
         <div class="flex justify-center w-[50px]">
           <img class="h-[20px]" src="@/public/img/pokemon/object3.png" />
         </div>
-      </UButton>
-      <UButton
-        class="flex w-[100%] mb-3 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
+      </button>
+      <button
+        class="flex w-[100%] mb-5 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
+        color="transparent"
         @mouseover="() => (hoveredMenuName = 'pick')"
         @mouseleave="() => (hoveredMenuName = '')"
         @click="
@@ -159,7 +162,7 @@ onMounted(() => {
         <div class="flex justify-center w-[50px]">
           <img class="h-[20px]" src="@/public/img/pokemon/object7.png" />
         </div>
-      </UButton>
+      </button>
       <!-- <UButton
         class="flex w-[100%] mb-3 bg-transparent border-0 shadow-none hover:bg-transparent hover:scale-110 ease-out duration-200"
         @mouseover="() => (hoveredMenuName = 'tournament')"
