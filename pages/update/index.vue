@@ -247,17 +247,20 @@ onMounted(() => {
                           <NuxtImg
                             v-if="state === 'buff'"
                             src="/img/icon/up-arrow.png"
-                            class="h-4 mb-2 me-1"
+                            class="h-5 mb-2 me-1 bg-white rounded-3xl"
+                            style="padding: 2px"
                           ></NuxtImg>
                           <NuxtImg
                             v-if="state === 'nurf'"
                             src="/img/icon/down-arrow.png"
-                            class="h-4 mb-2 me-1"
+                            class="h-5 mb-2 me-1 bg-white rounded-3xl"
+                            style="padding: 2px"
                           ></NuxtImg>
                           <NuxtImg
                             v-if="state === 'adjust'"
                             src="/img/icon/adjust.png"
-                            class="h-3 mb-2 me-1"
+                            class="h-5 mb-2 me-1 bg-white rounded-3xl"
+                            style="padding: 2px"
                           ></NuxtImg>
                         </div>
                       </div>
