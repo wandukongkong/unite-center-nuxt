@@ -234,7 +234,7 @@ onMounted(() => {
                         :style="{ backgroundColor: pokemonInfo.color }"
                       />
                       <div
-                        class="absolute top-0 w-[100%] flex justify-end mt-2"
+                        class="absolute bottom-0 w-[100%] flex justify-end mb-2"
                       >
                         <div
                           v-for="(state, index) in pokemonInfo.updatedList.find(
@@ -243,23 +243,24 @@ onMounted(() => {
                               groupedPokemonInfo.updatedDate
                           )?.updateStates || []"
                           :key="index"
+                          class="bg-white rounded-full border-2 border-gray-400 me-1 shadow-md shadow-gray-600"
                         >
                           <NuxtImg
                             v-if="state === 'buff'"
                             src="/img/icon/up-arrow.png"
-                            class="h-5 mb-2 me-1 bg-white rounded-3xl"
+                            class="h-4"
                             style="padding: 2px"
                           ></NuxtImg>
                           <NuxtImg
                             v-if="state === 'nurf'"
                             src="/img/icon/down-arrow.png"
-                            class="h-5 mb-2 me-1 bg-white rounded-3xl"
+                            class="h-4"
                             style="padding: 2px"
                           ></NuxtImg>
                           <NuxtImg
                             v-if="state === 'adjust'"
                             src="/img/icon/adjust.png"
-                            class="h-5 mb-2 me-1 bg-white rounded-3xl"
+                            class="h-4"
                             style="padding: 2px"
                           ></NuxtImg>
                         </div>
