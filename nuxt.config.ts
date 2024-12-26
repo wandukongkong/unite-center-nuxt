@@ -39,11 +39,22 @@ export default defineNuxtConfig({
       name: "page",
       mode: "out-in",
     },
+
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
       title: "Unite Center",
       link: [{ rel: "icon", type: "image/x-icon", href: "/ball.ico" }],
+      script: [{ src: "./public/img/pokemon/pokemoncenter.png" }],
+      meta: [
+        {
+          name: "viewport",
+          content: "포켓몬 유나이트 관련 기능이 있는 사이트 입니다.",
+        },
+        {
+          charset: "utf-8",
+        },
+      ],
       // meta: {`
       //   // colorScheme: "light only",
       //   // supportedColorSchemes: "light",
