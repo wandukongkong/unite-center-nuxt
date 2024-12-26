@@ -22,6 +22,7 @@ const {
 } = storeToRefs(usePickStore());
 const { isMobile } = useDevice();
 const router = useRouter();
+const colorMode = useColorMode();
 
 // state
 const versusVRef = toRef(null);
@@ -725,20 +726,21 @@ onBeforeMount(() => {
             </UButton>
             <UPopover>
               <UButton
-                class="w-[40px] h-[40px] mx-1 py-0 flex justify-center"
+                class="w-[40px] h-[40px] mx-1 py-0 flex justify-center border"
                 color="white"
                 trailing-icon="i-heroicons-cog-6-tooth"
               />
               <template #panel>
                 <div class="relative">
                   <div class="px-4 py-2 flex flex-col">
-                    <small class="truncate me-14 mb-2 opacity-[0.4]"
-                      >타입 선택</small
-                    >
-                    <div class="flex flex-wrap justify-start">
+                    <!-- <small class="truncate me-14 mb-2 opacity-[0.4]"
+                      >타입 선택</small -->
+                    <UDivider label="타입 선택" />
+                    <div class="flex flex-wrap justify-start mt-3">
                       <UTooltip text="전체">
                         <UButton
                           class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          color="transparent"
                           :class="
                             selectedMode === 'default' ? 'bg-[#ececec]' : ''
                           "
@@ -754,6 +756,7 @@ onBeforeMount(() => {
                       <UTooltip text="어택">
                         <UButton
                           class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          color="transparent"
                           :class="
                             selectedMode === 'attack' ? 'bg-[#ececec]' : ''
                           "
@@ -769,6 +772,7 @@ onBeforeMount(() => {
                       <UTooltip text="서포트">
                         <UButton
                           class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          color="transparent"
                           :class="
                             selectedMode === 'support' ? 'bg-[#ececec]' : ''
                           "
@@ -784,6 +788,7 @@ onBeforeMount(() => {
                       <UTooltip text="벨런스">
                         <UButton
                           class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          color="transparent"
                           :class="
                             selectedMode === 'balance' ? 'bg-[#ececec]' : ''
                           "
@@ -799,6 +804,7 @@ onBeforeMount(() => {
                       <UTooltip text="스피드">
                         <UButton
                           class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          color="transparent"
                           :class="
                             selectedMode === 'speed' ? 'bg-[#ececec]' : ''
                           "
@@ -814,6 +820,7 @@ onBeforeMount(() => {
                       <UTooltip text="디펜스">
                         <UButton
                           class="bg-transparent hover:bg-[#ececec] m-1 w-[20px] h-[20px] rounded-sm flex justify-center items-center border-none shadow-none"
+                          color="transparent"
                           :class="
                             selectedMode === 'defence' ? 'bg-[#ececec]' : ''
                           "
@@ -828,12 +835,13 @@ onBeforeMount(() => {
                       </UTooltip>
                     </div>
                   </div>
-                  <div class="px-4 py-2 flex flex-col">
-                    <small class="truncate me-14 mb-2 opacity-[0.4]"
+                  <div class="px-4 pb-2 flex flex-col">
+                    <!-- <small class="truncate me-14 mb-2 opacity-[0.4]"
                       >기타</small
-                    >
+                    > -->
+                    <UDivider label="기타" />
                     <!-- <Placeholder class="h-20 w-48" /> -->
-                    <div class="flex flex-col justify-start w-[180px]">
+                    <div class="flex flex-col justify-start w-[180px] mt-3">
                       <UCheckbox
                         v-model="isBanEx"
                         class="mb-1"
