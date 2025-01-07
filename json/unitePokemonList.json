@@ -135,14 +135,14 @@
             "updatedNameKo": "깜짝베기",
             "updatedName": "Night Slash",
             "updatedContents": [
-              "범위와 관련된 오류를 수정했으며 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "범위와 관련된 오류를 수정했으며 상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "사이코커터",
             "updatedName": "Psycho Cut",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -162,7 +162,7 @@
               "다음과 같이 변경되었습니다.",
               "실체화시킨 마음의 칼날로 공격한다.",
               "기술이 명중했을 때 상대편 포켓몬의 이동 속도를 잠시 동안 떨어뜨린다.",
-              "또한 그 상대편 포켓몬에게 일반 공격으로 주는 데미지가 그 뒤 3번까지 증가한다."
+              "또한 그 상대편 포켓몬에게 일반 공격으로 주는 대미지가 그 뒤 3번까지 증가한다."
             ]
           },
           {
@@ -215,14 +215,14 @@
             "updatedNameKo": "깜짝베기",
             "updatedName": "Night Slash",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "기습",
             "updatedName": "Sucker Punch",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -233,12 +233,25 @@
           {
             "updatedNameKo": "따라가때리기",
             "updatedName": "Pursuit",
-            "updatedContents": ["정면에서 명중시켰을 때 주는 데미지: 22% 증가"]
+            "updatedContents": ["정면에서 명중시켰을 때 주는 대미지: 22% 증가"]
           },
           {
             "updatedNameKo": "사이코커터",
             "updatedName": "Psycho Cut",
-            "updatedContents": ["칼날로 주는 데미지: 50% 증가"]
+            "updatedContents": ["칼날로 주는 대미지: 50% 증가"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "따라가때리기",
+            "updatedContents": ["대기 시간: 5s → 5.5s"]
+          },
+          {
+            "updatedNameKo": "따라가때리기+",
+            "updatedContents": ["대기 시간: 5s → 5.5s"]
           }
         ]
       }
@@ -295,7 +308,7 @@
           },
           {
             "updatedNameKo": "섀도클로",
-            "updatedContents": ["데미지: 5% 증가"]
+            "updatedContents": ["대미지: 5% 증가"]
           }
         ]
       },
@@ -305,13 +318,13 @@
           {
             "updatedNameKo": "강화 공격",
             "updatedContents": [
-              "야생 포켓몬에게 주는 최대 데미지가 감소되었습니다."
+              "야생 포켓몬에게 주는 최대 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "유나이트 기술: 마지막일격",
             "updatedContents": [
-              "야생 포켓몬에게 주는 최대 데미지가 감소되었습니다."
+              "야생 포켓몬에게 주는 최대 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -322,7 +335,7 @@
           {
             "updatedNameKo": "야습",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되고 기술 대기 시간이 길어졌습니다.",
+              "상대편 포켓몬에게 주는 대미지가 감소되고 기술 대기 시간이 길어졌습니다.",
               "기술 습득 레벨을 1 또는 3으로 변경했습니다."
             ]
           },
@@ -346,7 +359,7 @@
           {
             "updatedNameKo": "야습",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -378,7 +391,7 @@
           {
             "updatedNameKo": "성스러운칼",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되고 상대편 포켓몬에게 주는 효과의 지속 시간이 길어졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되고 상대편 포켓몬에게 주는 효과의 지속 시간이 길어졌습니다."
             ]
           }
         ]
@@ -433,7 +446,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "특성: 천하장사",
-            "updatedContents": ["급소 데미지의 배율: 150% → 170%"]
+            "updatedContents": ["급소 대미지의 배율: 150% → 170%"]
           }
         ]
       },
@@ -442,7 +455,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "물의파동",
-            "updatedContents": ["대기 시간: 4초 → 5초", "데미지: 약 10% 감소"]
+            "updatedContents": ["대기 시간: 4초 → 5초", "대미지: 약 10% 감소"]
           }
         ]
       },
@@ -466,7 +479,7 @@
           {
             "updatedNameKo": "치근거리기",
             "updatedContents": [
-              "기술 습득 레벨을 6으로 변경하였으며 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "기술 습득 레벨을 6으로 변경하였으며 상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -507,7 +520,7 @@
           {
             "updatedNameKo": "거품",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -517,7 +530,7 @@
           {
             "updatedNameKo": "아쿠아테일",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되고 HP 회복량이 증가되었으며 기술 대기 시간이 짧아졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되고 HP 회복량이 증가되었으며 기술 대기 시간이 짧아졌습니다."
             ]
           }
         ]
@@ -534,12 +547,12 @@
           {
             "updatedNameKo": "아쿠아테일",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "치근거리기",
-            "updatedContents": ["대편 포켓몬에게 주는 데미지가 증가되었습니다."]
+            "updatedContents": ["대편 포켓몬에게 주는 대미지가 증가되었습니다."]
           }
         ]
       },
@@ -555,13 +568,13 @@
           {
             "updatedNameKo": "바다회오리",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지와 관련된 오류를 수정했습니다."
+              "상대편 포켓몬에게 주는 대미지와 관련된 오류를 수정했습니다."
             ]
           },
           {
             "updatedNameKo": "아쿠아테일",
             "updatedContents": [
-              "기술을 발동하면 그 뒤 3번의 일반 공격이 빨라지고 범위가 넓어진다. 그 일반 공격을 멀리서 명중시키면 주는 데미지가 증가하고 자신의 HP를 회복한다."
+              "기술을 발동하면 그 뒤 3번의 일반 공격이 빨라지고 범위가 넓어진다. 그 일반 공격을 멀리서 명중시키면 주는 대미지가 증가하고 자신의 HP를 회복한다."
             ]
           }
         ]
@@ -660,25 +673,25 @@
           {
             "updatedNameKo": "물대포",
             "updatedName": "Water Gun",
-            "updatedContents": ["데미지: 15% 감소"]
+            "updatedContents": ["대미지: 15% 감소"]
           },
           {
             "updatedNameKo": "하이드로펌프",
             "updatedName": "Hydro Pump",
             "updatedContents": [
-              "데미지: 10% 감소",
+              "대미지: 10% 감소",
               "행동 불가 시간: 1초 → 0.6초"
             ]
           },
           {
             "updatedNameKo": "하이드로펌프+",
             "updatedName": "Hydro Pump",
-            "updatedContents": ["데미지: 10% 감소"]
+            "updatedContents": ["대미지: 10% 감소"]
           },
           {
             "updatedNameKo": "해수스파우팅",
             "updatedName": "Water Spout",
-            "updatedContents": ["데미지: 10% 감소"]
+            "updatedContents": ["대미지: 10% 감소"]
           }
         ]
       },
@@ -699,7 +712,7 @@
             "updatedNameKo": "강화 공격",
             "updatedName": "Attack",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -723,14 +736,14 @@
             "updatedNameKo": "물대포",
             "updatedName": "Water Gun",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "로케트박치기",
             "updatedName": "Skull Bash",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -764,7 +777,7 @@
             "updatedNameKo": "유나이트 기술: 하이드로타이푼",
             "updatedName": "Hydro Typhoon",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -776,7 +789,7 @@
             "updatedNameKo": "강화 공격",
             "updatedName": "Attack",
             "updatedContents": [
-              "강화 공격에 급소 데미지가 발생하지 않았던 오류를 수정했습니다."
+              "강화 공격에 급소 대미지가 발생하지 않았던 오류를 수정했습니다."
             ]
           }
         ]
@@ -788,7 +801,7 @@
             "updatedNameKo": "하이드로펌프",
             "updatedName": "Hydro Pump",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -800,7 +813,7 @@
             "updatedNameKo": "유나이트 기술: 하이드로타이푼",
             "updatedName": "Hydro Typhoon",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -850,6 +863,36 @@
             "updatedNameKo": "방어, 특수방어",
             "updatedName": "Attack",
             "updatedContents": ["능력이 조정되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-26",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "파도타기",
+            "updatedContents": ["대기 시간: 8.5s → 7.5s"]
+          },
+          {
+            "updatedNameKo": "파도타기+",
+            "updatedContents": ["실드량: 35% 증가"]
+          },
+          {
+            "updatedNameKo": "하이드로펌프",
+            "updatedContents": ["대기 시간: 7s → 6s"]
+          },
+          {
+            "updatedNameKo": "고속스핀",
+            "updatedContents": ["대기 시간: 11s → 10s"]
+          },
+          {
+            "updatedNameKo": "고속스핀+",
+            "updatedContents": ["방어 12% 증가", "특방 12% 증가"]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 하이드로타이푼",
+            "updatedContents": ["필요한 에너지 양: 11% 감소"]
           }
         ]
       }
@@ -951,7 +994,7 @@
           {
             "updatedNameKo": "알폭탄",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되고 상대편 포켓몬에게 주는 효과의 지속 시간이 짧아졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되고 상대편 포켓몬에게 주는 효과의 지속 시간이 짧아졌습니다."
             ]
           }
         ]
@@ -962,7 +1005,7 @@
           {
             "updatedNameKo": "알폭탄",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되고 알낳기와 동시에 배웠을 때의 기술 대기 시간이 짧아졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되고 알낳기와 동시에 배웠을 때의 기술 대기 시간이 짧아졌습니다."
             ]
           },
           {
@@ -986,7 +1029,7 @@
           {
             "updatedNameKo": "알폭탄",
             "updatedContents": [
-              "지정한 장소로 알을 세게 던진다. 던진 알은 폭발하여 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 날려버린다.",
+              "지정한 장소로 알을 세게 던진다. 던진 알은 폭발하여 범위 안에 있는 상대편 포켓몬에게 대미지를 주고 날려버린다.",
               "기술은 최대 2번까지 충전할 수 있다. '알낳기'를 배우면 합쳐서 최대 4번으로 바뀌며 그 이후 기술을 충전할 수 있는 횟수는 이 2가지 기술에서 공유된다."
             ]
           },
@@ -1026,7 +1069,7 @@
           {
             "updatedNameKo": "신비의부적+",
             "updatedContents": [
-              "「업그레이드 후에는 실드 효과를 통해 무효로 할 수 있는 데미지가 증가한다.」"
+              "「업그레이드 후에는 실드 효과를 통해 무효로 할 수 있는 대미지가 증가한다.」"
             ]
           }
         ]
@@ -1160,7 +1203,7 @@
             "updatedNameKo": "오류 수정",
             "updatedName": "",
             "updatedContents": [
-              " '떨어뜨리기'로 날려버린 상대를 '엄청난힘'으로 붙잡았을 때, '떨어뜨리기'의 낙하 시 데미지도 발생하는 오류를 수정했습니다."
+              " '떨어뜨리기'로 날려버린 상대를 '엄청난힘'으로 붙잡았을 때, '떨어뜨리기'의 낙하 시 대미지도 발생하는 오류를 수정했습니다."
             ]
           }
         ]
@@ -1180,7 +1223,7 @@
             "updatedNameKo": "흡혈",
             "updatedName": "Leech Life",
             "updatedContents": [
-              "기초 HP 회복량: 준 데미지의 50% → 준 데미지의 75%"
+              "기초 HP 회복량: 준 대미지의 50% → 준 대미지의 75%"
             ]
           },
           {
@@ -1200,7 +1243,7 @@
             "updatedNameKo": "비스트부스트",
             "updatedName": "Beast Boost",
             "updatedContents": [
-              "야생 포켓몬에게 데미지를 주는 경우에도 머슬 게이지가 모이도록 변경되었습니다."
+              "야생 포켓몬에게 대미지를 주는 경우에도 머슬 게이지가 모이도록 변경되었습니다."
             ]
           },
           {
@@ -1222,28 +1265,28 @@
             "updatedNameKo": "떨어뜨리기",
             "updatedName": "Smack Down",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "흡혈",
             "updatedName": "Leech Life",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "메가톤펀치",
             "updatedName": "Mega Punch",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "마지막일침",
             "updatedName": "Fell Stinger",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -1255,14 +1298,14 @@
             "updatedNameKo": "흡혈",
             "updatedName": "Leech Life",
             "updatedContents": [
-              "술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "떨어뜨리기",
             "updatedName": "Smack Down",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되고 기술이 닿는 거리가 멀어졌으며 명중했을 때 획득할 수 있는 머슬 게이지의 양이 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되고 기술이 닿는 거리가 멀어졌으며 명중했을 때 획득할 수 있는 머슬 게이지의 양이 증가되었습니다."
             ]
           }
         ]
@@ -1282,6 +1325,44 @@
               "대기 시간: 8초 → 5초",
               "회복량: 약 37% ~ 24% 감소(레벨 5~15) "
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "떨어뜨리기",
+            "updatedContents": ["범위 대미지: 20% 증가"]
+          },
+          {
+            "updatedNameKo": "떨어뜨리기+",
+            "updatedContents": ["범위 대미지: 20% 증가"]
+          },
+          {
+            "updatedNameKo": "덤벼들기",
+            "updatedContents": ["공격 저하 지속 시간: 2s → 2.5s"]
+          },
+          {
+            "updatedNameKo": "덤벼들기+",
+            "updatedContents": ["공격 저하 지속 시간: 2s → 2.5s"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-26",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "엄청난힘",
+            "updatedContents": [
+              "기본 실드량: 최대 HP의 12% → 20%",
+              "대기 시간: 8.5s → 8s"
+            ]
+          },
+          {
+            "updatedNameKo": "떨어뜨리기",
+            "updatedContents": ["대기 시간: 6.5s → 6s"]
           }
         ]
       }
@@ -1309,7 +1390,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "일반 공격",
-            "updatedContents": ["데미지: 12% 증가"]
+            "updatedContents": ["대미지: 12% 증가"]
           }
         ]
       },
@@ -1327,7 +1408,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "일반 공격",
-            "updatedContents": ["데미지: 10% 증가"]
+            "updatedContents": ["대미지: 10% 증가"]
           },
           {
             "updatedNameKo": "유나이트 기술: 어스크러셔",
@@ -1341,7 +1422,7 @@
           {
             "updatedNameKo": "일반 공격",
             "updatedContents": [
-              "화상 상태인 상대편 포켓몬에게 추가로 주는 데미지가 공격으로 계산되는 데미지가 되었습니다."
+              "화상 상태인 상대편 포켓몬에게 추가로 주는 대미지가 공격으로 계산되는 대미지가 되었습니다."
             ]
           },
           {
@@ -1401,7 +1482,7 @@
           {
             "updatedNameKo": "화염방사",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -1455,8 +1536,8 @@
             "updatedContents": [
               "기술의 효과가 다음과 같이 변경되었습니다.",
               "「상대 팀의 포켓몬을 붙잡아 공중에서 지면으로 내던진다. 그 뒤 일정 시간 동안 장애물을 무시하고 이동할 수 있다.",
-              "유나이트 기술을 사용하는 동안은 일반 공격으로 주는 데미지가 증가하고 상대편 포켓몬을 화상 상태로 만든다.",
-              "상대편 포켓몬에게 데미지를 주면 자신의 HP를 회복한다.」",
+              "유나이트 기술을 사용하는 동안은 일반 공격으로 주는 대미지가 증가하고 상대편 포켓몬을 화상 상태로 만든다.",
+              "상대편 포켓몬에게 대미지를 주면 자신의 HP를 회복한다.」",
               "유나이트 기술을 모으기 어려워졌습니다.",
               "기술을 취소할 수 있는 타이밍 오류가 수정되었습니다."
             ]
@@ -1489,7 +1570,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "불꽃펀치",
-            "updatedContents": ["데미지: 10% 증가"]
+            "updatedContents": ["대미지: 10% 증가"]
           },
           {
             "updatedNameKo": "불꽃펀치+",
@@ -1499,7 +1580,7 @@
           },
           {
             "updatedNameKo": "플레어드라이브",
-            "updatedContents": ["데미지: 15% 증가", "실드: 20% 증가"]
+            "updatedContents": ["대미지: 15% 증가", "실드: 20% 증가"]
           },
           {
             "updatedNameKo": "유나이트 기술: 어스크러셔",
@@ -1534,8 +1615,8 @@
           {
             "updatedNameKo": "불꽃세례",
             "updatedContents": [
-              "데미지: 30% 증가",
-              "화상 효과 데미지: 100% 증가"
+              "대미지: 30% 증가",
+              "화상 효과 대미지: 100% 증가"
             ]
           },
           {
@@ -1549,7 +1630,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "화염볼",
-            "updatedContents": ["데미지: 23% 증가"]
+            "updatedContents": ["대미지: 23% 증가"]
           },
           {
             "updatedNameKo": "페인트",
@@ -1569,7 +1650,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "화염볼",
-            "updatedContents": ["상대편 포켓몬에게 주는 데미지: 8% 증가"]
+            "updatedContents": ["상대편 포켓몬에게 주는 대미지: 8% 증가"]
           }
         ]
       },
@@ -1579,7 +1660,7 @@
           {
             "updatedNameKo": "브레이즈킥",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -1623,7 +1704,7 @@
           {
             "updatedNameKo": "화염볼",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되고 기술 대기 시간이 짧아졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되고 기술 대기 시간이 짧아졌습니다."
             ]
           },
           {
@@ -1663,7 +1744,7 @@
           {
             "updatedNameKo": "브레이즈킥",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -1675,8 +1756,28 @@
           {
             "updatedNameKo": "화염볼",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-11-21",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "방어: 50~250 → 50~268",
+              "특방: 30~150 → 30~232"
+            ]
+          },
+          {
+            "updatedNameKo": "블레이즈킥",
+            "updatedContents": ["대기 시간: 8s → 9s"]
+          },
+          {
+            "updatedNameKo": "블레이즈킥+",
+            "updatedContents": ["대기 시간: 8s → 9s"]
           }
         ]
       }
@@ -1731,7 +1832,7 @@
           {
             "updatedNameKo": "날따름",
             "updatedContents": [
-              "도발 상태인 포켓몬의 기술이 같은 편에게 데미지를 주던 경우가 발생하는 오류를 수정했습니다."
+              "도발 상태인 포켓몬의 기술이 같은 편에게 대미지를 주던 경우가 발생하는 오류를 수정했습니다."
             ]
           }
         ]
@@ -1778,7 +1879,7 @@
           {
             "updatedNameKo": "드레인키스",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -1788,13 +1889,13 @@
           {
             "updatedNameKo": "유나이트:손가락에소원을(하이드로펌프)",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되고 상대편 포켓몬에게 주는 행동 불가 효과의 지속 시간이 길어졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되고 상대편 포켓몬에게 주는 행동 불가 효과의 지속 시간이 길어졌습니다."
             ]
           },
           {
             "updatedNameKo": "유나이트:손가락에소원을(블록)",
             "updatedContents": [
-              "기술을 사용했을 때 데미지를 감소시키도록 변경되었습니다."
+              "기술을 사용했을 때 대미지를 감소시키도록 변경되었습니다."
             ]
           }
         ]
@@ -1829,7 +1930,7 @@
           {
             "updatedNameKo": "유나이트 기술: 손가락에소원을",
             "updatedContents": [
-              "파괴광선이 야생 포켓몬에게  비정상적인 데미지를 주던 오류를 수정했습니다."
+              "파괴광선이 야생 포켓몬에게  비정상적인 대미지를 주던 오류를 수정했습니다."
             ]
           }
         ]
@@ -1844,6 +1945,27 @@
           {
             "updatedNameKo": "드레인키스",
             "updatedContents": ["대기 시간: 5초 → 4초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "날따름",
+            "updatedContents": ["방해 시간: 1.5s → 2"]
+          },
+          {
+            "updatedNameKo": "날따름+",
+            "updatedContents": ["방해 시간: 1.5s → 2"]
+          },
+          {
+            "updatedNameKo": "중력",
+            "updatedContents": ["대기 시간: 9s → 8s"]
+          },
+          {
+            "updatedNameKo": "중력+",
+            "updatedContents": ["대기 시간: 9s → 8s"]
           }
         ]
       }
@@ -1890,7 +2012,7 @@
           {
             "updatedNameKo": "매지컬리프",
             "updatedContents": [
-              "데미지: 25% 감소",
+              "대미지: 25% 감소",
               "행동할 수 없게 만드는 시간: 0.75초 → 0.5초"
             ]
           }
@@ -2033,7 +2155,7 @@
           {
             "updatedNameKo": "폭풍",
             "updatedName": "Hurricane",
-            "updatedContents": ["데미지: 15% 증가"]
+            "updatedContents": ["대미지: 15% 증가"]
           }
         ]
       },
@@ -2059,7 +2181,7 @@
             "updatedNameKo": "다이빙",
             "updatedName": "Dive",
             "updatedContents": [
-              "기술을 사용한 뒤에 강화 공격으로 추가 데미지가 발생하지 않던 오류를 수정했습니다.",
+              "기술을 사용한 뒤에 강화 공격으로 추가 대미지가 발생하지 않던 오류를 수정했습니다.",
               "발사된 찌로꼬치가 예상보다 많이 계속해서 튕기는 오류를 수정했습니다."
             ]
           },
@@ -2089,7 +2211,7 @@
             "updatedNameKo": "강화 공격",
             "updatedName": "Attack",
             "updatedContents": [
-              "찌로꼬치 1마리가 여러 마리의 상대편 포켓몬 사이를 왕복하며 너무 높은 데미지를 주는 경우가 발생하는 오류를 수정했습니다."
+              "찌로꼬치 1마리가 여러 마리의 상대편 포켓몬 사이를 왕복하며 너무 높은 대미지를 주는 경우가 발생하는 오류를 수정했습니다."
             ]
           }
         ]
@@ -2130,7 +2252,7 @@
           {
             "updatedNameKo": "파도타기",
             "updatedName": "Surf",
-            "updatedContents": ["주는 데미지와 관련된 오류를 수정했습니다."]
+            "updatedContents": ["주는 대미지와 관련된 오류를 수정했습니다."]
           },
           {
             "updatedNameKo": "유나이트 기술: 거센파도미사일",
@@ -2151,7 +2273,7 @@
             "updatedNameKo": "유나이트 기술: 거센파도미사일",
             "updatedName": "Gatling Gulp Missile",
             "updatedContents": [
-              "유나이트 기술을 모으기 쉬워졌으며 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "유나이트 기술을 모으기 쉬워졌으며 상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -2163,7 +2285,7 @@
             "updatedNameKo": "다이빙",
             "updatedName": "Dive",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되고 액션이 조정되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되고 액션이 조정되었습니다."
             ]
           },
           {
@@ -2180,7 +2302,7 @@
             "updatedNameKo": "강화 공격",
             "updatedName": "Attack",
             "updatedContents": [
-              "강화 공격에 급소 데미지가 발생하지 않았던 오류를 수정했습니다."
+              "강화 공격에 급소 대미지가 발생하지 않았던 오류를 수정했습니다."
             ]
           }
         ]
@@ -2202,14 +2324,14 @@
             "updatedNameKo": "강화 공격",
             "updatedName": "Attack",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "파도타기",
             "updatedName": "Surf",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -2221,7 +2343,7 @@
             "updatedNameKo": "유나이트 기술: 거센파도미사일",
             "updatedName": "Gatling Gulp Missile",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -2233,7 +2355,7 @@
             "updatedNameKo": "폭풍",
             "updatedName": "Hurricane",
             "updatedContents": [
-              "일부 야생 포켓몬에게 데미지를 주지 못하던 오류를 수정했습니다."
+              "일부 야생 포켓몬에게 대미지를 주지 못하던 오류를 수정했습니다."
             ]
           }
         ]
@@ -2245,14 +2367,14 @@
             "updatedNameKo": "바다회오리",
             "updatedName": "Whirlpool",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "다이빙",
             "updatedName": "Dive",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -2263,7 +2385,7 @@
           {
             "updatedNameKo": "유나이트 기술: 거센파도미사일",
             "updatedName": "Gatling Gulp Missile",
-            "updatedContents": ["데미지: 15% 감소"]
+            "updatedContents": ["대미지: 15% 감소"]
           }
         ]
       },
@@ -2285,6 +2407,15 @@
               "기술 대기 시간이 길어졌습니다.",
               "기술 발동 빈도가 감소되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "파도타기+",
+            "updatedContents": ["이동 속도 저하 지속 시간: 2s → 3s"]
           }
         ]
       }
@@ -2312,7 +2443,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "시저크로스",
-            "updatedContents": ["데미지: 약 10% 감소"]
+            "updatedContents": ["대미지: 약 10% 감소"]
           }
         ]
       },
@@ -2336,8 +2467,8 @@
           {
             "updatedNameKo": "유나이트 기술: 쇄석선풍루",
             "updatedContents": [
-              "데미지를 받았을 때 주는 반격 데미지: 33% 증가",
-              "반격 데미지의 대기 시간: 2초 → 1초"
+              "대미지를 받았을 때 주는 반격 대미지: 33% 증가",
+              "반격 대미지의 대기 시간: 2초 → 1초"
             ]
           }
         ]
@@ -2373,7 +2504,7 @@
           {
             "updatedNameKo": "스텔스록",
             "updatedContents": [
-              "처음부터 데미지가 증가된 상태가 적용되는 오류를 수정했습니다."
+              "처음부터 대미지가 증가된 상태가 적용되는 오류를 수정했습니다."
             ]
           }
         ]
@@ -2385,7 +2516,7 @@
             "updatedNameKo": "암석봉인",
             "updatedContents": [
               "다음과 같이 변경되었습니다.",
-              "지정한 장소를 향해 지면을 가르고 범위 안에 있는 상대편 포켓몬에게 데미지를 주면서 바위 장애물을 만든다.",
+              "지정한 장소를 향해 지면을 가르고 범위 안에 있는 상대편 포켓몬에게 대미지를 주면서 바위 장애물을 만든다.",
               "기술이 명중한 상대편 포켓몬의 이동 속도를 잠시 동안 떨어뜨린다. 다시 기술을 사용하면 장애물이 사라진다."
             ]
           },
@@ -2418,7 +2549,7 @@
           {
             "updatedNameKo": "강화 공격",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -2438,14 +2569,47 @@
           {
             "updatedNameKo": "스텔스록",
             "updatedContents": [
-              "기술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "기술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "암석봉인",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "암석봉인",
+            "updatedContents": ["대기 시간: 5s → 5.5s"]
+          },
+          {
+            "updatedNameKo": "암석봉인+",
+            "updatedContents": ["대기 시간: 5s → 5.5s"]
+          },
+          {
+            "updatedNameKo": "스텔스록",
+            "updatedContents": ["대기 시간: 5s → 5.5s", "대미지: 8% 감소"]
+          },
+          {
+            "updatedNameKo": "스텔스록+",
+            "updatedContents": ["대기 시간: 5s → 5.5s", "대미지: 8% 감소"]
+          },
+          {
+            "updatedNameKo": "시저크로스",
+            "updatedContents": ["대기 시간: 6s → 6.5s"]
+          },
+          {
+            "updatedNameKo": "시저크로스+",
+            "updatedContents": ["대기 시간: 6s → 6.5s"]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 쇄석선풍루",
+            "updatedContents": ["필요 에너지량: 20% 증가"]
           }
         ]
       }
@@ -2479,7 +2643,7 @@
             "updatedNameKo": "리프스톰",
             "updatedContents": [
               "대기 시간: 6초 → 8초",
-              "데미지: 30% 증가",
+              "대미지: 30% 증가",
               "감속 효과: 45초% → 60%, 0.5초마다 10% 감소, 최대 4번 감소, 2.5초"
             ]
           }
@@ -2504,7 +2668,7 @@
           {
             "updatedNameKo": "그림자꿰매기",
             "updatedContents": [
-              "모은 힘에 따라 증가한 사정거리에서 명중시켰을 때 데미지가 낮아지는 오류를 수정하였습니다."
+              "모은 힘에 따라 증가한 사정거리에서 명중시켰을 때 대미지가 낮아지는 오류를 수정하였습니다."
             ]
           }
         ]
@@ -2526,13 +2690,13 @@
           {
             "updatedNameKo": "그림자꿰매기",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "유나이트 기술",
             "updatedContents": [
-              "화살깃연속속사: 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "화살깃연속속사: 상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -2549,13 +2713,13 @@
           {
             "updatedNameKo": "그림자꿰매기",
             "updatedContents": [
-              "기술을 충전할 수 있는 최대 횟수가 3번으로 변경되었으며 그림자꿰매기 충전을 취소했을 때 다음 그림자꿰매기의 데미지가 충전 유무와 상관없이 강화되지 않던 오류를 수정했습니다."
+              "기술을 충전할 수 있는 최대 횟수가 3번으로 변경되었으며 그림자꿰매기 충전을 취소했을 때 다음 그림자꿰매기의 대미지가 충전 유무와 상관없이 강화되지 않던 오류를 수정했습니다."
             ]
           },
           {
             "updatedNameKo": "잎날가르기",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -2582,13 +2746,25 @@
             "updatedNameKo": "리프스톰",
             "updatedContents": [
               "기술 대기 시간이 짧아지고 기술이 닿는 거리가 멀어졌습니다.",
-              "상대편 포켓몬에게 주는 효과가 강해지고 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 효과가 강해지고 상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "나뭇잎",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "방어: 50 ~ 250 → 50 ~ 270 (레벨 1-15)",
+              "특방: 30 ~ 150 → 30 ~ 230 (레벨 1-15)"
             ]
           }
         ]
@@ -2674,7 +2850,7 @@
           {
             "updatedNameKo": "불대문자",
             "updatedName": "Fire Blast",
-            "updatedContents": ["데미지: 10% 감소", "대기 시간: 6초 → 7초"]
+            "updatedContents": ["대미지: 10% 감소", "대기 시간: 6초 → 7초"]
           }
         ]
       },
@@ -2684,7 +2860,7 @@
           {
             "updatedNameKo": "회오리불꽃",
             "updatedName": "Fire Spin",
-            "updatedContents": ["데미지: 27% 증가", "대기 시간: 8초 → 7초"]
+            "updatedContents": ["대미지: 27% 증가", "대기 시간: 8초 → 7초"]
           }
         ]
       },
@@ -2704,12 +2880,12 @@
           {
             "updatedNameKo": "불대문자",
             "updatedName": "Fire Blast",
-            "updatedContents": ["2단계의 데미지: 약 35% 증가"]
+            "updatedContents": ["2단계의 대미지: 약 35% 증가"]
           },
           {
             "updatedNameKo": "매지컬플레임",
             "updatedName": "Mystical Fire",
-            "updatedContents": ["데미지: 약 10% 감소"]
+            "updatedContents": ["대미지: 약 10% 감소"]
           },
           {
             "updatedNameKo": "니트로차지+",
@@ -2742,14 +2918,14 @@
             "updatedNameKo": "불대문자",
             "updatedName": "Fire Blast",
             "updatedContents": [
-              "특정 지닌물건을 지니고 있을 때 크리티컬이 발생하는 발생하는 오류를 수정했으며 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "특정 지닌물건을 지니고 있을 때 크리티컬이 발생하는 발생하는 오류를 수정했으며 상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "회오리불꽃",
             "updatedName": "Fire Spin",
             "updatedContents": [
-              "지속 시간이 조정되었으며 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "지속 시간이 조정되었으며 상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -2767,7 +2943,7 @@
           {
             "updatedNameKo": "특성: 맹화",
             "updatedName": "Blaze",
-            "updatedContents": ["데미지: 30% 증가"]
+            "updatedContents": ["대미지: 30% 증가"]
           },
           {
             "updatedNameKo": "불대문자",
@@ -2788,20 +2964,33 @@
             "updatedNameKo": "매지컬플레임",
             "updatedName": "Mystical Fire",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "불대문자",
             "updatedName": "Fire Blast",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "불대문자+",
             "updatedName": "Fire Blast",
             "updatedContents": ["대기 시간: 7.5초 → 6.5초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": ["특방:27 ~ 139 → 27 ~ 225 (레벨 1-15)"]
+          },
+          {
+            "updatedNameKo": "니트로차지+",
+            "updatedContents": ["이동 속도 상승의 지속 시간: 1s → 1.5s"]
           }
         ]
       }
@@ -2829,7 +3018,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "회전부리",
-            "updatedContents": ["데미지: 10% 감소"]
+            "updatedContents": ["대미지: 10% 감소"]
           },
           {
             "updatedNameKo": "유나이트 기술: 조맹돌진",
@@ -2853,7 +3042,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "강화 공격",
-            "updatedContents": ["데미지: 10% 감소"]
+            "updatedContents": ["대미지: 10% 감소"]
           }
         ]
       },
@@ -2876,7 +3065,7 @@
           {
             "updatedNameKo": "트라이어택",
             "updatedContents": [
-              "대시 상태가 아닐 때 주는 데미지가 감소되었으며 기술을 사용한 뒤에 일반 공격의 추가 데미지가 감소되었습니다.",
+              "대시 상태가 아닐 때 주는 대미지가 감소되었으며 기술을 사용한 뒤에 일반 공격의 추가 대미지가 감소되었습니다.",
               "기술을 사용한 뒤에 일반 공격으로 회복하는 HP 회복량이 감소되었습니다."
             ]
           },
@@ -2926,7 +3115,28 @@
         "updatedContentList": [
           {
             "updatedNameKo": "트라이어택",
-            "updatedContents": ["데미지: 12% 감소"]
+            "updatedContents": ["대미지: 12% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "고속이동",
+            "updatedContents": ["대기 시간: 11s → 9s"]
+          },
+          {
+            "updatedNameKo": "고속이동+",
+            "updatedContents": ["대기 시간: 11s → 9s"]
+          },
+          {
+            "updatedNameKo": "회전부리",
+            "updatedContents": ["대미지 : 6% 증가"]
+          },
+          {
+            "updatedNameKo": "회전부리+",
+            "updatedContents": ["대미지 : 6% 증가"]
           }
         ]
       }
@@ -3034,8 +3244,8 @@
             "updatedNameKo": "섀도볼",
             "updatedName": "Shadow Ball",
             "updatedContents": [
-              "데미지: 30% 증가",
-              "마크가 부여된 상대에 대하여 증가하는 데미지: 30% 증가",
+              "대미지: 30% 증가",
+              "마크가 부여된 상대에 대하여 증가하는 대미지: 30% 증가",
               "마크가 전부 사라졌을 때 HP 회복량: 최대 HP의 10% → 최대 HP의 15%"
             ]
           },
@@ -3043,9 +3253,9 @@
             "updatedNameKo": "섀도볼+",
             "updatedName": "Shadow Ball",
             "updatedContents": [
-              "데미지: 30% 증가",
-              "추가로 오르는 데미지: 30% 증가",
-              "마크가 전부 사라졌을 때 폭발 데미지: 30% 증가"
+              "대미지: 30% 증가",
+              "추가로 오르는 대미지: 30% 증가",
+              "마크가 전부 사라졌을 때 폭발 대미지: 30% 증가"
             ]
           },
           {
@@ -3073,12 +3283,12 @@
           {
             "updatedNameKo": "섀도볼",
             "updatedName": "Shadow Ball",
-            "updatedContents": ["데미지: 12% 증가"]
+            "updatedContents": ["대미지: 12% 증가"]
           },
           {
             "updatedNameKo": "섀도볼+",
             "updatedName": "Shadow Ball",
-            "updatedContents": ["데미지: 12% 증가"]
+            "updatedContents": ["대미지: 12% 증가"]
           }
         ]
       },
@@ -3118,19 +3328,19 @@
         "updatedContentList": [
           {
             "updatedNameKo": "강화 공격",
-            "updatedContents": ["야생 포켓몬에게 주는 데미지양의 상한: 45%"]
+            "updatedContents": ["야생 포켓몬에게 주는 대미지양의 상한: 45%"]
           },
           {
             "updatedNameKo": "러스터캐논",
             "updatedContents": [
-              "야생 포켓몬에게 주는 데미지양의 상한: 40%",
+              "야생 포켓몬에게 주는 대미지양의 상한: 40%",
               "대기 시간: 6초 → 5초"
             ]
           },
           {
             "updatedNameKo": "용의파동",
             "updatedContents": [
-              "야생 포켓몬에게 주는 데미지양의 상한: 35%",
+              "야생 포켓몬에게 주는 대미지양의 상한: 35%",
               "대기 시간: 9초 → 7.5초"
             ]
           },
@@ -3157,7 +3367,7 @@
             "updatedNameKo": "용의파동",
             "updatedContents": [
               "대기 시간: 8초 → 9초",
-              "데미지 마커에 의한 추가 데미지: 25% 감소"
+              "대미지 마커에 의한 추가 대미지: 25% 감소"
             ]
           },
           {
@@ -3175,7 +3385,7 @@
           {
             "updatedNameKo": "용의파동",
             "updatedContents": [
-              "야생 포켓몬에게 주는 최대 데미지가 감소되었습니다."
+              "야생 포켓몬에게 주는 최대 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -3195,7 +3405,7 @@
           {
             "updatedNameKo": "용의파동",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -3226,7 +3436,7 @@
           {
             "updatedNameKo": "용의파동",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되고 상대편 포켓몬에게 주는 효과의 지속 시간이 짧아졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되고 상대편 포켓몬에게 주는 효과의 지속 시간이 짧아졌습니다."
             ]
           },
           {
@@ -3249,21 +3459,21 @@
           {
             "updatedNameKo": "강화 공격",
             "updatedContents": [
-              "추가 데미지: 최대 HP의 3%(상한 1000) → 최대 HP의 1.5%(상한 500)"
+              "추가 대미지: 최대 HP의 3%(상한 1000) → 최대 HP의 1.5%(상한 500)"
             ]
           },
           {
             "updatedNameKo": "러스터캐논",
             "updatedContents": [
               "기술을 사용했을 때 공격 속도가 100% 오르며 5초에 걸쳐 원래 공격 속도로 돌아갑니다.",
-              "강화 공격의 추가 데미지: 최대 HP의 3%(상한 1000) → 최대 HP의 1.5%(상한 500)"
+              "강화 공격의 추가 대미지: 최대 HP의 3%(상한 1000) → 최대 HP의 1.5%(상한 500)"
             ]
           },
           {
             "updatedNameKo": "용의파동",
             "updatedContents": [
-              "조금 충전했을 때 주는 데미지: 약 14% 증가",
-              "최대 충전했을 때 주는 데미지: 약 15% 증가"
+              "조금 충전했을 때 주는 대미지: 약 14% 증가",
+              "최대 충전했을 때 주는 대미지: 약 15% 증가"
             ]
           },
           {
@@ -3277,9 +3487,30 @@
             "updatedNameKo": "유나이트 기술: 두랄디재스터",
             "updatedContents": [
               "마지막에 상대편 포켓몬을 밀쳐내도록 변경되었습니다.",
-              "광선의 데미지: 30% 증가",
-              "불꽃 궤적의 지속 데미지: 50% 감소"
+              "광선의 대미지: 30% 증가",
+              "불꽃 궤적의 지속 대미지: 50% 감소"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "러스터캐논",
+            "updatedContents": ["강화 공격의 이동 속도 저하: 80% → 60%"]
+          },
+          {
+            "updatedNameKo": "러스터캐논+",
+            "updatedContents": ["강화 공격의 이동 속도 저하: 80% → 60%"]
+          },
+          {
+            "updatedNameKo": "스텔스록",
+            "updatedContents": ["사용 횟수 회복 시간: 8s → 8.5s"]
+          },
+          {
+            "updatedNameKo": "스텔스록+",
+            "updatedContents": ["사용 횟수 회복 시간: 8s → 8.5s"]
           }
         ]
       }
@@ -3314,15 +3545,15 @@
           },
           {
             "updatedNameKo": "꽃가루경단",
-            "updatedContents": ["데미지: 15% 감소"]
+            "updatedContents": ["대미지: 15% 감소"]
           },
           {
             "updatedNameKo": "꽃가루경단+",
-            "updatedContents": ["감소하는 데미지: 20% → 15%"]
+            "updatedContents": ["감소하는 대미지: 20% → 15%"]
           },
           {
             "updatedNameKo": "유나이트 기술: 솜털의춤",
-            "updatedContents": ["데미지: 13%~17% 감소 (레벨 9~15)"]
+            "updatedContents": ["대미지: 13%~17% 감소 (레벨 9~15)"]
           }
         ]
       },
@@ -3391,12 +3622,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "그래스믹서",
-            "updatedContents": ["대편 포켓몬에게 주는 데미지가 감소되었습니다."]
+            "updatedContents": ["대편 포켓몬에게 주는 대미지가 감소되었습니다."]
           },
           {
             "updatedNameKo": "목화포자",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되고 기술 대기 시간이 짧아졌으며 상대편 포켓몬에게 주는 효과와 이 기술에 의해 자신에게 주는 효과가 강해졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되고 기술 대기 시간이 짧아졌으며 상대편 포켓몬에게 주는 효과와 이 기술에 의해 자신에게 주는 효과가 강해졌습니다."
             ]
           }
         ]
@@ -3449,6 +3680,28 @@
             "updatedContents": ["HP 회복량이 감소되었습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-12-26",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "꽃가루경단+",
+            "updatedContents": ["기술 습득 레벨: Lv.11 → Lv.10"]
+          },
+          {
+            "updatedNameKo": "그래스믹서+",
+            "updatedContents": ["기술 습득 레벨: Lv.11 → Lv.10"]
+          },
+          {
+            "updatedNameKo": "코튼가드+",
+            "updatedContents": ["기술 습득 레벨: Lv.13 → Lv.12"]
+          },
+          {
+            "updatedNameKo": "목화포자+",
+            "updatedContents": ["기술 습득 레벨: Lv.13 → Lv.12"]
+          }
+        ]
       }
     ]
   },
@@ -3474,7 +3727,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "어시스트파워",
-            "updatedContents": ["데미지: 10% 감소"]
+            "updatedContents": ["대미지: 10% 감소"]
           }
         ]
       },
@@ -3483,7 +3736,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "사이코쇼크",
-            "updatedContents": ["데미지: 17% 감소"]
+            "updatedContents": ["대미지: 17% 감소"]
           }
         ]
       },
@@ -3494,7 +3747,7 @@
             "updatedNameKo": "특성 '매직미러'",
             "updatedContents": [
               "대기 시간: 45초 → 35초",
-              "강화 공격의 데미지: 40% 증가"
+              "강화 공격의 대미지: 40% 증가"
             ]
           },
           {
@@ -3513,7 +3766,7 @@
           {
             "updatedNameKo": "강화 공격",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -3551,19 +3804,19 @@
           {
             "updatedNameKo": "사이코쇼크",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 효과의 지속 시간이 길어지고 기술에 의한 이동 속도의 하락률이 상승되었으며 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 효과의 지속 시간이 길어지고 기술에 의한 이동 속도의 하락률이 상승되었으며 상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "환상빔",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "어시스트파워",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되고 HP 회복량이 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되고 HP 회복량이 증가되었습니다."
             ]
           }
         ]
@@ -3582,25 +3835,25 @@
           {
             "updatedNameKo": "사이코쇼크",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "사이코쇼크+",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "미래예지",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "미래예지+",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -3630,8 +3883,8 @@
           {
             "updatedNameKo": "강화 공격",
             "updatedContents": [
-              "데미지: 약 10% 증가",
-              "회복량: 준 데미지의 15% → 준 데미지의 20%"
+              "대미지: 약 10% 증가",
+              "회복량: 준 대미지의 15% → 준 대미지의 20%"
             ]
           },
           {
@@ -3650,13 +3903,13 @@
           {
             "updatedNameKo": "드래곤크루",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되고 상대편 포켓몬에게 주는 감속 효과가 강해졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되고 상대편 포켓몬에게 주는 감속 효과가 강해졌습니다."
             ]
           },
           {
             "updatedNameKo": "드래곤크루+",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되고 상대편 포켓몬에게 주는 감속 효과가 강해졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되고 상대편 포켓몬에게 주는 감속 효과가 강해졌습니다."
             ]
           }
         ]
@@ -3669,7 +3922,7 @@
             "updatedContents": [
               "효과가 아래와 같이 변경되었습니다:",
               "지면을 파고들어 지정한 방향으로 고속으로 이동하여 상대편 포켓몬에게 닿은 시점 또는 최대 거리에 도달한 시점에서 뚫고 나온다.",
-              "이때 범위 안에 있는 상대편 포켓몬에게 데미지를 주고 날려버린다. 기술을 사용하면 방어 및 특수방어가 잠시 동안 오른다."
+              "이때 범위 안에 있는 상대편 포켓몬에게 대미지를 주고 날려버린다. 기술을 사용하면 방어 및 특수방어가 잠시 동안 오른다."
             ]
           },
           {
@@ -3683,7 +3936,7 @@
             "updatedNameKo": "지진",
             "updatedContents": [
               "효과가 아래와 같이 변경되었습니다:",
-              "높이 뛰어오른 뒤 지면에 기세 좋게 착지하여 범위 안에 있는 상대편 포켓몬에게 잠시 동안 지속 데미지를 주고 이동 속도를 떨어뜨린다."
+              "높이 뛰어오른 뒤 지면에 기세 좋게 착지하여 범위 안에 있는 상대편 포켓몬에게 잠시 동안 지속 대미지를 주고 이동 속도를 떨어뜨린다."
             ]
           },
           {
@@ -3699,7 +3952,7 @@
               "효과가 아래와 같이 변경되었습니다:",
               "뒤쪽으로 거리를 벌린 뒤 지정한 방향으로 다이브해서 공격하고 상대편 포켓몬을 밀쳐낸다.",
               "처음에 거리를 벌리는 동안 '드래곤크루'를 연계할 수 있으며 연계하면 '드래곤크루'로 상대편 포켓몬의 이동 속도를 떨어뜨리는 효과가 강해진다.",
-              "기술을 사용하는 동안 받는 데미지가 감소한다."
+              "기술을 사용하는 동안 받는 대미지가 감소한다."
             ]
           },
           {
@@ -3713,8 +3966,8 @@
             "updatedNameKo": "드래곤크루",
             "updatedContents": [
               "효과가 아래와 같이 변경되었습니다:",
-              "전방을 손톱으로 2번 공격하고 상대편 포켓몬에게 데미지를 준다. 1번째 공격은 데미지를 준 뒤 날려버린다.",
-              "2번째 공격은 주는 데미지가 증가하고 상대편 포켓몬의 이동 속도를 잠시 동안 떨어뜨린다."
+              "전방을 손톱으로 2번 공격하고 상대편 포켓몬에게 대미지를 준다. 1번째 공격은 대미지를 준 뒤 날려버린다.",
+              "2번째 공격은 주는 대미지가 증가하고 상대편 포켓몬의 이동 속도를 잠시 동안 떨어뜨린다."
             ]
           }
         ]
@@ -3773,7 +4026,7 @@
           {
             "updatedNameKo": "까칠한피부",
             "updatedContents": [
-              "제라오라의 '와일드볼트'를 맞았을 때 의도하지 않은 데미지를 되받아치던 오류를 수정했습니다."
+              "제라오라의 '와일드볼트'를 맞았을 때 의도하지 않은 대미지를 되받아치던 오류를 수정했습니다."
             ]
           }
         ]
@@ -3788,7 +4041,7 @@
           {
             "updatedNameKo": "드래곤다이브",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -3816,7 +4069,7 @@
           {
             "updatedNameKo": "땅고르기",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -3836,11 +4089,11 @@
           },
           {
             "updatedNameKo": "지진",
-            "updatedContents": ["데미지: 15% 증가"]
+            "updatedContents": ["대미지: 15% 증가"]
           },
           {
             "updatedNameKo": "구멍파기",
-            "updatedContents": ["데미지: 10% 증가"]
+            "updatedContents": ["대미지: 10% 증가"]
           },
           {
             "updatedNameKo": "드래곤다이브",
@@ -3849,6 +4102,31 @@
           {
             "updatedNameKo": "드래곤다이브+",
             "updatedContents": ["대기 시간: 5초 → 4초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": ["공격 속도: 0 ~ 7.5% 감소 (레벨 1-15)"]
+          },
+          {
+            "updatedNameKo": "지진",
+            "updatedContents": ["대미지 : 5% 감소"]
+          },
+          {
+            "updatedNameKo": "지진+",
+            "updatedContents": ["대미지 : 5% 감소", "이동 속도 저하: 40% → 20%"]
+          },
+          {
+            "updatedNameKo": "드래곤다이브",
+            "updatedContents": ["대기 시간: 5s → 5.5s"]
+          },
+          {
+            "updatedNameKo": "드래곤다이브+",
+            "updatedContents": ["대기 시간: 5s → 5.5s"]
           }
         ]
       }
@@ -3911,13 +4189,13 @@
           {
             "updatedNameKo": "염동력",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "사이코키네시스",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -3936,13 +4214,13 @@
           {
             "updatedNameKo": "염동력",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "사이코쇼크",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -3959,7 +4237,7 @@
           {
             "updatedNameKo": "사이코쇼크",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -4005,7 +4283,7 @@
           {
             "updatedNameKo": "문포스",
             "updatedContents": [
-              "술 습득 레벨이 7로 변경되었으며 발생하는 실드가 특수공격에 의한 데미지릴 막지 못하던 오류를 수정했습니다."
+              "술 습득 레벨이 7로 변경되었으며 발생하는 실드가 특수공격에 의한 대미지릴 막지 못하던 오류를 수정했습니다."
             ]
           },
           {
@@ -4024,7 +4302,7 @@
           {
             "updatedNameKo": "사이코키네시스",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 효과가 강해지고 상대편 포켓몬에게 주는 데미지가 증가되었으며 기술 대기 시간이 짧아졌습니다."
+              "상대편 포켓몬에게 주는 효과가 강해지고 상대편 포켓몬에게 주는 대미지가 증가되었으며 기술 대기 시간이 짧아졌습니다."
             ]
           }
         ]
@@ -4034,7 +4312,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "강화 공격",
-            "updatedContents": ["데미지 오류가 수정되었습니다."]
+            "updatedContents": ["대미지 오류가 수정되었습니다."]
           },
           {
             "updatedNameKo": "사이코쇼크+",
@@ -4081,25 +4359,25 @@
           {
             "updatedNameKo": "사이코쇼크",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "사이코쇼크+",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "미래예지",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "미래예지+",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -4239,7 +4517,7 @@
             "updatedNameKo": "강화 공격",
             "updatedName": "Attack",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -4251,7 +4529,7 @@
             "updatedNameKo": "병상첨병",
             "updatedName": "Hex",
             "updatedContents": [
-              "기술 습득 레벨을 5로 변경했으며 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "기술 습득 레벨을 5로 변경했으며 상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -4334,14 +4612,14 @@
             "updatedNameKo": "섀도볼",
             "updatedName": "Shadow Ball",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "병상첨병",
             "updatedName": "Hex",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소하고 발동 시에 무적 시간이 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소하고 발동 시에 무적 시간이 감소되었습니다."
             ]
           },
           {
@@ -4461,7 +4739,7 @@
           {
             "updatedNameKo": "고드름침+",
             "updatedName": "Icicle Spear",
-            "updatedContents": ["HP 양에 따른 데미지: 1% → 0.5%"]
+            "updatedContents": ["HP 양에 따른 대미지: 1% → 0.5%"]
           }
         ]
       },
@@ -4476,7 +4754,7 @@
           {
             "updatedNameKo": "고드름침",
             "updatedName": "Icicle Spear",
-            "updatedContents": ["데미지: 10% 감소"]
+            "updatedContents": ["대미지: 10% 감소"]
           }
         ]
       },
@@ -4501,7 +4779,7 @@
           {
             "updatedNameKo": "고드름침+",
             "updatedName": "Icicle Spear",
-            "updatedContents": ["추가 데미지: 남은 HP의 2% → 남은 HP의 1%"]
+            "updatedContents": ["추가 대미지: 남은 HP의 2% → 남은 HP의 1%"]
           },
           {
             "updatedNameKo": "얼음뭉치",
@@ -4517,7 +4795,7 @@
             "updatedNameKo": "고드름침",
             "updatedName": "Icicle Spear",
             "updatedContents": [
-              "고드름이 명중한 야생 포켓몬에게 고드름의 데미지 뿐만 아니라 파편의 데미지까지 추가로 부여하던 오류를 수정했습니다."
+              "고드름이 명중한 야생 포켓몬에게 고드름의 대미지 뿐만 아니라 파편의 대미지까지 추가로 부여하던 오류를 수정했습니다."
             ]
           }
         ]
@@ -4528,7 +4806,7 @@
           {
             "updatedNameKo": "고드름침",
             "updatedName": "Icicle Spear",
-            "updatedContents": ["대기 시간: 5.5초 → 5초", "데미지: 8% 증가"]
+            "updatedContents": ["대기 시간: 5.5초 → 5초", "대미지: 8% 증가"]
           },
           {
             "updatedNameKo": "얼음뭉치",
@@ -4554,7 +4832,7 @@
           {
             "updatedNameKo": "얼다바람",
             "updatedName": "Icy Wind",
-            "updatedContents": ["데미지: 12% 감소"]
+            "updatedContents": ["대미지: 12% 감소"]
           }
         ]
       },
@@ -4565,7 +4843,7 @@
             "updatedNameKo": "고드름침",
             "updatedName": "Icicle Spear",
             "updatedContents": [
-              "파편이 사라진 뒤 야생 포켓몬에게 데미지를 주는 경우가 발생하던 오류를 수정했습니다."
+              "파편이 사라진 뒤 야생 포켓몬에게 대미지를 주는 경우가 발생하던 오류를 수정했습니다."
             ]
           }
         ]
@@ -4587,7 +4865,7 @@
             "updatedNameKo": "얼다바람",
             "updatedName": "Icy Wind",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -4595,7 +4873,7 @@
             "updatedName": "Icicle Spear",
             "updatedContents": [
               "1번의 기술을 통해 날릴 수 있는 결정의 최대 개수가 감소되었습니다.",
-              "야생 포켓몬에게 맞아 부서진 고드름의 데미지 판정이 계속해서 맵에 남아있던 오류를 수정했습니다."
+              "야생 포켓몬에게 맞아 부서진 고드름의 대미지 판정이 계속해서 맵에 남아있던 오류를 수정했습니다."
             ]
           }
         ]
@@ -4648,25 +4926,25 @@
           {
             "updatedNameKo": "고드름침",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "고드름침+",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "프리즈드라이",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "프리즈드라이+",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -4680,7 +4958,6 @@
     "color": "#aced5b",
     "position": "defence",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2023-03-16",
@@ -4745,6 +5022,27 @@
             "updatedContents": [
               "기술을 명중시키지 않은 포켓몬도 끌어오던 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-11-21",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "파워휩",
+            "updatedContents": ["대기 시간: 8s → 7.5s"]
+          },
+          {
+            "updatedNameKo": "파워휩+",
+            "updatedContents": ["대기 시간: 8s → 7.5s"]
+          },
+          {
+            "updatedNameKo": "애시드봄",
+            "updatedContents": ["대기 시간: 8s → 7.5s"]
+          },
+          {
+            "updatedNameKo": "애시드봄+",
+            "updatedContents": ["대기 시간: 8s → 7.5s"]
           }
         ]
       }
@@ -4821,7 +5119,7 @@
           {
             "updatedNameKo": "씨기관총",
             "updatedName": "Stuff Cheeks",
-            "updatedContents": ["데미지: 15% 증가"]
+            "updatedContents": ["대미지: 15% 증가"]
           }
         ]
       },
@@ -4857,7 +5155,7 @@
             "updatedNameKo": "탐내다",
             "updatedName": "Belch",
             "updatedContents": [
-              "최선을 다해 달려 부딪친 상대편 포켓몬에게 데미지를 주고 날려버린다. 이때 잠시 동안 방해 내성을 얻는다.",
+              "최선을 다해 달려 부딪친 상대편 포켓몬에게 대미지를 주고 날려버린다. 이때 잠시 동안 방해 내성을 얻는다.",
               "달리는 동안 몸에서 나무열매가 떨어진다. 그 나무열매를 먹으면 이동 속도가 잠시 동안 오르고 먹으면 먹을수록 이동 속도가 오른다.",
               "또한 달리면서 '몸통박치기', '트림'이나 '기관총'을 사용할 수 있다. 기술을 사용하면 '몸통박치기', '트림'의 대기 시간이 0초가 된다."
             ]
@@ -4919,7 +5217,7 @@
             "updatedNameKo": "트림",
             "updatedName": "Covet",
             "updatedContents": [
-              "기술 대기 시간이 길어지고 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "기술 대기 시간이 길어지고 상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -4931,7 +5229,7 @@
             "updatedNameKo": "기관총",
             "updatedName": "Stuff Cheeks",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -4950,7 +5248,7 @@
             "updatedNameKo": "트림",
             "updatedName": "Covet",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다.",
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다.",
               "상대편 포켓몬에게 주는 효과가 강해졌습니다."
             ]
           },
@@ -4958,7 +5256,7 @@
             "updatedNameKo": "트림+",
             "updatedName": "Covet",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다.",
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다.",
               "상대편 포켓몬에게 주는 효과가 강해졌습니다."
             ]
           },
@@ -5089,21 +5387,21 @@
             "updatedNameKo": "물수리검",
             "updatedName": "Water Shuriken",
             "updatedContents": [
-              "던지는 수리검의 개수를 4개로 고정하였으며 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "던지는 수리검의 개수를 4개로 고정하였으며 상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "물수리검+",
             "updatedName": "Water Shuriken",
             "updatedContents": [
-              "던지는 수리검의 개수를 5개로 고정하였으며 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "던지는 수리검의 개수를 5개로 고정하였으며 상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "그림자분신",
             "updatedName": "Double Team",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -5115,7 +5413,7 @@
             "updatedNameKo": "파도타기",
             "updatedName": "Surf",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -5151,7 +5449,7 @@
             "updatedNameKo": "그림자분신",
             "updatedName": "Double Team",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -5227,7 +5525,7 @@
             "updatedNameKo": "물수리검",
             "updatedName": "Water Shuriken",
             "updatedContents": [
-              "기술 대기 시간이 짧아졌으며 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "기술 대기 시간이 짧아졌으며 상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -5248,12 +5546,12 @@
           {
             "updatedNameKo": "연막",
             "updatedName": "Smokescreen",
-            "updatedContents": ["공격을 사용한 후 강화 공격의 데미지: 12% 증가"]
+            "updatedContents": ["공격을 사용한 후 강화 공격의 대미지: 12% 증가"]
           },
           {
             "updatedNameKo": "유나이트 기술: 거대물수리검",
             "updatedName": "Waterburst Shuriken",
-            "updatedContents": ["필요한 에너지양: 25% 감소", "데미지: 20% 감소"]
+            "updatedContents": ["필요한 에너지양: 25% 감소", "대미지: 20% 감소"]
           }
         ]
       }
@@ -5359,19 +5657,19 @@
           {
             "updatedNameKo": "다른차원러시",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "환상빔",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "유나이트 기술: 굴레를벗어난링",
             "updatedContents": [
-              "일반 공격이 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "일반 공격이 상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -5409,7 +5707,7 @@
           {
             "updatedNameKo": "섀도볼",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -5419,13 +5717,13 @@
           {
             "updatedNameKo": "굴레에 빠진 후파의 일반 공격",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "굴레에 빠진 후파의 다른차원러시",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -5441,7 +5739,7 @@
           },
           {
             "updatedNameKo": "트릭+",
-            "updatedContents": ["주는 데미지에 따른 HP 회복량: 60% 감소"]
+            "updatedContents": ["주는 대미지에 따른 HP 회복량: 60% 감소"]
           }
         ]
       }
@@ -5518,7 +5816,7 @@
           {
             "updatedNameKo": "신속",
             "updatedName": "Extreme Speed",
-            "updatedContents": ["데미지: 5% 증가"]
+            "updatedContents": ["대미지: 5% 증가"]
           },
           {
             "updatedNameKo": "인파이트",
@@ -5554,14 +5852,14 @@
             "updatedNameKo": "신속+",
             "updatedName": "Extreme Speed",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 추가 데미지량이 감소되었습니다."
+              "상대편 포켓몬에게 주는 추가 대미지량이 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "그로우펀치",
             "updatedName": "Power-Up Punch",
             "updatedContents": [
-              "유나이트기술 직후에 그로우펀치의 데미지가 높아지던 오류를 수정했습니다."
+              "유나이트기술 직후에 그로우펀치의 대미지가 높아지던 오류를 수정했습니다."
             ]
           }
         ]
@@ -5573,7 +5871,7 @@
             "updatedNameKo": "신속",
             "updatedName": "Extreme Speed",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -5585,7 +5883,7 @@
             "updatedNameKo": "인파이트",
             "updatedName": "Close Combat",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되고 기술에 의해 자신에게 주는 효과가 약해졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되고 기술에 의해 자신에게 주는 효과가 약해졌습니다."
             ]
           }
         ]
@@ -5597,7 +5895,7 @@
             "updatedNameKo": "코멧펀치",
             "updatedName": "Meteor Mash",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되고 상대편 포켓몬에게 주는 효과가 약해졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되고 상대편 포켓몬에게 주는 효과가 약해졌습니다."
             ]
           },
           {
@@ -5626,7 +5924,7 @@
             "updatedNameKo": "그로우펀치",
             "updatedName": "Power-Up Punch",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되고 기술을 모으는 시간이 짧아졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되고 기술을 모으는 시간이 짧아졌습니다."
             ]
           },
           {
@@ -5663,20 +5961,20 @@
             "updatedNameKo": "그로우펀치",
             "updatedName": "Power-Up Punch",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "인파이트",
             "updatedName": "Close Combat",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되고 기술의 공격 횟수가 늘었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되고 기술의 공격 횟수가 늘었습니다."
             ]
           },
           {
             "updatedNameKo": "인파이트+",
             "updatedName": "Close Combat",
-            "updatedContents": ["데미지 오류가 수정되었습니다."]
+            "updatedContents": ["대미지 오류가 수정되었습니다."]
           }
         ]
       },
@@ -5694,7 +5992,7 @@
             "updatedNameKo": "본러쉬",
             "updatedName": "Bone Rush",
             "updatedContents": [
-              "다시 기술을 사용했을 때 주변의 상대에게 데미지를 주지 않던 오류를 수정했습니다."
+              "다시 기술을 사용했을 때 주변의 상대에게 대미지를 주지 않던 오류를 수정했습니다."
             ]
           }
         ]
@@ -5795,7 +6093,7 @@
           {
             "updatedNameKo": "지옥의바퀴",
             "updatedName": "Submission",
-            "updatedContents": ["데미지: 23% 증가"]
+            "updatedContents": ["대미지: 23% 증가"]
           }
         ]
       },
@@ -5811,7 +6109,7 @@
             "updatedNameKo": "폭발펀치",
             "updatedName": "Dynamic Punch",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -5830,7 +6128,7 @@
             "updatedNameKo": "태권당수",
             "updatedName": "Karate Chop",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -5842,7 +6140,7 @@
             "updatedNameKo": "지옥의바퀴",
             "updatedName": "Submission",
             "updatedContents": [
-              "상대편 포켓몬에게 방해 효과를 주지 못한 경우에도 데미지와 기술의 효과가 발동하도록 변경되었습니다."
+              "상대편 포켓몬에게 방해 효과를 주지 못한 경우에도 대미지와 기술의 효과가 발동하도록 변경되었습니다."
             ]
           }
         ]
@@ -5866,14 +6164,14 @@
             "updatedNameKo": "크로스촙",
             "updatedName": "Cross Chop",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "인파이트",
             "updatedName": "Close Combat",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -5885,7 +6183,7 @@
             "updatedNameKo": "인파이트",
             "updatedName": "Close Combat",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -5899,6 +6197,23 @@
               "기술에 의한 이동 속도의 상승률이 상승되었습니다.",
               "기술에 의한 공격의 상승률이 감소되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "폭발펀치+",
+            "updatedContents": ["공격 상승률: 20% → 12%"]
+          },
+          {
+            "updatedNameKo": "지옥의바퀴",
+            "updatedContents": ["공격속도 상승: 50% → 40%"]
+          },
+          {
+            "updatedNameKo": "지옥의바퀴+",
+            "updatedContents": ["공격속도 상승: 50% → 40%"]
           }
         ]
       }
@@ -5983,12 +6298,12 @@
           {
             "updatedNameKo": "얼음엄니",
             "updatedName": "Ice Fang",
-            "updatedContents": ["데미지: 25% 증가"]
+            "updatedContents": ["대미지: 25% 증가"]
           },
           {
             "updatedNameKo": "지진",
             "updatedName": "Earthquake",
-            "updatedContents": ["데미지: 25% 증가"]
+            "updatedContents": ["대미지: 25% 증가"]
           },
           {
             "updatedNameKo": "유나이트 기술: 쾅쾅프레스",
@@ -6107,7 +6422,7 @@
             "updatedNameKo": "고드름떨구기",
             "updatedName": "Icicle Crash",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -6140,11 +6455,11 @@
           },
           {
             "updatedNameKo": "강화 공격",
-            "updatedContents": ["데미지: 4%~12% 감소(레벨 1~15)"]
+            "updatedContents": ["대미지: 4%~12% 감소(레벨 1~15)"]
           },
           {
             "updatedNameKo": "유나이트 기술: 미스틱미라지",
-            "updatedContents": ["데미지: 11%~12% 감소(레벨 9~15)"]
+            "updatedContents": ["대미지: 11%~12% 감소(레벨 9~15)"]
           }
         ]
       },
@@ -6153,11 +6468,11 @@
         "updatedContentList": [
           {
             "updatedNameKo": "솔라빔",
-            "updatedContents": ["데미지: 13~20% 감소"]
+            "updatedContents": ["대미지: 13~20% 감소"]
           },
           {
             "updatedNameKo": "유나이트 기술: 미스틱미라지",
-            "updatedContents": ["데미지: 20% 감소"]
+            "updatedContents": ["대미지: 20% 감소"]
           }
         ]
       },
@@ -6167,14 +6482,14 @@
           {
             "updatedNameKo": "스테이터스",
             "updatedContents": [
-              "레벨 9 이후, 특수공격으로 주는 데미지의 12.5%를 회복하도록 조정했습니다."
+              "레벨 9 이후, 특수공격으로 주는 대미지의 12.5%를 회복하도록 조정했습니다."
             ]
           },
           {
             "updatedNameKo": "일반 공격",
             "updatedContents": [
-              "강화 공격의 기초 데미지: 10% 증가",
-              "일정 거리마다 증가하는 데미지: 5% → 4%"
+              "강화 공격의 기초 대미지: 10% 증가",
+              "일정 거리마다 증가하는 대미지: 5% → 4%"
             ]
           },
           {
@@ -6203,7 +6518,7 @@
           },
           {
             "updatedNameKo": "일렉트릭볼",
-            "updatedContents": ["데미지: 10% 감소"]
+            "updatedContents": ["대미지: 10% 감소"]
           },
           {
             "updatedNameKo": "솔라빔",
@@ -6238,7 +6553,7 @@
           {
             "updatedNameKo": "강화 공격",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -6253,7 +6568,7 @@
           {
             "updatedNameKo": "솔라빔",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었으며 의도하지 않은 방향으로 기술이 사용되던 오류를 수정했습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었으며 의도하지 않은 방향으로 기술이 사용되던 오류를 수정했습니다."
             ]
           },
           {
@@ -6265,7 +6580,7 @@
           {
             "updatedNameKo": "파도타기",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -6277,7 +6592,7 @@
           {
             "updatedNameKo": "유나이트 기술: 미스틱미라지",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -6305,7 +6620,7 @@
           {
             "updatedNameKo": "강화 공격",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -6354,7 +6669,7 @@
           {
             "updatedNameKo": "염동력",
             "updatedContents": [
-              "데미지: 15% 감소(상대편 포켓몬을 장애물에 밀쳐냈을 때 주는 추가 데미지는 조정 없음)"
+              "대미지: 15% 감소(상대편 포켓몬을 장애물에 밀쳐냈을 때 주는 추가 대미지는 조정 없음)"
             ]
           },
           {
@@ -6366,7 +6681,7 @@
           },
           {
             "updatedNameKo": "유나이트 기술: It's 쇼타임",
-            "updatedContents": ["데미지: 10% 감소"]
+            "updatedContents": ["대미지: 10% 감소"]
           }
         ]
       },
@@ -6385,14 +6700,14 @@
           {
             "updatedNameKo": "염동력",
             "updatedContents": [
-              "파워스웹을 연결한 상대편 포켓몬에게 주는 추가 데미지가 감소",
+              "파워스웹을 연결한 상대편 포켓몬에게 주는 추가 대미지가 감소",
               "파워스웹을 연결한 상대편 포켓몬에게 주는 행동 불가 효과의 시간이 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "염동력+",
             "updatedContents": [
-              "파워스웹을 연결한 상대편 포켓몬에게 주는 추가 데미지가 감소되었습니다."
+              "파워스웹을 연결한 상대편 포켓몬에게 주는 추가 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -6403,19 +6718,19 @@
           {
             "updatedNameKo": "염동력",
             "updatedContents": [
-              "파워스웹으로 연결된 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "파워스웹으로 연결된 상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "염동력+",
             "updatedContents": [
-              "파워스웹으로 연결된 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "파워스웹으로 연결된 상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "유나이트 기술: It's 쇼타임",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -6426,13 +6741,13 @@
           {
             "updatedNameKo": "사이코키네시스",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "파워스웹",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되고 기술에 의한 이동 속도의 하락률이 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되고 기술에 의한 이동 속도의 하락률이 감소되었습니다."
             ]
           },
           {
@@ -6454,7 +6769,7 @@
             "updatedNameKo": "강화 공격",
             "updatedContents": [
               "다음과 같이 변경되었습니다.",
-              "일정 시간이 지날 때마다 일반 공격은 강화 공격이 되며 명중했을 때의 데미지가 증가하고 상대편 포켓몬을 날려버린다."
+              "일정 시간이 지날 때마다 일반 공격은 강화 공격이 되며 명중했을 때의 대미지가 증가하고 상대편 포켓몬을 날려버린다."
             ]
           },
           {
@@ -6477,8 +6792,8 @@
             "updatedNameKo": "사이코키네시스",
             "updatedContents": [
               "다음과 같이 변경되었습니다.",
-              "잠시 동안 주변에 있는 상대편 포켓몬에게 지속 데미지를 주고 특수방어를 떨어뜨린다.",
-              "그 뒤 주변의 상대편 포켓몬에게 데미지를 주고 행동할 수 없게 만든다.",
+              "잠시 동안 주변에 있는 상대편 포켓몬에게 지속 대미지를 주고 특수방어를 떨어뜨린다.",
+              "그 뒤 주변의 상대편 포켓몬에게 대미지를 주고 행동할 수 없게 만든다.",
               "사이코키네시스는 파워스웹의 효과를 받은 포켓몬이나 빛의장막, 배리어에서도 동시에 발생한다."
             ]
           },
@@ -6487,8 +6802,8 @@
             "updatedContents": [
               "다음과 같이 변경되었습니다.",
               "기술이 명중했을 때 명중한 포켓몬과 자신 사이를 연결하고 연결되어 있는 동안 자신의 이동 속도가 올라가며 HP를 지속해서 회복한다.",
-              "같은 편 포켓몬과 연결된 경우에는 그 포켓몬의 이동 속도를 올리며 주는 데미지를 증가시키고 HP를 지속해서 회복시킨다.",
-              "상대편 포켓몬과 연결된 경우에는 그 포켓몬의 이동 속도를 떨어뜨리며 주는 데미지를 감소시키고 지속 데미지를 준다.",
+              "같은 편 포켓몬과 연결된 경우에는 그 포켓몬의 이동 속도를 올리며 주는 대미지를 증가시키고 HP를 지속해서 회복시킨다.",
+              "상대편 포켓몬과 연결된 경우에는 그 포켓몬의 이동 속도를 떨어뜨리며 주는 대미지를 감소시키고 지속 대미지를 준다.",
               "파워스웹이 연결되어 있는 포켓몬과 너무 멀어지면 연결이 끊어진다."
             ]
           }
@@ -6522,7 +6837,7 @@
           {
             "updatedNameKo": "가드스웹",
             "updatedContents": [
-              "기술이 명중했을 때 명중한 포켓몬과 자신 사이를 연결하고 서로의 방어와 특수방어를 교체한다. 상대편 포켓몬과 연결된 경우에는 지속 데미지를 주며 잠시 동안 이동 속도를 떨어뜨린다.",
+              "기술이 명중했을 때 명중한 포켓몬과 자신 사이를 연결하고 서로의 방어와 특수방어를 교체한다. 상대편 포켓몬과 연결된 경우에는 지속 대미지를 주며 잠시 동안 이동 속도를 떨어뜨린다.",
               "같은 편 포켓몬과 연결된 경우에는 그 포켓몬과 자신의 이동 속도를 올린다.",
               "이 기술의 효과는 연결된 포켓몬과 너무 멀어져 연결이 끊어지거나 다른 포켓몬에게 타깃을 옮기려 하지 않는 한 계속 이어진다."
             ]
@@ -6530,7 +6845,7 @@
           {
             "updatedNameKo": "염동력",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -6563,6 +6878,19 @@
               "이동 속도 상승량: 8% → 10%",
               "HP 회복량: 22% 증가"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "사이코키네시스",
+            "updatedContents": ["대기 시간: 6s → 6.5s"]
+          },
+          {
+            "updatedNameKo": "사이코키네시스+",
+            "updatedContents": ["대기 시간: 6s → 6.5s"]
           }
         ]
       }
@@ -6641,7 +6969,7 @@
             "updatedName": "Aurora Veil",
             "updatedContents": [
               "기술 범위 내에서 사용한 강화 공격에 의한 HP 회복량: 100% 증가",
-              "받는 데미지 경감량: 30% → 35%"
+              "받는 대미지 경감량: 30% → 35%"
             ]
           },
           {
@@ -6649,7 +6977,7 @@
             "updatedName": "Aurora Veil",
             "updatedContents": [
               "기술 범위 내에서 사용한 강화 공격에 의한 HP 회복량: 100% 증가",
-              "받는 데미지 경감량: 35% → 40%"
+              "받는 대미지 경감량: 35% → 40%"
             ]
           }
         ]
@@ -6726,8 +7054,8 @@
             "updatedNameKo": "오로라베일",
             "updatedName": "Aurora Veil",
             "updatedContents": [
-              "지정한 장소로 뛰어들어 주변에 오로라를 만든다. 자신과 범위 안에 있는 같은 편 포켓몬이 받는 데미지가 감소한다.",
-              "기술의 범위 안에 있는 동안 자신의 이동 속도가 오르며 일반 공격이 모두 강화 공격이 된다. 강화 공격으로 데미지를 주면 자신의 HP를 회복한다."
+              "지정한 장소로 뛰어들어 주변에 오로라를 만든다. 자신과 범위 안에 있는 같은 편 포켓몬이 받는 대미지가 감소한다.",
+              "기술의 범위 안에 있는 동안 자신의 이동 속도가 오르며 일반 공격이 모두 강화 공격이 된다. 강화 공격으로 대미지를 주면 자신의 HP를 회복한다."
             ]
           }
         ]
@@ -6744,7 +7072,7 @@
             "updatedNameKo": "눈보라",
             "updatedName": "Blizzard",
             "updatedContents": [
-              "기술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "기술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -6756,7 +7084,7 @@
             "updatedNameKo": "눈보라",
             "updatedName": "Blizzard",
             "updatedContents": [
-              "눈보라가 장애물에 닿은 뒤에 데미지를 주는 방식이 변경되었습니다."
+              "눈보라가 장애물에 닿은 뒤에 대미지를 주는 방식이 변경되었습니다."
             ]
           },
           {
@@ -6898,17 +7226,17 @@
           {
             "updatedNameKo": "일렉트릭볼",
             "updatedName": "Electro Ball",
-            "updatedContents": ["추가 데미지: 감소 HP의 4% → 감소 HP의 6%"]
+            "updatedContents": ["추가 대미지: 감소 HP의 4% → 감소 HP의 6%"]
           },
           {
             "updatedNameKo": "일렉트릭볼+",
             "updatedName": "Electro Ball",
-            "updatedContents": ["추가 데미지: 감소 HP의 5% → 감소 HP의 8%"]
+            "updatedContents": ["추가 대미지: 감소 HP의 5% → 감소 HP의 8%"]
           },
           {
             "updatedNameKo": "볼트태클",
             "updatedName": "Volt Tackle",
-            "updatedContents": ["데미지: 20% 증가"]
+            "updatedContents": ["대미지: 20% 증가"]
           }
         ]
       },
@@ -6923,7 +7251,7 @@
           {
             "updatedNameKo": "번개",
             "updatedName": "Thunder",
-            "updatedContents": ["데미지: 10% 증가", "대기 시간: 8초 → 7.5초"]
+            "updatedContents": ["대미지: 10% 증가", "대기 시간: 8초 → 7.5초"]
           }
         ]
       },
@@ -6944,14 +7272,14 @@
             "updatedNameKo": "전기쇼크",
             "updatedName": "Thunder Shock",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "볼트태클",
             "updatedName": "Volt Tackle",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -6980,14 +7308,14 @@
             "updatedNameKo": "번개",
             "updatedName": "Thunder",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "볼트태클",
             "updatedName": "Volt Tackle",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -7039,7 +7367,7 @@
             "updatedNameKo": "일렉트릭볼",
             "updatedName": "Electro Ball",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다.",
               "기술 대기 시간이 길어졌습니다."
             ]
           },
@@ -7047,7 +7375,7 @@
             "updatedNameKo": "일렉트릭볼+",
             "updatedName": "Electro Ball",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다.",
               "기술 대기 시간이 길어졌습니다."
             ]
           },
@@ -7055,21 +7383,21 @@
             "updatedNameKo": "번개",
             "updatedName": "Thunder",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "번개+",
             "updatedName": "Thunder",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "풀볼트스톰",
             "updatedName": "Thunderstorm",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -7105,7 +7433,7 @@
           },
           {
             "updatedNameKo": "탁쳐서떨구기",
-            "updatedContents": ["데미지: 15% 감소"]
+            "updatedContents": ["대미지: 15% 감소"]
           }
         ]
       },
@@ -7131,7 +7459,7 @@
           {
             "updatedNameKo": "야습",
             "updatedContents": [
-              "기술을 사용한 뒤 추가 데미지가 2번 발생하던 오류를 수정했습니다."
+              "기술을 사용한 뒤 추가 대미지가 2번 발생하던 오류를 수정했습니다."
             ]
           }
         ]
@@ -7169,7 +7497,7 @@
           {
             "updatedNameKo": "야습",
             "updatedContents": [
-              "은신 상태일 때 사용한 강화 공격으로 발생하는 추가 데미지가 약해졌으며 기술 대기 시간이 길어지고 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "은신 상태일 때 사용한 강화 공격으로 발생하는 추가 대미지가 약해졌으며 기술 대기 시간이 길어지고 상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -7179,8 +7507,17 @@
           {
             "updatedNameKo": "속여때리기",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "야습",
+            "updatedContents": ["대기 시간: 13s → 12s"]
           }
         ]
       }
@@ -7212,7 +7549,7 @@
           },
           {
             "updatedNameKo": "더블어택",
-            "updatedContents": ["데미지: 10% 증가"]
+            "updatedContents": ["대미지: 10% 증가"]
           },
           {
             "updatedNameKo": "강화 공격(스라크)",
@@ -7274,13 +7611,13 @@
           {
             "updatedNameKo": "더블윙",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "더블윙",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -7291,19 +7628,19 @@
           {
             "updatedNameKo": "강화 공격(스라크)",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "더블어택(스라크)",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "더블윙",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -7313,7 +7650,7 @@
           {
             "updatedNameKo": "불릿펀치",
             "updatedContents": [
-              "기술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "기술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -7325,7 +7662,7 @@
           {
             "updatedNameKo": "유나이트 기술: 레드스타다이브",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -7336,6 +7673,29 @@
           {
             "updatedNameKo": "칼춤(핫삼)",
             "updatedContents": ["대기 시간: 7초 → 8.5초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "더블윙",
+            "updatedContents": ["HP 회복량: 15% 증가"]
+          },
+          {
+            "updatedNameKo": "더블윙+",
+            "updatedContents": ["HP 회복량: 15% 증가"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-26",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "불릿펀치",
+            "updatedContents": ["대미지: 5% 증가", "대기 시간: 5s → 4.5s"]
           }
         ]
       }
@@ -7485,7 +7845,7 @@
             "updatedNameKo": "물대포",
             "updatedName": "Water Gun",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -7512,7 +7872,7 @@
             "updatedNameKo": "열탕",
             "updatedName": "Scald",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되고 기술에 의한 이동 속도의 하락률이 상승되었으며 기술에 의한 공격의 하락률이 상승되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되고 기술에 의한 이동 속도의 하락률이 상승되었으며 기술에 의한 공격의 하락률이 상승되었습니다."
             ]
           },
           {
@@ -7537,7 +7897,7 @@
             "updatedNameKo": "열탕",
             "updatedName": "Scald",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다.",
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다.",
               "기술에 의해 자신에게 주는 효과와 상대편 포켓몬에게 주는 효과가 강해졌습니다."
             ]
           },
@@ -7545,7 +7905,7 @@
             "updatedNameKo": "망각술",
             "updatedName": "Amnesia",
             "updatedContents": [
-              "'열탕', '파도타기'로 주는 데미지가 1번만 증가한다."
+              "'열탕', '파도타기'로 주는 대미지가 1번만 증가한다."
             ]
           },
           {
@@ -7598,8 +7958,8 @@
             "updatedNameKo": "열탕",
             "updatedName": "Scald",
             "updatedContents": [
-              "대편 포켓몬에게 주는 데미지가 증가되었습니다.",
-              "증기에 의한 데미지에 따라 「특성 둔감」의 효과가 발동하지 않던 오류를 수정했습니다."
+              "대편 포켓몬에게 주는 대미지가 증가되었습니다.",
+              "증기에 의한 대미지에 따라 「특성 둔감」의 효과가 발동하지 않던 오류를 수정했습니다."
             ]
           }
         ]
@@ -7815,7 +8175,7 @@
             "updatedNameKo": "블록+",
             "updatedName": "Block",
             "updatedContents": [
-              "기술 습득 레벨이 13으로 변경되었으며 자신에 대한 데미지 경감 효과에 관한 오류를 수정했습니다."
+              "기술 습득 레벨이 13으로 변경되었으며 자신에 대한 대미지 경감 효과에 관한 오류를 수정했습니다."
             ]
           },
           {
@@ -7854,7 +8214,7 @@
             "updatedNameKo": "헤비봄버",
             "updatedName": "Heavy Slam",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -7993,7 +8353,7 @@
           {
             "updatedNameKo": "유나이트 기술: 페어리하모니",
             "updatedName": "Fairy Frolic",
-            "updatedContents": ["필요한 에너지양: 20% 증가", "데미지: 20% 증가"]
+            "updatedContents": ["필요한 에너지양: 20% 증가", "대미지: 20% 증가"]
           }
         ]
       },
@@ -8004,7 +8364,7 @@
             "updatedNameKo": "매지컬플레임",
             "updatedName": "Mystical Fire",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -8062,14 +8422,14 @@
             "updatedNameKo": "페어리스킨",
             "updatedName": "Pixilate",
             "updatedContents": [
-              "지닌물건에 의한 데미지가 발생했을 때, '페어리스킨'의 효과가 발동하던 오류를 수정했습니다."
+              "지닌물건에 의한 대미지가 발생했을 때, '페어리스킨'의 효과가 발동하던 오류를 수정했습니다."
             ]
           },
           {
             "updatedNameKo": "유나이트 기술: 페어리하모니",
             "updatedName": "Fairy Frolic",
             "updatedContents": [
-              "사용 후 공격 데미지(특수공격에 의한 데미지를 제외함)에 의한 HP 회복이 발생하지 않던 오류를 수정했습니다."
+              "사용 후 공격 대미지(특수공격에 의한 대미지를 제외함)에 의한 HP 회복이 발생하지 않던 오류를 수정했습니다."
             ]
           }
         ]
@@ -8093,14 +8453,14 @@
             "updatedNameKo": "하이퍼보이스",
             "updatedName": "Hyper Voice",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "매지컬플레임",
             "updatedName": "Mystical Fire",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -8130,7 +8490,7 @@
             "updatedName": "Hyper Voice",
             "updatedContents": [
               "효과 범위 각도: 전방 35° → 전방 120° ",
-              "데미지: 8% 감소",
+              "대미지: 8% 감소",
               "대기 시간: 6초 → 5.5초"
             ]
           },
@@ -8154,6 +8514,36 @@
             "updatedNameKo": "초롱초롱눈동자",
             "updatedName": "Baby-Doll Eyes",
             "updatedContents": ["지정한 포켓몬에게 명중되도록 변경되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
+            "updatedContents": ["특방：38 ~ 190 → 38 ~ 240 (레벨 1-15)"]
+          },
+          {
+            "updatedNameKo": "드레인키스",
+            "updatedName": "Draining Kiss",
+            "updatedContents": ["HP 회복 효과 : 8% 감소"]
+          },
+          {
+            "updatedNameKo": "드레인키스+",
+            "updatedName": "Draining Kiss",
+            "updatedContents": ["HP 회복 효과 : 8% 감소"]
+          },
+          {
+            "updatedNameKo": "매지컬플레임",
+            "updatedName": "Mystical Fire",
+            "updatedContents": ["대미지 : 8% 감소"]
+          },
+          {
+            "updatedNameKo": "매지컬플레임+",
+            "updatedName": "Mystical Fire",
+            "updatedContents": ["대미지 : 8% 감소"]
           }
         ]
       }
@@ -8182,7 +8572,7 @@
           {
             "updatedNameKo": "브레이브버드+",
             "updatedContents": [
-              "충전참을 최대까지 모았을 때 기술을 사용하면 충전참의 추가 데미지를 자신이 받던 오류를 수정했습니다."
+              "충전참을 최대까지 모았을 때 기술을 사용하면 충전참의 추가 대미지를 자신이 받던 오류를 수정했습니다."
             ]
           }
         ]
@@ -8196,11 +8586,11 @@
           },
           {
             "updatedNameKo": "제비반환",
-            "updatedContents": ["데미지: 15% 증가"]
+            "updatedContents": ["대미지: 15% 증가"]
           },
           {
             "updatedNameKo": "제비반환+",
-            "updatedContents": ["데미지: 15% 증가"]
+            "updatedContents": ["대미지: 15% 증가"]
           }
         ]
       },
@@ -8218,7 +8608,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "브레이브버드",
-            "updatedContents": ["데미지: 약 10% 증가"]
+            "updatedContents": ["대미지: 약 10% 증가"]
           }
         ]
       },
@@ -8237,13 +8627,13 @@
           {
             "updatedNameKo": "브레이브버드",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되고 기술의 범위가 좁아졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되고 기술의 범위가 좁아졌습니다."
             ]
           },
           {
             "updatedNameKo": "유나이트 기술: 플레어스위퍼",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되고 유나이트 기술을 모으기 어려워졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되고 유나이트 기술을 모으기 어려워졌습니다."
             ]
           }
         ]
@@ -8255,7 +8645,7 @@
             "updatedNameKo": "공중날기",
             "updatedContents": [
               "상대 팀의 포켓몬에게 명중한 경우에는 이 기술의 대기 시간이 짧아지도록 변경되었습니다.",
-              "또한 상대편 포켓몬에게 주는 데미지가 감소되고 기술 대기 시간이 길어졌습니다."
+              "또한 상대편 포켓몬에게 주는 대미지가 감소되고 기술 대기 시간이 길어졌습니다."
             ]
           },
           {
@@ -8313,19 +8703,19 @@
           {
             "updatedNameKo": "애크러뱃",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "제비반환",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "공중날기",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -8339,7 +8729,16 @@
           },
           {
             "updatedNameKo": "니트로차지",
-            "updatedContents": ["데미지: 10% 증가"]
+            "updatedContents": ["대미지: 10% 증가"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "브레이브버드+",
+            "updatedContents": ["대미지 경감율: 15% → 25%"]
           }
         ]
       }
@@ -8394,14 +8793,14 @@
           {
             "updatedNameKo": "저주",
             "updatedContents": [
-              "데미지: 약 18% 증가",
+              "대미지: 약 18% 증가",
               "이동 속도를 떨어뜨리는 효과: 약 30% 증가",
               "대가로 소모하는 HP: 최대 HP의 3%/초 → 최대 HP의 2%/초"
             ]
           },
           {
             "updatedNameKo": "아픔나누기",
-            "updatedContents": ["데미지: 약 30% 증가"]
+            "updatedContents": ["대미지: 약 30% 증가"]
           }
         ]
       },
@@ -8425,14 +8824,14 @@
             "updatedNameKo": "우드해머",
             "updatedContents": [
               "대기 시간: 6초 → 5초",
-              "데미지: 15% ~ 25% 증가",
+              "대미지: 15% ~ 25% 증가",
               "소모하는 HP: 남은 HP의 7% → 남은 HP의 5%",
               "2번째 해머를 휘두르기까지의 시간이 짧아졌습니다."
             ]
           },
           {
             "updatedNameKo": "아픔나누기",
-            "updatedContents": ["상대와 분배하는 데미지: 9% ~ 17% → 20% ~ 30%"]
+            "updatedContents": ["상대와 분배하는 대미지: 9% ~ 17% → 20% ~ 30%"]
           }
         ]
       },
@@ -8453,13 +8852,13 @@
           {
             "updatedNameKo": "가지찌르기",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되고 상대편 포켓몬에게 주는 효과가 강해졌습니다. 또한 기술이 다음과 같이 변경되었습니다. 지정한 방향으로 꿰찌르듯이 공격한다. 기술이 명중했을 때 상대편 포켓몬에게 데미지를 주고 이동 속도를 잠시 동안 떨어뜨린다. 동시에 잠시 동안 자신의 HP를 서서히 회복한다."
+              "상대편 포켓몬에게 주는 대미지가 증가되고 상대편 포켓몬에게 주는 효과가 강해졌습니다. 또한 기술이 다음과 같이 변경되었습니다. 지정한 방향으로 꿰찌르듯이 공격한다. 기술이 명중했을 때 상대편 포켓몬에게 대미지를 주고 이동 속도를 잠시 동안 떨어뜨린다. 동시에 잠시 동안 자신의 HP를 서서히 회복한다."
             ]
           },
           {
             "updatedNameKo": "저주",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었으며 기술에 의해 자신에게 주는 효과가 약해졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었으며 기술에 의해 자신에게 주는 효과가 약해졌습니다."
             ]
           },
           {
@@ -8507,7 +8906,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "우드해머",
-            "updatedContents": ["데미지: 18% 감소"]
+            "updatedContents": ["대미지: 18% 감소"]
           },
           {
             "updatedNameKo": "우드혼",
@@ -8515,7 +8914,7 @@
           },
           {
             "updatedNameKo": "저주",
-            "updatedContents": ["데미지: 25%~18% 감소(레벨 5~15)"]
+            "updatedContents": ["대미지: 25%~18% 감소(레벨 5~15)"]
           }
         ]
       }
@@ -8634,7 +9033,7 @@
           {
             "updatedNameKo": "특성: 멀티스케일",
             "updatedName": "Multiscale",
-            "updatedContents": ["데미지 감소량: 25% → 30%"]
+            "updatedContents": ["대미지 감소량: 25% → 30%"]
           }
         ]
       },
@@ -8644,7 +9043,7 @@
           {
             "updatedNameKo": "역린",
             "updatedName": "Outrage",
-            "updatedContents": ["강화 공격 데미지: 10% 증가"]
+            "updatedContents": ["강화 공격 대미지: 10% 증가"]
           },
           {
             "updatedNameKo": "유나이트 기술: 용성러시",
@@ -8665,7 +9064,7 @@
             "updatedNameKo": "파괴광선",
             "updatedName": "Hyper Beam",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -8692,7 +9091,7 @@
             "updatedNameKo": "파괴광선",
             "updatedName": "Hyper Beam",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -8855,7 +9254,7 @@
           {
             "updatedNameKo": "짓밟기",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되고 기술 대기 시간이 길어졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되고 기술 대기 시간이 길어졌습니다."
             ]
           }
         ]
@@ -8875,7 +9274,7 @@
           {
             "updatedNameKo": "짓밟기",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -8895,13 +9294,13 @@
           {
             "updatedNameKo": "트로피컬킥",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되고 기술 대기 시간이 짧아졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되고 기술 대기 시간이 짧아졌습니다."
             ]
           },
           {
             "updatedNameKo": "짓밟기",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -8916,7 +9315,7 @@
           {
             "updatedNameKo": "트리플악셀",
             "updatedContents": [
-              "기술에 의해 자신에게 주는 효과가 약해지고 상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "기술에 의해 자신에게 주는 효과가 약해지고 상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -8943,6 +9342,47 @@
           {
             "updatedNameKo": "트리플악셀",
             "updatedContents": ["HP 회복량이 감소되었습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "트리플악셀",
+            "updatedContents": [
+              "명중할 때마다 상승하는 대미지량: 5% → 8% (총 대미지 5% 증가)"
+            ]
+          },
+          {
+            "updatedNameKo": "트리플악셀+",
+            "updatedContents": [
+              "명중할 때마다 상승하는 대미지량: 5% → 8% (총 대미지 5% 증가)"
+            ]
+          },
+          {
+            "updatedNameKo": "트로피컬킥",
+            "updatedContents": ["실드량: 20% 증가"]
+          },
+          {
+            "updatedNameKo": "트로피컬킥+",
+            "updatedContents": ["실드량: 20% 증가"]
+          },
+          {
+            "updatedNameKo": "그래스슬라이더",
+            "updatedContents": ["실드량: 20% 증가"]
+          },
+          {
+            "updatedNameKo": "그래스슬라이더+",
+            "updatedContents": ["실드량: 20% 증가"]
+          },
+          {
+            "updatedNameKo": "짓밟기",
+            "updatedContents": ["대미지 : 5% 감소"]
+          },
+          {
+            "updatedNameKo": "짓밟기+",
+            "updatedContents": ["대미지 : 5% 감소"]
           }
         ]
       }
@@ -9008,7 +9448,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "악의파동",
-            "updatedContents": ["데미지: 10% 감소"]
+            "updatedContents": ["대미지: 10% 감소"]
           },
           {
             "updatedNameKo": "원시의힘",
@@ -9016,7 +9456,7 @@
           },
           {
             "updatedNameKo": "스톤에지",
-            "updatedContents": ["데미지: 10% 증가"]
+            "updatedContents": ["대미지: 10% 증가"]
           }
         ]
       },
@@ -9037,7 +9477,7 @@
           {
             "updatedNameKo": "악의파동",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -9063,15 +9503,36 @@
           },
           {
             "updatedNameKo": "모래지옥",
-            "updatedContents": ["피격 데미지 감소량: 25% → 15%"]
+            "updatedContents": ["피격 대미지 감소량: 25% → 15%"]
           },
           {
             "updatedNameKo": "스톤에지",
-            "updatedContents": ["데미지: 10% 감소"]
+            "updatedContents": ["대미지: 10% 감소"]
           },
           {
             "updatedNameKo": "유나이트 기술: 리슬램페이지",
-            "updatedContents": ["데미지: 20% 감소"]
+            "updatedContents": ["대미지: 20% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스톤에지",
+            "updatedContents": ["대미지: 10% 감소"]
+          },
+          {
+            "updatedNameKo": "스톤에지+",
+            "updatedContents": ["대미지: 10% 감소"]
+          },
+          {
+            "updatedNameKo": "악의파동",
+            "updatedContents": ["대기 시간: 5s → 5.5s"]
+          },
+          {
+            "updatedNameKo": "악의파동+",
+            "updatedContents": ["대기 시간: 5s → 5.5s"]
           }
         ]
       }
@@ -9159,7 +9620,7 @@
             "updatedNameKo": "수류연타",
             "updatedName": "Surging Strikes",
             "updatedContents": [
-              "기술을 사용한 뒤의 강화 공격 데미지: 20% 감소",
+              "기술을 사용한 뒤의 강화 공격 대미지: 20% 감소",
               "대기 시간: 11초 → 12.5초"
             ]
           }
@@ -9177,7 +9638,7 @@
             "updatedNameKo": "수류연타",
             "updatedName": "Surging Strikes",
             "updatedContents": [
-              "데미지: 약 17%~10% 감소(레벨 5~15)",
+              "대미지: 약 17%~10% 감소(레벨 5~15)",
               "강화 공격의 HP 회복량: 최대 HP의 3% → 최대 HP의 2%"
             ]
           }
@@ -9189,7 +9650,7 @@
           {
             "updatedNameKo": "수류연타",
             "updatedName": "Surging Strikes",
-            "updatedContents": ["데미지: 10% 감소"]
+            "updatedContents": ["대미지: 10% 감소"]
           }
         ]
       },
@@ -9218,19 +9679,19 @@
           {
             "updatedNameKo": "암흑강타",
             "updatedName": "Release",
-            "updatedContents": ["충전하고 있는 동안의 데미지 감소량: 30% → 20%"]
+            "updatedContents": ["충전하고 있는 동안의 대미지 감소량: 30% → 20%"]
           },
           {
             "updatedNameKo": "암흑강타+",
             "updatedName": "Wicked Blow",
-            "updatedContents": ["충전하고 있는 동안의 데미지 감소량: 60% → 40%"]
+            "updatedContents": ["충전하고 있는 동안의 대미지 감소량: 60% → 40%"]
           },
           {
             "updatedNameKo": "유나이트 기술: 칠흑의마지막강타",
             "updatedName": "Ebon Fist",
             "updatedContents": [
-              "데미지: 25% 감소",
-              "방향을 지정하지 않았을 때, 데미지를 주고 날려버리는 대상이 지정한 상대편 포켓몬으로만 조정하였습니다."
+              "대미지: 25% 감소",
+              "방향을 지정하지 않았을 때, 대미지를 주고 날려버리는 대상이 지정한 상대편 포켓몬으로만 조정하였습니다."
             ]
           },
           {
@@ -9247,7 +9708,7 @@
             "updatedNameKo": "유나이트 기술: 푸른물의무도",
             "updatedName": "Flowing Fists",
             "updatedContents": [
-              "2단계 연속 공격의 횟수를 1번 증가시킬 때 필요한 데미지 횟수: 3번 → 2번"
+              "2단계 연속 공격의 횟수를 1번 증가시킬 때 필요한 대미지 횟수: 3번 → 2번"
             ]
           }
         ]
@@ -9296,12 +9757,12 @@
           {
             "updatedNameKo": "아쿠아브레이크",
             "updatedName": "Liquidation",
-            "updatedContents": ["데미지: 50% 증가"]
+            "updatedContents": ["대미지: 50% 증가"]
           },
           {
             "updatedNameKo": "지옥찌르기",
             "updatedName": "Throat Chop",
-            "updatedContents": ["대기 시간: 9초 → 7초", "데미지: 20% 증가"]
+            "updatedContents": ["대기 시간: 9초 → 7초", "대미지: 20% 증가"]
           }
         ]
       },
@@ -9317,7 +9778,7 @@
             "updatedNameKo": "수류연타",
             "updatedName": "Surging Strikes",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -9366,7 +9827,7 @@
           {
             "updatedNameKo": "꽃잎댄스",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되고 기술 대기 시간이 짧아졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되고 기술 대기 시간이 짧아졌습니다."
             ]
           },
           {
@@ -9381,7 +9842,7 @@
           {
             "updatedNameKo": "솔라빔",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -9421,7 +9882,7 @@
           {
             "updatedNameKo": "솔라빔",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -9431,12 +9892,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "기가드레인",
-            "updatedContents": ["데미지 감소량이 늘었습니다."]
+            "updatedContents": ["대미지 감소량이 늘었습니다."]
           },
           {
             "updatedNameKo": "꽃잎댄스",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다.",
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다.",
               "기술 대기 시간이 짧아지고 이동 속도의 상승폭이 늘었습니다."
             ]
           }
@@ -9448,7 +9909,7 @@
           {
             "updatedNameKo": "오물폭탄",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되고 상대편 포켓몬에게 주는 효과가 강해졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되고 상대편 포켓몬에게 주는 효과가 강해졌습니다."
             ]
           },
           {
@@ -9462,7 +9923,7 @@
           {
             "updatedNameKo": "유나이트 기술: 그린레이지",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -9473,11 +9934,32 @@
           {
             "updatedNameKo": "오물폭탄",
             "updatedContents": [
-              "데미지: 20% 증가",
-              "독에 의한 데미지: 50% 증가",
+              "대미지: 20% 증가",
+              "독에 의한 대미지: 50% 증가",
               "특수방어를 떨어뜨리는 양(지속 시간): 30%(1초 동안) → 40%(2초 동안)",
               "감속 효과(지속 시간): 45%(1초) → 50%(2초)"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "기가드레인",
+            "updatedContents": ["대미지 경감율: 35% → 40%"]
+          },
+          {
+            "updatedNameKo": "기가드레인+",
+            "updatedContents": ["대미지 경감율: 35% → 40%"]
+          },
+          {
+            "updatedNameKo": "솔라빔",
+            "updatedContents": ["대미지 : 8% 감소"]
+          },
+          {
+            "updatedNameKo": "솔라빔+",
+            "updatedContents": ["대미지 : 8% 감소"]
           }
         ]
       }
@@ -9519,7 +10001,7 @@
           },
           {
             "updatedNameKo": "매지컬샤인",
-            "updatedContents": ["데미지: 6~18% 증가(레벨 6~15)"]
+            "updatedContents": ["대미지: 6~18% 증가(레벨 6~15)"]
           }
         ]
       },
@@ -9551,7 +10033,7 @@
           {
             "updatedNameKo": "막치기",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -9570,7 +10052,7 @@
           {
             "updatedNameKo": "연속뺨치기",
             "updatedContents": [
-              "기술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "기술 대기 시간이 짧아지고 상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -9605,13 +10087,13 @@
           {
             "updatedNameKo": "막치기",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "매지컬샤인",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -9647,7 +10129,7 @@
           {
             "updatedNameKo": "연속뺨치기",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지와 효과가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지와 효과가 증가되었습니다."
             ]
           },
           {
@@ -9657,8 +10139,29 @@
           {
             "updatedNameKo": "매지컬샤인",
             "updatedContents": [
-              "일부 야생 포켓몬에게 데미지를 주지 못하던 오류를 수정했습니다."
+              "일부 야생 포켓몬에게 대미지를 주지 못하던 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "노래하기",
+            "updatedContents": ["방어와 특방 감소량: 35% → 25%"]
+          },
+          {
+            "updatedNameKo": "노래하기+",
+            "updatedContents": ["방어와 특방 감소량: 35% → 25%"]
+          },
+          {
+            "updatedNameKo": "연속뺨치기",
+            "updatedContents": ["대기 시간: 4.5s → 5s"]
+          },
+          {
+            "updatedNameKo": "연속뺨치기+",
+            "updatedContents": ["대기 시간: 4.5s → 5s"]
           }
         ]
       }
@@ -9781,7 +10284,7 @@
           {
             "updatedNameKo": "메탈클로",
             "updatedName": "Metal Claw",
-            "updatedContents": ["데미지: 20% 증가"]
+            "updatedContents": ["대미지: 20% 증가"]
           }
         ]
       },
@@ -9792,7 +10295,7 @@
             "updatedNameKo": "성스러운칼+",
             "updatedName": "Sacred Sword",
             "updatedContents": [
-              "주는 데미지가 예상보다도 크던 오류를 수정했습니다."
+              "주는 대미지가 예상보다도 크던 오류를 수정했습니다."
             ]
           }
         ]
@@ -9804,8 +10307,8 @@
             "updatedNameKo": "성스러운칼",
             "updatedName": "Sacred Sword",
             "updatedContents": [
-              "데미지: 약 10% 감소",
-              "기술을 사용하는 동안의 데미지 감소량: 50% → 30%"
+              "대미지: 약 10% 감소",
+              "기술을 사용하는 동안의 대미지 감소량: 50% → 30%"
             ]
           }
         ]
@@ -9906,7 +10409,7 @@
             "updatedNameKo": "스테이터스",
             "updatedName": "Attack",
             "updatedContents": [
-              "특성 '불요의검' 발동 시의 추가 데미지:",
+              "특성 '불요의검' 발동 시의 추가 대미지:",
               "1단계: 최대 HP의 3% → 2%",
               "2단계: 최대 HP의 4% → 3%",
               "3단계: 최대 HP의 4% → 3%",
@@ -9942,6 +10445,19 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-12-26",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "메탈클로",
+            "updatedContents": [
+              "충격파 데미지 : 50% 감소",
+              "돌진 데미지 : 6% 감소"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -9968,7 +10484,7 @@
           {
             "updatedNameKo": "오류 수정",
             "updatedContents": [
-              "'와일드볼트+'의 데미지 판정이 발동한 장소에 계속 남아있는 오류를 수정했습니다."
+              "'와일드볼트+'의 대미지 판정이 발동한 장소에 계속 남아있는 오류를 수정했습니다."
             ]
           }
         ]
@@ -9978,11 +10494,11 @@
         "updatedContentList": [
           {
             "updatedNameKo": "볼트체인지",
-            "updatedContents": ["데미지: 20% 증가"]
+            "updatedContents": ["대미지: 20% 증가"]
           },
           {
             "updatedNameKo": "와일드볼트",
-            "updatedContents": ["데미지: 13% 증가"]
+            "updatedContents": ["대미지: 13% 증가"]
           }
         ]
       },
@@ -10023,7 +10539,7 @@
             "updatedNameKo": "와일드볼트",
             "updatedContents": [
               "배우는 레벨: 레벨 8 → 레벨 7",
-              "데미지: 5% 감소",
+              "대미지: 5% 감소",
               "대기 시간: 9초 → 10초"
             ]
           },
@@ -10031,7 +10547,7 @@
             "updatedNameKo": "와일드볼트+",
             "updatedContents": [
               "배우는 레벨: 레벨 14 → 레벨 13",
-              "데미지: 5% 감소",
+              "대미지: 5% 감소",
               "대기 시간: 9초 → 10초"
             ]
           }
@@ -10054,7 +10570,7 @@
           {
             "updatedNameKo": "방전",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되고 기술 대기 시간이 짧아졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되고 기술 대기 시간이 짧아졌습니다."
             ]
           },
           {
@@ -10078,7 +10594,7 @@
           {
             "updatedNameKo": "볼트체인지",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -10106,7 +10622,7 @@
           {
             "updatedNameKo": "스파크",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -10124,7 +10640,7 @@
           {
             "updatedNameKo": "방전",
             "updatedContents": [
-              "대편 포켓몬에게 주는 데미지가 감소되었으며 기술에 의한 실드 효과가 약해졌습니다."
+              "대편 포켓몬에게 주는 대미지가 감소되었으며 기술에 의한 실드 효과가 약해졌습니다."
             ]
           },
           {
@@ -10140,7 +10656,7 @@
           {
             "updatedNameKo": "유나이트 기술: 질풍신뢰격",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -10160,7 +10676,7 @@
           {
             "updatedNameKo": "베어가르기",
             "updatedContents": [
-              "기술의 공격 횟수가 줄고 1번의 공격으로 주는 데미지가 증가되었습니다."
+              "기술의 공격 횟수가 줄고 1번의 공격으로 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -10173,7 +10689,7 @@
           {
             "updatedNameKo": "와일드볼트",
             "updatedContents": [
-              "기술 대기 시간이 짧아지고 기술을 사용할 때 자신이 받는 데미지가 줄었습니다."
+              "기술 대기 시간이 짧아지고 기술을 사용할 때 자신이 받는 대미지가 줄었습니다."
             ]
           }
         ]
@@ -10184,14 +10700,43 @@
           {
             "updatedNameKo": "와일드볼트",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되고 기술 대기 시간이 짧아졌습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되고 기술 대기 시간이 짧아졌습니다."
             ]
           },
           {
             "updatedNameKo": "유나이트 기술: 질풍신뢰격",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-11-21",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스파크",
+            "updatedContents": ["대기 시간: 10s → 9s"]
+          },
+          {
+            "updatedNameKo": "스파크+",
+            "updatedContents": ["대기 시간: 10s → 9s"]
+          },
+          {
+            "updatedNameKo": "와일드볼트",
+            "updatedContents": ["대기 시간: 10s → 9s"]
+          },
+          {
+            "updatedNameKo": "와일드볼트+",
+            "updatedContents": ["대기 시간: 10s → 9s"]
+          },
+          {
+            "updatedNameKo": "방전",
+            "updatedContents": ["실드량 : 15% 증가"]
+          },
+          {
+            "updatedNameKo": "방전+",
+            "updatedContents": ["실드량 : 15% 증가"]
           }
         ]
       }
@@ -10269,7 +10814,7 @@
             "updatedNameKo": "깜짝베기",
             "updatedName": "Night Slash",
             "updatedContents": [
-              "데미지: 15% 감소",
+              "대미지: 15% 감소",
               "대기 시간: 8초 → 9초",
               "날아오른 뒤의 공격에 의한 회복량: 20% 감소"
             ]
@@ -10327,7 +10872,7 @@
           {
             "updatedNameKo": "풀베기",
             "updatedName": "Cut",
-            "updatedContents": ["데미지: 10% 증가"]
+            "updatedContents": ["대미지: 10% 증가"]
           },
           {
             "updatedNameKo": "유나이트 기술: 나이트폴버스트",
@@ -10343,7 +10888,7 @@
             "updatedNameKo": "깜짝베기",
             "updatedName": "Night Slash",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -10355,7 +10900,7 @@
             "updatedNameKo": "깜짝베기",
             "updatedName": "Night Slash",
             "updatedContents": [
-              "기술 대기 시간이 길어졌으며 기술의 데미지가 중복해서 발생하던 오류를 수정했습니다."
+              "기술 대기 시간이 길어졌으며 기술의 대미지가 중복해서 발생하던 오류를 수정했습니다."
             ]
           },
           {
@@ -10369,7 +10914,7 @@
             "updatedNameKo": "속여때리기",
             "updatedName": "Feint Attack",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -10393,14 +10938,14 @@
             "updatedNameKo": "속여때리기",
             "updatedName": "Feint Attack",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "속여때리기+",
             "updatedName": "Feint Attack",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
@@ -10488,12 +11033,12 @@
           {
             "updatedNameKo": "냉동빔",
             "updatedName": "Release",
-            "updatedContents": ["얼어붙은 지면이 주는 데미지: 20% 감소"]
+            "updatedContents": ["얼어붙은 지면이 주는 대미지: 20% 감소"]
           },
           {
             "updatedNameKo": "물의파동",
             "updatedName": "Release",
-            "updatedContents": ["1번째 파동의 데미지: 12% 감소"]
+            "updatedContents": ["1번째 파동의 대미지: 12% 감소"]
           },
           {
             "updatedNameKo": "유나이트 기술: 라이드온!라프라스",
@@ -10508,7 +11053,7 @@
           {
             "updatedNameKo": "특성: 조가비갑옷",
             "updatedName": "Release",
-            "updatedContents": ["데미지 감소량: 25% → 20%"]
+            "updatedContents": ["대미지 감소량: 25% → 20%"]
           },
           {
             "updatedNameKo": "일반 공격",
@@ -10520,7 +11065,7 @@
           {
             "updatedNameKo": "멸망의노래",
             "updatedName": "Release",
-            "updatedContents": ["데미지: 20% 감소"]
+            "updatedContents": ["대미지: 20% 감소"]
           }
         ]
       },
@@ -10530,7 +11075,7 @@
           {
             "updatedNameKo": "물의파동",
             "updatedName": "Release",
-            "updatedContents": ["데미지: 10% 감소"]
+            "updatedContents": ["대미지: 10% 감소"]
           },
           {
             "updatedNameKo": "거품광선",
@@ -10540,7 +11085,7 @@
           {
             "updatedNameKo": "유나이트 기술: 라이드온!라프라스",
             "updatedName": "Release",
-            "updatedContents": ["데미지: 15% 감소"]
+            "updatedContents": ["대미지: 15% 감소"]
           }
         ]
       },
@@ -10569,7 +11114,7 @@
           {
             "updatedNameKo": "물의파동",
             "updatedName": "Release",
-            "updatedContents": ["데미지: 15% 감소"]
+            "updatedContents": ["대미지: 15% 감소"]
           }
         ]
       },
@@ -10605,14 +11150,14 @@
             "updatedNameKo": "멸망의노래",
             "updatedName": "Perish Song",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           },
           {
             "updatedNameKo": "멸망의노래+",
             "updatedName": "Perish Song",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 증가되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 증가되었습니다."
             ]
           }
         ]
@@ -10626,7 +11171,6 @@
     "color": "#f16c38",
     "position": "attack",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2023-04-27",
@@ -10642,7 +11186,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "화염방사",
-            "updatedContents": ["데미지: 10% 증가"]
+            "updatedContents": ["대미지: 10% 증가"]
           },
           {
             "updatedNameKo": "폴터가이스트",
@@ -10690,6 +11234,18 @@
           {
             "updatedNameKo": "유나이트 기술: 암야의업화",
             "updatedContents": ["필요한 에너지: 10% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "방어: 35 ~ 175 → 35 ~ 200 (레벨 1-15)",
+              "특방: 30 ~ 140 → 30 ~ 203 (레벨 1-15)"
+            ]
           }
         ]
       }
@@ -10748,7 +11304,7 @@
             "updatedContents": [
               "이동 속도를 떨어뜨리는 효과: 25% → 30%",
               "이동 속도를 떨어뜨리는 시간: 2초 → 2.5초",
-              "2단계 데미지: 20% 증가"
+              "2단계 대미지: 20% 증가"
             ]
           }
         ]
@@ -10771,7 +11327,7 @@
             "updatedNameKo": "바크아웃",
             "updatedContents": [
               "대기 시간: 9초 → 10초",
-              "공격/특수공격을 감소시키는 양: (데미지 1번마다) 6% → 4%"
+              "공격/특수공격을 감소시키는 양: (대미지 1번마다) 6% → 4%"
             ]
           }
         ]
@@ -10791,19 +11347,32 @@
             "updatedNameKo": "바크아웃",
             "updatedContents": [
               "행동 불가로 만드는 시간: 1초 → 0.7초",
-              "공격/특수공격을 감소시키는 양: (데미지 1번마다) 8% → 6%"
+              "공격/특수공격을 감소시키는 양: (대미지 1번마다) 8% → 6%"
             ]
           },
           {
             "updatedNameKo": "바크아웃+",
             "updatedContents": [
               "행동 불가로 만드는 시간: 1.5초 → 1초",
-              "공격/특수공격을 감소시키는 양: (데미지 1번마다) 8% → 6%"
+              "공격/특수공격을 감소시키는 양: (대미지 1번마다) 8% → 6%"
             ]
           },
           {
             "updatedNameKo": "희망사항",
             "updatedContents": ["대기 시간: 6.5초 → 5.5초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "속임수",
+            "updatedContents": ["대미지 : 6% 감소"]
+          },
+          {
+            "updatedNameKo": "속임수+",
+            "updatedContents": ["대미지 : 6% 감소"]
           }
         ]
       }
@@ -10843,12 +11412,12 @@
         "updatedContentList": [
           {
             "updatedNameKo": "강화 공격",
-            "updatedContents": ["데미지: 약 15% 증가"]
+            "updatedContents": ["대미지: 약 15% 증가"]
           },
           {
             "updatedNameKo": "제비반환",
             "updatedContents": [
-              "데미지: 약 50% 증가",
+              "대미지: 약 50% 증가",
               "보유 횟수가 회복되는 시간: 5초 → 4초"
             ]
           },
@@ -10858,7 +11427,7 @@
           },
           {
             "updatedNameKo": "솔라블레이드+",
-            "updatedContents": ["충전하고 있는 동안의 데미지 감소량: 30% → 50%"]
+            "updatedContents": ["충전하고 있는 동안의 대미지 감소량: 30% → 50%"]
           }
         ]
       },
@@ -10868,7 +11437,7 @@
           {
             "updatedNameKo": "유나이트 기술: 에메랄드더블비트",
             "updatedContents": [
-              "데미지: 10% 감소",
+              "대미지: 10% 감소",
               "필요한 유나이트 기술 게이지: 약 13% 감소"
             ]
           }
@@ -10879,11 +11448,11 @@
         "updatedContentList": [
           {
             "updatedNameKo": "리프블레이드",
-            "updatedContents": ["대기 시간: 8초 → 9초", "데미지: 20% 감소"]
+            "updatedContents": ["대기 시간: 8초 → 9초", "대미지: 20% 감소"]
           },
           {
             "updatedNameKo": "솔라블레이드",
-            "updatedContents": ["데미지: 10% 증가"]
+            "updatedContents": ["대미지: 10% 증가"]
           },
           {
             "updatedNameKo": "제비반환",
@@ -10910,7 +11479,20 @@
           },
           {
             "updatedNameKo": "솔라블레이드",
-            "updatedContents": ["데미지: 13%~9% 감소(레벨 5~15)"]
+            "updatedContents": ["대미지: 13%~9% 감소(레벨 5~15)"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "제비반환",
+            "updatedContents": ["사용 횟수 회복 시간: 4s → 5s"]
+          },
+          {
+            "updatedNameKo": "제비반환+",
+            "updatedContents": ["사용 횟수 회복 시간: 4s → 5s"]
           }
         ]
       }
@@ -10987,7 +11569,7 @@
           {
             "updatedNameKo": "노려맞히기",
             "updatedName": "Snipe Shot",
-            "updatedContents": ["데미지: 10%~7% 감소(레벨 5~15)"]
+            "updatedContents": ["대미지: 10%~7% 감소(레벨 5~15)"]
           }
         ]
       },
@@ -11002,12 +11584,12 @@
           {
             "updatedNameKo": "아쿠아브레이크",
             "updatedName": "Liquidation",
-            "updatedContents": ["급소에 맞았을 때 데미지: 약 20% 감소"]
+            "updatedContents": ["급소에 맞았을 때 대미지: 약 20% 감소"]
           },
           {
             "updatedNameKo": "물대포",
             "updatedName": "Water Gun",
-            "updatedContents": ["데미지: 15% 감소"]
+            "updatedContents": ["대미지: 15% 감소"]
           }
         ]
       },
@@ -11042,7 +11624,53 @@
           {
             "updatedNameKo": "아쿠아브레이크",
             "updatedName": "Liquidation",
-            "updatedContents": ["데미지: 12% 증가"]
+            "updatedContents": ["대미지: 12% 증가"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "방어: 35 ~ 170 → 35 ~ 225 (레벨 1-15)",
+              "특방: 25 ~ 140 → 25 ~ 225 (레벨 1-15)"
+            ]
+          },
+          {
+            "updatedNameKo": "마지막일침",
+            "updatedContents": ["대기 시간: 7s → 6.5s"]
+          },
+          {
+            "updatedNameKo": "마지막일침+",
+            "updatedContents": ["대기 시간: 7s → 6.5s"]
+          },
+          {
+            "updatedNameKo": "애크러뱃",
+            "updatedContents": ["대기 시간: 8s → 7.5s"]
+          },
+          {
+            "updatedNameKo": "애크러뱃+",
+            "updatedContents": ["대기 시간: 8s → 7.5s"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-26",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": ["일반공격, 강화공격 대미지: 12% 증가"]
+          },
+          {
+            "updatedNameKo": "노려맞히기",
+            "updatedContents": ["대미지: 10% 증가"]
+          },
+          {
+            "updatedNameKo": "아쿠아브레이크",
+            "updatedContents": ["대미지: 12% 증가"]
           }
         ]
       }
@@ -11120,7 +11748,7 @@
             "updatedNameKo": "미래예지",
             "updatedName": "Future Sight",
             "updatedContents": [
-              "추가 데미지의 상한: 2000 → 1500",
+              "추가 대미지의 상한: 2000 → 1500",
               "대기 시간: 8초 → 10초",
               "행동 불가로 만드는 시간: 0.75초 → 0.5초",
               "일부 포켓몬의 기술을 사용할 수 없게 만드는 오류를 수정했습니다."
@@ -11135,7 +11763,7 @@
             "updatedNameKo": "유나이트 기술: 인피니티사이코번",
             "updatedName": "Infinite Psyburn",
             "updatedContents": [
-              "데미지: 15% 감소",
+              "대미지: 15% 감소",
               "필요한 에너지양: 20% 증가",
               "만병통치제를 사용한 포켓몬에게 중복해서 명중하는 경우가 발생하던 오류를 수정했습니다."
             ]
@@ -11158,14 +11786,14 @@
             "updatedNameKo": "미래예지",
             "updatedName": "Release",
             "updatedContents": [
-              "효과의 지속 시간 중에 주는 데미지의 증가량: 20% → 10%"
+              "효과의 지속 시간 중에 주는 대미지의 증가량: 20% → 10%"
             ]
           },
           {
             "updatedNameKo": "미래예지+",
             "updatedName": "Future Sight",
             "updatedContents": [
-              "효과의 지속 시간 중에 주는 데미지의 증가량: 30% → 15%"
+              "효과의 지속 시간 중에 주는 대미지의 증가량: 30% → 15%"
             ]
           },
           {
@@ -11376,7 +12004,7 @@
             "updatedNameKo": "유나이트 기술: 인피니티사이코번",
             "updatedName": "Infinite Psyburn",
             "updatedContents": [
-              "데미지: 15% 감소",
+              "대미지: 15% 감소",
               "필요한 에너지양: 20% 증가",
               "만병통치제를 사용한 포켓몬에게 중복해서 명중하는 경우가 발생하던 오류를 수정했습니다."
             ]
@@ -11391,13 +12019,13 @@
             "updatedName": "Attack",
             "updatedContents": [
               "공격: 190~530 → 170~500(레벨 1~15)",
-              "일반 공격으로 입힌 데미지에 따른 회복량: 10-15-20％ → 5-5-10%(레벨 5-9-13)"
+              "일반 공격으로 입힌 대미지에 따른 회복량: 10-15-20％ → 5-5-10%(레벨 5-9-13)"
             ]
           },
           {
             "updatedNameKo": "사이코브레이크",
             "updatedName": "Psystrike",
-            "updatedContents": ["데미지: 12% 감소"]
+            "updatedContents": ["대미지: 12% 감소"]
           }
         ]
       },
@@ -11585,12 +12213,25 @@
           {
             "updatedNameKo": "불꽃펀치",
             "updatedName": "Fire Punch",
-            "updatedContents": ["데미지: 17% 감소"]
+            "updatedContents": ["대미지: 17% 감소"]
           },
           {
             "updatedNameKo": "불꽃펀치+",
             "updatedName": "Fire Punch",
-            "updatedContents": ["데미지: 14% 감소"]
+            "updatedContents": ["대미지: 14% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "오버히트",
+            "updatedContents": ["대미지 : 6% 감소"]
+          },
+          {
+            "updatedNameKo": "오버히트+",
+            "updatedContents": ["대미지 : 6% 감소"]
           }
         ]
       }
@@ -11690,7 +12331,7 @@
             "updatedNameKo": "치근거리기",
             "updatedName": "Play Rough",
             "updatedContents": [
-              "데미지: 11% 증가",
+              "대미지: 11% 증가",
               "공격하는 동안 보호 상태가 되도록 변경하였습니다."
             ]
           },
@@ -11698,7 +12339,7 @@
             "updatedNameKo": "트릭룸",
             "updatedName": "Trick Room",
             "updatedContents": [
-              "트릭룸 밖에서 주는 데미지를 감소하는 감소량: 30% → 50%",
+              "트릭룸 밖에서 주는 대미지를 감소하는 감소량: 30% → 50%",
               "대기 시간: 11초 → 8.5초"
             ]
           },
@@ -11737,8 +12378,22 @@
             "updatedName": "Trick Room",
             "updatedContents": [
               "대기 시간: 8.5초 → 7초",
-              "데미지 감소: 50% → 70%"
+              "대미지 감소: 50% → 70%"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-26",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "야습",
+            "updatedContents": ["대기 시간: 8s → 9s"]
+          },
+          {
+            "updatedNameKo": "섀도클로",
+            "updatedContents": ["대미지 : 5% 감소"]
           }
         ]
       }
@@ -11788,7 +12443,7 @@
           },
           {
             "updatedNameKo": "유나이트 기술: 블루밍쇼타임!!",
-            "updatedContents": ["데미지: 20% 증가", "필요한 에너지양: 10% 감소"]
+            "updatedContents": ["대미지: 20% 증가", "필요한 에너지양: 10% 감소"]
           }
         ]
       },
@@ -11799,7 +12454,7 @@
             "updatedNameKo": "나뭇잎",
             "updatedContents": [
               "상대에게 주는 감속 효과: 30% 1.5초 → 50% 2.5초",
-              "데미지: 20% 증가"
+              "대미지: 20% 증가"
             ]
           },
           {
@@ -11815,7 +12470,7 @@
           },
           {
             "updatedNameKo": "트릭플라워",
-            "updatedContents": ["데미지: 12% 증가"]
+            "updatedContents": ["대미지: 12% 증가"]
           },
           {
             "updatedNameKo": "유나이트 기술: 블루밍쇼타임!!",
@@ -11829,8 +12484,8 @@
           {
             "updatedNameKo": "특성: 심록",
             "updatedContents": [
-              "데미지 상승량: 20% → 15%",
-              "준 데미지에 따른 회복량: 20% → 15%",
+              "대미지 상승량: 20% → 15%",
+              "준 대미지에 따른 회복량: 20% → 15%",
               "이동 속도 증가: 20% → 15%"
             ]
           },
@@ -11865,15 +12520,15 @@
         "updatedContentList": [
           {
             "updatedNameKo": "자이로볼",
-            "updatedContents": ["데미지: 10% 증가"]
+            "updatedContents": ["대미지: 10% 증가"]
           },
           {
             "updatedNameKo": "사념의박치기",
-            "updatedContents": ["데미지: 13% 증가"]
+            "updatedContents": ["대미지: 13% 증가"]
           },
           {
             "updatedNameKo": "유나이트 기술: 서치X크래시",
-            "updatedContents": ["데미지: 15% 증가"]
+            "updatedContents": ["대미지: 15% 증가"]
           }
         ]
       },
@@ -11883,7 +12538,7 @@
           {
             "updatedNameKo": "자이로볼",
             "updatedContents": [
-              "데미지: 비정상적인 데미지를 주고 있어 수정했습니다"
+              "대미지: 비정상적인 대미지를 주고 있어 수정했습니다"
             ]
           },
           {
@@ -11892,7 +12547,7 @@
               "대기 시간: 8초 → 9초",
               "이동 속도 상승: 80% → 60%",
               "지속 시간: 5초 →4초",
-              "기술을 사용한 후 강화 공격 데미지: 30% 감소"
+              "기술을 사용한 후 강화 공격 대미지: 30% 감소"
             ]
           },
           {
@@ -11918,7 +12573,7 @@
             "updatedNameKo": "철벽",
             "updatedContents": [
               "실드: 100% 증가",
-              "기술을 사용한 후 강화 공격 데미지: 30% 증가"
+              "기술을 사용한 후 강화 공격 대미지: 30% 증가"
             ]
           },
           {
@@ -11937,7 +12592,7 @@
             "updatedNameKo": "자이로볼",
             "updatedContents": [
               "대기 시간: 5초 → 4초",
-              "데미지: 30% 증가",
+              "대미지: 30% 증가",
               "실드: 30% 증가",
               "실드 지속 시간: 3초 → 4초"
             ]
@@ -11953,9 +12608,22 @@
             "updatedNameKo": "유나이트 기술: 서치X크래시",
             "updatedContents": [
               "필요한 에너지양: 약 16% 감소",
-              "상대 1마리를 노렸을 때 데미지: 30% 증가",
-              "벽을 만들 때 데미지: 20% 증가"
+              "상대 1마리를 노렸을 때 대미지: 30% 증가",
+              "벽을 만들 때 대미지: 20% 증가"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "코멧펀치",
+            "updatedContents": ["대기 시간: 8s → 7s"]
+          },
+          {
+            "updatedNameKo": "코멧펀치+",
+            "updatedContents": ["대기 시간: 8s → 7s"]
           }
         ]
       }
@@ -12021,11 +12689,11 @@
           },
           {
             "updatedNameKo": "바둥바둥",
-            "updatedContents": ["HP가 1/3 이하일 때 데미지: 100% 증가"]
+            "updatedContents": ["HP가 1/3 이하일 때 대미지: 100% 증가"]
           },
           {
             "updatedNameKo": "폭포오르기",
-            "updatedContents": ["데미지: 40% 증가", "대기 시간: 8초 → 6초"]
+            "updatedContents": ["대미지: 40% 증가", "대기 시간: 8초 → 6초"]
           },
           {
             "updatedNameKo": "폭포오르기+",
@@ -12125,7 +12793,7 @@
           {
             "updatedNameKo": "차지빔",
             "updatedName": "Charge Beam",
-            "updatedContents": ["데미지: 13%~16% 감소(레벨 5~15)"]
+            "updatedContents": ["대미지: 13%~16% 감소(레벨 5~15)"]
           },
           {
             "updatedNameKo": "번개",
@@ -12161,9 +12829,9 @@
             "updatedNameKo": "라이트닝드라이브",
             "updatedName": "Electro Drift",
             "updatedContents": [
-              "데미지: 5% 감소",
-              "강화되었을 때 주는 데미지: 10% 감소",
-              "강화되었을 때 주는 추가 데미지: 10% 감소"
+              "대미지: 5% 감소",
+              "강화되었을 때 주는 대미지: 10% 감소",
+              "강화되었을 때 주는 추가 대미지: 10% 감소"
             ]
           }
         ]
@@ -12192,8 +12860,8 @@
             "updatedNameKo": "차지빔",
             "updatedName": "Charge Beam",
             "updatedContents": [
-              "데미지: 10% 감소",
-              "강화되었을 때 주는 데미지: 10% 감소"
+              "대미지: 10% 감소",
+              "강화되었을 때 주는 대미지: 10% 감소"
             ]
           }
         ]
@@ -12205,28 +12873,28 @@
             "updatedNameKo": "차지빔",
             "updatedName": "Charge Beam",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "차지빔+",
             "updatedName": "Charge Beam",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "라이트닝드라이브",
             "updatedName": "Electro Drift",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "라이트닝드라이브+",
             "updatedName": "Electro Drift",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -12266,8 +12934,8 @@
           {
             "updatedNameKo": "아이언헤드",
             "updatedContents": [
-              "데미지: 25% 감소",
-              "아이언헤드로 강화된 일반 공격 데미지: 20% 감소"
+              "대미지: 25% 감소",
+              "아이언헤드로 강화된 일반 공격 대미지: 20% 감소"
             ]
           },
           {
@@ -12365,17 +13033,17 @@
           {
             "updatedNameKo": "깨어진갑옷",
             "updatedName": "Weak Armor",
-            "updatedContents": ["상처에 의한 지속 데미지: 50% 증가"]
+            "updatedContents": ["상처에 의한 지속 대미지: 50% 증가"]
           },
           {
             "updatedNameKo": "원념의칼",
             "updatedName": "Bitter Blade",
-            "updatedContents": ["회복량: 준 데미지의  35% → 준 데미지의 50%"]
+            "updatedContents": ["회복량: 준 대미지의  35% → 준 대미지의 50%"]
           },
           {
             "updatedNameKo": "원념의칼+",
             "updatedName": "Bitter Blade",
-            "updatedContents": ["회복량: 준 데미지의  50% → 준 데미지의 70%"]
+            "updatedContents": ["회복량: 준 대미지의  50% → 준 대미지의 70%"]
           },
           {
             "updatedNameKo": "고스트다이브",
@@ -12414,12 +13082,12 @@
           {
             "updatedNameKo": "사이코커터",
             "updatedName": "Psycho Cut",
-            "updatedContents": ["데미지: 약 14% ~ 약 9% 감소(레벨 5~15)"]
+            "updatedContents": ["대미지: 약 14% ~ 약 9% 감소(레벨 5~15)"]
           },
           {
             "updatedNameKo": "원념의칼",
             "updatedName": "Bitter Blade",
-            "updatedContents": ["데미지: 16% ~ 0% 감소(레벨 5~15)"]
+            "updatedContents": ["대미지: 16% ~ 0% 감소(레벨 5~15)"]
           }
         ]
       },
@@ -12430,7 +13098,7 @@
             "updatedNameKo": "원념의칼",
             "updatedName": "Bitter Blade",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다.",
               "기술에 의해 자신에게 주는 효과가 약해졌습니다.",
               "기술 대기 시간이 길어졌습니다."
             ]
@@ -12439,7 +13107,7 @@
             "updatedNameKo": "원념의칼+",
             "updatedName": "Bitter Blade",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다.",
               "기술에 의해 자신에게 주는 효과가 약해졌습니다.",
               "기술 대기 시간이 길어졌습니다."
             ]
@@ -12458,7 +13126,7 @@
             "updatedNameKo": "고스트다이브",
             "updatedName": "Phantom Force",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다.",
               "기술 대기 시간이 길어졌습니다."
             ]
           },
@@ -12466,9 +13134,27 @@
             "updatedNameKo": "고스트다이브+",
             "updatedName": "Phantom Force",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다.",
               "기술 대기 시간이 길어졌습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-26",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "원념의칼",
+            "updatedContents": ["대미지: 10% 증가"]
+          },
+          {
+            "updatedNameKo": "고스트다이브",
+            "updatedContents": ["대미지 : 5% 증가"]
+          },
+          {
+            "updatedNameKo": "사이코커터",
+            "updatedContents": ["대기 시간: 7s → 6.5s"]
           }
         ]
       }
@@ -12553,7 +13239,7 @@
           {
             "updatedNameKo": "순풍",
             "updatedName": "Tailwind",
-            "updatedContents": ["데미지: 20% 감소"]
+            "updatedContents": ["대미지: 20% 감소"]
           },
           {
             "updatedNameKo": "회오리불꽃",
@@ -12586,7 +13272,7 @@
             "updatedNameKo": "회오리불꽃",
             "updatedName": "Fire Spin",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다.",
               "기술에 의한 실드 효과가 약해졌습니다.",
               "기술 대기 시간이 길어졌습니다."
             ]
@@ -12595,7 +13281,7 @@
             "updatedNameKo": "회오리불꽃+",
             "updatedName": "Fire Spin",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다.",
               "기술에 의한 실드 효과가 약해졌습니다.",
               "기술 대기 시간이 길어졌습니다."
             ]
@@ -12692,7 +13378,7 @@
             "updatedName": "Fire Spin",
             "updatedContents": [
               "기술에 의해 자신에게 주는 효과가 강해졌습니다.",
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다.",
               "기술에 의한 실드 효과가 강해졌습니다."
             ]
           },
@@ -12712,7 +13398,7 @@
             "updatedNameKo": "아머캐논",
             "updatedName": "Armor Cannon",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -12734,7 +13420,7 @@
             "updatedNameKo": "회오리불꽃",
             "updatedName": "Fire Spin",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다.",
               "기술에 의한 실드 효과가 약해졌습니다."
             ]
           },
@@ -12742,7 +13428,7 @@
             "updatedNameKo": "회오리불꽃+",
             "updatedName": "Fire Spin",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다.",
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다.",
               "기술에 의한 실드 효과가 약해졌습니다."
             ]
           },
@@ -12750,14 +13436,14 @@
             "updatedNameKo": "사이코쇼크",
             "updatedName": "Psyshock",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
             "updatedNameKo": "사이코쇼크+",
             "updatedName": "Psyshock",
             "updatedContents": [
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -12765,7 +13451,7 @@
             "updatedName": "Armor Cannon",
             "updatedContents": [
               "기술 대기 시간이 길어졌습니다.",
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           },
           {
@@ -12773,7 +13459,7 @@
             "updatedName": "Armor Cannon",
             "updatedContents": [
               "기술 대기 시간이 길어졌습니다.",
-              "상대편 포켓몬에게 주는 데미지가 감소되었습니다."
+              "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
             ]
           }
         ]
@@ -12844,6 +13530,46 @@
             "updatedContents": [""]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-11-21",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "악의파동",
+            "updatedName": "Dark Pulse",
+            "updatedContents": ["대기시간：6s → 8s", "대미지량：25%저하"]
+          },
+          {
+            "updatedNameKo": "악의파동+",
+            "updatedName": "Dark Pulse",
+            "updatedContents": ["대기시간：6s → 8s", "대미지량：25%저하"]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 깊은악몽으로의유인",
+            "updatedName": "Dark Pulse",
+            "updatedContents": ["대미지량: 25% 저하"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-26",
+        "updateStates": ["buff", "nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "강화 공격 대미지: 10% 증가(나쁜음모 추가 대미지 포함)"
+            ]
+          },
+          {
+            "updatedNameKo": "다크홀",
+            "updatedContents": ["대기 시간: 3.5s → 4s"]
+          },
+          {
+            "updatedNameKo": "섀도클로",
+            "updatedContents": ["대미지: 20% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -12863,6 +13589,131 @@
             "updatedNameKo": "출시",
             "updatedName": "Release",
             "updatedContents": [""]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-05",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "사슬묶기",
+            "updatedContents": [
+              "대기 시간 : 6s → 7s",
+              "대미지 : 20% 감소",
+              "일부러의 대기 시간을 연장하는 효과 : 3s → 2s"
+            ]
+          },
+          {
+            "updatedNameKo": "사슬묶기+",
+            "updatedContents": [
+              "대기 시간 : 6s → 7s",
+              "대미지 : 20% 감소",
+              "일부러의 대기 시간을 연장하는 효과 : 3s → 2s"
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-26",
+        "updateStates": ["buff", "nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "특성: 쓱쓱",
+            "updatedContents": [
+              "두통 게이지 증가량: 25% 감소",
+              "이동 속도 증가량: 70% → 40% (0.5초마다 10%씩 감소)",
+              "두통 게이지가 100%가 되었을 때의 상태: 방어 상태 → 방해 무효"
+            ]
+          },
+          {
+            "updatedNameKo": "사이코키네시스",
+            "updatedContents": [
+              "최대 범위: 8m → 9m",
+              "적을 당기는 시간: 0.55s → 0.85s",
+              "자신에게 이동 속도 저하 효과: 40% → 10%"
+            ]
+          },
+          {
+            "updatedNameKo": "사슬묶기",
+            "updatedContents": [
+              "대미지: 15% 감소",
+              "전파 횟수: 5 → 4회(두통 상태: 8 → 6회 )"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tinkaton",
+    "nameKo": "두드리짱",
+    "image": "/img/unitePokemon/tinkaton/roster-tinkaton-2x.png",
+    "color": "#ce5fd3",
+    "position": "balance",
+    "isEx": false,
+    "skillList": [],
+    "updatedList": [
+      {
+        "updatedDate": "2024-12-12",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "출시",
+            "updatedName": "Release",
+            "updatedContents": [""]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-12-16",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedName": "Attack",
+            "updatedContents": ["HP：3250~8200 → 3250~8400 (레벨 1~15)"]
+          },
+          {
+            "updatedNameKo": "거대해머",
+            "updatedName": "",
+            "updatedContents": [
+              "대기 시간: 7s → 6s",
+              "날려버리는 시간: 0.5초/0.75초/1초 → 0.5초/1초/1.5초(모으는 시간에 따라)"
+            ]
+          },
+          {
+            "updatedNameKo": "거대해머+",
+            "updatedName": "",
+            "updatedContents": ["대기 시간: 5.5s → 5s"]
+          },
+          {
+            "updatedNameKo": "아이스해머",
+            "updatedName": "",
+            "updatedContents": [
+              "기술을 사용한 뒤에 움직일 수 있을 때까지 걸리는 시간이 줄었습니다.",
+              "대기 시간: 6.5초 → 5초",
+              "감속 효과: 30% → 50%",
+              "공격과 특수방어를 떨어뜨리는 효과: 15% → 30%"
+            ]
+          },
+          {
+            "updatedNameKo": "아이스해머+",
+            "updatedName": "",
+            "updatedContents": ["공격과 특수방어를 떨어뜨리는 효과: 30% → 50%"]
+          },
+          {
+            "updatedNameKo": "떨어뜨리기",
+            "updatedName": "",
+            "updatedContents": ["대기 시간: 8초 → 6초", "대미지: 20% 증가"]
+          },
+          {
+            "updatedNameKo": "떨어뜨리기+",
+            "updatedName": "",
+            "updatedContents": ["대기 시간: 6.5초 → 5초"]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 완전러블리♡콰앙!",
+            "updatedName": "",
+            "updatedContents": ["필요한 에너지 양: 20% 감소"]
           }
         ]
       }

@@ -29,6 +29,7 @@
     "mongodb": "^6.8.0",
     "nuxt": "^3.11.2",
     "nuxt-echarts": "^0.0.11",
+    "nuxt-gtag": "^3.0.2",
     "nuxt-icons": "^3.2.1",
     "nuxt-lodash": "^2.5.3",
     "nuxt-mongoose": "^1.0.6",

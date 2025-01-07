@@ -225,12 +225,46 @@ onMounted(() => {
                       @click="() => clickPokemonCard(pokemonInfo)"
                     >
                       <NuxtImg
+                        :title="pokemonInfo?.nameKo"
                         :src="pokemonInfo.image"
                         class="rounded pattern ease-out w-[100%] duration-200"
                         placeholder-class="custom-test"
+                        placeholder="/img/unitePokemon/roster-default-2x.png"
                         style="-webkit-user-drag: none"
                         :style="{ backgroundColor: pokemonInfo.color }"
                       />
+                      <div
+                        class="absolute bottom-0 w-[100%] flex justify-end mb-2"
+                      >
+                        <div
+                          v-for="(state, index) in pokemonInfo.updatedList.find(
+                            (updateInfo) =>
+                              updateInfo.updatedDate ===
+                              groupedPokemonInfo.updatedDate
+                          )?.updateStates || []"
+                          :key="index"
+                          class="bg-white rounded-full border-2 border-gray-400 me-1 shadow-md shadow-gray-600"
+                        >
+                          <NuxtImg
+                            v-if="state === 'buff'"
+                            src="/img/icon/up-arrow.png"
+                            class="h-4"
+                            style="padding: 2px"
+                          ></NuxtImg>
+                          <NuxtImg
+                            v-if="state === 'nurf'"
+                            src="/img/icon/down-arrow.png"
+                            class="h-4"
+                            style="padding: 2px"
+                          ></NuxtImg>
+                          <NuxtImg
+                            v-if="state === 'adjust'"
+                            src="/img/icon/adjust.png"
+                            class="h-4"
+                            style="padding: 2px"
+                          ></NuxtImg>
+                        </div>
+                      </div>
                     </PokemonCard>
                   </div>
                 </TransitionGroup>

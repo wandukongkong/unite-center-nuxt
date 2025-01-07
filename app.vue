@@ -1,4 +1,13 @@
-<script setup></script>
+<script setup lang="ts">
+useSeoMeta({
+  title: "Unite Center",
+  description: "잡다한 기능이 있는 포켓몬 유나이트 센터 입니다.",
+  ogTitle: "Unite Center",
+  ogDescription: "잡다한 기능이 있는 포켓몬 유나이트 센터 입니다.",
+  ogImage: "./public/img/pokemon/uniteCenter.png",
+  twitterCard: "summary_large_image",
+});
+</script>
 <template>
   <div class="relative">
     <NuxtLayout name="default">
@@ -30,6 +39,18 @@ html {
 .page-leave-to {
   opacity: 0;
   filter: blur(1rem);
+}
+
+.list-enter-active {
+  transition: all 0.2s ease;
+}
+.list-leave-active {
+  opacity: 0;
+}
+.list-enter-from,
+.list-leave-to {
+  opacity: 0;
+  /* transform: translateY(10px); */
 }
 
 .bounce-enter-active {

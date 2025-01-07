@@ -17,8 +17,12 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxtjs/color-mode",
     "nuxt-echarts",
+    "nuxt-gtag",
   ],
   devtools: { enabled: false },
+  colorMode: {
+    preference: "light",
+  },
   vite: {
     plugin: [eslintPlugin()],
     server: {
@@ -35,12 +39,14 @@ export default defineNuxtConfig({
       name: "page",
       mode: "out-in",
     },
+
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
       title: "Unite Center",
       link: [{ rel: "icon", type: "image/x-icon", href: "/ball.ico" }],
-      // meta: {
+      script: [{ src: "./public/img/pokemon/pokemoncenter.png" }],
+      // meta: {`
       //   // colorScheme: "light only",
       //   // supportedColorSchemes: "light",
       // },
@@ -52,5 +58,8 @@ export default defineNuxtConfig({
     renderer: ["canvas", "svg"],
     charts: ["BarChart"],
     components: ["DatasetComponent", "GridComponent", "TooltipComponent"],
+  },
+  gtag: {
+    id: "G-GRF8JCX0H3",
   },
 });

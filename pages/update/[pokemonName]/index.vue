@@ -116,53 +116,24 @@ onMounted(() => {
 });
 </script>
 <template>
-  <div class="flex h-[100vh]" :class="isMobile ? 'pt-10' : 'ps-20'">
+  <div class="flex" :class="isMobile ? 'pt-10' : 'ps-20'">
     <div v-if="!isMobile" class="flex flex-col">
-      <img
+      <NuxtImg
         ref="pokemonImage"
         :src="selectedPokemonInfo.image"
+        placeholder="/img/unitePokemon/roster-default-2x.png"
         class="rounded shadow-md m-3"
         width="200"
         style="object-fit: contain"
       />
-      <!-- <div class="px-3">
-        <div class="mb-3">
-          <strong>Updated skills</strong>
-        </div>
-        <div
-          v-for="(skillInfo, index) in selectedPokemonInfo.skillList"
-          :key="index"
-          class="flex justify-between items-center mb-2"
-        >
-          <div class="flex items-center">
-            <img
-              :src="skillInfo.image"
-              class="me-2"
-              width="20"
-              style="object-fit: contain"
-            />
-            <strong
-              class="truncate w-[140px]"
-              :title="skillInfo.skillNameKo"
-              style="font-size: 9pt"
-              >{{ skillInfo.skillNameKo }}</strong
-            >
-          </div>
-          <strong>
-            {{
-              (convertedSkillInfo?.[skillInfo.skillName] || []).length
-            }}</strong
-          >
-        </div>
-      </div> -->
     </div>
     <!-- Detail 영역 -->
-    <div class="flex flex-col flex-1 px-2" ref="detailArea">
+    <div class="flex flex-col flex-1 px-2 pb-2" ref="detailArea">
       <TransitionGroup name="bounce">
         <div
           v-for="(updatedInfo, updatedInfoIndex) in selectedPokemonDetailList"
           :key="updatedInfoIndex"
-          class="w-100 m-3 px-2 pt-2 rounded border shadow-md"
+          class="w-100 m-2 px-2 pt-2 rounded border shadow-md"
         >
           <div class="mb-2">
             <strong>
