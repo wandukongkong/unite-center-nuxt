@@ -404,6 +404,31 @@
             "updatedContents": ["범위와 관련된 오류를 수정했습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-01-16",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "방어: 50~250 → 80~280",
+              "특수방어: 35~174 → 60~200"
+            ]
+          },
+          {
+            "updatedNameKo": "와이드가드",
+            "updatedContents": ["대기 시간: 9초 → 8초"]
+          },
+          {
+            "updatedNameKo": "와이드가드+",
+            "updatedContents": ["대기 시간: 8초 → 7초"]
+          },
+          {
+            "updatedNameKo": "블레이드폼의 강화 공격",
+            "updatedContents": ["적의 최대 HP에 따른 데미지: 7% → 8.5%"]
+          }
+        ]
       }
     ]
   },
@@ -1100,6 +1125,20 @@
               "아래 내용이 조정되었습니다.",
               "지속 시간"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-01-16",
+        "updateStates": ["buff", "nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "도우미",
+            "updatedContents": ["이동 속도, 공격 속도 상승률: 35% → 30%"]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 해피해피어시스트",
+            "updatedContents": ["필요 에너지: 25% 감소"]
           }
         ]
       }
@@ -4381,6 +4420,16 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-01-16",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": ["진화하는 레벨: Lv.8 → Lv.7"]
+          }
+        ]
       }
     ]
   },
@@ -5045,6 +5094,24 @@
             "updatedContents": ["대기 시간: 8s → 7.5s"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-01-16",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "특성: 미끈미끈",
+            "updatedContents": ["감속 효과: 8% → 10%"]
+          },
+          {
+            "updatedNameKo": "탁류",
+            "updatedContents": ["데미지 감소율: 10% → 15%"]
+          },
+          {
+            "updatedNameKo": "애시드봄",
+            "updatedContents": ["날려버리는 시간: 0.6초 → 1초"]
+          }
+        ]
       }
     ]
   },
@@ -5135,7 +5202,6 @@
           }
         ]
       },
-
       {
         "updatedDate": "2022-09-28",
         "updatedContentList": [
@@ -5284,6 +5350,16 @@
             "updatedNameKo": "나무열매욕심다이브",
             "updatedName": "Berry Belly Flop",
             "updatedContents": ["유나이트 기술을 모으기 쉬워졌습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-01-16",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "트림",
+            "updatedContents": ["데미지: 6% 감소"]
           }
         ]
       }
@@ -7152,6 +7228,20 @@
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-01-16",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": ["강화 공격 데미지: 5% 감소"]
+          },
+          {
+            "updatedNameKo": "눈보라",
+            "updatedContents": ["장애물에 닿았을 때 데미지: 12% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -8546,6 +8636,20 @@
             "updatedContents": ["대미지 : 8% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-01-16",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "매지컬플레임",
+            "updatedContents": ["데미지: 5% 증가"]
+          },
+          {
+            "updatedNameKo": "명상",
+            "updatedContents": ["대기 시간: 10초 → 9.5초"]
+          }
+        ]
       }
     ]
   },
@@ -9782,6 +9886,26 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-01-16",
+        "updateStates": ["buff", "adjust"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "수류연타",
+            "updatedContents": ["데미지: 10% 증가"]
+          },
+          {
+            "updatedNameKo": "아쿠아브레이크",
+            "updatedContents": ["방어 감소 지속 시간: 2초 → 3초"]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 칠흑의마지막강타",
+            "updatedContents": [
+              "유나이트 기술이 한카리아스나 고라파덕 등 일부 포켓몬의 유나이트 기술을 중단시키는 오류를 수정했습니다."
+            ]
+          }
+        ]
       }
     ]
   },
@@ -10164,6 +10288,24 @@
             "updatedContents": ["대기 시간: 4.5s → 5s"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-01-16",
+        "updateStates": ["buff", "nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "연속뺨치기",
+            "updatedContents": ["데미지: 5% 감소"]
+          },
+          {
+            "updatedNameKo": "매지컬샤인",
+            "updatedContents": ["데미지: 5% 감소"]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 스타☆리사이틀",
+            "updatedContents": ["실드량: 35% 증가", "지속 시간: 2.5초 → 3.5초"]
+          }
+        ]
       }
     ]
   },
@@ -10456,6 +10598,16 @@
               "충격파 데미지 : 50% 감소",
               "돌진 데미지 : 6% 감소"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-01-16",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "불요의검",
+            "updatedContents": ["강화에 필요한 에너지: 8/12/15 → 5/8/10"]
           }
         ]
       }
@@ -11258,7 +11410,6 @@
     "color": "#aced5b",
     "position": "defence",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2023-05-25",
@@ -11373,6 +11524,23 @@
           {
             "updatedNameKo": "속임수+",
             "updatedContents": ["대미지 : 6% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-01-16",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "희망사항",
+            "updatedContents": ["대기 시간: 5.5초 → 6초"]
+          },
+          {
+            "updatedNameKo": "속임수",
+            "updatedContents": [
+              "1단계 데미지: 20% 감소",
+              "2단계 데미지: 10% 증가"
+            ]
           }
         ]
       }
@@ -13639,6 +13807,20 @@
               "대미지: 15% 감소",
               "전파 횟수: 5 → 4회(두통 상태: 8 → 6회 )"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-01-16",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "파도타기",
+            "updatedContents": ["데미지: 15% 감소"]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 전력사이킥파덕!",
+            "updatedContents": ["데미지 감쇼 효과: 30% → 25%"]
           }
         ]
       }

@@ -4,7 +4,7 @@ useSeoMeta({
   description: "잡다한 기능이 있는 포켓몬 유나이트 센터 입니다.",
   ogTitle: "Unite Center",
   ogDescription: "잡다한 기능이 있는 포켓몬 유나이트 센터 입니다.",
-  ogImage: "./public/img/pokemon/uniteCenter.png",
+  ogImage: "/public/img/pokemon/uniteCenter.png",
   twitterCard: "summary_large_image",
 });
 </script>
