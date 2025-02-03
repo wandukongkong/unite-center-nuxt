@@ -225,6 +225,12 @@ onMounted(() => {
                       @click="() => clickPokemonCard(pokemonInfo)"
                     >
                       <NuxtImg
+                        v-if="pokemonInfo.updatedList.length === 1"
+                        src="/img/icon/new.png"
+                        class="h-10 absolute start-[-15px] top-[-22px]"
+                        style=""
+                      ></NuxtImg>
+                      <NuxtImg
                         :title="pokemonInfo?.nameKo"
                         :src="pokemonInfo.image"
                         class="rounded pattern ease-out w-[100%] duration-200"
