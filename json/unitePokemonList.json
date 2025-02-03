@@ -13900,5 +13900,27 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Galarian Rapidash",
+    "nameKo": "가라르 날썡마",
+    "image": "/img/unitePokemon/galarian-rapidash/roster-galarian-rapidash-2x.png",
+    "color": "#29a5e3",
+    "position": "speed",
+    "isEx": false,
+    "skillList": [],
+    "updatedList": [
+      {
+        "updatedDate": "2025-01-23",
+        "updateStates": ["new"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "출시",
+            "updatedName": "Release",
+            "updatedContents": [""]
+          }
+        ]
+      }
+    ]
   }
 ]
