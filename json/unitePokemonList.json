@@ -426,7 +426,7 @@
           },
           {
             "updatedNameKo": "블레이드폼의 강화 공격",
-            "updatedContents": ["적의 최대 HP에 따른 데미지: 7% → 8.5%"]
+            "updatedContents": ["적의 최대 HP에 따른 대미지: 7% → 8.5%"]
           }
         ]
       }
@@ -1628,6 +1628,25 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-10-17",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "화상 상태의 상대에게 주는 추가 대미지: 50% 감소 (총 대미지는 9% 감소)"
+            ]
+          },
+          {
+            "updatedNameKo": "불대문자",
+            "updatedContents": ["감속 효과: 35%→30%"]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 어스크러셔",
+            "updatedContents": ["필요한 에너지 양: 20% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -2455,6 +2474,24 @@
           {
             "updatedNameKo": "파도타기+",
             "updatedContents": ["이동 속도 저하 지속 시간: 2s → 3s"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-02-06",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": ["공격 속도: 1.1~1.5 → 1.1~1.6(레벨 1~15)"]
+          },
+          {
+            "updatedNameKo": "파도타기",
+            "updatedContents": ["대기 시간: 8초 → 7.5초"]
+          },
+          {
+            "updatedNameKo": "폭풍",
+            "updatedContents": ["대기 시간: 8초 → 7.5초"]
           }
         ]
       }
@@ -4168,6 +4205,16 @@
             "updatedContents": ["대기 시간: 5s → 5.5s"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-02-06",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": ["급소율: 10 → 5% (Lv.5-8), 20 → 10% (Lv.9-15)"]
+          }
+        ]
       }
     ]
   },
@@ -5105,7 +5152,7 @@
           },
           {
             "updatedNameKo": "탁류",
-            "updatedContents": ["데미지 감소율: 10% → 15%"]
+            "updatedContents": ["대미지 감소율: 10% → 15%"]
           },
           {
             "updatedNameKo": "애시드봄",
@@ -5359,7 +5406,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "트림",
-            "updatedContents": ["데미지: 6% 감소"]
+            "updatedContents": ["대미지: 6% 감소"]
           }
         ]
       }
@@ -7235,11 +7282,11 @@
         "updatedContentList": [
           {
             "updatedNameKo": "스테이터스",
-            "updatedContents": ["강화 공격 데미지: 5% 감소"]
+            "updatedContents": ["강화 공격 대미지: 5% 감소"]
           },
           {
             "updatedNameKo": "눈보라",
-            "updatedContents": ["장애물에 닿았을 때 데미지: 12% 감소"]
+            "updatedContents": ["장애물에 닿았을 때 대미지: 12% 감소"]
           }
         ]
       }
@@ -8643,7 +8690,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "매지컬플레임",
-            "updatedContents": ["데미지: 5% 증가"]
+            "updatedContents": ["대미지: 5% 증가"]
           },
           {
             "updatedNameKo": "명상",
@@ -9019,6 +9066,19 @@
           {
             "updatedNameKo": "저주",
             "updatedContents": ["대미지: 25%~18% 감소(레벨 5~15)"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-02-06",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "아픔나누기",
+            "updatedContents": [
+              "상대에게 주는 대미지 비율: 20%/30%/40% → 25%/35%/45%",
+              "회복 효과: 12% 증가"
+            ]
           }
         ]
       }
@@ -9489,6 +9549,16 @@
             "updatedContents": ["대미지 : 5% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-02-06",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "트리플악셀",
+            "updatedContents": ["대미지: 8% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -9893,7 +9963,7 @@
         "updatedContentList": [
           {
             "updatedNameKo": "수류연타",
-            "updatedContents": ["데미지: 10% 증가"]
+            "updatedContents": ["대미지: 10% 증가"]
           },
           {
             "updatedNameKo": "아쿠아브레이크",
@@ -10295,11 +10365,11 @@
         "updatedContentList": [
           {
             "updatedNameKo": "연속뺨치기",
-            "updatedContents": ["데미지: 5% 감소"]
+            "updatedContents": ["대미지: 5% 감소"]
           },
           {
             "updatedNameKo": "매지컬샤인",
-            "updatedContents": ["데미지: 5% 감소"]
+            "updatedContents": ["대미지: 5% 감소"]
           },
           {
             "updatedNameKo": "유나이트 기술: 스타☆리사이틀",
@@ -10595,8 +10665,8 @@
           {
             "updatedNameKo": "메탈클로",
             "updatedContents": [
-              "충격파 데미지 : 50% 감소",
-              "돌진 데미지 : 6% 감소"
+              "충격파 대미지 : 50% 감소",
+              "돌진 대미지 : 6% 감소"
             ]
           }
         ]
@@ -11538,8 +11608,8 @@
           {
             "updatedNameKo": "속임수",
             "updatedContents": [
-              "1단계 데미지: 20% 감소",
-              "2단계 데미지: 10% 증가"
+              "1단계 대미지: 20% 감소",
+              "2단계 대미지: 10% 증가"
             ]
           }
         ]
@@ -11841,6 +11911,20 @@
             "updatedContents": ["대미지: 12% 증가"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-02-06",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "노려맞히기",
+            "updatedContents": ["대미지: 10% 증가"]
+          },
+          {
+            "updatedNameKo": "아쿠아브레이크",
+            "updatedContents": ["대미지: 6% 증가", "대기 시간: 6.5초 → 6초"]
+          }
+        ]
       }
     ]
   },
@@ -11938,7 +12022,6 @@
           }
         ]
       },
-
       {
         "updatedDate": "2023-10-18",
         "updatedContentList": [
@@ -11975,7 +12058,6 @@
           }
         ]
       },
-
       {
         "updatedDate": "2024-02-27",
         "updatedContentList": [
@@ -12049,6 +12131,16 @@
           {
             "updatedNameKo": "순간이동+",
             "updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-02-06",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "사이코브레이크",
+            "updatedContents": ["대미지: 5% 감소"]
           }
         ]
       }
@@ -12887,6 +12979,21 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-10-17",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "용의숨결",
+            "updatedContents": [
+              "공격속도가 오르는 양: 60%, 80%, 100% → 40%, 55%, 70% (1마리, 2마리, 3마리에 명중)"
+            ]
+          },
+          {
+            "updatedNameKo": "뛰어오르기",
+            "updatedContents": ["대기시간: 7.5s→8.5s", "대미지량: 10% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -13470,6 +13577,27 @@
             "updatedContents": ["유나이트 기술을 모으기 어려워졌습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-02-06",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "방어: 90-480 → 90-540(레벨1~15)",
+              "특수방어: 70-385 → 70-420(레벨1~15)"
+            ]
+          },
+          {
+            "updatedNameKo": "화염방사",
+            "updatedContents": ["HP 회복량: 20% 증가"]
+          },
+          {
+            "updatedNameKo": "회오리불꽃",
+            "updatedContents": ["실드 효과: 20% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -13816,11 +13944,25 @@
         "updatedContentList": [
           {
             "updatedNameKo": "파도타기",
-            "updatedContents": ["데미지: 15% 감소"]
+            "updatedContents": ["대미지: 15% 감소"]
           },
           {
             "updatedNameKo": "유나이트 기술: 전력사이킥파덕!",
-            "updatedContents": ["데미지 감쇼 효과: 30% → 25%"]
+            "updatedContents": ["대미지 감쇼 효과: 30% → 25%"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-02-06",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "파도타기",
+            "updatedContents": ["대미지: 15% 감소"]
+          },
+          {
+            "updatedNameKo": "파도타기",
+            "updatedContents": ["대미지: 10% 감소"]
           }
         ]
       }
