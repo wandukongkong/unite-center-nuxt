@@ -1628,6 +1628,25 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2024-10-17",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "화상 상태의 상대에게 주는 추가 데미지: 50% 감소 (총 데미지는 9% 감소)"
+            ]
+          },
+          {
+            "updatedNameKo": "불대문자",
+            "updatedContents": ["감속 효과: 35%→30%"]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 어스크러셔",
+            "updatedContents": ["필요한 에너지 양: 20% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -12885,6 +12904,21 @@
             "updatedContents": [
               "상대편에게 명중시켰을 때 공격 속도가 오르도록 변경되었습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2024-10-17",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "용의숨결",
+            "updatedContents": [
+              "공격속도가 오르는 양: 60%, 80%, 100% → 40%, 55%, 70% (1마리, 2마리, 3마리에 명중)"
+            ]
+          },
+          {
+            "updatedNameKo": "뛰어오르기",
+            "updatedContents": ["대기시간: 7.5s→8.5s", "대미지량: 10% 감소"]
           }
         ]
       }
