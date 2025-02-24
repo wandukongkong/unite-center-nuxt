@@ -14062,6 +14062,48 @@
             "updatedContents": [""]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-02-13",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "특성: 파스텔베일",
+            "updatedContents": [
+              "실드: 20% 감소",
+              "획득하는 효과: 방해 무효 → 방해 내성",
+              "사이코 게이지가 쌓이는 속도: 50% 감소"
+            ]
+          },
+          {
+            "updatedNameKo": "일반 공격",
+            "updatedContents": ["대미지: 10% 감소"]
+          },
+          {
+            "updatedNameKo": "매지컬샤인",
+            "updatedContents": [
+              "데미지: 15% 감소",
+              "상대 팀의 포켓몬에게 명중시켰을 때 이동 속도 상승: 33% 감소"
+            ]
+          },
+          {
+            "updatedNameKo": "스마트혼",
+            "updatedContents": ["행동 불가 시간: 0.8초 → 1초"]
+          },
+          {
+            "updatedNameKo": "요정의바람",
+            "updatedContents": [
+              "파스텔베일에 의한 데미지 상승량을 감소시키고 이동 속도가 느릴 때 데미지가 증가하도록 변경.",
+              "이동 속도가 충분히 바를 때 합계 데미지는 조정 전과 동일."
+            ]
+          },
+          {
+            "updatedNameKo": "고속이동+",
+            "updatedContents": [
+              "HP 회복량: 0.5초마다 최대 HP의 2% → 0.5초마다 감소한 HP의 2%"
+            ]
+          }
+        ]
       }
     ]
   }
