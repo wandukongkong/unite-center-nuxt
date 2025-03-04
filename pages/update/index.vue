@@ -225,7 +225,12 @@ onMounted(() => {
                       @click="() => clickPokemonCard(pokemonInfo)"
                     >
                       <NuxtImg
-                        v-if="pokemonInfo.updatedList.length === 1"
+                        v-if="
+                          pokemonInfo.updatedList.length === 1 &&
+                          (
+                            pokemonInfo.updatedList[0]?.['updateStates'] || []
+                          ).includes('new')
+                        "
                         src="/img/icon/new.png"
                         class="h-10 absolute start-[-15px] top-[-22px]"
                         style=""

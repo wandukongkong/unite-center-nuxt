@@ -254,6 +254,28 @@
             "updatedContents": ["대기 시간: 5s → 5.5s"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-02-27",
+        "updateStates": ["buff", "adjust"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "방어 무시: 0~60(레벨1~15)을 추가",
+              "HP: 3000~6000 → 3000~6200(레벨1~15)",
+              "방어: 52~259 → 52~300(레벨1~15)",
+              "특수방어: 36~180 → 36~200(레벨1~15)",
+              "레벨업에 의한 스테이터스 상승폭 조정"
+            ]
+          },
+          {
+            "updatedNameKo": "깜짝베기",
+            "updatedContents": [
+              "급소율 상승: 상대가 잃은 HP 1% 당, 0.67% → 0.8%(최대치 변경 없음)"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1139,6 +1161,20 @@
           {
             "updatedNameKo": "유나이트 기술: 해피해피어시스트",
             "updatedContents": ["필요 에너지: 25% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-02-27",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "도우미",
+            "updatedContents": ["대기 시간: 8초 → 9초"]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 해피해피어시스트",
+            "updatedContents": ["데미지: 20% 감소", "필요한 에너지양: 11% 증가"]
           }
         ]
       }
@@ -3933,6 +3969,16 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-02-27",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "미래예지",
+            "updatedContents": ["데미지: 10% 증가", "대기 시간: 8초 → 7초"]
+          }
+        ]
       }
     ]
   },
@@ -4749,6 +4795,25 @@
             "updatedNameKo": "유나이트 기술: 인비저블쇼크",
             "updatedName": "Phantom Ambush",
             "updatedContents": ["필요한 에너지양: 약 17% 감소"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-02-27",
+        "updateStates": ["buff", "adjust"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "방어무시: 0~60(레벨1~15)을 추가",
+              "공격: 167~364 → 20~115(레벨1~15)",
+              "방어: 52~290 → 52~320(레벨1~15)",
+              "레벨업에 의한 스테이터스 상승폭 조정"
+            ]
+          },
+          {
+            "updatedNameKo": "일반 공격",
+            "updatedContents": ["특수공격으로 계산되는 데미지로 변경"]
           }
         ]
       }
@@ -8406,6 +8471,24 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-02-27",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": ["HP: 3300~9899 → 3300~10400(레벨1~15)"]
+          },
+          {
+            "updatedNameKo": "블록",
+            "updatedContents": ["실드: 16% 증가", "대기 시간: 9초 → 8초"]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 폭풍수면임팩트",
+            "updatedContents": ["회복량: 18% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -8890,6 +8973,26 @@
           {
             "updatedNameKo": "브레이브버드+",
             "updatedContents": ["대미지 경감율: 15% → 25%"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-02-27",
+        "updateStates": ["buff", "adjust"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "방어 무시: 0~60(레벨1~15)을 추가",
+              "HP: 3024~6300 → 3024~6400(레벨1~15)",
+              "방어: 58~290 → 58~320(레벨1~15)",
+              "특수방어: 40~200 → 40~215(레벨1~15)",
+              "레벨업에 의한 스테이터스 상승폭 조정"
+            ]
+          },
+          {
+            "updatedNameKo": "니트로차지",
+            "updatedContents": ["이동 속도 증가 유지 시간: 1.5초 → 2.5초"]
           }
         ]
       }
@@ -9559,6 +9662,16 @@
             "updatedContents": ["대미지: 8% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-02-27",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "트리플악셀",
+            "updatedContents": ["데미지: 12% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -9974,6 +10087,16 @@
             "updatedContents": [
               "유나이트 기술이 한카리아스나 고라파덕 등 일부 포켓몬의 유나이트 기술을 중단시키는 오류를 수정했습니다."
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-02-27",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "암흑강타",
+            "updatedContents": ["데미지: 8% 감소"]
           }
         ]
       }
@@ -12666,7 +12789,6 @@
     "color": "#29a5e3",
     "position": "speed",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2023-12-07",
@@ -12752,6 +12874,26 @@
           {
             "updatedNameKo": "유나이트 기술: 블루밍쇼타임!!",
             "updatedContents": ["필요한 에너지: 약 11% 증가"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-02-27",
+        "updateStates": ["buff", "adjust"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "방어 무시: 0~60(레벨1~15)을 추가",
+              "HP: 3100~6300 → 3100~6490(레벨1~15)",
+              "방어: 50~290 → 50~340(레벨1~15)",
+              "특수방어: 40~200 → 40~230(레벨1~15)",
+              "레벨업에 의한 스테이터스 상승폭 조정"
+            ]
+          },
+          {
+            "updatedNameKo": "트릭플라워",
+            "updatedContents": ["추가 데미지: 감소한 HP의 15% → 18%"]
           }
         ]
       }
@@ -13181,6 +13323,16 @@
             "updatedNameKo": "파라볼라차지+",
             "updatedName": "Parabolic Charge",
             "updatedContents": ["기술 대기 시간이 길어졌습니다."]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-02-27",
+        "updateStates": ["nurf", "adjust"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "라이트닝드라이브",
+            "updatedContents": ["데미지: 5% 감소", "이펙트 변경"]
           }
         ]
       }
@@ -13866,6 +14018,16 @@
             "updatedContents": ["대미지: 20% 증가"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-02-27",
+        "updateStates": ["adjust"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "유나이트 기술: 깊은악몽으로의유인",
+            "updatedContents": ["이전 이펙트로 재변경하였습니다."]
+          }
+        ]
       }
     ]
   },
@@ -14040,6 +14202,19 @@
             "updatedContents": ["필요한 에너지 양: 20% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-02-27",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "도둑질",
+            "updatedContents": [
+              "데미지: 13% ~ 33% 감소",
+              "방해 효과를 받고 있는 상대에게 향할 때 이동 속도 증가: 60% → 50%"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -14102,6 +14277,70 @@
             "updatedContents": [
               "HP 회복량: 0.5초마다 최대 HP의 2% → 0.5초마다 감소한 HP의 2%"
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Roster Suicune",
+    "nameKo": "스이쿤",
+    "image": "/img/unitePokemon/suicune/roster-suicune-2x.png",
+    "color": "#ce5fd3",
+    "position": "balance",
+    "isEx": false,
+    "skillList": [],
+    "updatedList": [
+      {
+        "updatedDate": "2025-03-01",
+        "updateStates": ["new"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "출시",
+            "updatedName": "Release",
+            "updatedContents": [""]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Raichu",
+    "nameKo": "알로라 라이츄",
+    "image": "/img/unitePokemon/raichu/roster-raichu-2x.png",
+    "color": "transpernt",
+    "position": "",
+    "isEx": false,
+    "skillList": [],
+    "updatedList": [
+      {
+        "updatedDate": "2025-04-??",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "출시",
+            "updatedName": "Release",
+            "updatedContents": [""]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Alcremie",
+    "nameKo": "마휘핑",
+    "image": "/img/unitePokemon/alcremie/roster-alcremie-2x.png",
+    "color": "transpernt",
+    "position": "",
+    "isEx": false,
+    "skillList": [],
+    "updatedList": [
+      {
+        "updatedDate": "2025-??-??",
+        "updatedContentList": [
+          {
+            "updatedNameKo": "출시",
+            "updatedName": "Release",
+            "updatedContents": [""]
           }
         ]
       }
