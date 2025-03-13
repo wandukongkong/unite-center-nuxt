@@ -276,6 +276,18 @@
             ]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-03-13",
+        "updateStates": ["adjust"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "레벨업에 따른 스테이터스 상승폭을 2월 27일 이전으로 롤백"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -4816,6 +4828,18 @@
             "updatedContents": ["특수공격으로 계산되는 데미지로 변경"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-03-13",
+        "updateStates": ["adjust"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "레벨업에 따른 스테이터스 상승폭을 2월 27일 이전으로 롤백"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -8489,6 +8513,18 @@
             "updatedContents": ["회복량: 18% 증가"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-03-13",
+        "updateStates": ["adjust"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "레벨업에 따른 스테이터스 상승폭을 2월 27일 이전으로 롤백"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -8993,6 +9029,18 @@
           {
             "updatedNameKo": "니트로차지",
             "updatedContents": ["이동 속도 증가 유지 시간: 1.5초 → 2.5초"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-03-13",
+        "updateStates": ["adjust"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "레벨업에 따른 스테이터스 상승폭을 2월 27일 이전으로 롤백"
+            ]
           }
         ]
       }
@@ -12896,6 +12944,22 @@
             "updatedContents": ["추가 데미지: 감소한 HP의 15% → 18%"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-03-13",
+        "updateStates": ["adjust"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "레벨업에 따른 스테이터스 상승폭을 2월 27일 이전으로 롤백"
+            ]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 블루밍쇼타임!!",
+            "updatedContents": ["방해 무효 상태가 되던 오류를 수정"]
+          }
+        ]
       }
     ]
   },
@@ -14028,6 +14092,16 @@
             "updatedContents": ["이전 이펙트로 재변경하였습니다."]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-03-13",
+        "updateStates": ["adjust"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "나쁜음모",
+            "updatedContents": ["대기 시간이 길어지는 오류를 수정"]
+          }
+        ]
       }
     ]
   },
@@ -14314,7 +14388,7 @@
     "skillList": [],
     "updatedList": [
       {
-        "updatedDate": "2025-04-??",
+        "updatedDate": "2025-04-17",
         "updatedContentList": [
           {
             "updatedNameKo": "출시 예정",
