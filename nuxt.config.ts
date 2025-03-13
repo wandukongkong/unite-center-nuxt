@@ -62,4 +62,9 @@ export default defineNuxtConfig({
   gtag: {
     id: "G-GRF8JCX0H3",
   },
+  build: {
+    extend(config) {
+      config.resolve.alias["vue"] = "vue/dist/vue.common";
+    },
+  },
 });
