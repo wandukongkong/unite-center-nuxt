@@ -463,6 +463,16 @@
             "updatedContents": ["적의 최대 HP에 따른 대미지: 7% → 8.5%"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-03-19",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "와이드가드",
+            "updatedContents": ["실드량: 15% 감소"]
+          }
+        ]
       }
     ]
   },
@@ -2180,6 +2190,22 @@
               "회복량: 50% 증가",
               "필요한 유나이트 기술 게이지: 약 20% 감소"
             ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-03-19",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "천사의키스",
+            "updatedContents": [
+              "붙어 있는 상태에서 아군에게 부여하는 실드량: 20% 증가"
+            ]
+          },
+          {
+            "updatedNameKo": "천사의키스+",
+            "updatedContents": ["이동 속도 상승: 30% → 40%"]
           }
         ]
       }
@@ -5766,6 +5792,24 @@
             "updatedContents": ["필요한 에너지양: 25% 감소", "대미지: 20% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-03-19",
+        "updateStates": ["buff", "nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": ["HP: 3000~5152 → 3000~5420 (레벨 1~15)"]
+          },
+          {
+            "updatedNameKo": "물수리검",
+            "updatedContents": ["회복량: 25% 감소"]
+          },
+          {
+            "updatedNameKo": "그림자분신",
+            "updatedContents": ["분신 데미지: 8% 증가"]
+          }
+        ]
       }
     ]
   },
@@ -7624,6 +7668,25 @@
             "updatedName": "Thunderstorm",
             "updatedContents": [
               "상대편 포켓몬에게 주는 대미지가 감소되었습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-03-19",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "방어: 35~175 → 35~240",
+              "특방: 27~135 → 27~200"
+            ]
+          },
+          {
+            "updatedNameKo": "볼트태클",
+            "updatedContents": [
+              "착지 후 이동 속도 상승: 30%, 2s → 60%, 0.5s마다 10% 감소(최소 30%)"
             ]
           }
         ]
@@ -11132,6 +11195,20 @@
             "updatedContents": ["실드량 : 15% 증가"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-03-19",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": ["공격속도: 0~7.7% 증가 (레벨 1~15)"]
+          },
+          {
+            "updatedNameKo": "와일드볼트",
+            "updatedContents": ["대기 시간: 9초 → 8초"]
+          }
+        ]
       }
     ]
   },
@@ -11794,7 +11871,6 @@
     "color": "#29a5e3",
     "position": "speed",
     "isEx": false,
-
     "updatedList": [
       {
         "updatedDate": "2023-06-08",
@@ -11902,6 +11978,24 @@
           {
             "updatedNameKo": "제비반환+",
             "updatedContents": ["사용 횟수 회복 시간: 4s → 5s"]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-03-19",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": ["방어 무시: 0~60 (레벨 1~15) 추가"]
+          },
+          {
+            "updatedNameKo": "잎날가르기",
+            "updatedContents": ["지면에 찔린 후의 데미지: 10% 증가"]
+          },
+          {
+            "updatedNameKo": "리프블레이드",
+            "updatedContents": ["이동 속도 저하: 30% → 40%"]
           }
         ]
       }
@@ -13200,6 +13294,20 @@
             "updatedContents": ["대기시간: 7.5s→8.5s", "대미지량: 10% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-03-19",
+        "updateStates": ["buff"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "뛰어오르기",
+            "updatedContents": ["실드량: 30% 증가"]
+          },
+          {
+            "updatedNameKo": "유나이트 기술: 비룡승운",
+            "updatedContents": ["이동속도 증가량: 30%/45%/65% → 45%/55%/65%"]
+          }
+        ]
       }
     ]
   },
@@ -14201,6 +14309,20 @@
             "updatedContents": ["대미지: 10% 감소"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-03-19",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "파도타기",
+            "updatedContents": ["대기 시간: 6초 → 7초"]
+          },
+          {
+            "updatedNameKo": "거품광선",
+            "updatedContents": ["대기 시간: 6초 → 6.5초"]
+          }
+        ]
       }
     ]
   },
@@ -14373,6 +14495,20 @@
             "updatedNameKo": "출시",
             "updatedName": "Release",
             "updatedContents": [""]
+          }
+        ]
+      },
+      {
+        "updatedDate": "2025-03-19",
+        "updateStates": ["nurf"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "바다회오리",
+            "updatedContents": ["대기 시간: 6.5s → 7.5s"]
+          },
+          {
+            "updatedNameKo": "냉동빔",
+            "updatedContents": ["기술 회복 시간: 5s → 6s"]
           }
         ]
       }
