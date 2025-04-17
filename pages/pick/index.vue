@@ -221,9 +221,9 @@ const resetCardDeck = () => {
         unitePokemonInfo.position === selectedMode.value ||
         selectedMode.value === "default"
     )
-    .sort(() => Math.random() - 0.5)
-    .sort(() => Math.random() - 0.5)
-    .sort(() => Math.random() - 0.5);
+    .sort(() => crypto.getRandomValues(new Uint32Array(1)) / 2 ** 32 - 0.5)
+    .sort(() => crypto.getRandomValues(new Uint32Array(1)) / 2 ** 32 - 0.5)
+    .sort(() => crypto.getRandomValues(new Uint32Array(1)) / 2 ** 32 - 0.5);
 
   // 카드의 수가 부족할 경우, 중복 강제 적용
   if (unitePokemonListClone.length < 10) {
@@ -234,23 +234,23 @@ const resetCardDeck = () => {
   if (isBanEx.value) {
     unitePokemonListClone = unitePokemonListClone
       .filter((unitePokemonInfo) => !unitePokemonInfo.isEx)
-      .sort(() => Math.random() - 0.5)
-      .sort(() => Math.random() - 0.5)
-      .sort(() => Math.random() - 0.5);
+      .sort(() => crypto.getRandomValues(new Uint32Array(1)) / 2 ** 32 - 0.5)
+      .sort(() => crypto.getRandomValues(new Uint32Array(1)) / 2 ** 32 - 0.5)
+      .sort(() => crypto.getRandomValues(new Uint32Array(1)) / 2 ** 32 - 0.5);
   }
 
   // 중복 포켓몬 체크
   if (isDuplicatedPokemon.value) {
     const aTeamPokemonList = unitePokemonListClone
-      .sort(() => Math.random() - 0.5)
-      .sort(() => Math.random() - 0.5)
-      .sort(() => Math.random() - 0.5)
+      .sort(() => crypto.getRandomValues(new Uint32Array(1)) / 2 ** 32 - 0.5)
+      .sort(() => crypto.getRandomValues(new Uint32Array(1)) / 2 ** 32 - 0.5)
+      .sort(() => crypto.getRandomValues(new Uint32Array(1)) / 2 ** 32 - 0.5)
       .slice(0, 5);
 
     const bTeamPokemonList = unitePokemonListClone
-      .sort(() => Math.random() - 0.5)
-      .sort(() => Math.random() - 0.5)
-      .sort(() => Math.random() - 0.5)
+      .sort(() => crypto.getRandomValues(new Uint32Array(1)) / 2 ** 32 - 0.5)
+      .sort(() => crypto.getRandomValues(new Uint32Array(1)) / 2 ** 32 - 0.5)
+      .sort(() => crypto.getRandomValues(new Uint32Array(1)) / 2 ** 32 - 0.5)
       .slice(0, 5);
 
     unitePokemonListClone = [...aTeamPokemonList, ...bTeamPokemonList];
@@ -272,9 +272,9 @@ const resetCardDeck = () => {
       selectedUsers.value = [...userTagsClone];
     } else {
       selectedUsers.value = [...userTagsClone]
-        .sort(() => Math.random() - 0.5)
-        .sort(() => Math.random() - 0.5)
-        .sort(() => Math.random() - 0.5);
+        .sort(() => crypto.getRandomValues(new Uint32Array(1)) / 2 ** 32 - 0.5)
+        .sort(() => crypto.getRandomValues(new Uint32Array(1)) / 2 ** 32 - 0.5)
+        .sort(() => crypto.getRandomValues(new Uint32Array(1)) / 2 ** 32 - 0.5);
     }
   }
 

@@ -14537,30 +14537,10 @@
     "updatedList": [
       {
         "updatedDate": "2025-04-17",
+        "updateStates": ["new"],
         "updatedContentList": [
           {
             "updatedNameKo": "출시",
-            "updatedName": "Release",
-            "updatedContents": [""]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Alcremie",
-    "nameKo": "마휘핑",
-    "image": "/img/unitePokemon/alcremie/roster-alcremie-2x.png",
-    "color": "transpernt",
-    "position": "",
-    "isEx": false,
-    "skillList": [],
-    "updatedList": [
-      {
-        "updatedDate": "2025-??-??",
-        "updatedContentList": [
-          {
-            "updatedNameKo": "출시 예정",
             "updatedName": "Release",
             "updatedContents": [""]
           }
