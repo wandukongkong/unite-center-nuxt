@@ -1,67 +1,140 @@
 <script setup>
-import { toRef, watchEffect } from "vue";
+import { toRef, computed } from "vue";
 
 const props = defineProps({
-  tournamentList: {
+  teamList: {
     type: Array,
     default: () => [
       {
-        round: 1,
-        matchList: [
-          {
-            match: 1,
-            config: {
-              x: 0,
-              y: 20,
-            },
-            teamList: [
-              {
-                teamName: "TeamA",
-              },
-              {
-                teamName: "TeamB",
-              },
-            ],
-          },
-          {
-            match: 2,
-            config: {
-              x: 0,
-              y: 120,
-            },
-            teamList: [
-              {
-                teamName: "TeamC",
-              },
-              {
-                teamName: "TeamD",
-              },
-            ],
-          },
-        ],
+        teamName: "TeamA",
       },
       {
-        round: 2,
-        matchList: [
-          {
-            match: 3,
-            config: {
-              x: 0,
-              y: 60,
-            },
-            teamList: [
-              {
-                teamName: "TeamA",
-              },
-              {
-                teamName: "TeamC",
-              },
-            ],
-          },
-        ],
+        teamName: "TeamB",
+      },
+      {
+        teamName: "TeamC",
+      },
+      {
+        teamName: "TeamD",
+      },
+      {
+        teamName: "TeamE",
       },
     ],
   },
+});
+
+// TODO: 하위 3팀을 제외하고 1매치만 남는지 체크
+const checkRoundTeam = (list) => {
+  const lastRoundInfo = list.at(-1);
+  const lastTeamList = lastRoundInfo.matchList.reduce((result, matchInfo) => {
+    matchInfo.teamList.forEach((teamInfo) => result.push(teamInfo));
+  }, []);
+
+  if (lastRoundInfo.round === 1) {
+    list.push({
+      round: lastRoundInfo.round + 1,
+      matchList: chunkTeam(
+        Math.ceil(Array(lastTeamList.length / 2, 20).fill({}))
+      ),
+    });
+  } else {
+    // check Team 3팀제외하고 1매치 남는지 체크
+    if (lastTeamList.length - 3 === 2) {
+      list.push({
+        round: lastRoundInfo.round + 1,
+        matchList: chunkTeam([
+          {
+            teamName: "",
+          },
+          {
+            teamName: "",
+          },
+        ]),
+      });
+
+      list.push({
+        round: lastRoundInfo.round + 2,
+        matchList: chunkTeam([
+          {
+            teamName: "",
+          },
+          {
+            teamName: "",
+          },
+          {
+            teamName: "",
+          },
+          {
+            teamName: "",
+          },
+        ]),
+      });
+    } else {
+      list.push({
+        round: lastRoundInfo.round + 1,
+        matchList: chunkTeam(lastTeamList),
+      });
+    }
+
+    // if (lastTeamList.length > 4) {
+    //   list = checkRoundTeam(list);
+    // } else {
+    // }
+  }
+  return list;
+};
+
+const chunkTeam = (list, chunkNumber = 2) => {
+  return list.reduce((result, info, index) => {
+    if (index === 0) {
+      result.push({
+        match: 1,
+        config: {
+          x: 0,
+          y: 20,
+        },
+        teamList: [],
+      });
+    }
+
+    if (result.at(-1).teamList.length === chunkNumber) {
+      const lastMatchInfo = result.at(-1);
+
+      result.push({
+        match: lastMatchInfo.match + 1,
+        config: {
+          x: 0,
+          y: lastMatchInfo.config.y + 100,
+        },
+        teamList: [],
+      });
+    }
+
+    result.at(-1).teamList.push(info);
+
+    return result;
+  }, []);
+};
+
+// matchList: [
+//   {
+//     match: 1,
+//     teamList: [{},{}]
+//   }
+// ]
+
+const convertedTournamentList = computed(() => {
+  let firstRoundList = [
+    {
+      round: 1,
+      matchList: chunkTeam(props.teamList),
+    },
+  ];
+
+  const otherRoundList = checkRoundTeam(firstRoundList);
+
+  return firstRoundList;
 });
 
 const configKonva = toRef({
@@ -113,7 +186,7 @@ const leaveMouse = (e) => {
   <v-stage :config="configKonva">
     <!-- Round -->
     <v-layer
-      v-for="(tournamentInfo, tournamentInfoIndex) in props.tournamentList"
+      v-for="(tournamentInfo, tournamentInfoIndex) in convertedTournamentList"
       :key="tournamentInfoIndex"
       :config="{
         x: 110 + 300 * tournamentInfoIndex,
