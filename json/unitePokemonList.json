@@ -1896,6 +1896,18 @@
             "updatedContents": ["대기 시간: 8s → 9s"]
           }
         ]
+      },
+      {
+        "updatedDate": "2025-04-17",
+        "updateStates": ["adjust"],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "스테이터스",
+            "updatedContents": [
+              "방어 무시 스테이터스를 가지고 있던 오류를 수정"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -14518,8 +14530,8 @@
     "name": "Raichu",
     "nameKo": "알로라 라이츄",
     "image": "/img/unitePokemon/raichu/roster-raichu-2x.png",
-    "color": "transpernt",
-    "position": "",
+    "color": "#f16c38",
+    "position": "attack",
     "isEx": false,
     "skillList": [],
     "updatedList": [
@@ -14527,7 +14539,7 @@
         "updatedDate": "2025-04-17",
         "updatedContentList": [
           {
-            "updatedNameKo": "출시 예정",
+            "updatedNameKo": "출시",
             "updatedName": "Release",
             "updatedContents": [""]
           }
