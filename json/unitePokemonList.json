@@ -905,6 +905,27 @@
 						"updatedContents": ["필요한 에너지 양: 11% 감소"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-05-15",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["HP:3225~9800 → 3225~10300"]
+					},
+					{
+						"updatedNameKo": "해수스파우팅",
+						"updatedContents": [
+							"이동 속도 저하: 1초간 35% → 2초간 20% 저하",
+							"고속스핀 중에 사용한 경우, 상대에게 이동 속도 저하 효과를 1번 준다."
+						]
+					},
+					{
+						"updatedNameKo": "하이드로펌프",
+						"updatedContents": ["이고속스핀 중에 사용한 경우, 상대에게 주는 행동 불가 시간: 0.5초 → 0.75초"]
+					}
+				]
 			}
 		]
 	},
@@ -1934,6 +1955,24 @@
 					{
 						"updatedNameKo": "중력+",
 						"updatedContents": ["대기 시간: 9s → 8s"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-05-15",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["HP: 3300~8000 → 3300~9000", "방어: 40~260 → 40~300", "특방: 30~200 → 30~330"]
+					},
+					{
+						"updatedNameKo": "드레인키스",
+						"updatedContents": ["대미지 : 31~22% 감소", "특공에 의한 회복량 : 40%~33% 증가"]
+					},
+					{
+						"updatedNameKo": "달빛",
+						"updatedContents": ["회복량 : 5% 증가"]
 					}
 				]
 			}
@@ -4003,6 +4042,24 @@
 					{
 						"updatedNameKo": "스테이터스",
 						"updatedContents": ["급소율: 10 → 5% (Lv.5-8), 20 → 10% (Lv.9-15)"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-05-15",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "강화 공격",
+						"updatedContents": ["준 데미지에 따른 회복량 : 50% 증가"]
+					},
+					{
+						"updatedNameKo": "구멍파기",
+						"updatedContents": ["방어 및 특방 상승 시간: 3s → 4", "대기 시간: 8s → 7.5s"]
+					},
+					{
+						"updatedNameKo": "지진",
+						"updatedContents": ["대기 시간: 7s → 6.5s"]
 					}
 				]
 			}
@@ -10206,6 +10263,28 @@
 						]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-05-15",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "특성: 불요의검",
+						"updatedContents": ["KO나 어시스트한 상대의 포켓몬에서 더 많은 에오스 에너지가 떨어지는 효과를 제거"]
+					},
+					{
+						"updatedNameKo": "치근거리기",
+						"updatedContents": ["행동 불능 시간: 0.7s → 0.25s"]
+					},
+					{
+						"updatedNameKo": "치근거리기+",
+						"updatedContents": ["행동 불능 시간: 1s → 0.75s"]
+					},
+					{
+						"updatedNameKo": "성스러운칼",
+						"updatedContents": ["대미지 : 약 25% 감소"]
+					}
+				]
 			}
 		]
 	},
@@ -11941,6 +12020,20 @@
 						"updatedContents": ["대미지 : 6% 감소"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-05-15",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "기합구슬",
+						"updatedContents": ["이동 속도 저하: 1.5s → 2s"]
+					},
+					{
+						"updatedNameKo": "유나이트 기술: 폭염선풍권/폭염선풍각",
+						"updatedContents": ["실드량: 최대 HP의 5% → 12%", "대기 시간: 5s → 4.7s"]
+					}
+				]
 			}
 		]
 	},
@@ -12458,6 +12551,24 @@
 					{
 						"updatedNameKo": "유나이트 기술: 비룡승운",
 						"updatedContents": ["이동속도 증가량: 30%/45%/65% → 45%/55%/65%"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-05-15",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "특성: 주눅",
+						"updatedContents": ["노력 게이지 증가량: 10% 감소"]
+					},
+					{
+						"updatedNameKo": "용의숨결",
+						"updatedContents": ["대미지: 12% 감소"]
+					},
+					{
+						"updatedNameKo": "폭포오르기",
+						"updatedContents": ["대미지: 12% 감소"]
 					}
 				]
 			}
@@ -13688,6 +13799,16 @@
 						"updatedContents": [
 							"「어시스트 파워」와 「사이코키네시스」의 추가 대미지로 힘의머리띠가 발동하고 있던 문제를 수정하였습니다."
 						]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-05-15",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "어시스트파워",
+						"updatedContents": ["추가 대미지: 약 10% 감소", "대기 시간: 4.5s → 6s", "공격 속도 상승 효과: 50% → 35%"]
 					}
 				]
 			}
