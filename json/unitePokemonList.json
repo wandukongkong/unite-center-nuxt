@@ -1785,6 +1785,20 @@
 						"updatedContents": ["방어 무시 스테이터스를 가지고 있던 오류를 수정"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-06-05",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["HP: 3000~5399 → 3000~6000"]
+					},
+					{
+						"updatedNameKo": "화염볼",
+						"updatedContents": ["공격 모션 단축"]
+					}
+				]
 			}
 		]
 	},
@@ -4051,7 +4065,7 @@
 				"updatedContentList": [
 					{
 						"updatedNameKo": "강화 공격",
-						"updatedContents": ["준 데미지에 따른 회복량 : 50% 증가"]
+						"updatedContents": ["준 대미지에 따른 회복량 : 50% 증가"]
 					},
 					{
 						"updatedNameKo": "구멍파기",
@@ -5239,6 +5253,28 @@
 						"updatedContents": ["대미지: 6% 감소"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-06-05",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["방어: 75~433 → 75~540", "특방: 60~360 → 60~460"]
+					},
+					{
+						"updatedNameKo": "씨기관총",
+						"updatedContents": ["방해 효과로 일부러가 멈추어도 일부러 버튼을 계속 누르고 있으면 다시 씨앗을 날리기 시작하도록 변경했습니다."]
+					},
+					{
+						"updatedNameKo": "트림",
+						"updatedContents": ["공격의 모션을 단축", "대미지: 12% 감소"]
+					},
+					{
+						"updatedNameKo": "유나이트 기술: 나무열매욕심다이브",
+						"updatedContents": ["날려버리는 시간:0.5s → 1s"]
+					}
+				]
 			}
 		]
 	},
@@ -5656,6 +5692,20 @@
 						"updatedContents": ["주는 대미지에 따른 HP 회복량: 60% 감소"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-06-05",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "트릭",
+						"updatedContents": ["이동 속도 상승: 70% → 60%"]
+					},
+					{
+						"updatedNameKo": "섀도볼",
+						"updatedContents": ["대미지: 10% 감소"]
+					}
+				]
 			}
 		]
 	},
@@ -5902,6 +5952,28 @@
 						"updatedNameKo": "신속+",
 						"updatedName": "Extreme Speed",
 						"updatedContents": ["기술 대기 시간이 짧아졌습니다."]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-06-05",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "특성: 불굴의마음",
+						"updatedContents": ["대기 시간: 60s → 45s"]
+					},
+					{
+						"updatedNameKo": "본러시",
+						"updatedContents": ["대미지:33%~38% 증가", "대기 시간:10s → 9s"]
+					},
+					{
+						"updatedNameKo": "인파이트",
+						"updatedContents": ["회복 효과: 15% 증가"]
+					},
+					{
+						"updatedNameKo": "유나이트 기술: 풀포스블라스트",
+						"updatedContents": ["필요한 에너지: 10% 감소"]
 					}
 				]
 			}
@@ -6469,6 +6541,24 @@
 					{
 						"updatedNameKo": "고속이동",
 						"updatedContents": ["통과할 수 있는 벽을 통과하지 못하던 오류를 수정했습니다."]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-06-05",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "일렉트릭볼",
+						"updatedContents": ["기본 대미지: 5% 증가(빛의장막을 통과한 경우도 포함한다)"]
+					},
+					{
+						"updatedNameKo": "솔라빔",
+						"updatedContents": ["대미지: 5% 증가 (빛의장막을 통과한 경우도 포함)"]
+					},
+					{
+						"updatedNameKo": "파도타기",
+						"updatedContents": ["대미지 : 5% 증가"]
 					}
 				]
 			}
@@ -7207,6 +7297,16 @@
 					{
 						"updatedNameKo": "볼트태클",
 						"updatedContents": ["착지 후 이동 속도 상승: 30%, 2s → 60%, 0.5s마다 10% 감소(최소 30%)"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-06-05",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "볼트태클",
+						"updatedContents": ["대미지: 10% 감소"]
 					}
 				]
 			}
@@ -8028,6 +8128,16 @@
 						"updatedContents": ["레벨업에 따른 스테이터스 상승폭을 2월 27일 이전으로 롤백"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-06-05",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "하품",
+						"updatedContents": ["잠자는 상태의 지속 시간 : 3s → 2.5s"]
+					}
+				]
 			}
 		]
 	},
@@ -8296,6 +8406,24 @@
 					{
 						"updatedNameKo": "명상",
 						"updatedContents": ["대기 시간: 10초 → 9.5초"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-06-05",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["HP: 3406~7148 → 3406~7350"]
+					},
+					{
+						"updatedNameKo": "드레인 키스",
+						"updatedContents": ["이동 속도 저하: 50%~30%→ 50%~35%"]
+					},
+					{
+						"updatedNameKo": "매지컬플레임",
+						"updatedContents": ["2발째 이후의 대미지: 12% 증가"]
 					}
 				]
 			}
@@ -11165,6 +11293,24 @@
 						"updatedContents": ["1단계 대미지: 20% 감소", "2단계 대미지: 10% 증가"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-06-05",
+				"updateStates": ["buff", "nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["방어: 85~500 → 85~560", "특방: 60~400 → 60~450"]
+					},
+					{
+						"updatedNameKo": "속임수",
+						"updatedContents": ["첫번째의 대미지: 10% 감소", "두번째의 대미지: 10% 감소"]
+					},
+					{
+						"updatedNameKo": "유나이트 기술: 문라이트세레나데",
+						"updatedContents": ["발동시의 실드 흡수: 100% → 50%"]
+					}
+				]
 			}
 		]
 	},
@@ -11686,6 +11832,16 @@
 						"updatedContents": ["대미지: 5% 감소"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-06-05",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "사이코브레이크",
+						"updatedContents": ["날려버리는 시간:1s → 0.6s"]
+					}
+				]
 			}
 		]
 	},
@@ -11845,7 +12001,6 @@
 					}
 				]
 			},
-
 			{
 				"updatedDate": "2024-11-01",
 				"updatedContentList": [
@@ -11858,6 +12013,16 @@
 						"updatedNameKo": "사이코브레이크+",
 						"updatedName": "Psystrike",
 						"updatedContents": ["기술에 의해 자신에게 주는 효과가 약해졌습니다."]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-06-05",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "사이코브레이크",
+						"updatedContents": ["날려버리는 시간:1s → 0.6s"]
 					}
 				]
 			}
@@ -12318,6 +12483,16 @@
 					{
 						"updatedNameKo": "스테이터스",
 						"updatedContents": ["방어 무시: 0~60 → 0~0 (삭제)"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-06-05",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "특성: 심록",
+						"updatedContents": ["모습을 감췄을 때 보호 상태가 되지 않도록 변경했습니다."]
 					}
 				]
 			}
@@ -13528,6 +13703,20 @@
 						"updatedContents": ["대기 시간: 6초 → 6.5초"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-06-05",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "사이코키네시스",
+						"updatedContents": ["명중 시 행동 불능 시간: 1s → 0.6s"]
+					},
+					{
+						"updatedNameKo": "파도타기",
+						"updatedContents": ["대기 시간 7s → 7.5s"]
+					}
+				]
 			}
 		]
 	},
@@ -13621,7 +13810,7 @@
 	},
 	{
 		"name": "Galarian Rapidash",
-		"nameKo": "가라르 날썡마",
+		"nameKo": "가라르 날쌩마",
 		"image": "/img/unitePokemon/galarian-rapidash/roster-galarian-rapidash-2x.png",
 		"color": "#29a5e3",
 		"position": "speed",
@@ -13697,6 +13886,20 @@
 						"updatedContents": ["필요한 에너지: 17% 감소"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-06-05",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "특성: 파스텔베일",
+						"updatedContents": ["실드량: 25% 증가"]
+					},
+					{
+						"updatedNameKo": "요정의바람",
+						"updatedContents": ["기본 대미지: 45% 증가", "최대 대미지: 7% 감소"]
+					}
+				]
 			}
 		]
 	},
@@ -13753,6 +13956,24 @@
 					{
 						"updatedNameKo": "얼어붙은바람",
 						"updatedContents": ["얼음 기둥이 부서질 때의 대미지: 98% 증가"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-06-05",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "특성: 프레셔",
+						"updatedContents": ["얼음 상태의 지속 시간 : 1.25s → 1s"]
+					},
+					{
+						"updatedNameKo": "바다회오리",
+						"updatedContents": ["이동 속도 저하: 30% → 20%"]
+					},
+					{
+						"updatedNameKo": "냉동빔",
+						"updatedContents": ["사용 회수 회복: 7s → 7.5s"]
 					}
 				]
 			}
