@@ -11630,6 +11630,16 @@
 						"updatedContents": ["대미지: 6% 증가", "대기 시간: 6.5초 → 6초"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-06-05",
+				"updateStates": ["adjust"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "노려맞히기",
+						"updatedContents": ["조준 때 카메라가 당기도록 조정"]
+					}
+				]
 			}
 		]
 	},
