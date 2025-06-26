@@ -1136,6 +1136,16 @@
 						"updatedContents": ["대미지: 20% 감소", "필요한 에너지양: 11% 증가"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-06-27",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "신비의부적",
+						"updatedContents": ["실드: 10% 감소", "대기시간：9초 → 10초"]
+					}
+				]
 			}
 		]
 	},
@@ -3469,6 +3479,20 @@
 					{
 						"updatedNameKo": "스텔스록+",
 						"updatedContents": ["사용 횟수 회복 시간: 8s → 8.5s"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-06-27",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "용의파동",
+						"updatedContents": ["대미지: 8% 증가","KO시의 대기 시간 단축 효과: 10% → 30%"]
+					},
+					{
+						"updatedNameKo": "유나이트 기술: 두랄디재스터",
+						"updatedContents": ["추가 효과: 방해 무효"]
 					}
 				]
 			}
@@ -11446,6 +11470,20 @@
 						"updatedContents": ["방어 무시: 0~60 → 0~0 (삭제)"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-06-27",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "솔라블레이드",
+						"updatedContents": ["대미지 : 10%/6%/2%/0% 증가(빛을 담을 수 있는 시간에 따라)"]
+					},
+					{
+						"updatedNameKo": "리프블레이드",
+						"updatedContents": ["대기 시간: 9초 → 8.5초", "엽록소 게이지 증가: 20% 증가"]
+					}
+				]
 			}
 		]
 	},
@@ -12207,6 +12245,24 @@
 					{
 						"updatedNameKo": "유나이트 기술: 폭염선풍권/폭염선풍각",
 						"updatedContents": ["실드량: 최대 HP의 5% → 12%", "대기 시간: 5s → 4.7s"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-06-27",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "불꽃펀치",
+						"updatedContents": ["대미지: 12% 감소"]
+					},
+					{
+						"updatedNameKo": "유나이트 기술: 폭염선풍권",
+						"updatedContents": ["실드: 최대 HP의 12% → 9%"]
+					},
+					{
+						"updatedNameKo": "유나이트 기술: 폭염선풍각",
+						"updatedContents": ["실드: 최대 HP의 12% → 9%"]
 					}
 				]
 			}
@@ -13173,6 +13229,24 @@
 						"updatedContents": ["대기 시간: 7s → 6.5s"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-06-27",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "원념의칼",
+						"updatedContents": ["HP 회복: 40% → 50%"]
+					},
+					{
+						"updatedNameKo": "원념의칼+",
+						"updatedContents": ["HP 회복: 55% → 70%"]
+					},
+					{
+						"updatedNameKo": "유나이트 기술: 찰나잔영검",
+						"updatedContents": ["발동 시의 대미지 경감율: 50% → 70%"]
+					}
+				]
 			}
 		]
 	},
@@ -13476,6 +13550,16 @@
 						"updatedNameKo": "아머캐논+",
 						"updatedName": "Armor Cannon",
 						"updatedContents": ["기술 대기 시간이 길어졌습니다.", "상대편 포켓몬에게 주는 대미지가 감소되었습니다."]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-06-27",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "사이코쇼크",
+						"updatedContents": ["대미지: 10% 감소"]
 					}
 				]
 			}
@@ -14040,6 +14124,58 @@
 					{
 						"updatedNameKo": "어시스트파워",
 						"updatedContents": ["추가 대미지: 약 10% 감소", "대기 시간: 4.5s → 6s", "공격 속도 상승 효과: 50% → 35%"]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Alcremie",
+		"nameKo": "마휘핑",
+		"image": "/img/unitePokemon/alcremie/roster-alcremie-2x.png",
+		"color": "#fecc51",
+		"position": "support",
+		"isEx": false,
+		"skillList": [],
+		"updatedList": [
+			{
+				"updatedDate": "2025-06-12",
+				"updateStates": ["new"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "출시",
+						"updatedName": "Release",
+						"updatedContents": [""]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-06-27",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["HP: 3100~7800 → 3100~9000", "방어: 40~230 → 40~320", "특방: 30~280 → 30~370"]
+					},
+					{
+						"updatedNameKo": "애교부리기",
+						"updatedContents": ["대미지: 98%~73% 증가 (Lv.1~5)"]
+					},
+					{
+						"updatedNameKo": "달콤한향기",
+						"updatedContents": ["스킬 시전 시간 단축"]
+					},
+					{
+						"updatedNameKo": "HP회복",
+						"updatedContents": ["HP 회복: 35% 증가"]
+					},
+					{
+						"updatedNameKo": "데코레이션",
+						"updatedContents": ["추가 효과: 아군에게 사용 시 자신도 추가 대미지가 발생하지 않는 실드를 획득"]
+					},
+					{
+						"updatedNameKo": "유나이트 기술: 푹신푹신해피샤워",
+						"updatedContents": ["HP 회복：약 25% 증가", "종료 후의 실드： 최대 HP의 20% → 30%", "종료 후의 이동 속도 상승: 30% → 40%"]
 					}
 				]
 			}
