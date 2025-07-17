@@ -1622,7 +1622,30 @@
 						"updatedContents": ["필요한 에너지 양: 20% 증가"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-07-18",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["방어: 70~350 → 70~400", "특방: 54~268 → 54~320"]
+					},
+					{
+						"updatedNameKo": "일반 공격",
+						"updatedContents": ["화상 상태에 추가 피해", "불꽃튀기기: 변경 없음", "화염방사: 100% 증가", "불꽃펀치: 100% 증가", "유나이트 기술: 변경 없음"]
+					},
+					{
+						"updatedNameKo": "화염방사",
+						"updatedContents": ["대미지: 10% 증가"]
+					},
+					{
+						"updatedNameKo": "화염방사+",
+						"updatedContents": ["화상 피해 : 20% 증가"]
+					}
+				]
 			}
+
 		]
 	},
 	{
@@ -1807,6 +1830,20 @@
 					{
 						"updatedNameKo": "화염볼",
 						"updatedContents": ["공격 모션 단축"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-07-18",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "블레이즈킥",
+						"updatedContents": ["대기 시간: 9s → 9.5s"]
+					},
+					{
+						"updatedNameKo": "블레이즈킥+",
+						"updatedContents": ["사용 후 공격 속도 상승: 65% → 45%"]
 					}
 				]
 			}
@@ -1997,6 +2034,20 @@
 					{
 						"updatedNameKo": "달빛",
 						"updatedContents": ["회복량 : 5% 증가"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-07-18",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "달빛",
+						"updatedContents": ["대기 시간: 8s → 8.5s"]
+					},
+					{
+						"updatedNameKo": "유나이트 기술: 손가락에소원을",
+						"updatedContents": ["필요한 에너지: 11% 증가"]
 					}
 				]
 			}
@@ -2619,6 +2670,16 @@
 					{
 						"updatedNameKo": "유나이트 기술: 쇄석선풍루",
 						"updatedContents": ["필요 에너지량: 20% 증가"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-07-18",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["방어: 97~580 → 97~640", "특방: 67~400 → 67~460"]
 					}
 				]
 			}
@@ -4100,6 +4161,28 @@
 						"updatedContents": ["대기 시간: 7s → 6.5s"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-07-18",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "구멍파기",
+						"updatedContents": ["상대를 날려버리는 시간: 1초 → 0.6초"]
+					},
+					{
+						"updatedNameKo": "지진",
+						"updatedContents": ["대미지: 10% 감소"]
+					},
+					{
+						"updatedNameKo": "드래곤클로",
+						"updatedContents": ["대미지: 10% 감소"]
+					},
+					{
+						"updatedNameKo": "땅고르기",
+						"updatedContents": ["대미지: 7%~9% 감소"]
+					}
+				]
 			}
 		]
 	},
@@ -4336,6 +4419,24 @@
 					{
 						"updatedNameKo": "스테이터스",
 						"updatedContents": ["진화하는 레벨: Lv.8 → Lv.7"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-07-18",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["HP: 3200~6320 → 3200~6700", "방어: 35~225 → 35~280", "특방: 27~175 → 27~230"]
+					},
+					{
+						"updatedNameKo": "사이코키네시스",
+						"updatedContents": ["특방 감소: 25% → 30%"]
+					},
+					{
+						"updatedNameKo": "문포스+",
+						"updatedContents": ["실드량 : 15% 증가"]
 					}
 				]
 			}
@@ -5728,6 +5829,16 @@
 					{
 						"updatedNameKo": "섀도볼",
 						"updatedContents": ["대미지: 10% 감소"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-07-18",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "고스트 다이브",
+						"updatedContents": ["두 번째 사용까지 남은 시간: 5s → 3.5s"]
 					}
 				]
 			}
@@ -7873,6 +7984,28 @@
 						]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-07-18",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["HP: 3225~8900 → 3225~9350"]
+					},
+					{
+						"updatedNameKo": "물대포",
+						"updatedContents": ["사용시 자신에게 걸리는 이동 속도 저하 효과: 35% → 30%"]
+					},
+					{
+						"updatedNameKo": "파도타기",
+						"updatedContents": ["이동 속도 저하: 25% → 30%"]
+					},
+					{
+						"updatedNameKo": "열탈",
+						"updatedContents": ["대미지: 10% 증가"]
+					}
+				]
 			}
 		]
 	},
@@ -8160,6 +8293,28 @@
 					{
 						"updatedNameKo": "하품",
 						"updatedContents": ["잠자는 상태의 지속 시간 : 3s → 2.5s"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-07-18",
+				"updateStates": ["buff", "nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["방어: 97~580 → 97~640", "특방: 70~440 → 70~490"]
+					},
+					{
+						"updatedNameKo": "몸통박치기",
+						"updatedContents": ["대미지: 10% 감소"]
+					},
+					{
+						"updatedNameKo": "헤비봄버",
+						"updatedContents": ["대미지: 20% 감소"]
+					},
+					{
+						"updatedNameKo": "바둥바둥",
+						"updatedContents": ["대기 시간: 6.5s → 7s"]
 					}
 				]
 			}
@@ -9330,6 +9485,24 @@
 					{
 						"updatedNameKo": "트리플악셀",
 						"updatedContents": ["대미지: 12% 감소"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-07-18",
+				"updateStates": ["buff", "nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "트리플악셀",
+						"updatedContents": ["대미지 : 5% 감소"]
+					},
+					{
+						"updatedNameKo": "짓밟기",
+						"updatedContents": ["대미지: 10% 증가"]
+					},
+					{
+						"updatedNameKo": "유나이트 기술: 퀸에어리얼",
+						"updatedContents": ["대미지 : 8% 감소"]
 					}
 				]
 			}
@@ -11678,6 +11851,28 @@
 						"updatedContents": ["조준 때 카메라가 당기도록 조정"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-07-18",
+				"updateStates": ["buff","nurf","nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "특성: 스나이퍼",
+						"updatedContents": ["진화 전의 급소 카운터 최대 수 감소: 울머기(1개), 누겔레온(2개), 인텔리레온(3개)"]
+					},
+					{
+						"updatedNameKo": "마지막일침",
+						"updatedContents": ["강한 방해 효과로 이동을 중단할 수 있도록 변경"]
+					},
+					{
+						"updatedNameKo": "노려맞히기",
+						"updatedContents": ["대미지 : 5% 감소"]
+					},
+					{
+						"updatedNameKo": "애크러뱃",
+						"updatedContents": ["대미지 : 15% 증가", "아쿠아 브레이크의 대기 시간을 단축하는 효과 : 2s → 대기 시간의 40% (약 2.4s)"]
+					}
+				]
 			}
 		]
 	},
@@ -12812,6 +13007,28 @@
 						"updatedContents": ["대미지: 12% 감소"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-07-18",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["방어: 80~400 → 80~450", "특방: 60~300 → 60~345"]
+					},
+					{
+						"updatedNameKo": "뛰어오르기",
+						"updatedContents": ["실드 지속 시간: 3s → 5s"]
+					},
+					{
+						"updatedNameKo": "아쿠아테일",
+						"updatedContents": ["대미지: 18% 증가"]
+					},
+					{
+						"updatedNameKo": "아쿠아테일+",
+						"updatedContents": ["기본 데미지: 8% 증가", "2번째 공격으로 상대의 감소한 HP에 따라 주는 데미지 비율: 15% → 20%"]
+					}
+				]
 			}
 		]
 	},
@@ -13405,6 +13622,20 @@
 						"updatedContents": ["실드 효과: 20% 증가"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-07-18",
+				"updateStates": ["buff", "nurf", "adjust"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "성스러운 불꽃",
+						"updatedContents": ["기술 '공중날기'를 '성스러운불꽃'으로 변경", "대기 시간: 8s → 12s", "지정한 범위에 신비한 불꽃을 토해 내어 상대편 포켓몬에게 데미지를 주고 화상 상태로 만들며 행동 불가로 만든다.", "짧은 시간 동안 높이 날아올라 벽을 무시하고 이동할 수 있게 되며 이동 속도와 공격이 오른다.", "이 기술을 사용한 다음 3번째까지의 일반 공격은 강화 공격이 된다.", "날아오른 동안 이 기술을 다시 사용하면 지면에 내려온다."]
+					},
+					{
+						"updatedNameKo": "회오리불꽃",
+						"updatedContents": ["대미지 : 10% 감소", "추가 효과: 쏘아낸 열파동이 상대를 행동 불가로 만든다."]
+					}
+				]
 			}
 		]
 	},
@@ -13811,6 +14042,20 @@
 						"updatedContents": ["대기 시간 7s → 7.5s"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-07-18",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "사이코키네시스",
+						"updatedContents": ["염력의 효과 범위 : 2m → 1.7m"]
+					},
+					{
+						"updatedNameKo": "파도타기",
+						"updatedContents": ["2번째가 사용 가능해질 때까지의 시간: 0.4초 → 0.6초"]
+					}
+				]
 			}
 		]
 	},
@@ -14176,6 +14421,46 @@
 					{
 						"updatedNameKo": "유나이트 기술: 푹신푹신해피샤워",
 						"updatedContents": ["HP 회복：약 25% 증가", "종료 후의 실드： 최대 HP의 20% → 30%", "종료 후의 이동 속도 상승: 30% → 40%"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-07-18",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "데코레이션",
+						"updatedContents": ["대기 시간: 8s → 8.5s", "효과 지속 시간: 6s → 4s", "실드량: 25% 감소"]
+					},
+					{
+						"updatedNameKo": "매지컬샤인",
+						"updatedContents": ["대미지: 12% 감소"]
+					},
+					{
+						"updatedNameKo": "유나이트 기술: 푹신푹신해피샤워",
+						"updatedContents": ["실드량: 최대 HP의 70% → 60%"]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Latios",
+		"nameKo": "라티오스",
+		"image": "/img/unitePokemon/latios/roster-latios-2x.png",
+		"color": "#f16c38",
+		"position": "attack",
+		"isEx": false,
+		"skillList": [],
+		"updatedList": [
+			{
+				"updatedDate": "2025-07-18",
+				"updateStates": ["new"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "출시",
+						"updatedName": "Release",
+						"updatedContents": [""]
 					}
 				]
 			}
