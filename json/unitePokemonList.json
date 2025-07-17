@@ -11854,7 +11854,7 @@
 			},
 			{
 				"updatedDate": "2025-07-18",
-				"updateStates": ["buff","nurf","nurf"],
+				"updateStates": ["buff","nurf","adjust"],
 				"updatedContentList": [
 					{
 						"updatedNameKo": "특성: 스나이퍼",
