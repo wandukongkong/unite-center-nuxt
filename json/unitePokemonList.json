@@ -18128,5 +18128,31 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Latias",
+    "nameKo": "라티아스",
+    "image": "/img/unitePokemon/latias/roster-latias-2x.png",
+    "color": "#fecc51",
+    "position": "support",
+    "isEx": false,
+    "skillList": [],
+    "updatedList": [
+      {
+        "updatedDate": "2025-08-08",
+        "updateStates": [
+          "new"
+        ],
+        "updatedContentList": [
+          {
+            "updatedNameKo": "출시",
+            "updatedName": "Release",
+            "updatedContents": [
+              ""
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
