@@ -1650,6 +1650,18 @@
 						"updatedContents": ["화상 피해 : 20% 증가"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "화염방사",
+						"updatedContents": ["대기 시간: 5.5초 → 6초", "이동 속도 상승 지속: 4초 → 3초", "대미지: 약 6% 감소"]
+					},
+					{ "updatedNameKo": "불대문자", "updatedContents": ["대미지: 12% 감소"] },
+					{ "updatedNameKo": "플레어드라이브", "updatedContents": ["대미지: 20% 감소"] }
+				]
 			}
 		]
 	},
@@ -3051,6 +3063,14 @@
 						"updatedNameKo": "니트로차지+",
 						"updatedContents": ["이동 속도 상승의 지속 시간: 1s → 1.5s"]
 					}
+				]
+			},
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{ "updatedNameKo": "니트로차지", "updatedContents": ["대미지: 30% 증가"] },
+					{ "updatedNameKo": "니트로차지+", "updatedContents": ["이동 속도 상승 지속: 1.5초 → 2초"] }
 				]
 			}
 		]
@@ -9065,6 +9085,24 @@
 						"updatedContents": ["마지막에 상대를 날려버리는 시간: 1s → 0.75s"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "저주",
+						"updatedContents": [
+							"이동 속도 저하: 10%/14%/18% → 12%/17%/22%",
+							"게이지 최대일 때 마지막 대미지 발생 시 상대 행동 불가 추가"
+						]
+					},
+					{
+						"updatedNameKo": "아픔나누기",
+						"updatedContents": ["상대에게 나누는 대미지 비율: 25%/35%/45% → 30%/40%/50%"]
+					},
+					{ "updatedNameKo": "우드혼", "updatedContents": ["HP 회복량: 최대 HP의 12%/15%/18% → 15%/18%/21%"] }
+				]
 			}
 		]
 	},
@@ -10142,6 +10180,17 @@
 						"updatedContents": ["이동 속도 상승: 90%~9%(0.5s마다 서서히 저하) → 90%~27%(0.5s마다 서서히 저하)"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["HP: 3300~6500 → 3300~6800", "방어: 45~226 → 50~281", "특수방어: 35~169 → 50~240"]
+					},
+					{ "updatedNameKo": "솔라빔", "updatedContents": ["추가 대미지: 상대 최대 HP의 7.5% → 12.5%"] }
+				]
 			}
 		]
 	},
@@ -10666,6 +10715,14 @@
 						"updatedNameKo": "성스러운칼",
 						"updatedContents": ["대미지 : 약 25% 감소"]
 					}
+				]
+			},
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{ "updatedNameKo": "베어가르기", "updatedContents": ["대미지: 15% 감소"] },
+					{ "updatedNameKo": "치근거리기", "updatedContents": ["대미지: 10% 감소"] }
 				]
 			}
 		]
@@ -11947,6 +12004,18 @@
 						]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["HP: 3200~6300 → 3200~6550", "방어: 35~225 → 35~260", "특수방어: 25~225 → 25~260"]
+					},
+					{ "updatedNameKo": "노려맞히기", "updatedContents": ["기술 충전 시간: 7.5초 → 7초"] },
+					{ "updatedNameKo": "애크러뱃", "updatedContents": ["대기 시간: 7.5초 → 7초"] }
+				]
 			}
 		]
 	},
@@ -12159,6 +12228,28 @@
 						"updatedContents": ["날려버리는 시간:1s → 0.6s"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["지닌 물건 뮤츠나이트 Y를 고정으로 가지게 되었습니다."]
+					},
+					{
+						"updatedNameKo": "특성: 프레셔",
+						"updatedContents": [
+							"일반 공격으로 증가하는 공격 속도: 레벨에 따른 증가 → 3%로 고정",
+							"메가진화 시 공격 속도: 레벨별 증가 → 35% 고정"
+						]
+					},
+					{
+						"updatedNameKo": "HP회복",
+						"updatedContents": ["이동 속도 상승: 10% → 30%", "일반 공격 회복률: 30% → 40%", "실드량: 10% 증가"]
+					},
+					{ "updatedNameKo": "HP회복+", "updatedContents": ["일반 공격 회복률: 40% → 50%"] }
+				]
 			}
 		]
 	},
@@ -12340,6 +12431,25 @@
 					{
 						"updatedNameKo": "사이코브레이크",
 						"updatedContents": ["날려버리는 시간:1s → 0.6s"]
+					}
+				]
+			},
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["지닌 물건 뮤츠나이트 X를 고정으로 가지게 되었습니다."]
+					},
+					{ "updatedNameKo": "특성: 프레셔", "updatedContents": ["메가진화 시 공격/방어/특수방어 상승률: 10% → 18%"] },
+					{
+						"updatedNameKo": "텔레포트",
+						"updatedContents": ["이동 속도 상승: 10% → 20%"]
+					},
+					{
+						"updatedNameKo": "텔레포트+",
+						"updatedContents": ["텔레포트+ 대미지 증가: 15% → 20%"]
 					}
 				]
 			}
@@ -13772,6 +13882,15 @@
 						"updatedContents": ["사거리: 8.5m → 7m", "공격 범위: 3m → 2.5m", "비행 지속 시간: 8초 → 6초"]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{ "updatedNameKo": "화염방사", "updatedContents": ["대미지: 약 17% 감소"] },
+					{ "updatedNameKo": "순풍", "updatedContents": ["대미지: 15% 감소"] },
+					{ "updatedNameKo": "신비의부적", "updatedContents": ["대기 시간: 5초 → 6초"] }
+				]
 			}
 		]
 	},
@@ -13928,6 +14047,14 @@
 						"updatedNameKo": "사이코쇼크",
 						"updatedContents": ["대미지: 10% 감소"]
 					}
+				]
+			},
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{ "updatedNameKo": "아머캐논", "updatedContents": ["대미지: 15% 증가"] },
+					{ "updatedNameKo": "니트로차지", "updatedContents": ["실드량: 15% 증가"] }
 				]
 			}
 		]
@@ -14280,6 +14407,19 @@
 						]
 					}
 				]
+			},
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["buff", "nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "떨어뜨리기",
+						"updatedContents": ["기술 사용 중 이동 가능", "던진 해머에도 대미지 발생", "대미지: 12% 감소"]
+					},
+					{ "updatedNameKo": "아이스해머", "updatedContents": ["범위 지정 가능으로 변경", "대미지: 20% 증가"] },
+					{ "updatedNameKo": "도둑질", "updatedContents": ["이동 속도 상승: 25% → 20%"] },
+					{ "updatedNameKo": "도둑질+", "updatedContents": ["이동 속도 상승: 50% → 40%"] }
+				]
 			}
 		]
 	},
@@ -14384,6 +14524,14 @@
 						"updatedNameKo": "매지컬샤인",
 						"updatedContents": ["대미지 10% 감소"]
 					}
+				]
+			},
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{ "updatedNameKo": "염동력", "updatedContents": ["대미지: 10% 감소"] },
+					{ "updatedNameKo": "매지컬샤인", "updatedContents": ["대미지: 5% 감소"] }
 				]
 			}
 		]
@@ -14653,6 +14801,16 @@
 					{ "updatedNameKo": "용성군", "updatedContents": ["대미지: 10% 증가"] },
 					{ "updatedNameKo": "용의파동", "updatedContents": ["염동력 탄환 대미지: 15% 감소"] }
 				]
+			},
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "용의파동",
+						"updatedContents": ["강화 평타 대미지: 15% 감소", "염동력 탄환 대미지: 약 15% 감소"]
+					}
+				]
 			}
 		]
 	},
@@ -14695,6 +14853,28 @@
 					{
 						"updatedNameKo": "용의숨결",
 						"updatedContents": ["이동 속도 저하 효과 30% 추가", "용의숨결+ 는 40%로 상승"]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Pawmot",
+		"nameKo": "빠르모트",
+		"image": "/img/unitePokemon/pawmot/roster-pawmot-2x.png",
+		"color": "#ce5fd3",
+		"position": "balance",
+		"isEx": false,
+		"skillList": [],
+		"updatedList": [
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["new"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "출시",
+						"updatedName": "Release",
+						"updatedContents": [""]
 					}
 				]
 			}

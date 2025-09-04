@@ -1,112 +1,150 @@
 [
 	{
-		"name": "Latias",
+		"name": "Trevenant",
 		"updatedList": [
 			{
-				"updatedDate": "2025-08-19",
+				"updatedDate": "2025-09-04",
 				"updateStates": ["buff"],
 				"updatedContentList": [
 					{
-						"updatedNameKo": "미스트볼",
-						"updatedContents": ["기본 대미지: 200% 증가", "이동 속도 저하: 30% → 40%"]
+						"updatedNameKo": "저주",
+						"updatedContents": [
+							"이동 속도 저하: 10%/14%/18% → 12%/17%/22%",
+							"게이지 최대 시 마지막 대미지 발생 시 상대 행동 불가 추가"
+						]
 					},
 					{
-						"updatedNameKo": "용의파동",
-						"updatedContents": ["기본 대미지: 20% 증가", "텔레키네시스 탄환 대미지: 10% 증가"]
+						"updatedNameKo": "아픔나누기",
+						"updatedContents": ["상대에게 나누는 대미지 비율: 25%/35%/45% → 30%/40%/50%"]
 					},
+					{ "updatedNameKo": "우드호른", "updatedContents": ["HP 회복량: 최대 HP의 12%/15%/18% → 15%/18%/21%"] }
+				]
+			}
+		]
+	},
+	{
+		"name": "Tinkaton",
+		"updatedList": [
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["buff", "nurf"],
+				"updatedContentList": [
 					{
-						"updatedNameKo": "Dragon Cheer",
-						"updatedContents": ["2회째 사용 시 다른 아군에게 이동 가능"]
+						"updatedNameKo": "떨어뜨리기",
+						"updatedContents": ["기술 사용 중 이동 가능", "던진 해머에도 대미지 발생", "대미지: 12% 감소"]
 					},
+					{ "updatedNameKo": "아이스해머", "updatedContents": ["범위 지정 가능으로 변경", "대미지: 20% 증가"] },
+					{ "updatedNameKo": "도둑질", "updatedContents": ["이동 속도 상승: 25% → 20%"] },
+					{ "updatedNameKo": "도둑질+", "updatedContents": ["이동 속도 상승: 50% → 40%"] }
+				]
+			}
+		]
+	},
+	{
+		"name": "Venusaur",
+		"updatedList": [
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["buff"],
+				"updatedContentList": [
 					{
-						"updatedNameKo": "용의숨결",
-						"updatedContents": ["이동 속도 저하: 30% 추가", "+버전에서는 40%"]
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["HP: 3300~6500 → 3300~6800", "방어: 45~226 → 50~281", "특수방어: 35~169 → 50~240"]
+					},
+					{ "updatedNameKo": "솔라빔", "updatedContents": ["추가 대미지: 상대 최대 HP의 7.5% → 12.5%"] }
+				]
+			}
+		]
+	},
+	{
+		"name": "Armarouge",
+		"updatedList": [
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{ "updatedNameKo": "아머캐논", "updatedContents": ["대미지: 15% 증가"] },
+					{ "updatedNameKo": "니트로차지", "updatedContents": ["실드량: 15% 증가"] }
+				]
+			}
+		]
+	},
+	{
+		"name": "Inteleon",
+		"updatedList": [
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["HP: 3200~6300 → 3200~6550", "방어: 35~225 → 35~260", "특수방어: 25~225 → 25~260"]
+					},
+					{ "updatedNameKo": "조준사격", "updatedContents": ["기술 충전 시간: 7.5초 → 7초"] },
+					{ "updatedNameKo": "아크로바트", "updatedContents": ["대기 시간: 7.5초 → 7초"] }
+				]
+			}
+		]
+	},
+	{
+		"name": "Delphox",
+		"updatedList": [
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{ "updatedNameKo": "니트로차지", "updatedContents": ["대미지: 30% 증가"] },
+					{ "updatedNameKo": "니트로차지+", "updatedContents": ["이동 속도 상승 지속: 1.5초 → 2초"] }
+				]
+			}
+		]
+	},
+	{
+		"name": "Mewtwo X",
+		"updatedList": [
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{ "updatedNameKo": "스테이터스", "updatedContents": ["메가진화 시 공격/방어/특수방어 상승률: 10% → 18%"] },
+					{
+						"updatedNameKo": "텔레포트",
+						"updatedContents": ["이동 속도 상승: 10% → 20%", "텔레포트+ 대미지 증가: 15% → 20%"]
 					}
 				]
 			}
 		]
 	},
 	{
-		"name": "Urshifu",
+		"name": "Mewtwo Y",
 		"updatedList": [
 			{
-				"updatedDate": "2025-08-19",
+				"updatedDate": "2025-09-04",
 				"updateStates": ["buff"],
 				"updatedContentList": [
-					{ "updatedNameKo": "수류연타", "updatedContents": ["대기 시간: 11초 → 10초"] },
-					{ "updatedNameKo": "아쿠아브레이크", "updatedContents": ["실드량: 8% 증가"] },
-					{ "updatedNameKo": "암흑강타", "updatedContents": ["차지 중 이동 속도 저하: 40% → 30%"] },
-					{ "updatedNameKo": "목찌르기+", "updatedContents": ["'암흑강타'로 인한 이 기술의 대기 시간 감소: 30% → 40%"] }
+					{ "updatedNameKo": "스테이터스", "updatedContents": ["메가진화 시 공격 속도: 레벨별 증가 → 35% 고정"] },
+					{
+						"updatedNameKo": "자기재생",
+						"updatedContents": ["이동 속도 상승: 10% → 30%", "일반 공격 회복률: 30% → 40%", "실드량: 10% 증가"]
+					},
+					{ "updatedNameKo": "자기재생+", "updatedContents": ["일반 공격 회복률: 40% → 50%"] }
 				]
 			}
 		]
 	},
 	{
-		"name": "Miraidon",
+		"name": "Charizard",
 		"updatedList": [
 			{
-				"updatedDate": "2025-08-19",
-				"updateStates": ["buff"],
+				"updatedDate": "2025-09-04",
+				"updateStates": ["nurf"],
 				"updatedContentList": [
 					{
-						"updatedNameKo": "스테이터스",
-						"updatedContents": ["HP: 3300~7000 → 3300~7300", "방어: 70~280 → 70~320", "특수방어: 80~240 → 80~280"]
+						"updatedNameKo": "화염방사",
+						"updatedContents": ["대기 시간: 5.5초 → 6초", "이동 속도 상승 지속: 4초 → 3초", "대미지: 약 6% 감소"]
 					},
-					{ "updatedNameKo": "차지빔", "updatedContents": ["대미지: 5% 증가"] }
-				]
-			}
-		]
-	},
-	{
-		"name": "Comfey",
-		"updatedList": [
-			{
-				"updatedDate": "2025-08-19",
-				"updateStates": ["buff"],
-				"updatedContentList": [
-					{
-						"updatedNameKo": "스테이터스",
-						"updatedContents": ["HP: 3000~5500 → 3000~5900", "방어: 40~190 → 40~250", "특수방어: 30~160 → 30~220"]
-					},
-					{ "updatedNameKo": "스위트키스", "updatedContents": ["실드량: 20% 증가"] },
-					{ "updatedNameKo": "스위트키스+", "updatedContents": ["이동 속도 상승: 40% → 50%"] }
-				]
-			}
-		]
-	},
-	{
-		"name": "Alolan Raichu",
-		"updatedList": [
-			{
-				"updatedDate": "2025-08-19",
-				"updateStates": ["buff"],
-				"updatedContentList": [
-					{ "updatedNameKo": "일렉트로볼", "updatedContents": ["대미지: 10% 증가"] },
-					{ "updatedNameKo": "10만볼트", "updatedContents": ["마비 지속 시간: 1초 → 2초"] }
-				]
-			}
-		]
-	},
-	{
-		"name": "Latios",
-		"updatedList": [
-			{
-				"updatedDate": "2025-08-19",
-				"updateStates": ["buff", "nurf"],
-				"updatedContentList": [
-					{
-						"updatedNameKo": "염력",
-						"updatedContents": [
-							"대미지: 30% 증가",
-							"대기 시간: 8초 → 7.5초",
-							"행동 불가 시간: 1초로 표준화",
-							"1단계 탄속 증가",
-							"2단계 사거리: 7.5m → 9m",
-							"1단계가 빗나가도 2단계 사용 가능"
-						]
-					},
-					{ "updatedNameKo": "용성군", "updatedContents": ["대미지: 10% 증가"] },
-					{ "updatedNameKo": "용의파동", "updatedContents": ["텔레키네시스 탄환 대미지: 15% 감소"] }
+					{ "updatedNameKo": "불대문자", "updatedContents": ["대미지: 12% 감소"] },
+					{ "updatedNameKo": "플레어드라이브", "updatedContents": ["대미지: 20% 감소"] }
 				]
 			}
 		]
@@ -115,37 +153,52 @@
 		"name": "Ho-Oh",
 		"updatedList": [
 			{
-				"updatedDate": "2025-08-19",
+				"updatedDate": "2025-09-04",
 				"updateStates": ["nurf"],
 				"updatedContentList": [
-					{
-						"updatedNameKo": "신성한불꽃",
-						"updatedContents": ["범위: 8.5m → 7m", "효과 범위 반경: 3m → 2.5m", "비행 지속 시간: 8초 → 6초"]
-					}
+					{ "updatedNameKo": "화염방사", "updatedContents": ["대미지: 약 17% 감소"] },
+					{ "updatedNameKo": "바람일으키기", "updatedContents": ["대미지: 15% 감소"] },
+					{ "updatedNameKo": "신비의부적", "updatedContents": ["대기 시간: 5초 → 6초"] }
 				]
 			}
 		]
 	},
 	{
-		"name": "Alcremie",
+		"name": "Zacian",
 		"updatedList": [
 			{
-				"updatedDate": "2025-08-19",
+				"updatedDate": "2025-09-04",
 				"updateStates": ["nurf"],
 				"updatedContentList": [
-					{ "updatedNameKo": "매지컬샤인", "updatedContents": ["대미지: 8% 감소"] },
-					{ "updatedNameKo": "달콤한향기", "updatedContents": ["대미지: 12% 감소"] }
+					{ "updatedNameKo": "베어가르기", "updatedContents": ["대미지: 15% 감소"] },
+					{ "updatedNameKo": "치근거리기", "updatedContents": ["대미지: 10% 감소"] }
 				]
 			}
 		]
 	},
 	{
-		"name": "Suicune",
+		"name": "Galarian Rapidash",
 		"updatedList": [
 			{
-				"updatedDate": "2025-08-19",
+				"updatedDate": "2025-09-04",
 				"updateStates": ["nurf"],
-				"updatedContentList": [{ "updatedNameKo": "눈사태", "updatedContents": ["대미지: 약 19%~23% 감소"] }]
+				"updatedContentList": [
+					{ "updatedNameKo": "염력", "updatedContents": ["대미지: 10% 감소"] },
+					{ "updatedNameKo": "매지컬샤인", "updatedContents": ["대미지: 5% 감소"] }
+				]
+			}
+		]
+	},
+	{
+		"name": "Latios",
+		"updatedList": [
+			{
+				"updatedDate": "2025-09-04",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{ "updatedNameKo": "용의파동", "updatedContents": ["강화 평타 대미지: 15% 감소"] },
+					{ "updatedNameKo": "염력", "updatedContents": ["탄환 대미지: 약 15% 감소"] }
+				]
 			}
 		]
 	}
