@@ -1,0 +1,152 @@
+[
+	{
+		"name": "Latias",
+		"updatedList": [
+			{
+				"updatedDate": "2025-08-19",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "미스트볼",
+						"updatedContents": ["기본 대미지: 200% 증가", "이동 속도 저하: 30% → 40%"]
+					},
+					{
+						"updatedNameKo": "용의파동",
+						"updatedContents": ["기본 대미지: 20% 증가", "텔레키네시스 탄환 대미지: 10% 증가"]
+					},
+					{
+						"updatedNameKo": "Dragon Cheer",
+						"updatedContents": ["2회째 사용 시 다른 아군에게 이동 가능"]
+					},
+					{
+						"updatedNameKo": "용의숨결",
+						"updatedContents": ["이동 속도 저하: 30% 추가", "+버전에서는 40%"]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Urshifu",
+		"updatedList": [
+			{
+				"updatedDate": "2025-08-19",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{ "updatedNameKo": "수류연타", "updatedContents": ["대기 시간: 11초 → 10초"] },
+					{ "updatedNameKo": "아쿠아브레이크", "updatedContents": ["실드량: 8% 증가"] },
+					{ "updatedNameKo": "암흑강타", "updatedContents": ["차지 중 이동 속도 저하: 40% → 30%"] },
+					{ "updatedNameKo": "목찌르기+", "updatedContents": ["'암흑강타'로 인한 이 기술의 대기 시간 감소: 30% → 40%"] }
+				]
+			}
+		]
+	},
+	{
+		"name": "Miraidon",
+		"updatedList": [
+			{
+				"updatedDate": "2025-08-19",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["HP: 3300~7000 → 3300~7300", "방어: 70~280 → 70~320", "특수방어: 80~240 → 80~280"]
+					},
+					{ "updatedNameKo": "차지빔", "updatedContents": ["대미지: 5% 증가"] }
+				]
+			}
+		]
+	},
+	{
+		"name": "Comfey",
+		"updatedList": [
+			{
+				"updatedDate": "2025-08-19",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "스테이터스",
+						"updatedContents": ["HP: 3000~5500 → 3000~5900", "방어: 40~190 → 40~250", "특수방어: 30~160 → 30~220"]
+					},
+					{ "updatedNameKo": "스위트키스", "updatedContents": ["실드량: 20% 증가"] },
+					{ "updatedNameKo": "스위트키스+", "updatedContents": ["이동 속도 상승: 40% → 50%"] }
+				]
+			}
+		]
+	},
+	{
+		"name": "Alolan Raichu",
+		"updatedList": [
+			{
+				"updatedDate": "2025-08-19",
+				"updateStates": ["buff"],
+				"updatedContentList": [
+					{ "updatedNameKo": "일렉트로볼", "updatedContents": ["대미지: 10% 증가"] },
+					{ "updatedNameKo": "10만볼트", "updatedContents": ["마비 지속 시간: 1초 → 2초"] }
+				]
+			}
+		]
+	},
+	{
+		"name": "Latios",
+		"updatedList": [
+			{
+				"updatedDate": "2025-08-19",
+				"updateStates": ["buff", "nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "염력",
+						"updatedContents": [
+							"대미지: 30% 증가",
+							"대기 시간: 8초 → 7.5초",
+							"행동 불가 시간: 1초로 표준화",
+							"1단계 탄속 증가",
+							"2단계 사거리: 7.5m → 9m",
+							"1단계가 빗나가도 2단계 사용 가능"
+						]
+					},
+					{ "updatedNameKo": "용성군", "updatedContents": ["대미지: 10% 증가"] },
+					{ "updatedNameKo": "용의파동", "updatedContents": ["텔레키네시스 탄환 대미지: 15% 감소"] }
+				]
+			}
+		]
+	},
+	{
+		"name": "Ho-Oh",
+		"updatedList": [
+			{
+				"updatedDate": "2025-08-19",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{
+						"updatedNameKo": "신성한불꽃",
+						"updatedContents": ["범위: 8.5m → 7m", "효과 범위 반경: 3m → 2.5m", "비행 지속 시간: 8초 → 6초"]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Alcremie",
+		"updatedList": [
+			{
+				"updatedDate": "2025-08-19",
+				"updateStates": ["nurf"],
+				"updatedContentList": [
+					{ "updatedNameKo": "매지컬샤인", "updatedContents": ["대미지: 8% 감소"] },
+					{ "updatedNameKo": "달콤한향기", "updatedContents": ["대미지: 12% 감소"] }
+				]
+			}
+		]
+	},
+	{
+		"name": "Suicune",
+		"updatedList": [
+			{
+				"updatedDate": "2025-08-19",
+				"updateStates": ["nurf"],
+				"updatedContentList": [{ "updatedNameKo": "눈사태", "updatedContents": ["대미지: 약 19%~23% 감소"] }]
+			}
+		]
+	}
+]
